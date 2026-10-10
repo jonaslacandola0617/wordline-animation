@@ -1,0 +1,40 @@
+{
+ "asset_id": "TERRAIN_13",
+ "title": "Riverbank",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_13.obj",
+ "mtl": "../terrain/TERRAIN_13.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -28.0,
+  0.0,
+  -22.0
+ ],
+ "bbox_max": [
+  28.0,
+  5.66,
+  22.0
+ ],
+ "size_xyz": [
+  56.0,
+  5.66,
+  44.0
+ ],
+ "triangles": 2400,
+ "groups": [
+  "riverbank"
+ ],
+ "materials": [
+  "grass",
+  "soil",
+  "foliage_mid",
+  "sand",
+  "water_edge"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

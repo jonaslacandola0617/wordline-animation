@@ -1,0 +1,92 @@
+{
+ "asset_id": "LAND_05",
+ "title": "Police Van",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_05.obj",
+ "mtl": "../land_vehicles/LAND_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.54,
+  0.0,
+  -3.085
+ ],
+ "bbox_max": [
+  1.54,
+  2.77,
+  3.1
+ ],
+ "size_xyz": [
+  3.08,
+  2.77,
+  6.185
+ ],
+ "triangles": 3152,
+ "groups": [
+  "body",
+  "windows",
+  "barred_windows",
+  "bars",
+  "doors_white",
+  "stripe",
+  "door_lines",
+  "emblem",
+  "rear_doors",
+  "rear_windows",
+  "lightbar",
+  "grille",
+  "bumpers",
+  "push_bar",
+  "lights",
+  "mirrors",
+  "wheel_F_L",
+  "wheel_F_L_arch",
+  "wheel_F_R",
+  "wheel_F_R_arch",
+  "wheel_R_L",
+  "wheel_R_L_arch",
+  "wheel_R_R",
+  "wheel_R_R_arch"
+ ],
+ "materials": [
+  "police_blue",
+  "glass",
+  "glass_dark",
+  "black",
+  "white",
+  "yellow",
+  "dark_steel",
+  "light_red",
+  "light_blue",
+  "rubber",
+  "light_head",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "wheel_F_L": [
+   -1.02,
+   0.49,
+   -1.85
+  ],
+  "wheel_F_R": [
+   1.02,
+   0.49,
+   -1.85
+  ],
+  "wheel_R_L": [
+   -1.02,
+   0.49,
+   1.8
+  ],
+  "wheel_R_R": [
+   1.02,
+   0.49,
+   1.8
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

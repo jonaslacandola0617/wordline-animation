@@ -1,0 +1,53 @@
+{
+  "id": "CELESTIAL_03",
+  "name": "Mars",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_03_Mars.obj",
+  "mtl": "celestial/CELESTIAL_03_Mars.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "Tharsis hemisphere toward +Y",
+  "dimensions": {
+    "x_width_m": 2.018,
+    "y_height_m": 2.0122,
+    "z_depth_m": 2.0058
+  },
+  "bounds_file_min": [
+    -1.0007,
+    -1.0069,
+    -1.0027
+  ],
+  "bounds_file_max": [
+    1.0173,
+    1.0053,
+    1.0031
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_03_Mars_Mars",
+      "parent": "CELESTIAL_03_Mars_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_mars_red",
+        "WL_mars_dark",
+        "WL_mars_light",
+        "WL_mars_ice"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 3396 km",
+    "geometry": "Olympus Mons cone + caldera, Tharsis bulge, Valles Marineris trench, Hellas basin, ~45 craters, polar caps"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "637b67c27f4da3ce7587c81cd2129ebf"
+}

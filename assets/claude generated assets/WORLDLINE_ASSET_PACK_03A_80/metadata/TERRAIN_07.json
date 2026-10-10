@@ -1,0 +1,40 @@
+{
+ "asset_id": "TERRAIN_07",
+ "title": "Crater",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_07.obj",
+ "mtl": "../terrain/TERRAIN_07.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -38.0,
+  0.0,
+  -38.0
+ ],
+ "bbox_max": [
+  38.0,
+  10.745,
+  38.0
+ ],
+ "size_xyz": [
+  76.0,
+  10.745,
+  76.0
+ ],
+ "triangles": 4400,
+ "groups": [
+  "crater"
+ ],
+ "materials": [
+  "sand",
+  "rock_light",
+  "rock_dark",
+  "rock_mid",
+  "dry_tan"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

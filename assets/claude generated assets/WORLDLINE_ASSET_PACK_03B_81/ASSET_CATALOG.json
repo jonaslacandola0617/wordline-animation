@@ -1,0 +1,1626 @@
+{
+  "pack": "WORLDLINE_ASSET_PACK_03B_81",
+  "count": 81,
+  "assets": [
+    {
+      "id": "ANIMAL_01",
+      "name": "Pigeon",
+      "category": "animals",
+      "file": "animals/ANIMAL_01_Pigeon.obj",
+      "mtl": "animals/ANIMAL_01_Pigeon.mtl",
+      "metadata": "metadata/ANIMAL_01_Pigeon.json",
+      "preview": "previews/ANIMAL_01_Pigeon.png",
+      "dimensions_m": {
+        "x_width_m": 0.6995,
+        "y_height_m": 0.2442,
+        "z_depth_m": 0.4747
+      },
+      "triangles": 1248,
+      "parts": 21,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "35c7539e8b1d5e4479a2eec1f8588946",
+      "pose": "standing, wings half-open (take-off display)"
+    },
+    {
+      "id": "ANIMAL_02",
+      "name": "Seagull",
+      "category": "animals",
+      "file": "animals/ANIMAL_02_Seagull.obj",
+      "mtl": "animals/ANIMAL_02_Seagull.mtl",
+      "metadata": "metadata/ANIMAL_02_Seagull.json",
+      "preview": "previews/ANIMAL_02_Seagull.png",
+      "dimensions_m": {
+        "x_width_m": 1.3469,
+        "y_height_m": 0.1672,
+        "z_depth_m": 0.7074
+      },
+      "triangles": 1316,
+      "parts": 22,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "4531cd6f4bb0acbbb114fc295c364b7d",
+      "pose": "gliding flight, wings fully spread"
+    },
+    {
+      "id": "ANIMAL_03",
+      "name": "Crow",
+      "category": "animals",
+      "file": "animals/ANIMAL_03_Crow.obj",
+      "mtl": "animals/ANIMAL_03_Crow.mtl",
+      "metadata": "metadata/ANIMAL_03_Crow.json",
+      "preview": "previews/ANIMAL_03_Crow.png",
+      "dimensions_m": {
+        "x_width_m": 1.0371,
+        "y_height_m": 0.3626,
+        "z_depth_m": 0.7406
+      },
+      "triangles": 1268,
+      "parts": 19,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "28617d6657800c17ab340c73edb8c83f",
+      "pose": "standing, wings half-open"
+    },
+    {
+      "id": "ANIMAL_04",
+      "name": "Eagle",
+      "category": "animals",
+      "file": "animals/ANIMAL_04_Eagle.obj",
+      "mtl": "animals/ANIMAL_04_Eagle.mtl",
+      "metadata": "metadata/ANIMAL_04_Eagle.json",
+      "preview": "previews/ANIMAL_04_Eagle.png",
+      "dimensions_m": {
+        "x_width_m": 2.1836,
+        "y_height_m": 0.6086,
+        "z_depth_m": 1.3962
+      },
+      "triangles": 1588,
+      "parts": 24,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "a60feffd62aea2c89c6f829a0c53ebb5",
+      "pose": "soaring flight, talons extended, wings fully spread"
+    },
+    {
+      "id": "ANIMAL_05",
+      "name": "Dog",
+      "category": "animals",
+      "file": "animals/ANIMAL_05_Dog.obj",
+      "mtl": "animals/ANIMAL_05_Dog.mtl",
+      "metadata": "metadata/ANIMAL_05_Dog.json",
+      "preview": "previews/ANIMAL_05_Dog.png",
+      "dimensions_m": {
+        "x_width_m": 0.334,
+        "y_height_m": 0.7884,
+        "z_depth_m": 1.2123
+      },
+      "triangles": 956,
+      "parts": 23,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "2d3846ab0570d88b6348f52044f6f35d",
+      "pose": "standing, tail raised"
+    },
+    {
+      "id": "ANIMAL_06",
+      "name": "Cat",
+      "category": "animals",
+      "file": "animals/ANIMAL_06_Cat.obj",
+      "mtl": "animals/ANIMAL_06_Cat.mtl",
+      "metadata": "metadata/ANIMAL_06_Cat.json",
+      "preview": "previews/ANIMAL_06_Cat.png",
+      "dimensions_m": {
+        "x_width_m": 0.2311,
+        "y_height_m": 0.5851,
+        "z_depth_m": 0.8284
+      },
+      "triangles": 880,
+      "parts": 23,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "1ac2c7c6a3c36c1dbbbce054679cbd4f",
+      "pose": "standing, tail curved up"
+    },
+    {
+      "id": "ANIMAL_07",
+      "name": "Deer",
+      "category": "animals",
+      "file": "animals/ANIMAL_07_Deer.obj",
+      "mtl": "animals/ANIMAL_07_Deer.mtl",
+      "metadata": "metadata/ANIMAL_07_Deer.json",
+      "preview": "previews/ANIMAL_07_Deer.png",
+      "dimensions_m": {
+        "x_width_m": 0.4161,
+        "y_height_m": 1.9315,
+        "z_depth_m": 1.3207
+      },
+      "triangles": 1012,
+      "parts": 21,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "240e238d6daf4fc507651afa3a22844a",
+      "pose": "standing alert, antlered stag variant"
+    },
+    {
+      "id": "ANIMAL_08",
+      "name": "Cow",
+      "category": "animals",
+      "file": "animals/ANIMAL_08_Cow.obj",
+      "mtl": "animals/ANIMAL_08_Cow.mtl",
+      "metadata": "metadata/ANIMAL_08_Cow.json",
+      "preview": "previews/ANIMAL_08_Cow.png",
+      "dimensions_m": {
+        "x_width_m": 0.7043,
+        "y_height_m": 1.41,
+        "z_depth_m": 2.3307
+      },
+      "triangles": 1004,
+      "parts": 23,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "453b7995064ad8eac4d940f6c0aa7afa",
+      "pose": "standing"
+    },
+    {
+      "id": "DISASTER_01",
+      "name": "Atmospheric Impact Asteroid",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_01_AtmosphericImpactAsteroid.obj",
+      "mtl": "disaster_objects/DISASTER_01_AtmosphericImpactAsteroid.mtl",
+      "metadata": "metadata/DISASTER_01_AtmosphericImpactAsteroid.json",
+      "preview": "previews/DISASTER_01_AtmosphericImpactAsteroid.png",
+      "dimensions_m": {
+        "x_width_m": 4.3038,
+        "y_height_m": 3.1446,
+        "z_depth_m": 3.9818
+      },
+      "triangles": 560,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "970d759f9c62ea467214dc96f381c6d3",
+      "pose": "resting; scorched leading face toward +Y (-Z in file)"
+    },
+    {
+      "id": "DISASTER_02",
+      "name": "Meteor Fragment",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_02_MeteorFragment.obj",
+      "mtl": "disaster_objects/DISASTER_02_MeteorFragment.mtl",
+      "metadata": "metadata/DISASTER_02_MeteorFragment.json",
+      "preview": "previews/DISASTER_02_MeteorFragment.png",
+      "dimensions_m": {
+        "x_width_m": 0.9516,
+        "y_height_m": 0.8443,
+        "z_depth_m": 0.9506
+      },
+      "triangles": 378,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "8b3960daf60da22726a468e302a17b79",
+      "pose": "resting"
+    },
+    {
+      "id": "DISASTER_03",
+      "name": "Lunar Fragment",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_03_LunarFragment.obj",
+      "mtl": "disaster_objects/DISASTER_03_LunarFragment.mtl",
+      "metadata": "metadata/DISASTER_03_LunarFragment.json",
+      "preview": "previews/DISASTER_03_LunarFragment.png",
+      "dimensions_m": {
+        "x_width_m": 1.7784,
+        "y_height_m": 1.3646,
+        "z_depth_m": 1.317
+      },
+      "triangles": 342,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "0d8a89f4d101a8d122d2c01c5e54dfb9",
+      "pose": "resting"
+    },
+    {
+      "id": "DISASTER_04",
+      "name": "Fractured Rock",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_04_FracturedRock.obj",
+      "mtl": "disaster_objects/DISASTER_04_FracturedRock.mtl",
+      "metadata": "metadata/DISASTER_04_FracturedRock.json",
+      "preview": "previews/DISASTER_04_FracturedRock.png",
+      "dimensions_m": {
+        "x_width_m": 3.6668,
+        "y_height_m": 2.2881,
+        "z_depth_m": 2.9161
+      },
+      "triangles": 644,
+      "parts": 3,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "2c7ac9f59fc9669db2a18f1123bff1be",
+      "pose": "three matching sections, slightly separated"
+    },
+    {
+      "id": "DISASTER_05",
+      "name": "Volcanic Bomb",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_05_VolcanicBomb.obj",
+      "mtl": "disaster_objects/DISASTER_05_VolcanicBomb.mtl",
+      "metadata": "metadata/DISASTER_05_VolcanicBomb.json",
+      "preview": "previews/DISASTER_05_VolcanicBomb.png",
+      "dimensions_m": {
+        "x_width_m": 0.8118,
+        "y_height_m": 0.5032,
+        "z_depth_m": 0.5339
+      },
+      "triangles": 196,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "14626bd7434b0b76370fd397d63bcfef",
+      "pose": "resting"
+    },
+    {
+      "id": "DISASTER_06",
+      "name": "Lava Rock",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_06_LavaRock.obj",
+      "mtl": "disaster_objects/DISASTER_06_LavaRock.mtl",
+      "metadata": "metadata/DISASTER_06_LavaRock.json",
+      "preview": "previews/DISASTER_06_LavaRock.png",
+      "dimensions_m": {
+        "x_width_m": 1.0699,
+        "y_height_m": 0.7768,
+        "z_depth_m": 0.9984
+      },
+      "triangles": 320,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "4226a8c83c1d00319395b1379e5ed86c",
+      "pose": "resting"
+    },
+    {
+      "id": "DISASTER_07",
+      "name": "Lava Crust Piece",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_07_LavaCrustPiece.obj",
+      "mtl": "disaster_objects/DISASTER_07_LavaCrustPiece.mtl",
+      "metadata": "metadata/DISASTER_07_LavaCrustPiece.json",
+      "preview": "previews/DISASTER_07_LavaCrustPiece.png",
+      "dimensions_m": {
+        "x_width_m": 2.5797,
+        "y_height_m": 0.2591,
+        "z_depth_m": 1.8411
+      },
+      "triangles": 800,
+      "parts": 4,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "36a4e20c7afc1e0c5887fec7ccc171ed",
+      "pose": "flat on ground"
+    },
+    {
+      "id": "DISASTER_08",
+      "name": "Ground Fissure Module",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_08_GroundFissureModule.obj",
+      "mtl": "disaster_objects/DISASTER_08_GroundFissureModule.mtl",
+      "metadata": "metadata/DISASTER_08_GroundFissureModule.json",
+      "preview": "previews/DISASTER_08_GroundFissureModule.png",
+      "dimensions_m": {
+        "x_width_m": 4.0,
+        "y_height_m": 1.75,
+        "z_depth_m": 4.0
+      },
+      "triangles": 532,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "7e403b46f767bfe98e0e830af5546a45",
+      "pose": "terrain module 4 x 4 m, top surface at y=0"
+    },
+    {
+      "id": "DISASTER_09",
+      "name": "Impact Crater",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_09_ImpactCrater.obj",
+      "mtl": "disaster_objects/DISASTER_09_ImpactCrater.mtl",
+      "metadata": "metadata/DISASTER_09_ImpactCrater.json",
+      "preview": "previews/DISASTER_09_ImpactCrater.png",
+      "dimensions_m": {
+        "x_width_m": 10.0,
+        "y_height_m": 3.6739,
+        "z_depth_m": 10.0
+      },
+      "triangles": 4718,
+      "parts": 2,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "4e912c9542f0194c801e54d9b3ad8a48",
+      "pose": "terrain module 10 x 10 m, undisturbed ground at y=0"
+    },
+    {
+      "id": "DISASTER_10",
+      "name": "Uprooted Tree",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_10_UprootedTree.obj",
+      "mtl": "disaster_objects/DISASTER_10_UprootedTree.mtl",
+      "metadata": "metadata/DISASTER_10_UprootedTree.json",
+      "preview": "previews/DISASTER_10_UprootedTree.png",
+      "dimensions_m": {
+        "x_width_m": 4.1092,
+        "y_height_m": 2.7037,
+        "z_depth_m": 7.6214
+      },
+      "triangles": 1410,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "9fb4fc7f738a47ca9fee18c42e3ad38c",
+      "pose": "fallen along +Y (-Z in file); root plate at the rear, snapped crown at the front"
+    },
+    {
+      "id": "DISASTER_11",
+      "name": "Overturned Vehicle Shell",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_11_OverturnedVehicleShell.obj",
+      "mtl": "disaster_objects/DISASTER_11_OverturnedVehicleShell.mtl",
+      "metadata": "metadata/DISASTER_11_OverturnedVehicleShell.json",
+      "preview": "previews/DISASTER_11_OverturnedVehicleShell.png",
+      "dimensions_m": {
+        "x_width_m": 3.5002,
+        "y_height_m": 1.5043,
+        "z_depth_m": 4.736
+      },
+      "triangles": 3006,
+      "parts": 14,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "695c0b10fde22383d5bd0e3a380af533",
+      "pose": "car shell resting on its crushed roof; wheels up, front-right wheel and door torn off beside it"
+    },
+    {
+      "id": "DISASTER_12",
+      "name": "Collapsed Boat Hull",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_12_CollapsedBoatHull.obj",
+      "mtl": "disaster_objects/DISASTER_12_CollapsedBoatHull.mtl",
+      "metadata": "metadata/DISASTER_12_CollapsedBoatHull.json",
+      "preview": "previews/DISASTER_12_CollapsedBoatHull.png",
+      "dimensions_m": {
+        "x_width_m": 4.4119,
+        "y_height_m": 3.2762,
+        "z_depth_m": 7.5323
+      },
+      "triangles": 3508,
+      "parts": 11,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "2553a11c861a8b572c415cf60475ea44",
+      "pose": "wrecked timber fishing boat heeled over on the ground, keel broken amidships"
+    },
+    {
+      "id": "DISASTER_13",
+      "name": "Broken Road Slab",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_13_BrokenRoadSlab.obj",
+      "mtl": "disaster_objects/DISASTER_13_BrokenRoadSlab.mtl",
+      "metadata": "metadata/DISASTER_13_BrokenRoadSlab.json",
+      "preview": "previews/DISASTER_13_BrokenRoadSlab.png",
+      "dimensions_m": {
+        "x_width_m": 4.5371,
+        "y_height_m": 2.292,
+        "z_depth_m": 8.9223
+      },
+      "triangles": 1196,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "8b5a388e00d6245e1180b3b753fca65b",
+      "pose": "three broken asphalt/concrete slabs, one flat, two tilted with exposed rebar"
+    },
+    {
+      "id": "DISASTER_14",
+      "name": "Ice Fragment",
+      "category": "disaster",
+      "file": "disaster_objects/DISASTER_14_IceFragment.obj",
+      "mtl": "disaster_objects/DISASTER_14_IceFragment.mtl",
+      "metadata": "metadata/DISASTER_14_IceFragment.json",
+      "preview": "previews/DISASTER_14_IceFragment.png",
+      "dimensions_m": {
+        "x_width_m": 1.1945,
+        "y_height_m": 1.1321,
+        "z_depth_m": 1.0117
+      },
+      "triangles": 558,
+      "parts": 3,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "cb5b35379c936398dbdb8f56f5b76a66",
+      "pose": "resting on its flat base"
+    },
+    {
+      "id": "CELESTIAL_01",
+      "name": "Detailed Moon",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_01_DetailedMoon.obj",
+      "mtl": "celestial/CELESTIAL_01_DetailedMoon.mtl",
+      "metadata": "metadata/CELESTIAL_01_DetailedMoon.json",
+      "preview": "previews/CELESTIAL_01_DetailedMoon.png",
+      "dimensions_m": {
+        "x_width_m": 2.0005,
+        "y_height_m": 2.0091,
+        "z_depth_m": 2.0033
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "bc890ec9f8ed0d5e3fe029cfcbed819b",
+      "pose": "near side toward +Y (-Z in file), north pole +Y(file)"
+    },
+    {
+      "id": "CELESTIAL_02",
+      "name": "Earth",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_02_Earth.obj",
+      "mtl": "celestial/CELESTIAL_02_Earth.mtl",
+      "metadata": "metadata/CELESTIAL_02_Earth.json",
+      "preview": "previews/CELESTIAL_02_Earth.png",
+      "dimensions_m": {
+        "x_width_m": 2.0678,
+        "y_height_m": 2.0337,
+        "z_depth_m": 2.0811
+      },
+      "triangles": 22280,
+      "parts": 2,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "2e6c4af73d25c95640d2b5836e5ccd51",
+      "pose": "Atlantic/Africa/Europe facing +Y (-Z in file)"
+    },
+    {
+      "id": "CELESTIAL_03",
+      "name": "Mars",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_03_Mars.obj",
+      "mtl": "celestial/CELESTIAL_03_Mars.mtl",
+      "metadata": "metadata/CELESTIAL_03_Mars.json",
+      "preview": "previews/CELESTIAL_03_Mars.png",
+      "dimensions_m": {
+        "x_width_m": 2.018,
+        "y_height_m": 2.0122,
+        "z_depth_m": 2.0058
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "637b67c27f4da3ce7587c81cd2129ebf",
+      "pose": "Tharsis hemisphere toward +Y"
+    },
+    {
+      "id": "CELESTIAL_04",
+      "name": "Jupiter",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_04_Jupiter.obj",
+      "mtl": "celestial/CELESTIAL_04_Jupiter.mtl",
+      "metadata": "metadata/CELESTIAL_04_Jupiter.json",
+      "preview": "previews/CELESTIAL_04_Jupiter.png",
+      "dimensions_m": {
+        "x_width_m": 2.0016,
+        "y_height_m": 1.8709,
+        "z_depth_m": 2.0014
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "c664ed90f5405483da45add6aba1911e",
+      "pose": "Great Red Spot toward +Y; oblate (polar/equatorial 0.935)"
+    },
+    {
+      "id": "CELESTIAL_05",
+      "name": "Saturn",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_05_Saturn.obj",
+      "mtl": "celestial/CELESTIAL_05_Saturn.mtl",
+      "metadata": "metadata/CELESTIAL_05_Saturn.json",
+      "preview": "previews/CELESTIAL_05_Saturn.png",
+      "dimensions_m": {
+        "x_width_m": 4.69,
+        "y_height_m": 1.7986,
+        "z_depth_m": 4.69
+      },
+      "triangles": 29120,
+      "parts": 2,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "669621649f9e4dd4f11c03d99df46e14",
+      "pose": "equatorial ring plane horizontal; oblate (0.902)"
+    },
+    {
+      "id": "CELESTIAL_06",
+      "name": "Venus",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_06_Venus.obj",
+      "mtl": "celestial/CELESTIAL_06_Venus.mtl",
+      "metadata": "metadata/CELESTIAL_06_Venus.json",
+      "preview": "previews/CELESTIAL_06_Venus.png",
+      "dimensions_m": {
+        "x_width_m": 2.0028,
+        "y_height_m": 2.0005,
+        "z_depth_m": 2.0069
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "f08f8e8f85849a7eac7f5774a1ccfb41",
+      "pose": "north pole +Y(file)"
+    },
+    {
+      "id": "CELESTIAL_07",
+      "name": "Mercury",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_07_Mercury.obj",
+      "mtl": "celestial/CELESTIAL_07_Mercury.mtl",
+      "metadata": "metadata/CELESTIAL_07_Mercury.json",
+      "preview": "previews/CELESTIAL_07_Mercury.png",
+      "dimensions_m": {
+        "x_width_m": 2.0055,
+        "y_height_m": 2.0065,
+        "z_depth_m": 2.0077
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "b535a20ef6a5f6fb69f364c392e65bf4",
+      "pose": "Caloris Basin toward +Y"
+    },
+    {
+      "id": "CELESTIAL_08",
+      "name": "Neptune",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_08_Neptune.obj",
+      "mtl": "celestial/CELESTIAL_08_Neptune.mtl",
+      "metadata": "metadata/CELESTIAL_08_Neptune.json",
+      "preview": "previews/CELESTIAL_08_Neptune.png",
+      "dimensions_m": {
+        "x_width_m": 2.0006,
+        "y_height_m": 1.966,
+        "z_depth_m": 2.0004
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "8e1b96d4240045525000ba5ae22e24f4",
+      "pose": "Great Dark Spot toward +Y; oblate 0.983"
+    },
+    {
+      "id": "CELESTIAL_09",
+      "name": "Rocky Rogue Planet",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_09_RockyRoguePlanet.obj",
+      "mtl": "celestial/CELESTIAL_09_RockyRoguePlanet.mtl",
+      "metadata": "metadata/CELESTIAL_09_RockyRoguePlanet.json",
+      "preview": "previews/CELESTIAL_09_RockyRoguePlanet.png",
+      "dimensions_m": {
+        "x_width_m": 2.0369,
+        "y_height_m": 2.0401,
+        "z_depth_m": 2.0318
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "c9483cbd5dc0b806b56231dd80accde5",
+      "pose": "north pole +Y(file)"
+    },
+    {
+      "id": "CELESTIAL_10",
+      "name": "Icy Rogue Planet",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_10_IcyRoguePlanet.obj",
+      "mtl": "celestial/CELESTIAL_10_IcyRoguePlanet.mtl",
+      "metadata": "metadata/CELESTIAL_10_IcyRoguePlanet.json",
+      "preview": "previews/CELESTIAL_10_IcyRoguePlanet.png",
+      "dimensions_m": {
+        "x_width_m": 2.0134,
+        "y_height_m": 2.0147,
+        "z_depth_m": 2.0143
+      },
+      "triangles": 20480,
+      "parts": 1,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "d577f6d42f6a07a8bcd2453c236b5297",
+      "pose": "north pole +Y(file)"
+    },
+    {
+      "id": "CELESTIAL_11",
+      "name": "Detailed Astronomical Asteroid",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_11_DetailedAstronomicalAsteroid.obj",
+      "mtl": "celestial/CELESTIAL_11_DetailedAstronomicalAsteroid.mtl",
+      "metadata": "metadata/CELESTIAL_11_DetailedAstronomicalAsteroid.json",
+      "preview": "previews/CELESTIAL_11_DetailedAstronomicalAsteroid.png",
+      "dimensions_m": {
+        "x_width_m": 2.6851,
+        "y_height_m": 1.397,
+        "z_depth_m": 1.5648
+      },
+      "triangles": 21880,
+      "parts": 2,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "8e16b9b902f4038af123c37251a94228",
+      "pose": "long axis along X"
+    },
+    {
+      "id": "CELESTIAL_12",
+      "name": "Comet Nucleus",
+      "category": "celestial",
+      "file": "celestial/CELESTIAL_12_CometNucleus.obj",
+      "mtl": "celestial/CELESTIAL_12_CometNucleus.mtl",
+      "metadata": "metadata/CELESTIAL_12_CometNucleus.json",
+      "preview": "previews/CELESTIAL_12_CometNucleus.png",
+      "dimensions_m": {
+        "x_width_m": 3.4087,
+        "y_height_m": 1.7618,
+        "z_depth_m": 1.7159
+      },
+      "triangles": 21580,
+      "parts": 2,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "cc05077572b887f2484544c36122dea5",
+      "pose": "bilobate; lobes along X"
+    },
+    {
+      "id": "INTERIOR_01",
+      "name": "Chair",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_01_Chair.obj",
+      "mtl": "interiors/INTERIOR_01_Chair.mtl",
+      "metadata": "metadata/INTERIOR_01_Chair.json",
+      "preview": "previews/INTERIOR_01_Chair.png",
+      "dimensions_m": {
+        "x_width_m": 0.46,
+        "y_height_m": 0.96,
+        "z_depth_m": 0.44
+      },
+      "triangles": 380,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "2748ac72b37294d026fc336680bbc52b",
+      "pose": "upright, facing +Y"
+    },
+    {
+      "id": "INTERIOR_02",
+      "name": "Table",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_02_Table.obj",
+      "mtl": "interiors/INTERIOR_02_Table.mtl",
+      "metadata": "metadata/INTERIOR_02_Table.json",
+      "preview": "previews/INTERIOR_02_Table.png",
+      "dimensions_m": {
+        "x_width_m": 1.9866,
+        "y_height_m": 0.76,
+        "z_depth_m": 1.0927
+      },
+      "triangles": 204,
+      "parts": 3,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "c615124ed3e8fb074afa17287b6b39ed",
+      "pose": "dining table"
+    },
+    {
+      "id": "INTERIOR_03",
+      "name": "Sofa",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_03_Sofa.obj",
+      "mtl": "interiors/INTERIOR_03_Sofa.mtl",
+      "metadata": "metadata/INTERIOR_03_Sofa.json",
+      "preview": "previews/INTERIOR_03_Sofa.png",
+      "dimensions_m": {
+        "x_width_m": 2.0,
+        "y_height_m": 0.88,
+        "z_depth_m": 0.9094
+      },
+      "triangles": 564,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "4234ee53da86b21ec163fac5e31cc91a",
+      "pose": "three-seat sofa"
+    },
+    {
+      "id": "INTERIOR_04",
+      "name": "Office Desk",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_04_OfficeDesk.obj",
+      "mtl": "interiors/INTERIOR_04_OfficeDesk.mtl",
+      "metadata": "metadata/INTERIOR_04_OfficeDesk.json",
+      "preview": "previews/INTERIOR_04_OfficeDesk.png",
+      "dimensions_m": {
+        "x_width_m": 1.5,
+        "y_height_m": 0.765,
+        "z_depth_m": 0.755
+      },
+      "triangles": 464,
+      "parts": 8,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "377b7bd63e67edb4c182f980848c89b9",
+      "pose": "drawers facing +Y side of the user (-Y)"
+    },
+    {
+      "id": "INTERIOR_05",
+      "name": "Office Chair",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_05_OfficeChair.obj",
+      "mtl": "interiors/INTERIOR_05_OfficeChair.mtl",
+      "metadata": "metadata/INTERIOR_05_OfficeChair.json",
+      "preview": "previews/INTERIOR_05_OfficeChair.png",
+      "dimensions_m": {
+        "x_width_m": 0.64,
+        "y_height_m": 0.975,
+        "z_depth_m": 0.6489
+      },
+      "triangles": 964,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "a9716fbd579cbd5331981e2c9bd2bb60",
+      "pose": "swivel office chair facing +Y"
+    },
+    {
+      "id": "INTERIOR_06",
+      "name": "Shelf",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_06_Shelf.obj",
+      "mtl": "interiors/INTERIOR_06_Shelf.mtl",
+      "metadata": "metadata/INTERIOR_06_Shelf.json",
+      "preview": "previews/INTERIOR_06_Shelf.png",
+      "dimensions_m": {
+        "x_width_m": 0.83,
+        "y_height_m": 1.83,
+        "z_depth_m": 0.3
+      },
+      "triangles": 2476,
+      "parts": 4,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "9af137b2446d6a61600c0bd06fca1b46",
+      "pose": "bookcase"
+    },
+    {
+      "id": "INTERIOR_07",
+      "name": "Commercial Counter",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_07_CommercialCounter.obj",
+      "mtl": "interiors/INTERIOR_07_CommercialCounter.mtl",
+      "metadata": "metadata/INTERIOR_07_CommercialCounter.json",
+      "preview": "previews/INTERIOR_07_CommercialCounter.png",
+      "dimensions_m": {
+        "x_width_m": 2.34,
+        "y_height_m": 1.84,
+        "z_depth_m": 0.79
+      },
+      "triangles": 476,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "814b6ee95d47f0c701d0c8ab4e4546e2",
+      "pose": "shop counter, customer side +Y"
+    },
+    {
+      "id": "INTERIOR_08",
+      "name": "Refrigerator",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_08_Refrigerator.obj",
+      "mtl": "interiors/INTERIOR_08_Refrigerator.mtl",
+      "metadata": "metadata/INTERIOR_08_Refrigerator.json",
+      "preview": "previews/INTERIOR_08_Refrigerator.png",
+      "dimensions_m": {
+        "x_width_m": 0.7,
+        "y_height_m": 1.78,
+        "z_depth_m": 0.78
+      },
+      "triangles": 332,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "e439142ec5e03b49a7bc381512ec96c1",
+      "pose": "doors face +Y; both doors hinged on the left"
+    },
+    {
+      "id": "INTERIOR_09",
+      "name": "Vending Machine",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_09_VendingMachine.obj",
+      "mtl": "interiors/INTERIOR_09_VendingMachine.mtl",
+      "metadata": "metadata/INTERIOR_09_VendingMachine.json",
+      "preview": "previews/INTERIOR_09_VendingMachine.png",
+      "dimensions_m": {
+        "x_width_m": 0.97,
+        "y_height_m": 1.88,
+        "z_depth_m": 0.885
+      },
+      "triangles": 1464,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "3378513356ed1deff2b59bca6b1a15e0",
+      "pose": "front faces +Y"
+    },
+    {
+      "id": "INTERIOR_10",
+      "name": "Market Cart",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_10_MarketCart.obj",
+      "mtl": "interiors/INTERIOR_10_MarketCart.mtl",
+      "metadata": "metadata/INTERIOR_10_MarketCart.json",
+      "preview": "previews/INTERIOR_10_MarketCart.png",
+      "dimensions_m": {
+        "x_width_m": 1.52,
+        "y_height_m": 1.905,
+        "z_depth_m": 2.3777
+      },
+      "triangles": 1672,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "df0381f1af46c784b8218672a03c870c",
+      "pose": "hand cart, handles toward -Y"
+    },
+    {
+      "id": "INTERIOR_11",
+      "name": "Restaurant Table",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_11_RestaurantTable.obj",
+      "mtl": "interiors/INTERIOR_11_RestaurantTable.mtl",
+      "metadata": "metadata/INTERIOR_11_RestaurantTable.json",
+      "preview": "previews/INTERIOR_11_RestaurantTable.png",
+      "dimensions_m": {
+        "x_width_m": 0.835,
+        "y_height_m": 0.86,
+        "z_depth_m": 0.835
+      },
+      "triangles": 1252,
+      "parts": 8,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "dc3265f66038825df49d13174b63e3c1",
+      "pose": "round pedestal table, set for two"
+    },
+    {
+      "id": "INTERIOR_12",
+      "name": "Outdoor Umbrella",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_12_OutdoorUmbrella.obj",
+      "mtl": "interiors/INTERIOR_12_OutdoorUmbrella.mtl",
+      "metadata": "metadata/INTERIOR_12_OutdoorUmbrella.json",
+      "preview": "previews/INTERIOR_12_OutdoorUmbrella.png",
+      "dimensions_m": {
+        "x_width_m": 3.0,
+        "y_height_m": 2.72,
+        "z_depth_m": 3.0
+      },
+      "triangles": 788,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "72aaf5d17d05d95b383a151dfe92d92b",
+      "pose": "open parasol on weighted base"
+    },
+    {
+      "id": "INTERIOR_13",
+      "name": "Cash Register",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_13_CashRegister.obj",
+      "mtl": "interiors/INTERIOR_13_CashRegister.mtl",
+      "metadata": "metadata/INTERIOR_13_CashRegister.json",
+      "preview": "previews/INTERIOR_13_CashRegister.png",
+      "dimensions_m": {
+        "x_width_m": 0.4188,
+        "y_height_m": 0.445,
+        "z_depth_m": 0.4382
+      },
+      "triangles": 1052,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "41e1d85c681a4a5ff2902dce2e60babc",
+      "pose": "counter-top register, screen faces +Y"
+    },
+    {
+      "id": "INTERIOR_14",
+      "name": "Display Cabinet",
+      "category": "interiors",
+      "file": "interiors/INTERIOR_14_DisplayCabinet.obj",
+      "mtl": "interiors/INTERIOR_14_DisplayCabinet.mtl",
+      "metadata": "metadata/INTERIOR_14_DisplayCabinet.json",
+      "preview": "previews/INTERIOR_14_DisplayCabinet.png",
+      "dimensions_m": {
+        "x_width_m": 0.95,
+        "y_height_m": 1.88,
+        "z_depth_m": 0.465
+      },
+      "triangles": 1628,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "a82356b087bf5fce6d8ff97bfd7d3b2a",
+      "pose": "glass display cabinet, door on +Y face"
+    },
+    {
+      "id": "ACCESSORY_01",
+      "name": "Smartphone",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_01_Smartphone.obj",
+      "mtl": "accessories/ACCESSORY_01_Smartphone.mtl",
+      "metadata": "metadata/ACCESSORY_01_Smartphone.json",
+      "preview": "previews/ACCESSORY_01_Smartphone.png",
+      "dimensions_m": {
+        "x_width_m": 0.078,
+        "y_height_m": 0.0131,
+        "z_depth_m": 0.15
+      },
+      "triangles": 336,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "0af590e6e399a16e31dce1960c915581",
+      "pose": "lying flat, screen up"
+    },
+    {
+      "id": "ACCESSORY_02",
+      "name": "Backpack",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_02_Backpack.obj",
+      "mtl": "accessories/ACCESSORY_02_Backpack.mtl",
+      "metadata": "metadata/ACCESSORY_02_Backpack.json",
+      "preview": "previews/ACCESSORY_02_Backpack.png",
+      "dimensions_m": {
+        "x_width_m": 0.4896,
+        "y_height_m": 0.6094,
+        "z_depth_m": 0.3577
+      },
+      "triangles": 504,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "a666bbd6591aebca1626d5b6cb0ddcfc",
+      "pose": "standing upright, front +Y"
+    },
+    {
+      "id": "ACCESSORY_03",
+      "name": "Handbag",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_03_Handbag.obj",
+      "mtl": "accessories/ACCESSORY_03_Handbag.mtl",
+      "metadata": "metadata/ACCESSORY_03_Handbag.json",
+      "preview": "previews/ACCESSORY_03_Handbag.png",
+      "dimensions_m": {
+        "x_width_m": 0.3383,
+        "y_height_m": 0.3369,
+        "z_depth_m": 0.18
+      },
+      "triangles": 444,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "84c8bd0fc19bb6089f3fb37c4a0de3de",
+      "pose": "standing, flap closed"
+    },
+    {
+      "id": "ACCESSORY_04",
+      "name": "Suitcase",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_04_Suitcase.obj",
+      "mtl": "accessories/ACCESSORY_04_Suitcase.mtl",
+      "metadata": "metadata/ACCESSORY_04_Suitcase.json",
+      "preview": "previews/ACCESSORY_04_Suitcase.png",
+      "dimensions_m": {
+        "x_width_m": 0.47,
+        "y_height_m": 1.004,
+        "z_depth_m": 0.294
+      },
+      "triangles": 816,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "6298adfd9b8db8a75bfcb84c3eccdbcf",
+      "pose": "standing on wheels, handle retracted... extended 0.3 m"
+    },
+    {
+      "id": "ACCESSORY_05",
+      "name": "Umbrella",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_05_Umbrella.obj",
+      "mtl": "accessories/ACCESSORY_05_Umbrella.mtl",
+      "metadata": "metadata/ACCESSORY_05_Umbrella.json",
+      "preview": "previews/ACCESSORY_05_Umbrella.png",
+      "dimensions_m": {
+        "x_width_m": 1.52,
+        "y_height_m": 0.9922,
+        "z_depth_m": 1.52
+      },
+      "triangles": 792,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "080170f58b03c84dff6bd3a344884ffc",
+      "pose": "open umbrella standing on its handle tip"
+    },
+    {
+      "id": "ACCESSORY_06",
+      "name": "Hard Hat",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_06_HardHat.obj",
+      "mtl": "accessories/ACCESSORY_06_HardHat.mtl",
+      "metadata": "metadata/ACCESSORY_06_HardHat.json",
+      "preview": "previews/ACCESSORY_06_HardHat.png",
+      "dimensions_m": {
+        "x_width_m": 0.3828,
+        "y_height_m": 0.184,
+        "z_depth_m": 0.455
+      },
+      "triangles": 1112,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "7285145e2fb41defdb246a15a85a1c2e",
+      "pose": "resting on brim, upright"
+    },
+    {
+      "id": "ACCESSORY_07",
+      "name": "Safety Vest",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_07_SafetyVest.obj",
+      "mtl": "accessories/ACCESSORY_07_SafetyVest.mtl",
+      "metadata": "metadata/ACCESSORY_07_SafetyVest.json",
+      "preview": "previews/ACCESSORY_07_SafetyVest.png",
+      "dimensions_m": {
+        "x_width_m": 0.4213,
+        "y_height_m": 0.6178,
+        "z_depth_m": 0.2565
+      },
+      "triangles": 720,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "6970be9d9ff3f9937f2325f846424a21",
+      "pose": "open-front vest hanging in worn shape (torso-shaped), hem at y=0"
+    },
+    {
+      "id": "ACCESSORY_08",
+      "name": "Flashlight",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_08_Flashlight.obj",
+      "mtl": "accessories/ACCESSORY_08_Flashlight.mtl",
+      "metadata": "metadata/ACCESSORY_08_Flashlight.json",
+      "preview": "previews/ACCESSORY_08_Flashlight.png",
+      "dimensions_m": {
+        "x_width_m": 0.1033,
+        "y_height_m": 0.2274,
+        "z_depth_m": 0.0975
+      },
+      "triangles": 990,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "270210d5f85e49e0f1b34697e06573dd",
+      "pose": "standing on tail cap"
+    },
+    {
+      "id": "ACCESSORY_09",
+      "name": "Binoculars",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_09_Binoculars.obj",
+      "mtl": "accessories/ACCESSORY_09_Binoculars.mtl",
+      "metadata": "metadata/ACCESSORY_09_Binoculars.json",
+      "preview": "previews/ACCESSORY_09_Binoculars.png",
+      "dimensions_m": {
+        "x_width_m": 0.184,
+        "y_height_m": 0.079,
+        "z_depth_m": 0.2306
+      },
+      "triangles": 948,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "08e7cc5c3585d043dce5c4014f460c6a",
+      "pose": "lying on its barrels, lenses toward +Y"
+    },
+    {
+      "id": "ACCESSORY_10",
+      "name": "Telescope",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_10_Telescope.obj",
+      "mtl": "accessories/ACCESSORY_10_Telescope.mtl",
+      "metadata": "metadata/ACCESSORY_10_Telescope.json",
+      "preview": "previews/ACCESSORY_10_Telescope.png",
+      "dimensions_m": {
+        "x_width_m": 1.0789,
+        "y_height_m": 1.6874,
+        "z_depth_m": 1.3782
+      },
+      "triangles": 1016,
+      "parts": 9,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "a00e7dc99df706e28c2b143efd66be43",
+      "pose": "tripod-mounted refractor telescope pointing up-and-forward"
+    },
+    {
+      "id": "ACCESSORY_11",
+      "name": "First-Aid Kit",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_11_FirstAidKit.obj",
+      "mtl": "accessories/ACCESSORY_11_FirstAidKit.mtl",
+      "metadata": "metadata/ACCESSORY_11_FirstAidKit.json",
+      "preview": "previews/ACCESSORY_11_FirstAidKit.png",
+      "dimensions_m": {
+        "x_width_m": 0.316,
+        "y_height_m": 0.2466,
+        "z_depth_m": 0.143
+      },
+      "triangles": 444,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "762bd8d29889cab4c3b41cf8dfbf4c46",
+      "pose": "closed case on ground"
+    },
+    {
+      "id": "ACCESSORY_12",
+      "name": "Handheld Radio",
+      "category": "accessories",
+      "file": "accessories/ACCESSORY_12_HandheldRadio.obj",
+      "mtl": "accessories/ACCESSORY_12_HandheldRadio.mtl",
+      "metadata": "metadata/ACCESSORY_12_HandheldRadio.json",
+      "preview": "previews/ACCESSORY_12_HandheldRadio.png",
+      "dimensions_m": {
+        "x_width_m": 0.0629,
+        "y_height_m": 0.3001,
+        "z_depth_m": 0.0435
+      },
+      "triangles": 400,
+      "parts": 8,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "b1f422d89a212bf9686d72e181081359",
+      "pose": "standing on its base"
+    },
+    {
+      "id": "RESCUE_01",
+      "name": "Stretcher",
+      "category": "emergency",
+      "file": "emergency/RESCUE_01_Stretcher.obj",
+      "mtl": "emergency/RESCUE_01_Stretcher.mtl",
+      "metadata": "metadata/RESCUE_01_Stretcher.json",
+      "preview": "previews/RESCUE_01_Stretcher.png",
+      "dimensions_m": {
+        "x_width_m": 0.65,
+        "y_height_m": 0.18,
+        "z_depth_m": 2.4
+      },
+      "triangles": 1128,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "184f705fad8d03d8de53d30cab59fa27",
+      "pose": "flat on ground, head toward -Y"
+    },
+    {
+      "id": "RESCUE_02",
+      "name": "Rescue Ladder",
+      "category": "emergency",
+      "file": "emergency/RESCUE_02_RescueLadder.obj",
+      "mtl": "emergency/RESCUE_02_RescueLadder.mtl",
+      "metadata": "metadata/RESCUE_02_RescueLadder.json",
+      "preview": "previews/RESCUE_02_RescueLadder.png",
+      "dimensions_m": {
+        "x_width_m": 0.51,
+        "y_height_m": 0.17,
+        "z_depth_m": 3.335
+      },
+      "triangles": 864,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "fb2d0c8e2fae228f25f85ed86238ca42",
+      "pose": "extension ladder lying on the ground, hooks toward +Y"
+    },
+    {
+      "id": "RESCUE_03",
+      "name": "Portable Barricade",
+      "category": "emergency",
+      "file": "emergency/RESCUE_03_PortableBarricade.obj",
+      "mtl": "emergency/RESCUE_03_PortableBarricade.mtl",
+      "metadata": "metadata/RESCUE_03_PortableBarricade.json",
+      "preview": "previews/RESCUE_03_PortableBarricade.png",
+      "dimensions_m": {
+        "x_width_m": 1.95,
+        "y_height_m": 1.1703,
+        "z_depth_m": 1.1369
+      },
+      "triangles": 1848,
+      "parts": 8,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "e22ac052d720196e6ca2392f9f5fd6d5",
+      "pose": "standing, panel faces +Y"
+    },
+    {
+      "id": "RESCUE_04",
+      "name": "Warning Siren",
+      "category": "emergency",
+      "file": "emergency/RESCUE_04_WarningSiren.obj",
+      "mtl": "emergency/RESCUE_04_WarningSiren.mtl",
+      "metadata": "metadata/RESCUE_04_WarningSiren.json",
+      "preview": "previews/RESCUE_04_WarningSiren.png",
+      "dimensions_m": {
+        "x_width_m": 0.975,
+        "y_height_m": 2.18,
+        "z_depth_m": 0.92
+      },
+      "triangles": 904,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "6f1f0ea0ce977c20c7c3d80852f450fb",
+      "pose": "pole-mounted four-horn siren on a weighted tripod"
+    },
+    {
+      "id": "RESCUE_05",
+      "name": "Megaphone",
+      "category": "emergency",
+      "file": "emergency/RESCUE_05_Megaphone.obj",
+      "mtl": "emergency/RESCUE_05_Megaphone.mtl",
+      "metadata": "metadata/RESCUE_05_Megaphone.json",
+      "preview": "previews/RESCUE_05_Megaphone.png",
+      "dimensions_m": {
+        "x_width_m": 0.36,
+        "y_height_m": 0.3545,
+        "z_depth_m": 0.5195
+      },
+      "triangles": 666,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "5d3f92aaab5c33fc2db4c10e353938cc",
+      "pose": "resting on its handle and bell rim, mouth toward +Y"
+    },
+    {
+      "id": "RESCUE_06",
+      "name": "Fire Extinguisher",
+      "category": "emergency",
+      "file": "emergency/RESCUE_06_FireExtinguisher.obj",
+      "mtl": "emergency/RESCUE_06_FireExtinguisher.mtl",
+      "metadata": "metadata/RESCUE_06_FireExtinguisher.json",
+      "preview": "previews/RESCUE_06_FireExtinguisher.png",
+      "dimensions_m": {
+        "x_width_m": 0.2303,
+        "y_height_m": 0.604,
+        "z_depth_m": 0.1615
+      },
+      "triangles": 576,
+      "parts": 9,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "d7b0b25aa74055984f8bec9d3fa14740",
+      "pose": "standing, gauge faces +Y"
+    },
+    {
+      "id": "RESCUE_07",
+      "name": "Flotation Ring",
+      "category": "emergency",
+      "file": "emergency/RESCUE_07_FlotationRing.obj",
+      "mtl": "emergency/RESCUE_07_FlotationRing.mtl",
+      "metadata": "metadata/RESCUE_07_FlotationRing.json",
+      "preview": "previews/RESCUE_07_FlotationRing.png",
+      "dimensions_m": {
+        "x_width_m": 0.8225,
+        "y_height_m": 0.14,
+        "z_depth_m": 0.8225
+      },
+      "triangles": 1080,
+      "parts": 4,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "9e56c0dc8dcb7126159ac9e72ec74fe1",
+      "pose": "lying flat"
+    },
+    {
+      "id": "RESCUE_08",
+      "name": "Portable Floodlight",
+      "category": "emergency",
+      "file": "emergency/RESCUE_08_PortableFloodlight.obj",
+      "mtl": "emergency/RESCUE_08_PortableFloodlight.mtl",
+      "metadata": "metadata/RESCUE_08_PortableFloodlight.json",
+      "preview": "previews/RESCUE_08_PortableFloodlight.png",
+      "dimensions_m": {
+        "x_width_m": 1.253,
+        "y_height_m": 2.0864,
+        "z_depth_m": 0.9553
+      },
+      "triangles": 724,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "d0c3b138556310ee5b769abf4127c812",
+      "pose": "tripod floodlight, beam toward +Y"
+    },
+    {
+      "id": "RESCUE_09",
+      "name": "Emergency Supply Crate",
+      "category": "emergency",
+      "file": "emergency/RESCUE_09_EmergencySupplyCrate.obj",
+      "mtl": "emergency/RESCUE_09_EmergencySupplyCrate.mtl",
+      "metadata": "metadata/RESCUE_09_EmergencySupplyCrate.json",
+      "preview": "previews/RESCUE_09_EmergencySupplyCrate.png",
+      "dimensions_m": {
+        "x_width_m": 0.79,
+        "y_height_m": 0.7487,
+        "z_depth_m": 0.6569
+      },
+      "triangles": 1056,
+      "parts": 9,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "cdd798ff990cac174faee0ddf57ab28f",
+      "pose": "opened plastic crate; lid hinged open ~100 degrees, contents visible"
+    },
+    {
+      "id": "DEBRIS_01",
+      "name": "Driftwood",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_01_Driftwood.obj",
+      "mtl": "floating_debris/DEBRIS_01_Driftwood.mtl",
+      "metadata": "metadata/DEBRIS_01_Driftwood.json",
+      "preview": "previews/DEBRIS_01_Driftwood.png",
+      "dimensions_m": {
+        "x_width_m": 3.4872,
+        "y_height_m": 0.6033,
+        "z_depth_m": 0.9551
+      },
+      "triangles": 642,
+      "parts": 4,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "75f6a85e97da8e048bb66d79eee56509",
+      "pose": "resting on the ground"
+    },
+    {
+      "id": "DEBRIS_02",
+      "name": "Wooden Plank",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_02_WoodenPlank.obj",
+      "mtl": "floating_debris/DEBRIS_02_WoodenPlank.mtl",
+      "metadata": "metadata/DEBRIS_02_WoodenPlank.json",
+      "preview": "previews/DEBRIS_02_WoodenPlank.png",
+      "dimensions_m": {
+        "x_width_m": 0.269,
+        "y_height_m": 0.1058,
+        "z_depth_m": 2.3234
+      },
+      "triangles": 388,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "424966e16d0df485cab0b91a06457441",
+      "pose": "lying on the ground, warped"
+    },
+    {
+      "id": "DEBRIS_03",
+      "name": "Broken Crate",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_03_BrokenCrate.obj",
+      "mtl": "floating_debris/DEBRIS_03_BrokenCrate.mtl",
+      "metadata": "metadata/DEBRIS_03_BrokenCrate.json",
+      "preview": "previews/DEBRIS_03_BrokenCrate.png",
+      "dimensions_m": {
+        "x_width_m": 0.809,
+        "y_height_m": 0.6,
+        "z_depth_m": 1.2177
+      },
+      "triangles": 1506,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "a3ca0185927983fe2a0d96053e100f33",
+      "pose": "resting; one side smashed in, slats missing"
+    },
+    {
+      "id": "DEBRIS_04",
+      "name": "Floating Barrel",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_04_FloatingBarrel.obj",
+      "mtl": "floating_debris/DEBRIS_04_FloatingBarrel.mtl",
+      "metadata": "metadata/DEBRIS_04_FloatingBarrel.json",
+      "preview": "previews/DEBRIS_04_FloatingBarrel.png",
+      "dimensions_m": {
+        "x_width_m": 0.9,
+        "y_height_m": 0.713,
+        "z_depth_m": 0.6883
+      },
+      "triangles": 728,
+      "parts": 3,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "62114c049d0b7a01da2cffcefef42c94",
+      "pose": "lying on its side"
+    },
+    {
+      "id": "DEBRIS_05",
+      "name": "Pallet",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_05_Pallet.obj",
+      "mtl": "floating_debris/DEBRIS_05_Pallet.mtl",
+      "metadata": "metadata/DEBRIS_05_Pallet.json",
+      "preview": "previews/DEBRIS_05_Pallet.png",
+      "dimensions_m": {
+        "x_width_m": 1.211,
+        "y_height_m": 0.1569,
+        "z_depth_m": 1.25
+      },
+      "triangles": 796,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "1d96a7376a33654cabbaf5d7b0b99da3",
+      "pose": "lying flat, damaged"
+    },
+    {
+      "id": "DEBRIS_06",
+      "name": "Road Sign Fragment",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_06_RoadSignFragment.obj",
+      "mtl": "floating_debris/DEBRIS_06_RoadSignFragment.mtl",
+      "metadata": "metadata/DEBRIS_06_RoadSignFragment.json",
+      "preview": "previews/DEBRIS_06_RoadSignFragment.png",
+      "dimensions_m": {
+        "x_width_m": 1.6554,
+        "y_height_m": 0.1882,
+        "z_depth_m": 0.62
+      },
+      "triangles": 236,
+      "parts": 5,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "26ae75581b768776c65fd1df6877f889",
+      "pose": "bent sign plate on a snapped pole stub, lying on the ground"
+    },
+    {
+      "id": "DEBRIS_07",
+      "name": "Roof Tile Cluster",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_07_RoofTileCluster.obj",
+      "mtl": "floating_debris/DEBRIS_07_RoofTileCluster.mtl",
+      "metadata": "metadata/DEBRIS_07_RoofTileCluster.json",
+      "preview": "previews/DEBRIS_07_RoofTileCluster.png",
+      "dimensions_m": {
+        "x_width_m": 1.5063,
+        "y_height_m": 0.082,
+        "z_depth_m": 1.3508
+      },
+      "triangles": 3408,
+      "parts": 2,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "b59e3cfbf87d4acad7c340f694b44d57",
+      "pose": "loose cluster of clay roof tiles with a batten"
+    },
+    {
+      "id": "DEBRIS_08",
+      "name": "Shattered Window Panel",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_08_ShatteredWindowPanel.obj",
+      "mtl": "floating_debris/DEBRIS_08_ShatteredWindowPanel.mtl",
+      "metadata": "metadata/DEBRIS_08_ShatteredWindowPanel.json",
+      "preview": "previews/DEBRIS_08_ShatteredWindowPanel.png",
+      "dimensions_m": {
+        "x_width_m": 1.57,
+        "y_height_m": 0.05,
+        "z_depth_m": 1.41
+      },
+      "triangles": 570,
+      "parts": 4,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "161a6a6265cf6b30d321869d6c2b7c56",
+      "pose": "window frame lying flat, glass cracked with missing shards"
+    },
+    {
+      "id": "DEBRIS_09",
+      "name": "Broken Dock Timber",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_09_BrokenDockTimber.obj",
+      "mtl": "floating_debris/DEBRIS_09_BrokenDockTimber.mtl",
+      "metadata": "metadata/DEBRIS_09_BrokenDockTimber.json",
+      "preview": "previews/DEBRIS_09_BrokenDockTimber.png",
+      "dimensions_m": {
+        "x_width_m": 1.1712,
+        "y_height_m": 0.41,
+        "z_depth_m": 2.8902
+      },
+      "triangles": 452,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "1698c748a3fe7d003a5fc5dadfd2c904",
+      "pose": "snapped pile section with decking plank still bolted"
+    },
+    {
+      "id": "DEBRIS_10",
+      "name": "Metal Sheet",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_10_MetalSheet.obj",
+      "mtl": "floating_debris/DEBRIS_10_MetalSheet.mtl",
+      "metadata": "metadata/DEBRIS_10_MetalSheet.json",
+      "preview": "previews/DEBRIS_10_MetalSheet.png",
+      "dimensions_m": {
+        "x_width_m": 1.0,
+        "y_height_m": 0.3114,
+        "z_depth_m": 1.6009
+      },
+      "triangles": 1332,
+      "parts": 3,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "07144a99b0ac8539ec7c9e90be7f73ef",
+      "pose": "corrugated sheet, bent and torn, lying on the ground"
+    },
+    {
+      "id": "DEBRIS_11",
+      "name": "Broken Furniture",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_11_BrokenFurniture.obj",
+      "mtl": "floating_debris/DEBRIS_11_BrokenFurniture.mtl",
+      "metadata": "metadata/DEBRIS_11_BrokenFurniture.json",
+      "preview": "previews/DEBRIS_11_BrokenFurniture.png",
+      "dimensions_m": {
+        "x_width_m": 1.1796,
+        "y_height_m": 0.3797,
+        "z_depth_m": 0.9875
+      },
+      "triangles": 540,
+      "parts": 6,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "513c66df79b75846d797178b5290d75f",
+      "pose": "smashed wooden chair: seat split, one leg snapped, back detached"
+    },
+    {
+      "id": "DEBRIS_12",
+      "name": "Uprooted Planter",
+      "category": "debris",
+      "file": "floating_debris/DEBRIS_12_UprootedPlanter.obj",
+      "mtl": "floating_debris/DEBRIS_12_UprootedPlanter.mtl",
+      "metadata": "metadata/DEBRIS_12_UprootedPlanter.json",
+      "preview": "previews/DEBRIS_12_UprootedPlanter.png",
+      "dimensions_m": {
+        "x_width_m": 1.0,
+        "y_height_m": 0.556,
+        "z_depth_m": 1.1228
+      },
+      "triangles": 1076,
+      "parts": 7,
+      "status": "OK",
+      "problems": [],
+      "geometry_hash": "8066c08717bc2af09868f533f28f42fe",
+      "pose": "clay pot tipped on its side, cracked, with spilled soil and a pulled-up plant"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "DEBRIS_03",
+  "name": "Broken Crate",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_03_BrokenCrate.obj",
+  "mtl": "floating_debris/DEBRIS_03_BrokenCrate.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "resting; one side smashed in, slats missing",
+  "dimensions": {
+    "x_width_m": 0.809,
+    "y_height_m": 0.6,
+    "z_depth_m": 1.2177
+  },
+  "bounds_file_min": [
+    -0.33,
+    0.0,
+    -0.879
+  ],
+  "bounds_file_max": [
+    0.479,
+    0.6,
+    0.3388
+  ],
+  "triangles": 1506,
+  "parts": [
+    {
+      "object": "DEBRIS_03_BrokenCrate_Corner_Posts",
+      "parent": "DEBRIS_03_BrokenCrate_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 176
+    },
+    {
+      "object": "DEBRIS_03_BrokenCrate_Floor",
+      "parent": "DEBRIS_03_BrokenCrate_Corner_Posts",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "DEBRIS_03_BrokenCrate_Slats_Intact",
+      "parent": "DEBRIS_03_BrokenCrate_Corner_Posts",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 704
+    },
+    {
+      "object": "DEBRIS_03_BrokenCrate_Slats_Broken",
+      "parent": "DEBRIS_03_BrokenCrate_Corner_Posts",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 518
+    },
+    {
+      "object": "DEBRIS_03_BrokenCrate_Nails",
+      "parent": "DEBRIS_03_BrokenCrate_Corner_Posts",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 64
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Corner_Posts, Slats_Intact, Slats_Broken (splintered), Floor, Nails"
+  },
+  "open_part_count": 1,
+  "geometry_hash": "a3ca0185927983fe2a0d96053e100f33"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "DISASTER_13",
+  "name": "Broken Road Slab",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_13_BrokenRoadSlab.obj",
+  "mtl": "disaster_objects/DISASTER_13_BrokenRoadSlab.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "three broken asphalt/concrete slabs, one flat, two tilted with exposed rebar",
+  "dimensions": {
+    "x_width_m": 4.5371,
+    "y_height_m": 2.292,
+    "z_depth_m": 8.9223
+  },
+  "bounds_file_min": [
+    -2.1652,
+    0.0,
+    -5.0094
+  ],
+  "bounds_file_max": [
+    2.3719,
+    2.292,
+    3.9129
+  ],
+  "triangles": 1196,
+  "parts": [
+    {
+      "object": "DISASTER_13_BrokenRoadSlab_Slab_A",
+      "parent": "DISASTER_13_BrokenRoadSlab_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.5041,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete",
+        "WL_asphalt",
+        "WL_road_line"
+      ],
+      "triangles": 208
+    },
+    {
+      "object": "DISASTER_13_BrokenRoadSlab_Slab_B",
+      "parent": "DISASTER_13_BrokenRoadSlab_Root",
+      "pivot_file_xyz": [
+        0.25,
+        0.8541,
+        -3.6
+      ],
+      "materials": [
+        "WL_concrete",
+        "WL_asphalt",
+        "WL_road_line"
+      ],
+      "triangles": 204
+    },
+    {
+      "object": "DISASTER_13_BrokenRoadSlab_Slab_C",
+      "parent": "DISASTER_13_BrokenRoadSlab_Root",
+      "pivot_file_xyz": [
+        -0.4,
+        1.0541,
+        3.0
+      ],
+      "materials": [
+        "WL_concrete",
+        "WL_asphalt",
+        "WL_road_line"
+      ],
+      "triangles": 136
+    },
+    {
+      "object": "DISASTER_13_BrokenRoadSlab_Rebar",
+      "parent": "DISASTER_13_BrokenRoadSlab_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.5041,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 468
+    },
+    {
+      "object": "DISASTER_13_BrokenRoadSlab_Rubble_Chunks",
+      "parent": "DISASTER_13_BrokenRoadSlab_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.5041,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete"
+      ],
+      "triangles": 180
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Slab_A (flat), Slab_B (tilted ramp), Slab_C (leaning), Rebar, Rubble_Chunks",
+    "layers": "concrete base / asphalt wearing course / painted line"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "8b5a388e00d6245e1180b3b753fca65b"
+}

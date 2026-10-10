@@ -1,0 +1,129 @@
+{
+  "id": "INTERIOR_14",
+  "name": "Display Cabinet",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_14_DisplayCabinet.obj",
+  "mtl": "interiors/INTERIOR_14_DisplayCabinet.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "glass display cabinet, door on +Y face",
+  "dimensions": {
+    "x_width_m": 0.95,
+    "y_height_m": 1.88,
+    "z_depth_m": 0.465
+  },
+  "bounds_file_min": [
+    -0.475,
+    0.0,
+    -0.24
+  ],
+  "bounds_file_max": [
+    0.475,
+    1.88,
+    0.225
+  ],
+  "triangles": 1628,
+  "parts": [
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Frame",
+      "parent": "INTERIOR_14_DisplayCabinet_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 264
+    },
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Shelves",
+      "parent": "INTERIOR_14_DisplayCabinet_Frame",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Glass_Sides",
+      "parent": "INTERIOR_14_DisplayCabinet_Frame",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Door",
+      "parent": "INTERIOR_14_DisplayCabinet_Frame",
+      "pivot_file_xyz": [
+        -0.42,
+        0.95,
+        -0.2
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 24
+    },
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Door_Handle",
+      "parent": "INTERIOR_14_DisplayCabinet_Door",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Items",
+      "parent": "INTERIOR_14_DisplayCabinet_Shelves",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral",
+        "WL_fabric_blue",
+        "WL_yellow"
+      ],
+      "triangles": 1200
+    },
+    {
+      "object": "INTERIOR_14_DisplayCabinet_Light_Strip",
+      "parent": "INTERIOR_14_DisplayCabinet_Frame",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 12
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Frame, Shelves, Glass_Sides, Door (hinged at left edge), Items, Light_Strip"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "a82356b087bf5fce6d8ff97bfd7d3b2a"
+}

@@ -1,0 +1,99 @@
+{
+ "asset_id": "LAND_12",
+ "title": "Tow Truck",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_12.obj",
+ "mtl": "../land_vehicles/LAND_12.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.0,
+  0.0,
+  -4.5
+ ],
+ "bbox_max": [
+  2.0,
+  4.122,
+  6.38
+ ],
+ "size_xyz": [
+  4.0,
+  4.122,
+  10.88
+ ],
+ "triangles": 3972,
+ "groups": [
+  "frame",
+  "cab",
+  "windows",
+  "mirrors",
+  "toolboxes",
+  "outriggers",
+  "hood",
+  "bumper",
+  "grille",
+  "lights",
+  "lightbar",
+  "deck",
+  "deck_rail",
+  "boom_base",
+  "boom",
+  "boom_cable",
+  "hook",
+  "boom_cylinder",
+  "winch",
+  "wheel_lift",
+  "bumper_rear",
+  "wheel_F_L",
+  "wheel_F_R",
+  "wheel_R_L",
+  "wheel_R_R"
+ ],
+ "materials": [
+  "dark_steel",
+  "blue_steel",
+  "glass",
+  "black",
+  "yellow",
+  "light_head",
+  "light_red",
+  "light_amber",
+  "steel",
+  "red",
+  "chrome",
+  "rubber",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "boom_pivot": [
+   0,
+   1.9,
+   1.4
+  ],
+  "wheel_F_L": [
+   -1.15,
+   0.5,
+   -2.4
+  ],
+  "wheel_F_R": [
+   1.15,
+   0.5,
+   -2.4
+  ],
+  "wheel_R_L": [
+   -0.83,
+   0.5,
+   1.9
+  ],
+  "wheel_R_R": [
+   0.83,
+   0.5,
+   1.9
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,41 @@
+{
+ "asset_id": "TERRAIN_05",
+ "title": "Mountain Peak",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_05.obj",
+ "mtl": "../terrain/TERRAIN_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -55.0,
+  0.0,
+  -55.0
+ ],
+ "bbox_max": [
+  55.0,
+  41.575,
+  55.0
+ ],
+ "size_xyz": [
+  110.0,
+  41.575,
+  110.0
+ ],
+ "triangles": 4784,
+ "groups": [
+  "peak"
+ ],
+ "materials": [
+  "foliage_mid",
+  "foliage_deep",
+  "rock_light",
+  "rock_dark",
+  "offwhite",
+  "rock_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,74 @@
+{
+ "asset_id": "BOAT_06",
+ "title": "Container Ship",
+ "category": "boats",
+ "obj": "../boats/BOAT_06.obj",
+ "mtl": "../boats/BOAT_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -13.0,
+  0.0,
+  -54.45
+ ],
+ "bbox_max": [
+  13.0,
+  36.47,
+  55.0
+ ],
+ "size_xyz": [
+  26.0,
+  36.47,
+  109.45
+ ],
+ "triangles": 5680,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "superstructure",
+  "windows",
+  "deck2",
+  "deck3",
+  "bridge",
+  "funnel",
+  "mast",
+  "containers_bay0",
+  "containers_bay1",
+  "containers_bay2",
+  "containers_bay3",
+  "containers_bay4",
+  "containers_bay5",
+  "railings",
+  "bow_machinery"
+ ],
+ "materials": [
+  "hull_red",
+  "dark_steel",
+  "white",
+  "glass_dark",
+  "black",
+  "cont_red",
+  "light_grey",
+  "cont_teal",
+  "cont_green",
+  "cont_yellow",
+  "cont_blue",
+  "cont_orange",
+  "cont_white"
+ ],
+ "pivots": {
+  "waterline_reference": [
+   0,
+   4.68,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 4.68,
+  "draft_m": 4.68,
+  "note": "After export the keel sits at Y=0; the waterline plane is at Y = waterline_height_above_keel_m"
+ }
+}

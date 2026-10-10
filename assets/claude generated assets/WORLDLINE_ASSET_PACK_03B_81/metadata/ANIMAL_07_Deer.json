@@ -1,0 +1,310 @@
+{
+  "id": "ANIMAL_07",
+  "name": "Deer",
+  "category": "animals",
+  "obj": "animals/ANIMAL_07_Deer.obj",
+  "mtl": "animals/ANIMAL_07_Deer.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing alert, antlered stag variant",
+  "dimensions": {
+    "x_width_m": 0.4161,
+    "y_height_m": 1.9315,
+    "z_depth_m": 1.3207
+  },
+  "bounds_file_min": [
+    -0.208,
+    0.0,
+    -0.756
+  ],
+  "bounds_file_max": [
+    0.208,
+    1.9315,
+    0.5647
+  ],
+  "triangles": 1012,
+  "parts": [
+    {
+      "object": "ANIMAL_07_Deer_Body",
+      "parent": "ANIMAL_07_Deer_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_deer_brown",
+        "WL_deer_belly"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_07_Deer_Neck",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Head",
+      "parent": "ANIMAL_07_Deer_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        1.36,
+        -0.565
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_07_Deer_Muzzle",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        0.0,
+        1.36,
+        -0.565
+      ],
+      "materials": [
+        "WL_deer_belly"
+      ],
+      "triangles": 76
+    },
+    {
+      "object": "ANIMAL_07_Deer_Nose",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        0.0,
+        1.36,
+        -0.565
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Ear_L",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        0.05,
+        1.4,
+        -0.525
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_07_Deer_Ear_R",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        -0.05,
+        1.4,
+        -0.525
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_07_Deer_Eye_L",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        0.047,
+        1.385,
+        -0.6
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_07_Deer_Eye_R",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        -0.047,
+        1.385,
+        -0.6
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_07_Deer_Antlers_L",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        0.035,
+        1.41,
+        -0.54
+      ],
+      "materials": [
+        "WL_antler"
+      ],
+      "triangles": 108
+    },
+    {
+      "object": "ANIMAL_07_Deer_Antlers_R",
+      "parent": "ANIMAL_07_Deer_Head",
+      "pivot_file_xyz": [
+        -0.035,
+        1.41,
+        -0.54
+      ],
+      "materials": [
+        "WL_antler"
+      ],
+      "triangles": 108
+    },
+    {
+      "object": "ANIMAL_07_Deer_Leg_Front_L",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        0.085,
+        0.8,
+        -0.26
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Leg_Front_R",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        -0.085,
+        0.8,
+        -0.26
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Leg_Rear_L",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        0.09,
+        0.82,
+        0.36
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "ANIMAL_07_Deer_Leg_Rear_R",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        -0.09,
+        0.82,
+        0.36
+      ],
+      "materials": [
+        "WL_deer_brown"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "ANIMAL_07_Deer_Hoof_Front_L",
+      "parent": "ANIMAL_07_Deer_Leg_Front_L",
+      "pivot_file_xyz": [
+        0.085,
+        0.05,
+        -0.275
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Hoof_Front_R",
+      "parent": "ANIMAL_07_Deer_Leg_Front_R",
+      "pivot_file_xyz": [
+        -0.085,
+        0.05,
+        -0.275
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Hoof_Rear_L",
+      "parent": "ANIMAL_07_Deer_Leg_Rear_L",
+      "pivot_file_xyz": [
+        0.095,
+        0.05,
+        0.38
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Hoof_Rear_R",
+      "parent": "ANIMAL_07_Deer_Leg_Rear_R",
+      "pivot_file_xyz": [
+        -0.095,
+        0.05,
+        0.38
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_07_Deer_Rump_Patch",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.9,
+        0.4
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_07_Deer_Tail",
+      "parent": "ANIMAL_07_Deer_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.94,
+        0.5
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 20
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "variant": "stag with antlers (Antlers_L/R are separate parts, delete them for a doe)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "240e238d6daf4fc507651afa3a22844a"
+}

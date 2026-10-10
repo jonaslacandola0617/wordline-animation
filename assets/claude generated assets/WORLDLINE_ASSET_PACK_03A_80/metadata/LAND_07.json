@@ -1,0 +1,136 @@
+{
+ "asset_id": "LAND_07",
+ "title": "Semi-Truck (tractor + trailer)",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_07.obj",
+ "mtl": "../land_vehicles/LAND_07.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.72,
+  0.0,
+  -4.5
+ ],
+ "bbox_max": [
+  1.72,
+  4.272,
+  14.8
+ ],
+ "size_xyz": [
+  3.44,
+  4.272,
+  19.3
+ ],
+ "triangles": 10368,
+ "groups": [
+  "frame",
+  "hood",
+  "cab",
+  "windows",
+  "mirrors",
+  "fuel_tank",
+  "exhaust",
+  "grille",
+  "bumper",
+  "lights",
+  "fifth_wheel",
+  "visor",
+  "trailer",
+  "trailer_ribs",
+  "trailer_stripe",
+  "landing_gear",
+  "trailer_chassis",
+  "rear_bumper",
+  "rear_doors",
+  "mud_flaps",
+  "wheel_steer_L",
+  "wheel_steer_R",
+  "wheel_drive1_L",
+  "wheel_drive1_R",
+  "wheel_drive2_L",
+  "wheel_drive2_R",
+  "wheel_trailer1_L",
+  "wheel_trailer1_R",
+  "wheel_trailer2_L",
+  "wheel_trailer2_R"
+ ],
+ "materials": [
+  "dark_steel",
+  "blue_steel",
+  "glass",
+  "glass_dark",
+  "black",
+  "chrome",
+  "light_head",
+  "light_red",
+  "light_amber",
+  "offwhite",
+  "light_grey",
+  "coral",
+  "steel",
+  "rubber",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "wheel_steer_L": [
+   -1.15,
+   0.58,
+   -3.2
+  ],
+  "wheel_steer_R": [
+   1.15,
+   0.58,
+   -3.2
+  ],
+  "wheel_drive1_L": [
+   -0.79,
+   0.58,
+   0.9
+  ],
+  "wheel_drive1_R": [
+   0.79,
+   0.58,
+   0.9
+  ],
+  "wheel_drive2_L": [
+   -0.79,
+   0.58,
+   2.3
+  ],
+  "wheel_drive2_R": [
+   0.79,
+   0.58,
+   2.3
+  ],
+  "wheel_trailer1_L": [
+   -0.81,
+   0.58,
+   12.4
+  ],
+  "wheel_trailer1_R": [
+   0.81,
+   0.58,
+   12.4
+  ],
+  "wheel_trailer2_L": [
+   -0.81,
+   0.58,
+   13.8
+  ],
+  "wheel_trailer2_R": [
+   0.81,
+   0.58,
+   13.8
+  ],
+  "kingpin": [
+   0,
+   1.25,
+   1.4
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

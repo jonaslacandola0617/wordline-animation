@@ -1,0 +1,66 @@
+{
+  "id": "DISASTER_09",
+  "name": "Impact Crater",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_09_ImpactCrater.obj",
+  "mtl": "disaster_objects/DISASTER_09_ImpactCrater.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "terrain module 10 x 10 m, undisturbed ground at y=0",
+  "dimensions": {
+    "x_width_m": 10.0,
+    "y_height_m": 3.6739,
+    "z_depth_m": 10.0
+  },
+  "bounds_file_min": [
+    -5.0,
+    -2.6,
+    -5.0
+  ],
+  "bounds_file_max": [
+    5.0,
+    1.0739,
+    5.0
+  ],
+  "triangles": 4718,
+  "parts": [
+    {
+      "object": "DISASTER_09_ImpactCrater_Terrain",
+      "parent": "DISASTER_09_ImpactCrater_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_dirt_dark",
+        "WL_soil",
+        "WL_rock_mid",
+        "WL_sand"
+      ],
+      "triangles": 4398
+    },
+    {
+      "object": "DISASTER_09_ImpactCrater_Ejecta_Boulders",
+      "parent": "DISASTER_09_ImpactCrater_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark"
+      ],
+      "triangles": 320
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Terrain (bowl, raised irregular rim, ejecta ridges), Ejecta_Boulders",
+    "crater_rim_radius_m": 3.6
+  },
+  "open_part_count": 0,
+  "geometry_hash": "4e912c9542f0194c801e54d9b3ad8a48"
+}

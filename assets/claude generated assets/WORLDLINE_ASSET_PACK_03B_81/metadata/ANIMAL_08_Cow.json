@@ -1,0 +1,336 @@
+{
+  "id": "ANIMAL_08",
+  "name": "Cow",
+  "category": "animals",
+  "obj": "animals/ANIMAL_08_Cow.obj",
+  "mtl": "animals/ANIMAL_08_Cow.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing",
+  "dimensions": {
+    "x_width_m": 0.7043,
+    "y_height_m": 1.41,
+    "z_depth_m": 2.3307
+  },
+  "bounds_file_min": [
+    -0.3521,
+    0.0,
+    -1.345
+  ],
+  "bounds_file_max": [
+    0.3521,
+    1.41,
+    0.9857
+  ],
+  "triangles": 1004,
+  "parts": [
+    {
+      "object": "ANIMAL_08_Cow_Body",
+      "parent": "ANIMAL_08_Cow_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_cow_white",
+        "WL_cow_black"
+      ],
+      "triangles": 164
+    },
+    {
+      "object": "ANIMAL_08_Cow_Neck",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_08_Cow_Head",
+      "parent": "ANIMAL_08_Cow_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.98,
+        -1.08
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_08_Cow_Muzzle",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.98,
+        -1.08
+      ],
+      "materials": [
+        "WL_cow_pink"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "ANIMAL_08_Cow_Nostrils",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.98,
+        -1.08
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 24
+    },
+    {
+      "object": "ANIMAL_08_Cow_Ear_L",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        0.11,
+        1.08,
+        -1.0
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_08_Cow_Ear_R",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        -0.11,
+        1.08,
+        -1.0
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_08_Cow_Horn_L",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        0.09,
+        1.14,
+        -1.02
+      ],
+      "materials": [
+        "WL_stone"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_08_Cow_Horn_R",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        -0.09,
+        1.14,
+        -1.02
+      ],
+      "materials": [
+        "WL_stone"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_08_Cow_Eye_L",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        0.098,
+        1.04,
+        -1.14
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_08_Cow_Eye_R",
+      "parent": "ANIMAL_08_Cow_Head",
+      "pivot_file_xyz": [
+        -0.098,
+        1.04,
+        -1.14
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_08_Cow_Leg_Front_L",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        0.17,
+        0.6,
+        -0.55
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 38
+    },
+    {
+      "object": "ANIMAL_08_Cow_Leg_Front_R",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        -0.17,
+        0.6,
+        -0.55
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 38
+    },
+    {
+      "object": "ANIMAL_08_Cow_Leg_Rear_L",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        0.18,
+        0.64,
+        0.62
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 52
+    },
+    {
+      "object": "ANIMAL_08_Cow_Leg_Rear_R",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        -0.18,
+        0.64,
+        0.62
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 52
+    },
+    {
+      "object": "ANIMAL_08_Cow_Hoof_Front_L",
+      "parent": "ANIMAL_08_Cow_Leg_Front_L",
+      "pivot_file_xyz": [
+        0.17,
+        0.12,
+        -0.56
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_08_Cow_Hoof_Front_R",
+      "parent": "ANIMAL_08_Cow_Leg_Front_R",
+      "pivot_file_xyz": [
+        -0.17,
+        0.12,
+        -0.56
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_08_Cow_Hoof_Rear_L",
+      "parent": "ANIMAL_08_Cow_Leg_Rear_L",
+      "pivot_file_xyz": [
+        0.17,
+        0.12,
+        0.65
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_08_Cow_Hoof_Rear_R",
+      "parent": "ANIMAL_08_Cow_Leg_Rear_R",
+      "pivot_file_xyz": [
+        -0.17,
+        0.12,
+        0.65
+      ],
+      "materials": [
+        "WL_hoof"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_08_Cow_Udder",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.58,
+        0.42
+      ],
+      "materials": [
+        "WL_cow_pink"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_08_Cow_Teats",
+      "parent": "ANIMAL_08_Cow_Udder",
+      "pivot_file_xyz": [
+        0.0,
+        0.55,
+        0.42
+      ],
+      "materials": [
+        "WL_cow_pink"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "ANIMAL_08_Cow_Tail",
+      "parent": "ANIMAL_08_Cow_Body",
+      "pivot_file_xyz": [
+        0.0,
+        1.28,
+        0.88
+      ],
+      "materials": [
+        "WL_cow_white"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_08_Cow_Tail_Tuft",
+      "parent": "ANIMAL_08_Cow_Tail",
+      "pivot_file_xyz": [
+        0.0,
+        1.28,
+        0.88
+      ],
+      "materials": [
+        "WL_cow_black"
+      ],
+      "triangles": 20
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "named_groups": "Body, Neck, Head, Muzzle, Horn_L/R, Ear_L/R, Leg_*_L/R, Hoof_*, Udder, Teats, Tail, Tail_Tuft"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "453b7995064ad8eac4d940f6c0aa7afa"
+}

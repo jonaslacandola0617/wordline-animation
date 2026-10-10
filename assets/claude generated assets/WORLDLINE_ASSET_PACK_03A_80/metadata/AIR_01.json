@@ -1,0 +1,84 @@
+{
+ "asset_id": "AIR_01",
+ "title": "Passenger Airliner",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_01.obj",
+ "mtl": "../aircraft/AIR_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -18.25,
+  0.0,
+  -19.9
+ ],
+ "bbox_max": [
+  18.25,
+  11.9,
+  19.5
+ ],
+ "size_xyz": [
+  36.5,
+  11.9,
+  39.4
+ ],
+ "triangles": 4884,
+ "groups": [
+  "fuselage",
+  "windows",
+  "cockpit_windows",
+  "wings",
+  "winglets",
+  "stabilizers",
+  "engine_L",
+  "engine_L_fan",
+  "pylons",
+  "engine_R",
+  "engine_R_fan",
+  "tail_fin",
+  "gear_nose",
+  "gear_main_L",
+  "gear_main_R"
+ ],
+ "materials": [
+  "white",
+  "glass_dark",
+  "offwhite",
+  "blue_steel",
+  "dark_steel",
+  "alloy",
+  "chrome",
+  "rubber",
+  "rim_dark"
+ ],
+ "pivots": {
+  "engine_L": [
+   -5.8,
+   1.7,
+   -4.4
+  ],
+  "engine_R": [
+   5.8,
+   1.7,
+   -4.4
+  ],
+  "gear_nose": [
+   0.22,
+   0.52,
+   -15.0
+  ],
+  "gear_main_L": [
+   -3.64,
+   0.7,
+   1.0
+  ],
+  "gear_main_R": [
+   4.16,
+   0.7,
+   1.0
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

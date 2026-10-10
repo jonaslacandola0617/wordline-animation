@@ -1,0 +1,350 @@
+{
+  "id": "ANIMAL_04",
+  "name": "Eagle",
+  "category": "animals",
+  "obj": "animals/ANIMAL_04_Eagle.obj",
+  "mtl": "animals/ANIMAL_04_Eagle.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "soaring flight, talons extended, wings fully spread",
+  "dimensions": {
+    "x_width_m": 2.1836,
+    "y_height_m": 0.6086,
+    "z_depth_m": 1.3962
+  },
+  "bounds_file_min": [
+    -1.0918,
+    -0.4548,
+    -0.6603
+  ],
+  "bounds_file_max": [
+    1.0918,
+    0.1538,
+    0.7359
+  ],
+  "triangles": 1588,
+  "parts": [
+    {
+      "object": "ANIMAL_04_Eagle_Body",
+      "parent": "ANIMAL_04_Eagle_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_eagle_brown",
+        "WL_eagle_light"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Neck",
+      "parent": "ANIMAL_04_Eagle_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_eagle_white"
+      ],
+      "triangles": 92
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Head",
+      "parent": "ANIMAL_04_Eagle_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.0805,
+        -0.4644
+      ],
+      "materials": [
+        "WL_eagle_white"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Beak",
+      "parent": "ANIMAL_04_Eagle_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0805,
+        -0.4644
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Cere",
+      "parent": "ANIMAL_04_Eagle_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0805,
+        -0.4644
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Eye_L",
+      "parent": "ANIMAL_04_Eagle_Head",
+      "pivot_file_xyz": [
+        0.0515,
+        0.095,
+        -0.4842
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Eye_R",
+      "parent": "ANIMAL_04_Eagle_Head",
+      "pivot_file_xyz": [
+        -0.0515,
+        0.095,
+        -0.4842
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Brow_L",
+      "parent": "ANIMAL_04_Eagle_Head",
+      "pivot_file_xyz": [
+        0.0495,
+        0.1102,
+        -0.4842
+      ],
+      "materials": [
+        "WL_eagle_white"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Brow_R",
+      "parent": "ANIMAL_04_Eagle_Head",
+      "pivot_file_xyz": [
+        -0.0495,
+        0.1102,
+        -0.4842
+      ],
+      "materials": [
+        "WL_eagle_white"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Tail",
+      "parent": "ANIMAL_04_Eagle_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0115,
+        0.3956
+      ],
+      "materials": [
+        "WL_eagle_white"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_L_Arm",
+      "parent": "ANIMAL_04_Eagle_Body",
+      "pivot_file_xyz": [
+        0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_brown"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_L_Coverts",
+      "parent": "ANIMAL_04_Eagle_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_light"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_L_Secondaries",
+      "parent": "ANIMAL_04_Eagle_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_brown"
+      ],
+      "triangles": 180
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_L_Primaries",
+      "parent": "ANIMAL_04_Eagle_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_brown"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_L_Tips",
+      "parent": "ANIMAL_04_Eagle_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_R_Arm",
+      "parent": "ANIMAL_04_Eagle_Body",
+      "pivot_file_xyz": [
+        -0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_brown"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_R_Coverts",
+      "parent": "ANIMAL_04_Eagle_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_light"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_R_Secondaries",
+      "parent": "ANIMAL_04_Eagle_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_brown"
+      ],
+      "triangles": 180
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_R_Primaries",
+      "parent": "ANIMAL_04_Eagle_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_eagle_brown"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Wing_R_Tips",
+      "parent": "ANIMAL_04_Eagle_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0897,
+        0.0632,
+        -0.1204
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Leg_L",
+      "parent": "ANIMAL_04_Eagle_Body",
+      "pivot_file_xyz": [
+        0.0518,
+        -0.0575,
+        -0.0172
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Leg_R",
+      "parent": "ANIMAL_04_Eagle_Body",
+      "pivot_file_xyz": [
+        -0.0518,
+        -0.0575,
+        -0.0172
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Talons_L",
+      "parent": "ANIMAL_04_Eagle_Leg_L",
+      "pivot_file_xyz": [
+        0.0518,
+        -0.2415,
+        -0.3532
+      ],
+      "materials": [
+        "WL_talon"
+      ],
+      "triangles": 104
+    },
+    {
+      "object": "ANIMAL_04_Eagle_Talons_R",
+      "parent": "ANIMAL_04_Eagle_Leg_R",
+      "pivot_file_xyz": [
+        -0.0518,
+        -0.2415,
+        -0.3532
+      ],
+      "materials": [
+        "WL_talon"
+      ],
+      "triangles": 104
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "wingspan_m": 2.25,
+    "origin": "centre of body"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "a60feffd62aea2c89c6f829a0c53ebb5"
+}

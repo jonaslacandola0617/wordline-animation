@@ -1,0 +1,93 @@
+{
+  "id": "INTERIOR_06",
+  "name": "Shelf",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_06_Shelf.obj",
+  "mtl": "interiors/INTERIOR_06_Shelf.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "bookcase",
+  "dimensions": {
+    "x_width_m": 0.83,
+    "y_height_m": 1.83,
+    "z_depth_m": 0.3
+  },
+  "bounds_file_min": [
+    -0.415,
+    0.0,
+    -0.15
+  ],
+  "bounds_file_max": [
+    0.415,
+    1.83,
+    0.15
+  ],
+  "triangles": 2476,
+  "parts": [
+    {
+      "object": "INTERIOR_06_Shelf_Frame",
+      "parent": "INTERIOR_06_Shelf_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "INTERIOR_06_Shelf_Shelves",
+      "parent": "INTERIOR_06_Shelf_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 220
+    },
+    {
+      "object": "INTERIOR_06_Shelf_Back_Panel",
+      "parent": "INTERIOR_06_Shelf_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_06_Shelf_Books",
+      "parent": "INTERIOR_06_Shelf_Shelves",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral",
+        "WL_fabric_blue",
+        "WL_yellow",
+        "WL_foliage_mid",
+        "WL_offwhite",
+        "WL_wood_dark"
+      ],
+      "triangles": 2112
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Frame, Shelves, Back_Panel, Books"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "9af137b2446d6a61600c0bd06fca1b46"
+}

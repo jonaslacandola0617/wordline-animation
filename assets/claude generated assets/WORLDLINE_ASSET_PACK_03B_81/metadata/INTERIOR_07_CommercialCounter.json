@@ -1,0 +1,101 @@
+{
+  "id": "INTERIOR_07",
+  "name": "Commercial Counter",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_07_CommercialCounter.obj",
+  "mtl": "interiors/INTERIOR_07_CommercialCounter.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "shop counter, customer side +Y",
+  "dimensions": {
+    "x_width_m": 2.34,
+    "y_height_m": 1.84,
+    "z_depth_m": 0.79
+  },
+  "bounds_file_min": [
+    -1.17,
+    0.0,
+    -0.42
+  ],
+  "bounds_file_max": [
+    1.17,
+    1.84,
+    0.37
+  ],
+  "triangles": 476,
+  "parts": [
+    {
+      "object": "INTERIOR_07_CommercialCounter_Counter_Body",
+      "parent": "INTERIOR_07_CommercialCounter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_07_CommercialCounter_Counter_Top",
+      "parent": "INTERIOR_07_CommercialCounter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_07_CommercialCounter_Front_Panel",
+      "parent": "INTERIOR_07_CommercialCounter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "INTERIOR_07_CommercialCounter_Display_Glass",
+      "parent": "INTERIOR_07_CommercialCounter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "INTERIOR_07_CommercialCounter_Back_Shelf",
+      "parent": "INTERIOR_07_CommercialCounter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 176
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Counter_Body, Counter_Top, Front_Panel, Display_Glass, Back_Shelf"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "814b6ee95d47f0c701d0c8ab4e4546e2"
+}

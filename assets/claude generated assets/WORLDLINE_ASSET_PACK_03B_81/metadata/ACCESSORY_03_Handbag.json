@@ -1,0 +1,108 @@
+{
+  "id": "ACCESSORY_03",
+  "name": "Handbag",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_03_Handbag.obj",
+  "mtl": "accessories/ACCESSORY_03_Handbag.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing, flap closed",
+  "dimensions": {
+    "x_width_m": 0.3383,
+    "y_height_m": 0.3369,
+    "z_depth_m": 0.18
+  },
+  "bounds_file_min": [
+    -0.1692,
+    0.0,
+    -0.1
+  ],
+  "bounds_file_max": [
+    0.1692,
+    0.3369,
+    0.08
+  ],
+  "triangles": 444,
+  "parts": [
+    {
+      "object": "ACCESSORY_03_Handbag_Body",
+      "parent": "ACCESSORY_03_Handbag_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_leather"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_03_Handbag_Flap",
+      "parent": "ACCESSORY_03_Handbag_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_leather_dark"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_03_Handbag_Handles",
+      "parent": "ACCESSORY_03_Handbag_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_leather_dark"
+      ],
+      "triangles": 232
+    },
+    {
+      "object": "ACCESSORY_03_Handbag_Clasp",
+      "parent": "ACCESSORY_03_Handbag_Flap",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_03_Handbag_Base_Studs",
+      "parent": "ACCESSORY_03_Handbag_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 80
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "handle_grip": [
+      0.0,
+      0.33,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Body, Flap, Handles, Clasp, Base_Studs",
+    "grip": "handle_grip at the top of the handles"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "84c8bd0fc19bb6089f3fb37c4a0de3de"
+}

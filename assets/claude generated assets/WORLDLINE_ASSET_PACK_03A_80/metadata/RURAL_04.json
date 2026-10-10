@@ -1,0 +1,54 @@
+{
+ "asset_id": "RURAL_04",
+ "title": "Grain Silo",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_04.obj",
+ "mtl": "../rural_landmarks/RURAL_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -3.9,
+  0.0,
+  -3.9
+ ],
+ "bbox_max": [
+  5.8,
+  17.9,
+  5.5
+ ],
+ "size_xyz": [
+  9.7,
+  17.9,
+  9.4
+ ],
+ "triangles": 3204,
+ "groups": [
+  "silo_wall",
+  "roof",
+  "roof_vent",
+  "roof_rim",
+  "legs",
+  "leg_pads",
+  "leg_braces",
+  "hopper",
+  "discharge",
+  "auger",
+  "auger_hopper",
+  "ladder",
+  "ladder_cage",
+  "service_box"
+ ],
+ "materials": [
+  "light_grey",
+  "blue_steel",
+  "steel",
+  "dark_steel",
+  "concrete",
+  "yellow"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

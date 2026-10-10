@@ -1,0 +1,83 @@
+{
+ "asset_id": "AIR_04",
+ "title": "Rescue Helicopter",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_04.obj",
+ "mtl": "../aircraft/AIR_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -6.2,
+  0.0,
+  -5.933
+ ],
+ "bbox_max": [
+  5.086,
+  4.5,
+  8.5
+ ],
+ "size_xyz": [
+  11.286,
+  4.5,
+  14.433
+ ],
+ "triangles": 1280,
+ "groups": [
+  "fuselage",
+  "belly_white",
+  "cockpit_glass",
+  "sliding_door",
+  "sliding_door_rail",
+  "sliding_door_handle",
+  "markings",
+  "cabin_cowl",
+  "tail_boom",
+  "tail_fin",
+  "stabilizer",
+  "main_mast",
+  "main_rotor",
+  "tail_rotor",
+  "winch_boom",
+  "winch_housing",
+  "winch_cable",
+  "winch_hook",
+  "rescue_basket",
+  "searchlight",
+  "beacon",
+  "skids",
+  "skid_struts"
+ ],
+ "materials": [
+  "emerg_orange",
+  "offwhite",
+  "glass_dark",
+  "dark_steel",
+  "steel",
+  "white",
+  "red",
+  "black",
+  "light_white",
+  "light_red"
+ ],
+ "pivots": {
+  "main_rotor": [
+   0,
+   4.2,
+   -0.0
+  ],
+  "tail_rotor": [
+   -0.26,
+   2.7,
+   7.8
+  ],
+  "winch": [
+   2.5,
+   3.0,
+   -0.2
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

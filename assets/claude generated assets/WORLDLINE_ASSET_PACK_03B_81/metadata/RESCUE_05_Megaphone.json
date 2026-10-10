@@ -1,0 +1,139 @@
+{
+  "id": "RESCUE_05",
+  "name": "Megaphone",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_05_Megaphone.obj",
+  "mtl": "emergency/RESCUE_05_Megaphone.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting on its handle and bell rim, mouth toward +Y",
+  "dimensions": {
+    "x_width_m": 0.36,
+    "y_height_m": 0.3545,
+    "z_depth_m": 0.5195
+  },
+  "bounds_file_min": [
+    -0.18,
+    0.0,
+    -0.3195
+  ],
+  "bounds_file_max": [
+    0.18,
+    0.3545,
+    0.2
+  ],
+  "triangles": 666,
+  "parts": [
+    {
+      "object": "RESCUE_05_Megaphone_Horn",
+      "parent": "RESCUE_05_Megaphone_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0627,
+        -0.0
+      ],
+      "materials": [
+        "WL_hiviz_orange"
+      ],
+      "triangles": 238
+    },
+    {
+      "object": "RESCUE_05_Megaphone_Rim",
+      "parent": "RESCUE_05_Megaphone_Horn",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0627,
+        -0.0
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 180
+    },
+    {
+      "object": "RESCUE_05_Megaphone_Body",
+      "parent": "RESCUE_05_Megaphone_Horn",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0627,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_05_Megaphone_Handle",
+      "parent": "RESCUE_05_Megaphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0627,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_05_Megaphone_Trigger",
+      "parent": "RESCUE_05_Megaphone_Handle",
+      "pivot_file_xyz": [
+        0.0,
+        0.1373,
+        0.03
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_05_Megaphone_Mic_Port",
+      "parent": "RESCUE_05_Megaphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0627,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "RESCUE_05_Megaphone_Strap_Loop",
+      "parent": "RESCUE_05_Megaphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0627,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 80
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "handle_grip": [
+      0.0,
+      0.10727,
+      0.08
+    ],
+    "trigger_finger": [
+      0.0,
+      0.10727,
+      0.03
+    ]
+  },
+  "notes": {
+    "parts": "Horn, Rim, Body, Handle, Trigger, Mic_Port, Strap_Loop",
+    "grip": "handle_grip, trigger_finger"
+  },
+  "open_part_count": 1,
+  "geometry_hash": "5d3f92aaab5c33fc2db4c10e353938cc"
+}

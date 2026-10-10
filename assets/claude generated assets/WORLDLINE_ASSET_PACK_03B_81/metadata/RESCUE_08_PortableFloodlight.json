@@ -1,0 +1,134 @@
+{
+  "id": "RESCUE_08",
+  "name": "Portable Floodlight",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_08_PortableFloodlight.obj",
+  "mtl": "emergency/RESCUE_08_PortableFloodlight.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "tripod floodlight, beam toward +Y",
+  "dimensions": {
+    "x_width_m": 1.253,
+    "y_height_m": 2.0864,
+    "z_depth_m": 0.9553
+  },
+  "bounds_file_min": [
+    -0.7014,
+    0.0,
+    -0.3338
+  ],
+  "bounds_file_max": [
+    0.5515,
+    2.0864,
+    0.6215
+  ],
+  "triangles": 724,
+  "parts": [
+    {
+      "object": "RESCUE_08_PortableFloodlight_Tripod",
+      "parent": "RESCUE_08_PortableFloodlight_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0062,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 156
+    },
+    {
+      "object": "RESCUE_08_PortableFloodlight_Mast",
+      "parent": "RESCUE_08_PortableFloodlight_Tripod",
+      "pivot_file_xyz": [
+        0.0,
+        0.0062,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "RESCUE_08_PortableFloodlight_Lamp_Head",
+      "parent": "RESCUE_08_PortableFloodlight_Mast",
+      "pivot_file_xyz": [
+        0.0,
+        1.8062,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_08_PortableFloodlight_Lens_Grid",
+      "parent": "RESCUE_08_PortableFloodlight_Lamp_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0062,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 352
+    },
+    {
+      "object": "RESCUE_08_PortableFloodlight_Handle",
+      "parent": "RESCUE_08_PortableFloodlight_Lamp_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0062,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_08_PortableFloodlight_Battery_Pack",
+      "parent": "RESCUE_08_PortableFloodlight_Lamp_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0062,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_08_PortableFloodlight_Cable",
+      "parent": "RESCUE_08_PortableFloodlight_Mast",
+      "pivot_file_xyz": [
+        0.0,
+        0.0062,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 56
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "carry_handle": [
+      0.0,
+      2.07624,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Tripod, Mast, Lamp_Head (tilt pivot), Lens_Grid (emissive), Handle, Battery_Pack, Cable",
+    "grip": "carry_handle"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "d0c3b138556310ee5b769abf4127c812"
+}

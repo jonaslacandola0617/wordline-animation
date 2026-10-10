@@ -1,0 +1,139 @@
+{
+  "id": "ACCESSORY_04",
+  "name": "Suitcase",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_04_Suitcase.obj",
+  "mtl": "accessories/ACCESSORY_04_Suitcase.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing on wheels, handle retracted... extended 0.3 m",
+  "dimensions": {
+    "x_width_m": 0.47,
+    "y_height_m": 1.004,
+    "z_depth_m": 0.294
+  },
+  "bounds_file_min": [
+    -0.235,
+    0.0,
+    -0.147
+  ],
+  "bounds_file_max": [
+    0.235,
+    1.004,
+    0.147
+  ],
+  "triangles": 816,
+  "parts": [
+    {
+      "object": "ACCESSORY_04_Suitcase_Shell",
+      "parent": "ACCESSORY_04_Suitcase_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_blue_steel"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_04_Suitcase_Ribs",
+      "parent": "ACCESSORY_04_Suitcase_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_blue_steel"
+      ],
+      "triangles": 352
+    },
+    {
+      "object": "ACCESSORY_04_Suitcase_Seam",
+      "parent": "ACCESSORY_04_Suitcase_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ACCESSORY_04_Suitcase_Latches",
+      "parent": "ACCESSORY_04_Suitcase_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "ACCESSORY_04_Suitcase_Handle_Extended",
+      "parent": "ACCESSORY_04_Suitcase_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 180
+    },
+    {
+      "object": "ACCESSORY_04_Suitcase_Carry_Handle",
+      "parent": "ACCESSORY_04_Suitcase_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_04_Suitcase_Wheels",
+      "parent": "ACCESSORY_04_Suitcase_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 96
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "telescopic_handle_grip": [
+      0.0,
+      0.99,
+      0.12
+    ],
+    "carry_handle": [
+      0.0,
+      0.675,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Shell, Ribs, Handle_Extended, Wheels, Carry_Handle, Latches",
+    "grip": "telescopic_handle_grip, carry_handle"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "6298adfd9b8db8a75bfcb84c3eccdbcf"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "DISASTER_04",
+  "name": "Fractured Rock",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_04_FracturedRock.obj",
+  "mtl": "disaster_objects/DISASTER_04_FracturedRock.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "three matching sections, slightly separated",
+  "dimensions": {
+    "x_width_m": 3.6668,
+    "y_height_m": 2.2881,
+    "z_depth_m": 2.9161
+  },
+  "bounds_file_min": [
+    -1.9537,
+    0.0,
+    -1.4976
+  ],
+  "bounds_file_max": [
+    1.7131,
+    2.2881,
+    1.4185
+  ],
+  "triangles": 644,
+  "parts": [
+    {
+      "object": "DISASTER_04_FracturedRock_Section_A",
+      "parent": "DISASTER_04_FracturedRock_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.1675,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark",
+        "WL_ash"
+      ],
+      "triangles": 228
+    },
+    {
+      "object": "DISASTER_04_FracturedRock_Section_B",
+      "parent": "DISASTER_04_FracturedRock_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.1675,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark",
+        "WL_ash"
+      ],
+      "triangles": 206
+    },
+    {
+      "object": "DISASTER_04_FracturedRock_Section_C",
+      "parent": "DISASTER_04_FracturedRock_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.1675,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark",
+        "WL_ash"
+      ],
+      "triangles": 210
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "sections": "Section_A/B/C are cut from one rock along two planes; break faces match across gaps"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "2c7ac9f59fc9669db2a18f1123bff1be"
+}

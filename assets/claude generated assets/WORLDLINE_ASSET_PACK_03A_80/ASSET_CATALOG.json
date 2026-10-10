@@ -1,0 +1,1380 @@
+{
+ "pack": "WORLDLINE LAB Asset Pack 03A",
+ "total_models": 80,
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward_vehicles": "-Z (land/small vehicles, boats, aircraft, rail)",
+ "scenery_note": "terrain, plants and rural landmarks are static scenery with no nominal heading",
+ "categories": {
+  "land_vehicles": 12,
+  "small_vehicles": 6,
+  "boats": 10,
+  "aircraft": 7,
+  "rail": 8,
+  "terrain": 16,
+  "plants": 12,
+  "rural_landmarks": 9
+ },
+ "assets": [
+  {
+   "id": "LAND_01",
+   "title": "City Bus",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_01.obj",
+   "mtl": "land_vehicles/LAND_01.mtl",
+   "metadata": "metadata/LAND_01.json",
+   "preview": "previews/LAND_01.png",
+   "triangles": 2996,
+   "size_m": [
+    3.44,
+    3.67,
+    11.8
+   ],
+   "groups": 19,
+   "materials": 13
+  },
+  {
+   "id": "LAND_02",
+   "title": "School Bus",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_02.obj",
+   "mtl": "land_vehicles/LAND_02.mtl",
+   "metadata": "metadata/LAND_02.json",
+   "preview": "previews/LAND_02.png",
+   "triangles": 4104,
+   "size_m": [
+    3.13,
+    3.12,
+    9.7
+   ],
+   "groups": 20,
+   "materials": 11
+  },
+  {
+   "id": "LAND_03",
+   "title": "Ambulance",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_03.obj",
+   "mtl": "land_vehicles/LAND_03.mtl",
+   "metadata": "metadata/LAND_03.json",
+   "preview": "previews/LAND_03.png",
+   "triangles": 3004,
+   "size_m": [
+    3.24,
+    3.27,
+    6.55
+   ],
+   "groups": 21,
+   "materials": 17
+  },
+  {
+   "id": "LAND_04",
+   "title": "Fire Truck",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_04.obj",
+   "mtl": "land_vehicles/LAND_04.mtl",
+   "metadata": "metadata/LAND_04.json",
+   "preview": "previews/LAND_04.png",
+   "triangles": 5068,
+   "size_m": [
+    3.8,
+    3.555,
+    9.18
+   ],
+   "groups": 25,
+   "materials": 15
+  },
+  {
+   "id": "LAND_05",
+   "title": "Police Van",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_05.obj",
+   "mtl": "land_vehicles/LAND_05.mtl",
+   "metadata": "metadata/LAND_05.json",
+   "preview": "previews/LAND_05.png",
+   "triangles": 3152,
+   "size_m": [
+    3.08,
+    2.77,
+    6.185
+   ],
+   "groups": 24,
+   "materials": 13
+  },
+  {
+   "id": "LAND_06",
+   "title": "Delivery Van",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_06.obj",
+   "mtl": "land_vehicles/LAND_06.mtl",
+   "metadata": "metadata/LAND_06.json",
+   "preview": "previews/LAND_06.png",
+   "triangles": 2800,
+   "size_m": [
+    3.04,
+    3.23,
+    6.3
+   ],
+   "groups": 19,
+   "materials": 13
+  },
+  {
+   "id": "LAND_07",
+   "title": "Semi-Truck (tractor + trailer)",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_07.obj",
+   "mtl": "land_vehicles/LAND_07.mtl",
+   "metadata": "metadata/LAND_07.json",
+   "preview": "previews/LAND_07.png",
+   "triangles": 10368,
+   "size_m": [
+    3.44,
+    4.272,
+    19.3
+   ],
+   "groups": 30,
+   "materials": 16
+  },
+  {
+   "id": "LAND_08",
+   "title": "Dump Truck",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_08.obj",
+   "mtl": "land_vehicles/LAND_08.mtl",
+   "metadata": "metadata/LAND_08.json",
+   "preview": "previews/LAND_08.png",
+   "triangles": 5820,
+   "size_m": [
+    3.54,
+    3.75,
+    10.32
+   ],
+   "groups": 23,
+   "materials": 12
+  },
+  {
+   "id": "LAND_09",
+   "title": "Cement Mixer",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_09.obj",
+   "mtl": "land_vehicles/LAND_09.mtl",
+   "metadata": "metadata/LAND_09.json",
+   "preview": "previews/LAND_09.png",
+   "triangles": 6212,
+   "size_m": [
+    3.44,
+    4.496,
+    11.75
+   ],
+   "groups": 20,
+   "materials": 12
+  },
+  {
+   "id": "LAND_10",
+   "title": "Bulldozer",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_10.obj",
+   "mtl": "land_vehicles/LAND_10.mtl",
+   "metadata": "metadata/LAND_10.json",
+   "preview": "previews/LAND_10.png",
+   "triangles": 2160,
+   "size_m": [
+    3.9,
+    3.535,
+    5.92
+   ],
+   "groups": 15,
+   "materials": 7
+  },
+  {
+   "id": "LAND_11",
+   "title": "Excavator",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_11.obj",
+   "mtl": "land_vehicles/LAND_11.mtl",
+   "metadata": "metadata/LAND_11.json",
+   "preview": "previews/LAND_11.png",
+   "triangles": 2392,
+   "size_m": [
+    3.91,
+    5.075,
+    10.5
+   ],
+   "groups": 17,
+   "materials": 6
+  },
+  {
+   "id": "LAND_12",
+   "title": "Tow Truck",
+   "folder": "land_vehicles",
+   "obj": "land_vehicles/LAND_12.obj",
+   "mtl": "land_vehicles/LAND_12.mtl",
+   "metadata": "metadata/LAND_12.json",
+   "preview": "previews/LAND_12.png",
+   "triangles": 3972,
+   "size_m": [
+    4.0,
+    4.122,
+    10.88
+   ],
+   "groups": 25,
+   "materials": 14
+  },
+  {
+   "id": "SMALL_01",
+   "title": "Motorcycle",
+   "folder": "small_vehicles",
+   "obj": "small_vehicles/SMALL_01.obj",
+   "mtl": "small_vehicles/SMALL_01.mtl",
+   "metadata": "metadata/SMALL_01.json",
+   "preview": "previews/SMALL_01.png",
+   "triangles": 2444,
+   "size_m": [
+    0.829,
+    1.329,
+    2.25
+   ],
+   "groups": 18,
+   "materials": 11
+  },
+  {
+   "id": "SMALL_02",
+   "title": "Scooter",
+   "folder": "small_vehicles",
+   "obj": "small_vehicles/SMALL_02.obj",
+   "mtl": "small_vehicles/SMALL_02.mtl",
+   "metadata": "metadata/SMALL_02.json",
+   "preview": "previews/SMALL_02.png",
+   "triangles": 1892,
+   "size_m": [
+    0.832,
+    1.469,
+    1.96
+   ],
+   "groups": 17,
+   "materials": 10
+  },
+  {
+   "id": "SMALL_03",
+   "title": "Bicycle",
+   "folder": "small_vehicles",
+   "obj": "small_vehicles/SMALL_03.obj",
+   "mtl": "small_vehicles/SMALL_03.mtl",
+   "metadata": "metadata/SMALL_03.json",
+   "preview": "previews/SMALL_03.png",
+   "triangles": 2192,
+   "size_m": [
+    0.705,
+    1.145,
+    1.55
+   ],
+   "groups": 15,
+   "materials": 6
+  },
+  {
+   "id": "SMALL_04",
+   "title": "Electric Bicycle",
+   "folder": "small_vehicles",
+   "obj": "small_vehicles/SMALL_04.obj",
+   "mtl": "small_vehicles/SMALL_04.mtl",
+   "metadata": "metadata/SMALL_04.json",
+   "preview": "previews/SMALL_04.png",
+   "triangles": 2508,
+   "size_m": [
+    0.705,
+    1.153,
+    1.55
+   ],
+   "groups": 24,
+   "materials": 10
+  },
+  {
+   "id": "SMALL_05",
+   "title": "Delivery Motorcycle",
+   "folder": "small_vehicles",
+   "obj": "small_vehicles/SMALL_05.obj",
+   "mtl": "small_vehicles/SMALL_05.mtl",
+   "metadata": "metadata/SMALL_05.json",
+   "preview": "previews/SMALL_05.png",
+   "triangles": 2708,
+   "size_m": [
+    0.829,
+    1.609,
+    2.43
+   ],
+   "groups": 21,
+   "materials": 14
+  },
+  {
+   "id": "SMALL_06",
+   "title": "Quad Bike",
+   "folder": "small_vehicles",
+   "obj": "small_vehicles/SMALL_06.obj",
+   "mtl": "small_vehicles/SMALL_06.mtl",
+   "metadata": "metadata/SMALL_06.json",
+   "preview": "previews/SMALL_06.png",
+   "triangles": 2356,
+   "size_m": [
+    1.46,
+    1.123,
+    2.032
+   ],
+   "groups": 21,
+   "materials": 9
+  },
+  {
+   "id": "BOAT_01",
+   "title": "Fishing Boat",
+   "folder": "boats",
+   "obj": "boats/BOAT_01.obj",
+   "mtl": "boats/BOAT_01.mtl",
+   "metadata": "metadata/BOAT_01.json",
+   "preview": "previews/BOAT_01.png",
+   "triangles": 2660,
+   "size_m": [
+    4.0,
+    6.928,
+    14.23
+   ],
+   "groups": 14,
+   "materials": 12
+  },
+  {
+   "id": "BOAT_02",
+   "title": "Speedboat",
+   "folder": "boats",
+   "obj": "boats/BOAT_02.obj",
+   "mtl": "boats/BOAT_02.mtl",
+   "metadata": "metadata/BOAT_02.json",
+   "preview": "previews/BOAT_02.png",
+   "triangles": 640,
+   "size_m": [
+    2.2,
+    2.55,
+    7.75
+   ],
+   "groups": 15,
+   "materials": 10
+  },
+  {
+   "id": "BOAT_03",
+   "title": "Yacht",
+   "folder": "boats",
+   "obj": "boats/BOAT_03.obj",
+   "mtl": "boats/BOAT_03.mtl",
+   "metadata": "metadata/BOAT_03.json",
+   "preview": "previews/BOAT_03.png",
+   "triangles": 2496,
+   "size_m": [
+    6.4,
+    11.828,
+    23.5
+   ],
+   "groups": 15,
+   "materials": 9
+  },
+  {
+   "id": "BOAT_04",
+   "title": "Passenger Ferry",
+   "folder": "boats",
+   "obj": "boats/BOAT_04.obj",
+   "mtl": "boats/BOAT_04.mtl",
+   "metadata": "metadata/BOAT_04.json",
+   "preview": "previews/BOAT_04.png",
+   "triangles": 3536,
+   "size_m": [
+    9.0,
+    10.884,
+    29.85
+   ],
+   "groups": 14,
+   "materials": 10
+  },
+  {
+   "id": "BOAT_05",
+   "title": "Cargo Ship",
+   "folder": "boats",
+   "obj": "boats/BOAT_05.obj",
+   "mtl": "boats/BOAT_05.mtl",
+   "metadata": "metadata/BOAT_05.json",
+   "preview": "previews/BOAT_05.png",
+   "triangles": 3904,
+   "size_m": [
+    17.0,
+    25.356,
+    89.55
+   ],
+   "groups": 15,
+   "materials": 10
+  },
+  {
+   "id": "BOAT_06",
+   "title": "Container Ship",
+   "folder": "boats",
+   "obj": "boats/BOAT_06.obj",
+   "mtl": "boats/BOAT_06.mtl",
+   "metadata": "metadata/BOAT_06.json",
+   "preview": "previews/BOAT_06.png",
+   "triangles": 5680,
+   "size_m": [
+    26.0,
+    36.47,
+    109.45
+   ],
+   "groups": 17,
+   "materials": 13
+  },
+  {
+   "id": "BOAT_07",
+   "title": "Tugboat",
+   "folder": "boats",
+   "obj": "boats/BOAT_07.obj",
+   "mtl": "boats/BOAT_07.mtl",
+   "metadata": "metadata/BOAT_07.json",
+   "preview": "previews/BOAT_07.png",
+   "triangles": 3820,
+   "size_m": [
+    5.94,
+    8.27,
+    12.55
+   ],
+   "groups": 15,
+   "materials": 10
+  },
+  {
+   "id": "BOAT_08",
+   "title": "Sailboat",
+   "folder": "boats",
+   "obj": "boats/BOAT_08.obj",
+   "mtl": "boats/BOAT_08.mtl",
+   "metadata": "metadata/BOAT_08.json",
+   "preview": "previews/BOAT_08.png",
+   "triangles": 1052,
+   "size_m": [
+    3.1,
+    14.97,
+    13.1
+   ],
+   "groups": 16,
+   "materials": 10
+  },
+  {
+   "id": "BOAT_09",
+   "title": "Coast Guard Boat",
+   "folder": "boats",
+   "obj": "boats/BOAT_09.obj",
+   "mtl": "boats/BOAT_09.mtl",
+   "metadata": "metadata/BOAT_09.json",
+   "preview": "previews/BOAT_09.png",
+   "triangles": 2440,
+   "size_m": [
+    5.28,
+    8.7,
+    16.52
+   ],
+   "groups": 15,
+   "materials": 9
+  },
+  {
+   "id": "BOAT_10",
+   "title": "Oil Tanker",
+   "folder": "boats",
+   "obj": "boats/BOAT_10.obj",
+   "mtl": "boats/BOAT_10.mtl",
+   "metadata": "metadata/BOAT_10.json",
+   "preview": "previews/BOAT_10.png",
+   "triangles": 4656,
+   "size_m": [
+    19.0,
+    26.456,
+    124.375
+   ],
+   "groups": 16,
+   "materials": 11
+  },
+  {
+   "id": "AIR_01",
+   "title": "Passenger Airliner",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_01.obj",
+   "mtl": "aircraft/AIR_01.mtl",
+   "metadata": "metadata/AIR_01.json",
+   "preview": "previews/AIR_01.png",
+   "triangles": 4884,
+   "size_m": [
+    36.5,
+    11.9,
+    39.4
+   ],
+   "groups": 15,
+   "materials": 9
+  },
+  {
+   "id": "AIR_02",
+   "title": "Cargo Aircraft",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_02.obj",
+   "mtl": "aircraft/AIR_02.mtl",
+   "metadata": "metadata/AIR_02.json",
+   "preview": "previews/AIR_02.png",
+   "triangles": 11616,
+   "size_m": [
+    60.0,
+    19.4,
+    48.6
+   ],
+   "groups": 20,
+   "materials": 10
+  },
+  {
+   "id": "AIR_03",
+   "title": "Civilian Helicopter",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_03.obj",
+   "mtl": "aircraft/AIR_03.mtl",
+   "metadata": "metadata/AIR_03.json",
+   "preview": "previews/AIR_03.png",
+   "triangles": 1056,
+   "size_m": [
+    10.6,
+    3.494,
+    12.0
+   ],
+   "groups": 14,
+   "materials": 5
+  },
+  {
+   "id": "AIR_04",
+   "title": "Rescue Helicopter",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_04.obj",
+   "mtl": "aircraft/AIR_04.mtl",
+   "metadata": "metadata/AIR_04.json",
+   "preview": "previews/AIR_04.png",
+   "triangles": 1280,
+   "size_m": [
+    11.286,
+    4.5,
+    14.433
+   ],
+   "groups": 23,
+   "materials": 10
+  },
+  {
+   "id": "AIR_05",
+   "title": "Fighter Jet",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_05.obj",
+   "mtl": "aircraft/AIR_05.mtl",
+   "metadata": "metadata/AIR_05.json",
+   "preview": "previews/AIR_05.png",
+   "triangles": 2584,
+   "size_m": [
+    12.2,
+    4.9,
+    19.408
+   ],
+   "groups": 19,
+   "materials": 10
+  },
+  {
+   "id": "AIR_06",
+   "title": "Private Jet",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_06.obj",
+   "mtl": "aircraft/AIR_06.mtl",
+   "metadata": "metadata/AIR_06.json",
+   "preview": "previews/AIR_06.png",
+   "triangles": 3560,
+   "size_m": [
+    18.2,
+    6.0,
+    20.8
+   ],
+   "groups": 17,
+   "materials": 9
+  },
+  {
+   "id": "AIR_07",
+   "title": "Drone",
+   "folder": "aircraft",
+   "obj": "aircraft/AIR_07.obj",
+   "mtl": "aircraft/AIR_07.mtl",
+   "metadata": "metadata/AIR_07.json",
+   "preview": "previews/AIR_07.png",
+   "triangles": 1280,
+   "size_m": [
+    1.899,
+    0.842,
+    1.899
+   ],
+   "groups": 25,
+   "materials": 8
+  },
+  {
+   "id": "RAIL_01",
+   "title": "Subway Train",
+   "folder": "rail",
+   "obj": "rail/RAIL_01.obj",
+   "mtl": "rail/RAIL_01.mtl",
+   "metadata": "metadata/RAIL_01.json",
+   "preview": "previews/RAIL_01.png",
+   "triangles": 1884,
+   "size_m": [
+    3.0,
+    4.035,
+    18.05
+   ],
+   "groups": 13,
+   "materials": 9
+  },
+  {
+   "id": "RAIL_02",
+   "title": "Elevated Monorail",
+   "folder": "rail",
+   "obj": "rail/RAIL_02.obj",
+   "mtl": "rail/RAIL_02.mtl",
+   "metadata": "metadata/RAIL_02.json",
+   "preview": "previews/RAIL_02.png",
+   "triangles": 1096,
+   "size_m": [
+    3.2,
+    9.2,
+    26.0
+   ],
+   "groups": 13,
+   "materials": 12
+  },
+  {
+   "id": "RAIL_03",
+   "title": "Street Tram",
+   "folder": "rail",
+   "obj": "rail/RAIL_03.obj",
+   "mtl": "rail/RAIL_03.mtl",
+   "metadata": "metadata/RAIL_03.json",
+   "preview": "previews/RAIL_03.png",
+   "triangles": 2312,
+   "size_m": [
+    2.7,
+    4.975,
+    18.08
+   ],
+   "groups": 14,
+   "materials": 11
+  },
+  {
+   "id": "RAIL_04",
+   "title": "Passenger Train",
+   "folder": "rail",
+   "obj": "rail/RAIL_04.obj",
+   "mtl": "rail/RAIL_04.mtl",
+   "metadata": "metadata/RAIL_04.json",
+   "preview": "previews/RAIL_04.png",
+   "triangles": 3788,
+   "size_m": [
+    3.0,
+    5.685,
+    46.55
+   ],
+   "groups": 15,
+   "materials": 10
+  },
+  {
+   "id": "RAIL_05",
+   "title": "Freight Train",
+   "folder": "rail",
+   "obj": "rail/RAIL_05.obj",
+   "mtl": "rail/RAIL_05.mtl",
+   "metadata": "metadata/RAIL_05.json",
+   "preview": "previews/RAIL_05.png",
+   "triangles": 6644,
+   "size_m": [
+    3.1,
+    4.755,
+    53.2
+   ],
+   "groups": 29,
+   "materials": 8
+  },
+  {
+   "id": "RAIL_06",
+   "title": "Rail Track Module",
+   "folder": "rail",
+   "obj": "rail/RAIL_06.obj",
+   "mtl": "rail/RAIL_06.mtl",
+   "metadata": "metadata/RAIL_06.json",
+   "preview": "previews/RAIL_06.png",
+   "triangles": 2504,
+   "size_m": [
+    4.484,
+    0.75,
+    10.136
+   ],
+   "groups": 8,
+   "materials": 7
+  },
+  {
+   "id": "RAIL_07",
+   "title": "Railway Crossing Barrier",
+   "folder": "rail",
+   "obj": "rail/RAIL_07.obj",
+   "mtl": "rail/RAIL_07.mtl",
+   "metadata": "metadata/RAIL_07.json",
+   "preview": "previews/RAIL_07.png",
+   "triangles": 1220,
+   "size_m": [
+    10.0,
+    4.273,
+    7.0
+   ],
+   "groups": 9,
+   "materials": 8
+  },
+  {
+   "id": "RAIL_08",
+   "title": "Elevated Rail Support",
+   "folder": "rail",
+   "obj": "rail/RAIL_08.obj",
+   "mtl": "rail/RAIL_08.mtl",
+   "metadata": "metadata/RAIL_08.json",
+   "preview": "previews/RAIL_08.png",
+   "triangles": 796,
+   "size_m": [
+    7.8,
+    15.54,
+    14.0
+   ],
+   "groups": 12,
+   "materials": 8
+  },
+  {
+   "id": "TERRAIN_01",
+   "title": "Small Rock",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_01.obj",
+   "mtl": "terrain/TERRAIN_01.mtl",
+   "metadata": "metadata/TERRAIN_01.json",
+   "preview": "previews/TERRAIN_01.png",
+   "triangles": 320,
+   "size_m": [
+    1.953,
+    0.876,
+    1.524
+   ],
+   "groups": 1,
+   "materials": 3
+  },
+  {
+   "id": "TERRAIN_02",
+   "title": "Large Boulder",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_02.obj",
+   "mtl": "terrain/TERRAIN_02.mtl",
+   "metadata": "metadata/TERRAIN_02.json",
+   "preview": "previews/TERRAIN_02.png",
+   "triangles": 1280,
+   "size_m": [
+    6.37,
+    2.876,
+    5.758
+   ],
+   "groups": 1,
+   "materials": 3
+  },
+  {
+   "id": "TERRAIN_03",
+   "title": "Rock Cluster",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_03.obj",
+   "mtl": "terrain/TERRAIN_03.mtl",
+   "metadata": "metadata/TERRAIN_03.json",
+   "preview": "previews/TERRAIN_03.png",
+   "triangles": 1520,
+   "size_m": [
+    6.612,
+    2.001,
+    5.973
+   ],
+   "groups": 7,
+   "materials": 3
+  },
+  {
+   "id": "TERRAIN_04",
+   "title": "Cliff Face",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_04.obj",
+   "mtl": "terrain/TERRAIN_04.mtl",
+   "metadata": "metadata/TERRAIN_04.json",
+   "preview": "previews/TERRAIN_04.png",
+   "triangles": 3392,
+   "size_m": [
+    62.0,
+    27.757,
+    34.0
+   ],
+   "groups": 1,
+   "materials": 7
+  },
+  {
+   "id": "TERRAIN_05",
+   "title": "Mountain Peak",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_05.obj",
+   "mtl": "terrain/TERRAIN_05.mtl",
+   "metadata": "metadata/TERRAIN_05.json",
+   "preview": "previews/TERRAIN_05.png",
+   "triangles": 4784,
+   "size_m": [
+    110.0,
+    41.575,
+    110.0
+   ],
+   "groups": 1,
+   "materials": 6
+  },
+  {
+   "id": "TERRAIN_06",
+   "title": "Volcanic Cone",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_06.obj",
+   "mtl": "terrain/TERRAIN_06.mtl",
+   "metadata": "metadata/TERRAIN_06.json",
+   "preview": "previews/TERRAIN_06.png",
+   "triangles": 4400,
+   "size_m": [
+    108.0,
+    25.524,
+    108.0
+   ],
+   "groups": 1,
+   "materials": 5
+  },
+  {
+   "id": "TERRAIN_07",
+   "title": "Crater",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_07.obj",
+   "mtl": "terrain/TERRAIN_07.mtl",
+   "metadata": "metadata/TERRAIN_07.json",
+   "preview": "previews/TERRAIN_07.png",
+   "triangles": 4400,
+   "size_m": [
+    76.0,
+    10.745,
+    76.0
+   ],
+   "groups": 1,
+   "materials": 5
+  },
+  {
+   "id": "TERRAIN_08",
+   "title": "Canyon Segment",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_08.obj",
+   "mtl": "terrain/TERRAIN_08.mtl",
+   "metadata": "metadata/TERRAIN_08.json",
+   "preview": "previews/TERRAIN_08.png",
+   "triangles": 4328,
+   "size_m": [
+    62.0,
+    26.304,
+    84.0
+   ],
+   "groups": 1,
+   "materials": 7
+  },
+  {
+   "id": "TERRAIN_09",
+   "title": "Hillside",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_09.obj",
+   "mtl": "terrain/TERRAIN_09.mtl",
+   "metadata": "metadata/TERRAIN_09.json",
+   "preview": "previews/TERRAIN_09.png",
+   "triangles": 3680,
+   "size_m": [
+    80.0,
+    11.514,
+    80.0
+   ],
+   "groups": 1,
+   "materials": 4
+  },
+  {
+   "id": "TERRAIN_10",
+   "title": "Sand Dune",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_10.obj",
+   "mtl": "terrain/TERRAIN_10.mtl",
+   "metadata": "metadata/TERRAIN_10.json",
+   "preview": "previews/TERRAIN_10.png",
+   "triangles": 3336,
+   "size_m": [
+    72.0,
+    11.897,
+    56.0
+   ],
+   "groups": 1,
+   "materials": 2
+  },
+  {
+   "id": "TERRAIN_11",
+   "title": "Sandy Beach",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_11.obj",
+   "mtl": "terrain/TERRAIN_11.mtl",
+   "metadata": "metadata/TERRAIN_11.json",
+   "preview": "previews/TERRAIN_11.png",
+   "triangles": 2712,
+   "size_m": [
+    70.0,
+    6.434,
+    62.0
+   ],
+   "groups": 1,
+   "materials": 5
+  },
+  {
+   "id": "TERRAIN_12",
+   "title": "Rocky Coastline",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_12.obj",
+   "mtl": "terrain/TERRAIN_12.mtl",
+   "metadata": "metadata/TERRAIN_12.json",
+   "preview": "previews/TERRAIN_12.png",
+   "triangles": 2820,
+   "size_m": [
+    72.0,
+    19.212,
+    54.0
+   ],
+   "groups": 1,
+   "materials": 5
+  },
+  {
+   "id": "TERRAIN_13",
+   "title": "Riverbank",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_13.obj",
+   "mtl": "terrain/TERRAIN_13.mtl",
+   "metadata": "metadata/TERRAIN_13.json",
+   "preview": "previews/TERRAIN_13.png",
+   "triangles": 2400,
+   "size_m": [
+    56.0,
+    5.66,
+    44.0
+   ],
+   "groups": 1,
+   "materials": 5
+  },
+  {
+   "id": "TERRAIN_14",
+   "title": "Cave Entrance",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_14.obj",
+   "mtl": "terrain/TERRAIN_14.mtl",
+   "metadata": "metadata/TERRAIN_14.json",
+   "preview": "previews/TERRAIN_14.png",
+   "triangles": 1928,
+   "size_m": [
+    22.765,
+    11.542,
+    23.162
+   ],
+   "groups": 5,
+   "materials": 5
+  },
+  {
+   "id": "TERRAIN_15",
+   "title": "Cracked Ground",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_15.obj",
+   "mtl": "terrain/TERRAIN_15.mtl",
+   "metadata": "metadata/TERRAIN_15.json",
+   "preview": "previews/TERRAIN_15.png",
+   "triangles": 876,
+   "size_m": [
+    45.0,
+    2.001,
+    40.0
+   ],
+   "groups": 2,
+   "materials": 3
+  },
+  {
+   "id": "TERRAIN_16",
+   "title": "Raised Terrain Plateau",
+   "folder": "terrain",
+   "obj": "terrain/TERRAIN_16.obj",
+   "mtl": "terrain/TERRAIN_16.mtl",
+   "metadata": "metadata/TERRAIN_16.json",
+   "preview": "previews/TERRAIN_16.png",
+   "triangles": 4776,
+   "size_m": [
+    96.0,
+    16.6,
+    88.0
+   ],
+   "groups": 1,
+   "materials": 6
+  },
+  {
+   "id": "PLANT_01",
+   "title": "Grass Tuft",
+   "folder": "plants",
+   "obj": "plants/PLANT_01.obj",
+   "mtl": "plants/PLANT_01.mtl",
+   "metadata": "metadata/PLANT_01.json",
+   "preview": "previews/PLANT_01.png",
+   "triangles": 756,
+   "size_m": [
+    0.631,
+    0.525,
+    0.633
+   ],
+   "groups": 2,
+   "materials": 4
+  },
+  {
+   "id": "PLANT_02",
+   "title": "Tall Grass",
+   "folder": "plants",
+   "obj": "plants/PLANT_02.obj",
+   "mtl": "plants/PLANT_02.mtl",
+   "metadata": "metadata/PLANT_02.json",
+   "preview": "previews/PLANT_02.png",
+   "triangles": 1296,
+   "size_m": [
+    1.647,
+    1.854,
+    1.607
+   ],
+   "groups": 4,
+   "materials": 5
+  },
+  {
+   "id": "PLANT_03",
+   "title": "Flowering Bush",
+   "folder": "plants",
+   "obj": "plants/PLANT_03.obj",
+   "mtl": "plants/PLANT_03.mtl",
+   "metadata": "metadata/PLANT_03.json",
+   "preview": "previews/PLANT_03.png",
+   "triangles": 3472,
+   "size_m": [
+    1.866,
+    1.657,
+    1.974
+   ],
+   "groups": 5,
+   "materials": 8
+  },
+  {
+   "id": "PLANT_04",
+   "title": "Hedge",
+   "folder": "plants",
+   "obj": "plants/PLANT_04.obj",
+   "mtl": "plants/PLANT_04.mtl",
+   "metadata": "metadata/PLANT_04.json",
+   "preview": "previews/PLANT_04.png",
+   "triangles": 1488,
+   "size_m": [
+    1.282,
+    1.467,
+    4.323
+   ],
+   "groups": 4,
+   "materials": 4
+  },
+  {
+   "id": "PLANT_05",
+   "title": "Fern",
+   "folder": "plants",
+   "obj": "plants/PLANT_05.obj",
+   "mtl": "plants/PLANT_05.mtl",
+   "metadata": "metadata/PLANT_05.json",
+   "preview": "previews/PLANT_05.png",
+   "triangles": 3988,
+   "size_m": [
+    3.045,
+    0.835,
+    2.656
+   ],
+   "groups": 2,
+   "materials": 4
+  },
+  {
+   "id": "PLANT_06",
+   "title": "Cactus",
+   "folder": "plants",
+   "obj": "plants/PLANT_06.obj",
+   "mtl": "plants/PLANT_06.mtl",
+   "metadata": "metadata/PLANT_06.json",
+   "preview": "previews/PLANT_06.png",
+   "triangles": 1096,
+   "size_m": [
+    2.226,
+    3.168,
+    1.083
+   ],
+   "groups": 6,
+   "materials": 5
+  },
+  {
+   "id": "PLANT_07",
+   "title": "Bamboo Cluster",
+   "folder": "plants",
+   "obj": "plants/PLANT_07.obj",
+   "mtl": "plants/PLANT_07.mtl",
+   "metadata": "metadata/PLANT_07.json",
+   "preview": "previews/PLANT_07.png",
+   "triangles": 5620,
+   "size_m": [
+    5.234,
+    7.874,
+    5.192
+   ],
+   "groups": 13,
+   "materials": 4
+  },
+  {
+   "id": "PLANT_08",
+   "title": "Tropical Broadleaf Plant",
+   "folder": "plants",
+   "obj": "plants/PLANT_08.obj",
+   "mtl": "plants/PLANT_08.mtl",
+   "metadata": "metadata/PLANT_08.json",
+   "preview": "previews/PLANT_08.png",
+   "triangles": 1728,
+   "size_m": [
+    4.107,
+    2.221,
+    4.496
+   ],
+   "groups": 33,
+   "materials": 4
+  },
+  {
+   "id": "PLANT_09",
+   "title": "Planter Flowers",
+   "folder": "plants",
+   "obj": "plants/PLANT_09.obj",
+   "mtl": "plants/PLANT_09.mtl",
+   "metadata": "metadata/PLANT_09.json",
+   "preview": "previews/PLANT_09.png",
+   "triangles": 2064,
+   "size_m": [
+    1.141,
+    1.358,
+    1.154
+   ],
+   "groups": 7,
+   "materials": 9
+  },
+  {
+   "id": "PLANT_10",
+   "title": "Mangrove Roots",
+   "folder": "plants",
+   "obj": "plants/PLANT_10.obj",
+   "mtl": "plants/PLANT_10.mtl",
+   "metadata": "metadata/PLANT_10.json",
+   "preview": "previews/PLANT_10.png",
+   "triangles": 2024,
+   "size_m": [
+    6.6,
+    5.869,
+    6.435
+   ],
+   "groups": 6,
+   "materials": 4
+  },
+  {
+   "id": "PLANT_11",
+   "title": "Vine Cluster",
+   "folder": "plants",
+   "obj": "plants/PLANT_11.obj",
+   "mtl": "plants/PLANT_11.mtl",
+   "metadata": "metadata/PLANT_11.json",
+   "preview": "previews/PLANT_11.png",
+   "triangles": 1756,
+   "size_m": [
+    3.445,
+    1.761,
+    3.719
+   ],
+   "groups": 15,
+   "materials": 5
+  },
+  {
+   "id": "PLANT_12",
+   "title": "Dry Scrub",
+   "folder": "plants",
+   "obj": "plants/PLANT_12.obj",
+   "mtl": "plants/PLANT_12.mtl",
+   "metadata": "metadata/PLANT_12.json",
+   "preview": "previews/PLANT_12.png",
+   "triangles": 2886,
+   "size_m": [
+    1.552,
+    1.421,
+    1.576
+   ],
+   "groups": 4,
+   "materials": 5
+  },
+  {
+   "id": "RURAL_01",
+   "title": "Windmill (windpump)",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_01.obj",
+   "mtl": "rural_landmarks/RURAL_01.mtl",
+   "metadata": "metadata/RURAL_01.json",
+   "preview": "previews/RURAL_01.png",
+   "triangles": 2304,
+   "size_m": [
+    5.3,
+    15.192,
+    6.1
+   ],
+   "groups": 17,
+   "materials": 8
+  },
+  {
+   "id": "RURAL_02",
+   "title": "Water Tower",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_02.obj",
+   "mtl": "rural_landmarks/RURAL_02.mtl",
+   "metadata": "metadata/RURAL_02.json",
+   "preview": "previews/RURAL_02.png",
+   "triangles": 3728,
+   "size_m": [
+    10.65,
+    24.94,
+    10.65
+   ],
+   "groups": 13,
+   "materials": 6
+  },
+  {
+   "id": "RURAL_03",
+   "title": "Radio Tower",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_03.obj",
+   "mtl": "rural_landmarks/RURAL_03.mtl",
+   "metadata": "metadata/RURAL_03.json",
+   "preview": "previews/RURAL_03.png",
+   "triangles": 3786,
+   "size_m": [
+    11.8,
+    59.084,
+    5.73
+   ],
+   "groups": 13,
+   "materials": 9
+  },
+  {
+   "id": "RURAL_04",
+   "title": "Grain Silo",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_04.obj",
+   "mtl": "rural_landmarks/RURAL_04.mtl",
+   "metadata": "metadata/RURAL_04.json",
+   "preview": "previews/RURAL_04.png",
+   "triangles": 3204,
+   "size_m": [
+    9.7,
+    17.9,
+    9.4
+   ],
+   "groups": 14,
+   "materials": 6
+  },
+  {
+   "id": "RURAL_05",
+   "title": "Barn",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_05.obj",
+   "mtl": "rural_landmarks/RURAL_05.mtl",
+   "metadata": "metadata/RURAL_05.json",
+   "preview": "previews/RURAL_05.png",
+   "triangles": 798,
+   "size_m": [
+    15.1,
+    12.912,
+    18.6
+   ],
+   "groups": 20,
+   "materials": 7
+  },
+  {
+   "id": "RURAL_06",
+   "title": "Greenhouse",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_06.obj",
+   "mtl": "rural_landmarks/RURAL_06.mtl",
+   "metadata": "metadata/RURAL_06.json",
+   "preview": "previews/RURAL_06.png",
+   "triangles": 2300,
+   "size_m": [
+    8.3,
+    4.7,
+    14.35
+   ],
+   "groups": 16,
+   "materials": 10
+  },
+  {
+   "id": "RURAL_07",
+   "title": "Oil Storage Tank",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_07.obj",
+   "mtl": "rural_landmarks/RURAL_07.mtl",
+   "metadata": "metadata/RURAL_07.json",
+   "preview": "previews/RURAL_07.png",
+   "triangles": 6160,
+   "size_m": [
+    36.28,
+    13.98,
+    36.0
+   ],
+   "groups": 18,
+   "materials": 8
+  },
+  {
+   "id": "RURAL_08",
+   "title": "Industrial Chimney",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_08.obj",
+   "mtl": "rural_landmarks/RURAL_08.mtl",
+   "metadata": "metadata/RURAL_08.json",
+   "preview": "previews/RURAL_08.png",
+   "triangles": 8128,
+   "size_m": [
+    9.575,
+    59.512,
+    7.83
+   ],
+   "groups": 14,
+   "materials": 8
+  },
+  {
+   "id": "RURAL_09",
+   "title": "Solar Panel Array",
+   "folder": "rural_landmarks",
+   "obj": "rural_landmarks/RURAL_09.obj",
+   "mtl": "rural_landmarks/RURAL_09.mtl",
+   "metadata": "metadata/RURAL_09.json",
+   "preview": "previews/RURAL_09.png",
+   "triangles": 2946,
+   "size_m": [
+    13.48,
+    1.619,
+    11.595
+   ],
+   "groups": 18,
+   "materials": 8
+  }
+ ]
+}

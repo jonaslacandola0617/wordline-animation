@@ -1,0 +1,53 @@
+{
+  "id": "CELESTIAL_01",
+  "name": "Detailed Moon",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_01_DetailedMoon.obj",
+  "mtl": "celestial/CELESTIAL_01_DetailedMoon.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "near side toward +Y (-Z in file), north pole +Y(file)",
+  "dimensions": {
+    "x_width_m": 2.0005,
+    "y_height_m": 2.0091,
+    "z_depth_m": 2.0033
+  },
+  "bounds_file_min": [
+    -0.9991,
+    -1.0005,
+    -1.0016
+  ],
+  "bounds_file_max": [
+    1.0014,
+    1.0085,
+    1.0017
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_01_DetailedMoon_Moon",
+      "parent": "CELESTIAL_01_DetailedMoon_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_moon_hi",
+        "WL_moon_mare",
+        "WL_moon_rim",
+        "WL_moon_floor"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 1737.4 km (mean radius)",
+    "geometry": "~110 modelled craters with raised rims, 8 maria as lowered smooth basins, Tycho ray system in the material layout"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "bc890ec9f8ed0d5e3fe029cfcbed819b"
+}

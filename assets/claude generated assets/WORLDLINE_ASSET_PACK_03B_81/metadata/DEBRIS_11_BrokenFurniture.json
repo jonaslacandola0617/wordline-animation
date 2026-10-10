@@ -1,0 +1,114 @@
+{
+  "id": "DEBRIS_11",
+  "name": "Broken Furniture",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_11_BrokenFurniture.obj",
+  "mtl": "floating_debris/DEBRIS_11_BrokenFurniture.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "smashed wooden chair: seat split, one leg snapped, back detached",
+  "dimensions": {
+    "x_width_m": 1.1796,
+    "y_height_m": 0.3797,
+    "z_depth_m": 0.9875
+  },
+  "bounds_file_min": [
+    -0.222,
+    0.0,
+    -0.2675
+  ],
+  "bounds_file_max": [
+    0.9576,
+    0.3797,
+    0.72
+  ],
+  "triangles": 540,
+  "parts": [
+    {
+      "object": "DEBRIS_11_BrokenFurniture_Seat_Left",
+      "parent": "DEBRIS_11_BrokenFurniture_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.002,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "DEBRIS_11_BrokenFurniture_Seat_Right",
+      "parent": "DEBRIS_11_BrokenFurniture_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.002,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "DEBRIS_11_BrokenFurniture_Legs",
+      "parent": "DEBRIS_11_BrokenFurniture_Seat_Left",
+      "pivot_file_xyz": [
+        0.0,
+        0.002,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 60
+    },
+    {
+      "object": "DEBRIS_11_BrokenFurniture_Leg_Snapped",
+      "parent": "DEBRIS_11_BrokenFurniture_Seat_Left",
+      "pivot_file_xyz": [
+        0.0,
+        0.002,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 68
+    },
+    {
+      "object": "DEBRIS_11_BrokenFurniture_Backrest_Fallen",
+      "parent": "DEBRIS_11_BrokenFurniture_Seat_Left",
+      "pivot_file_xyz": [
+        0.0,
+        0.002,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 264
+    },
+    {
+      "object": "DEBRIS_11_BrokenFurniture_Splinters",
+      "parent": "DEBRIS_11_BrokenFurniture_Seat_Left",
+      "pivot_file_xyz": [
+        0.0,
+        0.002,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 60
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Seat_Left, Seat_Right (split), Legs, Leg_Snapped, Backrest_Fallen, Splinters"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "513c66df79b75846d797178b5290d75f"
+}

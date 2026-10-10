@@ -1,0 +1,59 @@
+{
+ "asset_id": "RAIL_02",
+ "title": "Elevated Monorail",
+ "category": "rail",
+ "obj": "../rail/RAIL_02.obj",
+ "mtl": "../rail/RAIL_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.6,
+  0.0,
+  -13.0
+ ],
+ "bbox_max": [
+  1.6,
+  9.2,
+  13.0
+ ],
+ "size_xyz": [
+  3.2,
+  9.2,
+  26.0
+ ],
+ "triangles": 1096,
+ "groups": [
+  "guideway_beam",
+  "pier",
+  "body",
+  "skirts",
+  "panoramic_glass",
+  "window_pillars",
+  "guide_wheels",
+  "cab_glass",
+  "running_wheels",
+  "bogie_frame",
+  "headlights",
+  "roof_equipment",
+  "stripe"
+ ],
+ "materials": [
+  "concrete_dark",
+  "warm_concrete",
+  "white",
+  "blue_steel",
+  "glass",
+  "rubber",
+  "alloy",
+  "dark_steel",
+  "glass_dark",
+  "light_head",
+  "steel",
+  "coral"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

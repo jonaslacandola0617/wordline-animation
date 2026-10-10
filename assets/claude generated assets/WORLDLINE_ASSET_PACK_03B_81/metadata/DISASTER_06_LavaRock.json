@@ -1,0 +1,51 @@
+{
+  "id": "DISASTER_06",
+  "name": "Lava Rock",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_06_LavaRock.obj",
+  "mtl": "disaster_objects/DISASTER_06_LavaRock.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting",
+  "dimensions": {
+    "x_width_m": 1.0699,
+    "y_height_m": 0.7768,
+    "z_depth_m": 0.9984
+  },
+  "bounds_file_min": [
+    -0.5725,
+    0.0,
+    -0.4929
+  ],
+  "bounds_file_max": [
+    0.4974,
+    0.7768,
+    0.5055
+  ],
+  "triangles": 320,
+  "parts": [
+    {
+      "object": "DISASTER_06_LavaRock_Rock",
+      "parent": "DISASTER_06_LavaRock_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.3974,
+        -0.0
+      ],
+      "materials": [
+        "WL_basalt",
+        "WL_crust_black",
+        "WL_lava_glow"
+      ],
+      "triangles": 320
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "materials": "basalt body, crust plates, recessed glowing cracks (emissive)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "4226a8c83c1d00319395b1379e5ed86c"
+}

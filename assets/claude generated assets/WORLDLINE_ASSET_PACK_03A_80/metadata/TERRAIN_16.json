@@ -1,0 +1,41 @@
+{
+ "asset_id": "TERRAIN_16",
+ "title": "Raised Terrain Plateau",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_16.obj",
+ "mtl": "../terrain/TERRAIN_16.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -48.0,
+  0.0,
+  -44.0
+ ],
+ "bbox_max": [
+  48.0,
+  16.6,
+  44.0
+ ],
+ "size_xyz": [
+  96.0,
+  16.6,
+  88.0
+ ],
+ "triangles": 4776,
+ "groups": [
+  "plateau"
+ ],
+ "materials": [
+  "dry_tan",
+  "rock_light",
+  "rock_mid",
+  "rust",
+  "rock_dark",
+  "foliage_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

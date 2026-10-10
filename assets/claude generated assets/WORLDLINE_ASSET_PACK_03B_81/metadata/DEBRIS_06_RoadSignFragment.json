@@ -1,0 +1,101 @@
+{
+  "id": "DEBRIS_06",
+  "name": "Road Sign Fragment",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_06_RoadSignFragment.obj",
+  "mtl": "floating_debris/DEBRIS_06_RoadSignFragment.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "bent sign plate on a snapped pole stub, lying on the ground",
+  "dimensions": {
+    "x_width_m": 1.6554,
+    "y_height_m": 0.1882,
+    "z_depth_m": 0.62
+  },
+  "bounds_file_min": [
+    -1.1054,
+    0.0,
+    -0.32
+  ],
+  "bounds_file_max": [
+    0.55,
+    0.1882,
+    0.3
+  ],
+  "triangles": 236,
+  "parts": [
+    {
+      "object": "DEBRIS_06_RoadSignFragment_Plate",
+      "parent": "DEBRIS_06_RoadSignFragment_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0196,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 76
+    },
+    {
+      "object": "DEBRIS_06_RoadSignFragment_Plate_Face",
+      "parent": "DEBRIS_06_RoadSignFragment_Plate",
+      "pivot_file_xyz": [
+        0.0,
+        0.0196,
+        -0.0
+      ],
+      "materials": [
+        "WL_sign_green"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "DEBRIS_06_RoadSignFragment_Text_Bars",
+      "parent": "DEBRIS_06_RoadSignFragment_Plate_Face",
+      "pivot_file_xyz": [
+        0.0,
+        0.0196,
+        -0.0
+      ],
+      "materials": [
+        "WL_sign_white"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "DEBRIS_06_RoadSignFragment_Pole",
+      "parent": "DEBRIS_06_RoadSignFragment_Plate",
+      "pivot_file_xyz": [
+        0.0,
+        0.0196,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "DEBRIS_06_RoadSignFragment_Bolts",
+      "parent": "DEBRIS_06_RoadSignFragment_Plate",
+      "pivot_file_xyz": [
+        0.0,
+        0.0196,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 40
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Plate, Plate_Face, Text_Bars, Pole, Bolts, Torn_Edge"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "26ae75581b768776c65fd1df6877f889"
+}

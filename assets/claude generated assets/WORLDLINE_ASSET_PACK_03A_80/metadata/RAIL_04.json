@@ -1,0 +1,85 @@
+{
+ "asset_id": "RAIL_04",
+ "title": "Passenger Train",
+ "category": "rail",
+ "obj": "../rail/RAIL_04.obj",
+ "mtl": "../rail/RAIL_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.5,
+  0.0,
+  -22.55
+ ],
+ "bbox_max": [
+  1.5,
+  5.685,
+  24.0
+ ],
+ "size_xyz": [
+  3.0,
+  5.685,
+  46.55
+ ],
+ "triangles": 3788,
+ "groups": [
+  "power_car",
+  "carriage",
+  "stripe",
+  "windows",
+  "doors",
+  "cab_windows",
+  "headlights",
+  "roof_equipment",
+  "pantograph_base",
+  "pantograph",
+  "bogie_+4.0",
+  "bogie_+15.5",
+  "bogie_-20.5",
+  "bogie_-4.5",
+  "gangway"
+ ],
+ "materials": [
+  "white",
+  "blue_steel",
+  "coral",
+  "glass_dark",
+  "steel",
+  "glass",
+  "light_head",
+  "dark_steel",
+  "black",
+  "rubber"
+ ],
+ "pivots": {
+  "bogie_+4.0": [
+   0,
+   0.535,
+   -4.0
+  ],
+  "bogie_+15.5": [
+   0,
+   0.535,
+   -15.5
+  ],
+  "bogie_-20.5": [
+   0,
+   0.535,
+   20.5
+  ],
+  "bogie_-4.5": [
+   0,
+   0.535,
+   4.5
+  ],
+  "coupling": [
+   0,
+   1.035,
+   1.2
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

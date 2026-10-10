@@ -1,0 +1,71 @@
+{
+ "asset_id": "PLANT_08",
+ "title": "Tropical Broadleaf Plant",
+ "category": "plants",
+ "obj": "../plants/PLANT_08.obj",
+ "mtl": "../plants/PLANT_08.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.047,
+  0.0,
+  -2.199
+ ],
+ "bbox_max": [
+  2.061,
+  2.221,
+  2.297
+ ],
+ "size_xyz": [
+  4.107,
+  2.221,
+  4.496
+ ],
+ "triangles": 1728,
+ "groups": [
+  "soil",
+  "stem_1",
+  "leaf_1",
+  "leaf_1_rib",
+  "leaf_1_lobe",
+  "stem_2",
+  "leaf_2",
+  "leaf_2_rib",
+  "leaf_2_lobe",
+  "stem_3",
+  "leaf_3",
+  "leaf_3_rib",
+  "leaf_3_lobe",
+  "stem_4",
+  "leaf_4",
+  "leaf_4_rib",
+  "leaf_4_lobe",
+  "stem_5",
+  "leaf_5",
+  "leaf_5_rib",
+  "leaf_5_lobe",
+  "stem_6",
+  "leaf_6",
+  "leaf_6_rib",
+  "leaf_6_lobe",
+  "stem_7",
+  "leaf_7",
+  "leaf_7_rib",
+  "leaf_7_lobe",
+  "stem_8",
+  "leaf_8",
+  "leaf_8_rib",
+  "leaf_8_lobe"
+ ],
+ "materials": [
+  "soil",
+  "foliage_deep",
+  "grass",
+  "foliage_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

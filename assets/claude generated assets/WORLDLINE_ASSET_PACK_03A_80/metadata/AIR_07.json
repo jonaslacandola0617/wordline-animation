@@ -1,0 +1,93 @@
+{
+ "asset_id": "AIR_07",
+ "title": "Drone",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_07.obj",
+ "mtl": "../aircraft/AIR_07.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.0,
+  0.0,
+  -0.899
+ ],
+ "bbox_max": [
+  0.899,
+  0.842,
+  1.0
+ ],
+ "size_xyz": [
+  1.899,
+  0.842,
+  1.899
+ ],
+ "triangles": 1280,
+ "groups": [
+  "body",
+  "body_top",
+  "battery",
+  "arm_1",
+  "motor_1",
+  "rotor_1",
+  "led_1",
+  "landing_gear",
+  "arm_2",
+  "motor_2",
+  "rotor_2",
+  "led_2",
+  "arm_3",
+  "motor_3",
+  "rotor_3",
+  "led_3",
+  "arm_4",
+  "motor_4",
+  "rotor_4",
+  "led_4",
+  "gimbal_arm",
+  "gimbal",
+  "camera",
+  "camera_lens",
+  "antenna"
+ ],
+ "materials": [
+  "offwhite",
+  "dark_steel",
+  "blue_steel",
+  "steel",
+  "black",
+  "light_white",
+  "light_red",
+  "glass_dark"
+ ],
+ "pivots": {
+  "rotor_1": [
+   -0.62,
+   0.651,
+   -0.62
+  ],
+  "rotor_2": [
+   0.62,
+   0.651,
+   -0.62
+  ],
+  "rotor_3": [
+   0.62,
+   0.651,
+   0.62
+  ],
+  "rotor_4": [
+   -0.62,
+   0.651,
+   0.62
+  ],
+  "gimbal": [
+   0,
+   0.236,
+   -0.3
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,53 @@
+{
+ "asset_id": "RURAL_02",
+ "title": "Water Tower",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_02.obj",
+ "mtl": "../rural_landmarks/RURAL_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -5.325,
+  0.0,
+  -5.325
+ ],
+ "bbox_max": [
+  5.325,
+  24.94,
+  5.325
+ ],
+ "size_xyz": [
+  10.65,
+  24.94,
+  10.65
+ ],
+ "triangles": 3728,
+ "groups": [
+  "legs",
+  "legs_braces",
+  "footings",
+  "tank",
+  "tank_bands",
+  "tank_cap",
+  "walkway",
+  "walkway_rail",
+  "ladder",
+  "riser_pipe",
+  "valve",
+  "outlet_pipe",
+  "pump_house"
+ ],
+ "materials": [
+  "steel",
+  "concrete",
+  "blue_steel",
+  "dark_steel",
+  "red",
+  "warm_concrete"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

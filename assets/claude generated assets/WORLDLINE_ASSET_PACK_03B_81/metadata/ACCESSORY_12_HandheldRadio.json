@@ -1,0 +1,147 @@
+{
+  "id": "ACCESSORY_12",
+  "name": "Handheld Radio",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_12_HandheldRadio.obj",
+  "mtl": "accessories/ACCESSORY_12_HandheldRadio.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing on its base",
+  "dimensions": {
+    "x_width_m": 0.0629,
+    "y_height_m": 0.3001,
+    "z_depth_m": 0.0435
+  },
+  "bounds_file_min": [
+    -0.034,
+    0.0,
+    -0.0205
+  ],
+  "bounds_file_max": [
+    0.0289,
+    0.3001,
+    0.023
+  ],
+  "triangles": 400,
+  "parts": [
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Body",
+      "parent": "ACCESSORY_12_HandheldRadio_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Antenna",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Display",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Keys",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_white"
+      ],
+      "triangles": 108
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Knobs",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_PTT_Button",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Speaker_Grille",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 60
+    },
+    {
+      "object": "ACCESSORY_12_HandheldRadio_Belt_Clip",
+      "parent": "ACCESSORY_12_HandheldRadio_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "grip_centre": [
+      0.0,
+      0.07,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Body, Antenna, Display, Keys, Knobs, PTT_Button, Speaker_Grille, Belt_Clip",
+    "grip": "grip_centre"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "b1f422d89a212bf9686d72e181081359"
+}

@@ -1,0 +1,73 @@
+{
+ "asset_id": "BOAT_03",
+ "title": "Yacht",
+ "category": "boats",
+ "obj": "../boats/BOAT_03.obj",
+ "mtl": "../boats/BOAT_03.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -3.2,
+  0.0,
+  -10.9
+ ],
+ "bbox_max": [
+  3.2,
+  11.828,
+  12.6
+ ],
+ "size_xyz": [
+  6.4,
+  11.828,
+  23.5
+ ],
+ "triangles": 2496,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "main_cabin",
+  "windows",
+  "upper_deck",
+  "upper_roof",
+  "flybridge",
+  "flybridge_roof",
+  "mast",
+  "radar_arm",
+  "railings",
+  "swim_platform",
+  "aft_deck",
+  "aft_seats",
+  "anchor"
+ ],
+ "materials": [
+  "hull_blue",
+  "white",
+  "glass_dark",
+  "offwhite",
+  "blue_steel",
+  "light_grey",
+  "chrome",
+  "timber",
+  "dark_steel"
+ ],
+ "pivots": {
+  "radar": [
+   0,
+   11.35,
+   0.2
+  ],
+  "waterline_reference": [
+   0,
+   0.757,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 0.757,
+  "draft_m": 0.757,
+  "note": "After export the keel sits at Y=0; the waterline plane is at Y = waterline_height_above_keel_m"
+ }
+}

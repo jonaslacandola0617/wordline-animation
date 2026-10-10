@@ -1,0 +1,54 @@
+{
+ "asset_id": "PLANT_11",
+ "title": "Vine Cluster",
+ "category": "plants",
+ "obj": "../plants/PLANT_11.obj",
+ "mtl": "../plants/PLANT_11.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.515,
+  0.0,
+  -1.841
+ ],
+ "bbox_max": [
+  1.93,
+  1.761,
+  1.878
+ ],
+ "size_xyz": [
+  3.445,
+  1.761,
+  3.719
+ ],
+ "triangles": 1756,
+ "groups": [
+  "mound",
+  "stones",
+  "vine_1",
+  "leaves_1",
+  "tendrils_1",
+  "vine_2",
+  "leaves_2",
+  "vine_3",
+  "leaves_3",
+  "tendrils_3",
+  "vine_4",
+  "leaves_4",
+  "vine_5",
+  "leaves_5",
+  "tendrils_5"
+ ],
+ "materials": [
+  "soil",
+  "rock_mid",
+  "foliage_deep",
+  "grass",
+  "foliage_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

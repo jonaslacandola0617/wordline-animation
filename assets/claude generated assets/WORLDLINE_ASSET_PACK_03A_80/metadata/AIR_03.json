@@ -1,0 +1,64 @@
+{
+ "asset_id": "AIR_03",
+ "title": "Civilian Helicopter",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_03.obj",
+ "mtl": "../aircraft/AIR_03.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -5.3,
+  0.0,
+  -5.3
+ ],
+ "bbox_max": [
+  5.3,
+  3.494,
+  6.7
+ ],
+ "size_xyz": [
+  10.6,
+  3.494,
+  12.0
+ ],
+ "triangles": 1056,
+ "groups": [
+  "fuselage",
+  "cockpit_glass",
+  "cabin_window",
+  "stripe",
+  "engine_cowl",
+  "exhaust",
+  "tail_boom",
+  "tail_fin",
+  "stabilizer",
+  "main_mast",
+  "main_rotor",
+  "tail_rotor",
+  "skids",
+  "skid_struts"
+ ],
+ "materials": [
+  "offwhite",
+  "glass_dark",
+  "blue_steel",
+  "dark_steel",
+  "steel"
+ ],
+ "pivots": {
+  "main_rotor": [
+   0,
+   3.354,
+   -0.0
+  ],
+  "tail_rotor": [
+   -0.22,
+   2.004,
+   6.4
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

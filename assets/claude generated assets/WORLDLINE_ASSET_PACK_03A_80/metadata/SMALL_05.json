@@ -1,0 +1,85 @@
+{
+ "asset_id": "SMALL_05",
+ "title": "Delivery Motorcycle",
+ "category": "small_vehicles",
+ "obj": "../small_vehicles/SMALL_05.obj",
+ "mtl": "../small_vehicles/SMALL_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.414,
+  0.0,
+  -1.05
+ ],
+ "bbox_max": [
+  0.414,
+  1.609,
+  1.38
+ ],
+ "size_xyz": [
+  0.829,
+  1.609,
+  2.43
+ ],
+ "triangles": 2708,
+ "groups": [
+  "wheel_R",
+  "wheel_F",
+  "fender_F",
+  "frame",
+  "swingarm",
+  "forks",
+  "exhaust",
+  "engine",
+  "fuel_tank",
+  "seat",
+  "handlebar",
+  "mirrors",
+  "headlight",
+  "footpegs",
+  "kickstand",
+  "rear_rack",
+  "cargo_box",
+  "cargo_lid",
+  "windscreen",
+  "crash_bars",
+  "taillight"
+ ],
+ "materials": [
+  "rubber",
+  "rim_dark",
+  "alloy",
+  "blue_steel",
+  "dark_steel",
+  "steel",
+  "chrome",
+  "black",
+  "light_head",
+  "coral",
+  "offwhite",
+  "yellow",
+  "glass",
+  "light_red"
+ ],
+ "pivots": {
+  "wheel_R": [
+   0,
+   0.319,
+   0.68
+  ],
+  "wheel_F": [
+   0,
+   0.319,
+   -0.68
+  ],
+  "front_fork": [
+   0,
+   0.989,
+   -0.4
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

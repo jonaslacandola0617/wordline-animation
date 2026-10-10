@@ -1,0 +1,115 @@
+{
+  "id": "INTERIOR_05",
+  "name": "Office Chair",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_05_OfficeChair.obj",
+  "mtl": "interiors/INTERIOR_05_OfficeChair.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "swivel office chair facing +Y",
+  "dimensions": {
+    "x_width_m": 0.64,
+    "y_height_m": 0.975,
+    "z_depth_m": 0.6489
+  },
+  "bounds_file_min": [
+    -0.32,
+    0.0,
+    -0.3528
+  ],
+  "bounds_file_max": [
+    0.32,
+    0.975,
+    0.2961
+  ],
+  "triangles": 964,
+  "parts": [
+    {
+      "object": "INTERIOR_05_OfficeChair_Base",
+      "parent": "INTERIOR_05_OfficeChair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.005,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 296
+    },
+    {
+      "object": "INTERIOR_05_OfficeChair_Casters",
+      "parent": "INTERIOR_05_OfficeChair_Base",
+      "pivot_file_xyz": [
+        0.0,
+        -0.005,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 280
+    },
+    {
+      "object": "INTERIOR_05_OfficeChair_Column",
+      "parent": "INTERIOR_05_OfficeChair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.005,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "INTERIOR_05_OfficeChair_Seat",
+      "parent": "INTERIOR_05_OfficeChair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.435,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_grey"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_05_OfficeChair_Backrest",
+      "parent": "INTERIOR_05_OfficeChair_Seat",
+      "pivot_file_xyz": [
+        0.0,
+        0.515,
+        0.22
+      ],
+      "materials": [
+        "WL_fabric_grey"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_05_OfficeChair_Arms",
+      "parent": "INTERIOR_05_OfficeChair_Seat",
+      "pivot_file_xyz": [
+        0.0,
+        -0.005,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 176
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "swivel_pivot": "Seat, Backrest, Arms rotate about the Column axis; Casters roll",
+    "parts": "Base, Casters, Column, Seat, Backrest, Arms"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "a9716fbd579cbd5331981e2c9bd2bb60"
+}

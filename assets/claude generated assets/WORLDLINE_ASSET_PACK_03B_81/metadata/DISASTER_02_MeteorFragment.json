@@ -1,0 +1,50 @@
+{
+  "id": "DISASTER_02",
+  "name": "Meteor Fragment",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_02_MeteorFragment.obj",
+  "mtl": "disaster_objects/DISASTER_02_MeteorFragment.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting",
+  "dimensions": {
+    "x_width_m": 0.9516,
+    "y_height_m": 0.8443,
+    "z_depth_m": 0.9506
+  },
+  "bounds_file_min": [
+    -0.4791,
+    0.0,
+    -0.4796
+  ],
+  "bounds_file_max": [
+    0.4725,
+    0.8443,
+    0.471
+  ],
+  "triangles": 378,
+  "parts": [
+    {
+      "object": "DISASTER_02_MeteorFragment_Fragment",
+      "parent": "DISASTER_02_MeteorFragment_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.428,
+        -0.0
+      ],
+      "materials": [
+        "WL_crust_black",
+        "WL_meteor_core"
+      ],
+      "triangles": 378
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "materials": "slot0 fusion crust, slot1 fractured interior"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "8b3960daf60da22726a468e302a17b79"
+}

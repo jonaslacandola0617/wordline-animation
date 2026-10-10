@@ -1,0 +1,74 @@
+newmtl dark_steel
+Ka 0.086 0.099 0.110
+Kd 0.247 0.282 0.314
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl white
+Ka 0.335 0.332 0.324
+Kd 0.957 0.949 0.925
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl glass_dark
+Ka 0.065 0.096 0.113
+Kd 0.184 0.275 0.322
+Ks 0.600 0.600 0.600
+Ns 80
+d 0.85
+illum 2
+
+newmtl orange
+Ka 0.307 0.178 0.084
+Kd 0.878 0.510 0.239
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl light_blue
+Ka 0.081 0.169 0.350
+Kd 0.231 0.482 1.000
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+Ke 0.100 0.250 0.900
+
+newmtl light_red
+Ka 0.307 0.080 0.063
+Kd 0.878 0.227 0.180
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+Ke 0.700 0.050 0.030
+
+newmtl light_grey
+Ka 0.254 0.264 0.270
+Kd 0.725 0.753 0.773
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl chrome
+Ka 0.253 0.264 0.272
+Kd 0.722 0.753 0.776
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl steel
+Ka 0.143 0.159 0.170
+Kd 0.408 0.455 0.486
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

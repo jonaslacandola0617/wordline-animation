@@ -1,0 +1,24 @@
+newmtl rock_mid
+Ka 0.224 0.211 0.191
+Kd 0.639 0.604 0.545
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rock_dark
+Ka 0.189 0.180 0.165
+Kd 0.541 0.514 0.471
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rock_light
+Ka 0.248 0.235 0.213
+Kd 0.710 0.671 0.608
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

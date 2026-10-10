@@ -1,0 +1,91 @@
+{
+ "asset_id": "LAND_02",
+ "title": "School Bus",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_02.obj",
+ "mtl": "../land_vehicles/LAND_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.63,
+  0.0,
+  -4.7
+ ],
+ "bbox_max": [
+  1.5,
+  3.12,
+  5.0
+ ],
+ "size_xyz": [
+  3.13,
+  3.12,
+  9.7
+ ],
+ "triangles": 4104,
+ "groups": [
+  "body",
+  "hood",
+  "fenders",
+  "rub_rails",
+  "windows",
+  "door",
+  "grille",
+  "bumpers",
+  "warning_lights",
+  "lights",
+  "stop_sign",
+  "mirrors",
+  "wheel_F_L",
+  "wheel_F_L_arch",
+  "wheel_F_R",
+  "wheel_F_R_arch",
+  "wheel_R_L",
+  "wheel_R_L_arch",
+  "wheel_R_R",
+  "wheel_R_R_arch"
+ ],
+ "materials": [
+  "school_yellow",
+  "black",
+  "glass",
+  "light_red",
+  "light_amber",
+  "light_head",
+  "red",
+  "white",
+  "rubber",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "stop_arm": [
+   -1.25,
+   2.02,
+   -1.1
+  ],
+  "wheel_F_L": [
+   -1.12,
+   0.59,
+   -3.4
+  ],
+  "wheel_F_R": [
+   1.12,
+   0.59,
+   -3.4
+  ],
+  "wheel_R_L": [
+   -0.8,
+   0.59,
+   3.0
+  ],
+  "wheel_R_R": [
+   0.8,
+   0.59,
+   3.0
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

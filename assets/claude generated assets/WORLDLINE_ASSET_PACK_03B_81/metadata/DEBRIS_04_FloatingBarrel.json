@@ -1,0 +1,75 @@
+{
+  "id": "DEBRIS_04",
+  "name": "Floating Barrel",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_04_FloatingBarrel.obj",
+  "mtl": "floating_debris/DEBRIS_04_FloatingBarrel.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "lying on its side",
+  "dimensions": {
+    "x_width_m": 0.9,
+    "y_height_m": 0.713,
+    "z_depth_m": 0.6883
+  },
+  "bounds_file_min": [
+    -0.45,
+    0.0,
+    -0.3441
+  ],
+  "bounds_file_max": [
+    0.45,
+    0.713,
+    0.3441
+  ],
+  "triangles": 728,
+  "parts": [
+    {
+      "object": "DEBRIS_04_FloatingBarrel_Staves",
+      "parent": "DEBRIS_04_FloatingBarrel_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.353,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "DEBRIS_04_FloatingBarrel_Hoops",
+      "parent": "DEBRIS_04_FloatingBarrel_Staves",
+      "pivot_file_xyz": [
+        0.0,
+        0.353,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 560
+    },
+    {
+      "object": "DEBRIS_04_FloatingBarrel_Bung",
+      "parent": "DEBRIS_04_FloatingBarrel_Staves",
+      "pivot_file_xyz": [
+        0.0,
+        0.353,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 28
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Staves, Hoops (3, steel), Lid_Top, Lid_Bottom, Bung, Dent"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "62114c049d0b7a01da2cffcefef42c94"
+}

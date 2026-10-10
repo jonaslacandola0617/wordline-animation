@@ -1,0 +1,87 @@
+{
+ "asset_id": "LAND_01",
+ "title": "City Bus",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_01.obj",
+ "mtl": "../land_vehicles/LAND_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.72,
+  0.0,
+  -5.9
+ ],
+ "bbox_max": [
+  1.72,
+  3.67,
+  5.9
+ ],
+ "size_xyz": [
+  3.44,
+  3.67,
+  11.8
+ ],
+ "triangles": 2996,
+ "groups": [
+  "body",
+  "roof",
+  "skirt",
+  "trim",
+  "windows",
+  "doors",
+  "display",
+  "roof_equipment",
+  "lights",
+  "bumpers",
+  "mirrors",
+  "wheel_F_L",
+  "wheel_F_L_arch",
+  "wheel_F_R",
+  "wheel_F_R_arch",
+  "wheel_R_L",
+  "wheel_R_L_arch",
+  "wheel_R_R",
+  "wheel_R_R_arch"
+ ],
+ "materials": [
+  "blue_steel",
+  "offwhite",
+  "rubber",
+  "coral",
+  "glass",
+  "black",
+  "light_amber",
+  "light_grey",
+  "dark_steel",
+  "light_head",
+  "light_red",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "wheel_F_L": [
+   -1.2,
+   0.59,
+   -3.9
+  ],
+  "wheel_F_R": [
+   1.2,
+   0.59,
+   -3.9
+  ],
+  "wheel_R_L": [
+   -1.2,
+   0.59,
+   3.6
+  ],
+  "wheel_R_R": [
+   1.2,
+   0.59,
+   3.6
+  ]
+ },
+ "notes": "City bus: right-side doors on -X side. Front +Z before export flip.",
+ "extra": {}
+}

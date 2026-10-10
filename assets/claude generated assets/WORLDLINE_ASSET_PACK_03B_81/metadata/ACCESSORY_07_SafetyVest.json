@@ -1,0 +1,121 @@
+{
+  "id": "ACCESSORY_07",
+  "name": "Safety Vest",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_07_SafetyVest.obj",
+  "mtl": "accessories/ACCESSORY_07_SafetyVest.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "open-front vest hanging in worn shape (torso-shaped), hem at y=0",
+  "dimensions": {
+    "x_width_m": 0.4213,
+    "y_height_m": 0.6178,
+    "z_depth_m": 0.2565
+  },
+  "bounds_file_min": [
+    -0.2107,
+    0.0,
+    -0.129
+  ],
+  "bounds_file_max": [
+    0.2107,
+    0.6178,
+    0.1275
+  ],
+  "triangles": 720,
+  "parts": [
+    {
+      "object": "ACCESSORY_07_SafetyVest_Back",
+      "parent": "ACCESSORY_07_SafetyVest_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_hiviz_orange"
+      ],
+      "triangles": 136
+    },
+    {
+      "object": "ACCESSORY_07_SafetyVest_Front_Left",
+      "parent": "ACCESSORY_07_SafetyVest_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_hiviz_orange"
+      ],
+      "triangles": 136
+    },
+    {
+      "object": "ACCESSORY_07_SafetyVest_Front_Right",
+      "parent": "ACCESSORY_07_SafetyVest_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_hiviz_orange"
+      ],
+      "triangles": 136
+    },
+    {
+      "object": "ACCESSORY_07_SafetyVest_Shoulder_Straps",
+      "parent": "ACCESSORY_07_SafetyVest_Back",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_hiviz_orange"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "ACCESSORY_07_SafetyVest_Reflective_Bands",
+      "parent": "ACCESSORY_07_SafetyVest_Back",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_reflective"
+      ],
+      "triangles": 240
+    },
+    {
+      "object": "ACCESSORY_07_SafetyVest_Zip_Placket",
+      "parent": "ACCESSORY_07_SafetyVest_Front_Left",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 24
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "collar_point": [
+      0.0,
+      0.6,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Back, Front_Left, Front_Right, Shoulder_Straps, Reflective_Bands, Zip_Placket, Side_Bands",
+    "grip": "collar_point"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "6970be9d9ff3f9937f2325f846424a21"
+}

@@ -1,0 +1,42 @@
+{
+ "asset_id": "TERRAIN_08",
+ "title": "Canyon Segment",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_08.obj",
+ "mtl": "../terrain/TERRAIN_08.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -31.0,
+  0.0,
+  -42.0
+ ],
+ "bbox_max": [
+  31.0,
+  26.304,
+  42.0
+ ],
+ "size_xyz": [
+  62.0,
+  26.304,
+  84.0
+ ],
+ "triangles": 4328,
+ "groups": [
+  "canyon"
+ ],
+ "materials": [
+  "dry_tan",
+  "rust",
+  "coral",
+  "rock_dark",
+  "rock_mid",
+  "rock_light",
+  "sand"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

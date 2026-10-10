@@ -1,0 +1,70 @@
+{
+ "asset_id": "BOAT_01",
+ "title": "Fishing Boat",
+ "category": "boats",
+ "obj": "../boats/BOAT_01.obj",
+ "mtl": "../boats/BOAT_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.0,
+  0.0,
+  -6.93
+ ],
+ "bbox_max": [
+  2.0,
+  6.928,
+  7.3
+ ],
+ "size_xyz": [
+  4.0,
+  6.928,
+  14.23
+ ],
+ "triangles": 2660,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "wheelhouse",
+  "windows",
+  "wheelhouse_roof",
+  "mast",
+  "exhaust",
+  "gantry",
+  "net_drum",
+  "crates",
+  "floats",
+  "railings",
+  "bollards",
+  "rudder"
+ ],
+ "materials": [
+  "hull_blue",
+  "offwhite",
+  "glass",
+  "light_grey",
+  "dark_steel",
+  "black",
+  "chrome",
+  "steel",
+  "orange",
+  "coral",
+  "timber",
+  "white"
+ ],
+ "pivots": {
+  "waterline_reference": [
+   0,
+   0.655,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 0.655,
+  "draft_m": 0.655,
+  "note": "After export the keel sits at Y=0; the waterline plane is at Y = waterline_height_above_keel_m"
+ }
+}

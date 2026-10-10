@@ -1,0 +1,16 @@
+# WORLDLINE LAB ASSET PACK 02 shared material library (subset)
+newmtl brick_red
+Ka 0.217 0.098 0.070
+Kd 0.620 0.280 0.200
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl mortar
+Ka 0.266 0.256 0.231
+Kd 0.760 0.730 0.660
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2

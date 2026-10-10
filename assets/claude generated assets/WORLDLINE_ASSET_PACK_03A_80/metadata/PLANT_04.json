@@ -1,0 +1,42 @@
+{
+ "asset_id": "PLANT_04",
+ "title": "Hedge",
+ "category": "plants",
+ "obj": "../plants/PLANT_04.obj",
+ "mtl": "../plants/PLANT_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.645,
+  0.0,
+  -2.17
+ ],
+ "bbox_max": [
+  0.637,
+  1.467,
+  2.153
+ ],
+ "size_xyz": [
+  1.282,
+  1.467,
+  4.323
+ ],
+ "triangles": 1488,
+ "groups": [
+  "hedge_body",
+  "leaf_masses",
+  "side_masses",
+  "stakes"
+ ],
+ "materials": [
+  "foliage_deep",
+  "foliage_mid",
+  "grass",
+  "timber"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

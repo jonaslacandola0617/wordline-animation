@@ -1,0 +1,72 @@
+{
+ "asset_id": "RAIL_01",
+ "title": "Subway Train",
+ "category": "rail",
+ "obj": "../rail/RAIL_01.obj",
+ "mtl": "../rail/RAIL_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.5,
+  0.0,
+  -8.8
+ ],
+ "bbox_max": [
+  1.5,
+  4.035,
+  9.25
+ ],
+ "size_xyz": [
+  3.0,
+  4.035,
+  18.05
+ ],
+ "triangles": 1884,
+ "groups": [
+  "body",
+  "stripe",
+  "doors",
+  "windows",
+  "cab_windows",
+  "headlights",
+  "taillights",
+  "roof_equipment",
+  "undercarriage",
+  "bogie_-5.8",
+  "bogie_+5.8",
+  "skirts",
+  "coupler"
+ ],
+ "materials": [
+  "light_grey",
+  "coral",
+  "blue_steel",
+  "dark_steel",
+  "glass",
+  "glass_dark",
+  "light_head",
+  "light_red",
+  "steel"
+ ],
+ "pivots": {
+  "bogie_-5.8": [
+   0,
+   0.485,
+   5.8
+  ],
+  "bogie_+5.8": [
+   0,
+   0.485,
+   -5.8
+  ],
+  "coupler_rear": [
+   0,
+   1.035,
+   8.75
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

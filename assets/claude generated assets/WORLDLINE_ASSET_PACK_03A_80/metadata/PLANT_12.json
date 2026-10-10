@@ -1,0 +1,43 @@
+{
+ "asset_id": "PLANT_12",
+ "title": "Dry Scrub",
+ "category": "plants",
+ "obj": "../plants/PLANT_12.obj",
+ "mtl": "../plants/PLANT_12.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.752,
+  0.0,
+  -0.788
+ ],
+ "bbox_max": [
+  0.8,
+  1.421,
+  0.788
+ ],
+ "size_xyz": [
+  1.552,
+  1.421,
+  1.576
+ ],
+ "triangles": 2886,
+ "groups": [
+  "ground",
+  "stones",
+  "branches",
+  "leaves"
+ ],
+ "materials": [
+  "dry_tan",
+  "rock_light",
+  "rock_mid",
+  "bark",
+  "foliage_deep"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

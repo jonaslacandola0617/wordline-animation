@@ -1,0 +1,74 @@
+{
+ "asset_id": "BOAT_02",
+ "title": "Speedboat",
+ "category": "boats",
+ "obj": "../boats/BOAT_02.obj",
+ "mtl": "../boats/BOAT_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.1,
+  0.0,
+  -3.75
+ ],
+ "bbox_max": [
+  1.1,
+  2.55,
+  4.0
+ ],
+ "size_xyz": [
+  2.2,
+  2.55,
+  7.75
+ ],
+ "triangles": 640,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "cockpit_floor",
+  "dash",
+  "windshield",
+  "windshield_frame",
+  "seat_front",
+  "seat_rear",
+  "engine_cowl",
+  "outboard_leg",
+  "propeller",
+  "prop_blade",
+  "bow_cleat",
+  "nav_light",
+  "steering_wheel"
+ ],
+ "materials": [
+  "hull_blue",
+  "white",
+  "dark_steel",
+  "glass",
+  "chrome",
+  "offwhite",
+  "coral",
+  "alloy",
+  "light_red",
+  "rubber"
+ ],
+ "pivots": {
+  "waterline_reference": [
+   0,
+   0.92,
+   0
+  ],
+  "propeller": [
+   0,
+   0.3,
+   3.95
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 0.32,
+  "draft_m": 0.32,
+  "note": "planing hull; waterline given at displacement draft"
+ }
+}

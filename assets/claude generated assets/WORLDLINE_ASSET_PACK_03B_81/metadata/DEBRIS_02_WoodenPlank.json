@@ -1,0 +1,101 @@
+{
+  "id": "DEBRIS_02",
+  "name": "Wooden Plank",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_02_WoodenPlank.obj",
+  "mtl": "floating_debris/DEBRIS_02_WoodenPlank.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "lying on the ground, warped",
+  "dimensions": {
+    "x_width_m": 0.269,
+    "y_height_m": 0.1058,
+    "z_depth_m": 2.3234
+  },
+  "bounds_file_min": [
+    -0.1365,
+    0.0,
+    -1.3115
+  ],
+  "bounds_file_max": [
+    0.1325,
+    0.1058,
+    1.0119
+  ],
+  "triangles": 388,
+  "parts": [
+    {
+      "object": "DEBRIS_02_WoodenPlank_Board",
+      "parent": "DEBRIS_02_WoodenPlank_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0238,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 220
+    },
+    {
+      "object": "DEBRIS_02_WoodenPlank_Split_End",
+      "parent": "DEBRIS_02_WoodenPlank_Board",
+      "pivot_file_xyz": [
+        0.0,
+        0.0238,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "DEBRIS_02_WoodenPlank_Nails",
+      "parent": "DEBRIS_02_WoodenPlank_Board",
+      "pivot_file_xyz": [
+        0.0,
+        0.0238,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "DEBRIS_02_WoodenPlank_Nail_Heads",
+      "parent": "DEBRIS_02_WoodenPlank_Nails",
+      "pivot_file_xyz": [
+        0.0,
+        0.0238,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 60
+    },
+    {
+      "object": "DEBRIS_02_WoodenPlank_Chipped_Corner",
+      "parent": "DEBRIS_02_WoodenPlank_Board",
+      "pivot_file_xyz": [
+        0.0,
+        0.0238,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 12
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Board, Split_End, Nails, Chipped_Corner"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "424966e16d0df485cab0b91a06457441"
+}

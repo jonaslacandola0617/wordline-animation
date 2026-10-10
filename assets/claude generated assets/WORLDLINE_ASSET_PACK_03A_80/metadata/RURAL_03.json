@@ -1,0 +1,56 @@
+{
+ "asset_id": "RURAL_03",
+ "title": "Radio Tower",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_03.obj",
+ "mtl": "../rural_landmarks/RURAL_03.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -3.2,
+  0.0,
+  -2.143
+ ],
+ "bbox_max": [
+  8.6,
+  59.084,
+  3.587
+ ],
+ "size_xyz": [
+  11.8,
+  59.084,
+  5.73
+ ],
+ "triangles": 3786,
+ "groups": [
+  "mast",
+  "mast_braces",
+  "footings",
+  "platforms",
+  "platform_rails",
+  "antenna_panels",
+  "microwave_dishes",
+  "top_mast",
+  "top_antenna",
+  "beacon",
+  "ladder",
+  "equipment_shelter",
+  "cable_run"
+ ],
+ "materials": [
+  "steel",
+  "concrete",
+  "yellow",
+  "light_grey",
+  "offwhite",
+  "light_red",
+  "dark_steel",
+  "warm_concrete",
+  "black"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

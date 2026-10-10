@@ -1,0 +1,60 @@
+{
+ "asset_id": "RURAL_09",
+ "title": "Solar Panel Array",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_09.obj",
+ "mtl": "../rural_landmarks/RURAL_09.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -5.28,
+  0.0,
+  -6.597
+ ],
+ "bbox_max": [
+  8.2,
+  1.619,
+  4.997
+ ],
+ "size_xyz": [
+  13.48,
+  1.619,
+  11.595
+ ],
+ "triangles": 2946,
+ "groups": [
+  "panels_row1",
+  "panel_cells_row1",
+  "supports_row1",
+  "bases_row1",
+  "rails_row1",
+  "panels_row2",
+  "panel_cells_row2",
+  "supports_row2",
+  "bases_row2",
+  "rails_row2",
+  "panels_row3",
+  "panel_cells_row3",
+  "supports_row3",
+  "bases_row3",
+  "rails_row3",
+  "inverter",
+  "inverter_pad",
+  "conduit"
+ ],
+ "materials": [
+  "alloy",
+  "solar_cell",
+  "light_grey",
+  "steel",
+  "concrete",
+  "offwhite",
+  "dark_steel",
+  "black"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

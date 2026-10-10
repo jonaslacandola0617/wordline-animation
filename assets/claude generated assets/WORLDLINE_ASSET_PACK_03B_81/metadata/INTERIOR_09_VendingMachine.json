@@ -1,0 +1,130 @@
+{
+  "id": "INTERIOR_09",
+  "name": "Vending Machine",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_09_VendingMachine.obj",
+  "mtl": "interiors/INTERIOR_09_VendingMachine.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "front faces +Y",
+  "dimensions": {
+    "x_width_m": 0.97,
+    "y_height_m": 1.88,
+    "z_depth_m": 0.885
+  },
+  "bounds_file_min": [
+    -0.485,
+    0.0,
+    -0.45
+  ],
+  "bounds_file_max": [
+    0.485,
+    1.88,
+    0.435
+  ],
+  "triangles": 1464,
+  "parts": [
+    {
+      "object": "INTERIOR_09_VendingMachine_Cabinet",
+      "parent": "INTERIOR_09_VendingMachine_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.02,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_09_VendingMachine_Window_Glass",
+      "parent": "INTERIOR_09_VendingMachine_Cabinet",
+      "pivot_file_xyz": [
+        0.0,
+        -0.02,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_09_VendingMachine_Products",
+      "parent": "INTERIOR_09_VendingMachine_Cabinet",
+      "pivot_file_xyz": [
+        0.0,
+        -0.02,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue",
+        "WL_yellow",
+        "WL_foliage_mid",
+        "WL_coral"
+      ],
+      "triangles": 900
+    },
+    {
+      "object": "INTERIOR_09_VendingMachine_Keypad",
+      "parent": "INTERIOR_09_VendingMachine_Cabinet",
+      "pivot_file_xyz": [
+        0.0,
+        -0.02,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_white"
+      ],
+      "triangles": 396
+    },
+    {
+      "object": "INTERIOR_09_VendingMachine_Display",
+      "parent": "INTERIOR_09_VendingMachine_Cabinet",
+      "pivot_file_xyz": [
+        0.0,
+        -0.02,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_09_VendingMachine_Coin_Slot",
+      "parent": "INTERIOR_09_VendingMachine_Cabinet",
+      "pivot_file_xyz": [
+        0.0,
+        -0.02,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_09_VendingMachine_Dispensing_Flap",
+      "parent": "INTERIOR_09_VendingMachine_Cabinet",
+      "pivot_file_xyz": [
+        -0.05,
+        0.35,
+        -0.45
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Cabinet, Window_Glass, Products, Keypad, Display, Dispensing_Flap (hinged at its top), Coin_Slot"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "3378513356ed1deff2b59bca6b1a15e0"
+}

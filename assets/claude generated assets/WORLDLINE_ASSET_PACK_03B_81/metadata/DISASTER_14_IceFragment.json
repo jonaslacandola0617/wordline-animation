@@ -1,0 +1,77 @@
+{
+  "id": "DISASTER_14",
+  "name": "Ice Fragment",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_14_IceFragment.obj",
+  "mtl": "disaster_objects/DISASTER_14_IceFragment.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting on its flat base",
+  "dimensions": {
+    "x_width_m": 1.1945,
+    "y_height_m": 1.1321,
+    "z_depth_m": 1.0117
+  },
+  "bounds_file_min": [
+    -0.6023,
+    0.0,
+    -0.517
+  ],
+  "bounds_file_max": [
+    0.5922,
+    1.1321,
+    0.4947
+  ],
+  "triangles": 558,
+  "parts": [
+    {
+      "object": "DISASTER_14_IceFragment_Ice_Shell",
+      "parent": "DISASTER_14_IceFragment_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.373,
+        -0.0
+      ],
+      "materials": [
+        "WL_ice_pale",
+        "WL_ice_white"
+      ],
+      "triangles": 378
+    },
+    {
+      "object": "DISASTER_14_IceFragment_Inner_Core",
+      "parent": "DISASTER_14_IceFragment_Ice_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.373,
+        -0.0
+      ],
+      "materials": [
+        "WL_ice_deep"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "DISASTER_14_IceFragment_Frost_Cap",
+      "parent": "DISASTER_14_IceFragment_Ice_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.373,
+        -0.0
+      ],
+      "materials": [
+        "WL_ice_white"
+      ],
+      "triangles": 100
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Ice_Shell (faceted, translucent), Inner_Core, Frost_Cap",
+    "note": "translucency is material alpha (MTL d)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "cb5b35379c936398dbdb8f56f5b76a66"
+}

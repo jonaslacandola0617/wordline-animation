@@ -1,0 +1,85 @@
+{
+ "asset_id": "SMALL_06",
+ "title": "Quad Bike",
+ "category": "small_vehicles",
+ "obj": "../small_vehicles/SMALL_06.obj",
+ "mtl": "../small_vehicles/SMALL_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.73,
+  0.0,
+  -1.002
+ ],
+ "bbox_max": [
+  0.73,
+  1.123,
+  1.03
+ ],
+ "size_xyz": [
+  1.46,
+  1.123,
+  2.032
+ ],
+ "triangles": 2356,
+ "groups": [
+  "wheel_FL",
+  "wheel_FR",
+  "wheel_RL",
+  "wheel_RR",
+  "suspension_arms",
+  "shocks",
+  "chassis_tubes",
+  "footrests",
+  "grips",
+  "front_bumper",
+  "front_fenders",
+  "fuel_tank",
+  "seat",
+  "rear_fenders",
+  "handlebar",
+  "steering",
+  "headlights",
+  "racks",
+  "engine",
+  "exhaust",
+  "taillight"
+ ],
+ "materials": [
+  "rubber",
+  "alloy",
+  "dark_steel",
+  "yellow",
+  "chrome",
+  "coral",
+  "light_head",
+  "steel",
+  "light_red"
+ ],
+ "pivots": {
+  "wheel_FL": [
+   -0.62,
+   0.3,
+   -0.62
+  ],
+  "wheel_FR": [
+   0.62,
+   0.3,
+   -0.62
+  ],
+  "wheel_RL": [
+   -0.62,
+   0.3,
+   0.58
+  ],
+  "wheel_RR": [
+   0.62,
+   0.3,
+   0.58
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

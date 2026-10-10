@@ -1,0 +1,53 @@
+{
+  "id": "CELESTIAL_07",
+  "name": "Mercury",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_07_Mercury.obj",
+  "mtl": "celestial/CELESTIAL_07_Mercury.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "Caloris Basin toward +Y",
+  "dimensions": {
+    "x_width_m": 2.0055,
+    "y_height_m": 2.0065,
+    "z_depth_m": 2.0077
+  },
+  "bounds_file_min": [
+    -1.0,
+    -1.0062,
+    -1.0066
+  ],
+  "bounds_file_max": [
+    1.0055,
+    1.0003,
+    1.0011
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_07_Mercury_Mercury",
+      "parent": "CELESTIAL_07_Mercury_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_merc_a",
+        "WL_merc_b",
+        "WL_merc_c",
+        "WL_merc_d"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 2439.7 km",
+    "geometry": "~170 modelled craters (power-law sizes, raised rims), multi-ring Caloris Basin, lobate scarps, smooth plains in the material layout"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "b535a20ef6a5f6fb69f364c392e65bf4"
+}

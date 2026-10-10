@@ -1,0 +1,48 @@
+newmtl steel
+Ka 0.143 0.159 0.170
+Kd 0.408 0.455 0.486
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl concrete
+Ka 0.259 0.253 0.239
+Kd 0.741 0.722 0.682
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl blue_steel
+Ka 0.135 0.185 0.207
+Kd 0.384 0.529 0.592
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl dark_steel
+Ka 0.086 0.099 0.110
+Kd 0.247 0.282 0.314
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl red
+Ka 0.275 0.095 0.081
+Kd 0.784 0.271 0.231
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl warm_concrete
+Ka 0.276 0.259 0.242
+Kd 0.788 0.741 0.690
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

@@ -1,0 +1,40 @@
+{
+ "asset_id": "TERRAIN_11",
+ "title": "Sandy Beach",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_11.obj",
+ "mtl": "../terrain/TERRAIN_11.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -35.0,
+  0.0,
+  -31.0
+ ],
+ "bbox_max": [
+  35.0,
+  6.434,
+  31.0
+ ],
+ "size_xyz": [
+  70.0,
+  6.434,
+  62.0
+ ],
+ "triangles": 2712,
+ "groups": [
+  "beach"
+ ],
+ "materials": [
+  "foliage_mid",
+  "sand",
+  "dry_tan",
+  "water_edge",
+  "grass"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,88 @@
+{
+  "id": "DISASTER_07",
+  "name": "Lava Crust Piece",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_07_LavaCrustPiece.obj",
+  "mtl": "disaster_objects/DISASTER_07_LavaCrustPiece.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "flat on ground",
+  "dimensions": {
+    "x_width_m": 2.5797,
+    "y_height_m": 0.2591,
+    "z_depth_m": 1.8411
+  },
+  "bounds_file_min": [
+    -1.2878,
+    0.0,
+    -0.8851
+  ],
+  "bounds_file_max": [
+    1.2919,
+    0.2591,
+    0.956
+  ],
+  "triangles": 800,
+  "parts": [
+    {
+      "object": "DISASTER_07_LavaCrustPiece_Slab",
+      "parent": "DISASTER_07_LavaCrustPiece_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_basalt"
+      ],
+      "triangles": 96
+    },
+    {
+      "object": "DISASTER_07_LavaCrustPiece_Crust_Plate",
+      "parent": "DISASTER_07_LavaCrustPiece_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_crust_black"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "DISASTER_07_LavaCrustPiece_Glow_Edge",
+      "parent": "DISASTER_07_LavaCrustPiece_Slab",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_lava_glow"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "DISASTER_07_LavaCrustPiece_Rope_Ridges",
+      "parent": "DISASTER_07_LavaCrustPiece_Crust_Plate",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark"
+      ],
+      "triangles": 576
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "layers": "Slab (basalt), Crust_Plate, Rope_Ridges, Glow_Edge (emissive broken edge)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "36a4e20c7afc1e0c5887fec7ccc171ed"
+}

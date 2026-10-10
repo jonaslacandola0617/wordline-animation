@@ -1,0 +1,68 @@
+{
+ "asset_id": "BOAT_04",
+ "title": "Passenger Ferry",
+ "category": "boats",
+ "obj": "../boats/BOAT_04.obj",
+ "mtl": "../boats/BOAT_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -4.5,
+  0.0,
+  -14.85
+ ],
+ "bbox_max": [
+  4.5,
+  10.884,
+  15.0
+ ],
+ "size_xyz": [
+  9.0,
+  10.884,
+  29.85
+ ],
+ "triangles": 3536,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "passenger_cabin",
+  "windows",
+  "cabin_roof",
+  "wheelhouse",
+  "wheelhouse_roof",
+  "boarding_doors",
+  "boarding_gangway",
+  "railings",
+  "upper_rail",
+  "funnel",
+  "mast",
+  "life_rafts"
+ ],
+ "materials": [
+  "hull_blue",
+  "white",
+  "glass",
+  "offwhite",
+  "blue_steel",
+  "yellow",
+  "chrome",
+  "black",
+  "light_grey",
+  "orange"
+ ],
+ "pivots": {
+  "waterline_reference": [
+   0,
+   0.919,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 0.919,
+  "draft_m": 0.919,
+  "note": "After export the keel sits at Y=0; the waterline plane is at Y = waterline_height_above_keel_m"
+ }
+}

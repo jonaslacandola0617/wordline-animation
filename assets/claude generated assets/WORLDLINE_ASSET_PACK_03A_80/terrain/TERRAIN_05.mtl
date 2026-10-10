@@ -1,0 +1,48 @@
+newmtl foliage_mid
+Ka 0.139 0.202 0.147
+Kd 0.396 0.576 0.420
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl foliage_deep
+Ka 0.089 0.152 0.118
+Kd 0.255 0.435 0.337
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rock_light
+Ka 0.248 0.235 0.213
+Kd 0.710 0.671 0.608
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rock_dark
+Ka 0.189 0.180 0.165
+Kd 0.541 0.514 0.471
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl offwhite
+Ka 0.324 0.318 0.306
+Kd 0.925 0.910 0.875
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rock_mid
+Ka 0.224 0.211 0.191
+Kd 0.639 0.604 0.545
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

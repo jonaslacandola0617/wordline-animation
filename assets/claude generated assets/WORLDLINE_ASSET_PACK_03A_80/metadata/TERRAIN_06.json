@@ -1,0 +1,40 @@
+{
+ "asset_id": "TERRAIN_06",
+ "title": "Volcanic Cone",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_06.obj",
+ "mtl": "../terrain/TERRAIN_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -54.0,
+  0.0,
+  -54.0
+ ],
+ "bbox_max": [
+  54.0,
+  25.524,
+  54.0
+ ],
+ "size_xyz": [
+  108.0,
+  25.524,
+  108.0
+ ],
+ "triangles": 4400,
+ "groups": [
+  "volcano"
+ ],
+ "materials": [
+  "foliage_deep",
+  "soil",
+  "ash",
+  "rock_dark",
+  "lava"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

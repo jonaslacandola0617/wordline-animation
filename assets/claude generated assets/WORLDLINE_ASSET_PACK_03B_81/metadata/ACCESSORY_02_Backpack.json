@@ -1,0 +1,144 @@
+{
+  "id": "ACCESSORY_02",
+  "name": "Backpack",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_02_Backpack.obj",
+  "mtl": "accessories/ACCESSORY_02_Backpack.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing upright, front +Y",
+  "dimensions": {
+    "x_width_m": 0.4896,
+    "y_height_m": 0.6094,
+    "z_depth_m": 0.3577
+  },
+  "bounds_file_min": [
+    -0.2448,
+    0.0,
+    -0.198
+  ],
+  "bounds_file_max": [
+    0.2448,
+    0.6094,
+    0.1597
+  ],
+  "triangles": 504,
+  "parts": [
+    {
+      "object": "ACCESSORY_02_Backpack_Body",
+      "parent": "ACCESSORY_02_Backpack_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas_green"
+      ],
+      "triangles": 148
+    },
+    {
+      "object": "ACCESSORY_02_Backpack_Top_Flap",
+      "parent": "ACCESSORY_02_Backpack_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas_green"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_02_Backpack_Front_Pocket",
+      "parent": "ACCESSORY_02_Backpack_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas_red"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_02_Backpack_Side_Pockets",
+      "parent": "ACCESSORY_02_Backpack_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas_red"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "ACCESSORY_02_Backpack_Straps",
+      "parent": "ACCESSORY_02_Backpack_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "ACCESSORY_02_Backpack_Handle",
+      "parent": "ACCESSORY_02_Backpack_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ACCESSORY_02_Backpack_Zip_Pulls",
+      "parent": "ACCESSORY_02_Backpack_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 88
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "carry_handle": [
+      0.0,
+      0.6,
+      0.02
+    ],
+    "shoulder_strap_L": [
+      -0.1,
+      0.4,
+      0.12
+    ],
+    "shoulder_strap_R": [
+      0.1,
+      0.4,
+      0.12
+    ]
+  },
+  "notes": {
+    "parts": "Body, Front_Pocket, Top_Flap, Straps, Side_Pockets, Handle, Zip_Pulls",
+    "grip": "carry_handle; shoulder_strap_L/R"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "a666bbd6591aebca1626d5b6cb0ddcfc"
+}

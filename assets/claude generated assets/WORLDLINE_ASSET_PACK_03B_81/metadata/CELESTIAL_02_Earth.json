@@ -1,0 +1,70 @@
+{
+  "id": "CELESTIAL_02",
+  "name": "Earth",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_02_Earth.obj",
+  "mtl": "celestial/CELESTIAL_02_Earth.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "Atlantic/Africa/Europe facing +Y (-Z in file)",
+  "dimensions": {
+    "x_width_m": 2.0678,
+    "y_height_m": 2.0337,
+    "z_depth_m": 2.0811
+  },
+  "bounds_file_min": [
+    -1.0337,
+    -1.0191,
+    -1.049
+  ],
+  "bounds_file_max": [
+    1.0342,
+    1.0146,
+    1.0321
+  ],
+  "triangles": 22280,
+  "parts": [
+    {
+      "object": "CELESTIAL_02_Earth_Earth",
+      "parent": "CELESTIAL_02_Earth_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_ocean",
+        "WL_ocean_deep",
+        "WL_ocean_shallow",
+        "WL_land_green",
+        "WL_land_dark",
+        "WL_land_brown",
+        "WL_desert",
+        "WL_polar"
+      ],
+      "triangles": 20480
+    },
+    {
+      "object": "CELESTIAL_02_Earth_Clouds",
+      "parent": "CELESTIAL_02_Earth_Earth",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_cloud"
+      ],
+      "triangles": 1800
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 6378 km (equatorial radius)",
+    "geometry": "continents are hand-built lat/lon polygons (approximate), raised above the ocean; mountain ranges displaced; Clouds is a separate translucent part"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "2e6c4af73d25c95640d2b5836e5ccd51"
+}

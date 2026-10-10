@@ -1,0 +1,126 @@
+{
+  "id": "ACCESSORY_01",
+  "name": "Smartphone",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_01_Smartphone.obj",
+  "mtl": "accessories/ACCESSORY_01_Smartphone.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "lying flat, screen up",
+  "dimensions": {
+    "x_width_m": 0.078,
+    "y_height_m": 0.0131,
+    "z_depth_m": 0.15
+  },
+  "bounds_file_min": [
+    -0.039,
+    0.0,
+    -0.075
+  ],
+  "bounds_file_max": [
+    0.039,
+    0.0131,
+    0.075
+  ],
+  "triangles": 336,
+  "parts": [
+    {
+      "object": "ACCESSORY_01_Smartphone_Body",
+      "parent": "ACCESSORY_01_Smartphone_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0036,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ACCESSORY_01_Smartphone_Screen",
+      "parent": "ACCESSORY_01_Smartphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0036,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ACCESSORY_01_Smartphone_Notch",
+      "parent": "ACCESSORY_01_Smartphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0036,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ACCESSORY_01_Smartphone_Camera_Bump",
+      "parent": "ACCESSORY_01_Smartphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0036,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_01_Smartphone_Lenses",
+      "parent": "ACCESSORY_01_Smartphone_Camera_Bump",
+      "pivot_file_xyz": [
+        0.0,
+        0.0036,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 108
+    },
+    {
+      "object": "ACCESSORY_01_Smartphone_Buttons",
+      "parent": "ACCESSORY_01_Smartphone_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0036,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 132
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "hand_grip": [
+      0.0,
+      0.0076,
+      0.03
+    ],
+    "thumb_rest": [
+      0.02,
+      0.0121,
+      0.02
+    ]
+  },
+  "notes": {
+    "parts": "Body, Screen, Camera_Bump, Lenses, Buttons",
+    "grip": "hand_grip / thumb_rest in metadata"
+  },
+  "open_part_count": 1,
+  "geometry_hash": "0af590e6e399a16e31dce1960c915581"
+}

@@ -1,0 +1,80 @@
+{
+ "asset_id": "RAIL_03",
+ "title": "Street Tram",
+ "category": "rail",
+ "obj": "../rail/RAIL_03.obj",
+ "mtl": "../rail/RAIL_03.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.35,
+  0.0,
+  -9.05
+ ],
+ "bbox_max": [
+  1.35,
+  4.975,
+  9.03
+ ],
+ "size_xyz": [
+  2.7,
+  4.975,
+  18.08
+ ],
+ "triangles": 2312,
+ "groups": [
+  "section_A",
+  "section_B",
+  "articulation",
+  "articulation_plate",
+  "stripe",
+  "windows",
+  "doors",
+  "cab_windows",
+  "lights",
+  "pantograph_base",
+  "pantograph",
+  "roof_equipment",
+  "bogie_+6.2",
+  "bogie_-6.2"
+ ],
+ "materials": [
+  "coral",
+  "rubber",
+  "dark_steel",
+  "offwhite",
+  "glass",
+  "glass_dark",
+  "light_head",
+  "light_red",
+  "steel",
+  "black",
+  "white"
+ ],
+ "pivots": {
+  "articulation": [
+   0,
+   0.535,
+   0
+  ],
+  "pantograph": [
+   0,
+   3.485,
+   -3.8
+  ],
+  "bogie_+6.2": [
+   0,
+   0.365,
+   -6.2
+  ],
+  "bogie_-6.2": [
+   0,
+   0.365,
+   6.2
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

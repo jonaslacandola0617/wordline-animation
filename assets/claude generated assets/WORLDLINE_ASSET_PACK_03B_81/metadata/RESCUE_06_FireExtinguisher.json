@@ -1,0 +1,165 @@
+{
+  "id": "RESCUE_06",
+  "name": "Fire Extinguisher",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_06_FireExtinguisher.obj",
+  "mtl": "emergency/RESCUE_06_FireExtinguisher.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing, gauge faces +Y",
+  "dimensions": {
+    "x_width_m": 0.2303,
+    "y_height_m": 0.604,
+    "z_depth_m": 0.1615
+  },
+  "bounds_file_min": [
+    -0.1503,
+    0.0,
+    -0.0835
+  ],
+  "bounds_file_max": [
+    0.08,
+    0.604,
+    0.078
+  ],
+  "triangles": 576,
+  "parts": [
+    {
+      "object": "RESCUE_06_FireExtinguisher_Cylinder",
+      "parent": "RESCUE_06_FireExtinguisher_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Label",
+      "parent": "RESCUE_06_FireExtinguisher_Cylinder",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 24
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Valve_Head",
+      "parent": "RESCUE_06_FireExtinguisher_Cylinder",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Handle",
+      "parent": "RESCUE_06_FireExtinguisher_Valve_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Lever",
+      "parent": "RESCUE_06_FireExtinguisher_Valve_Head",
+      "pivot_file_xyz": [
+        -0.07,
+        0.55,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Pin",
+      "parent": "RESCUE_06_FireExtinguisher_Valve_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 76
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Gauge",
+      "parent": "RESCUE_06_FireExtinguisher_Valve_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Hose",
+      "parent": "RESCUE_06_FireExtinguisher_Valve_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "RESCUE_06_FireExtinguisher_Nozzle",
+      "parent": "RESCUE_06_FireExtinguisher_Hose",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 28
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "carry_handle": [
+      0.0,
+      0.6,
+      -0.0
+    ],
+    "lever_grip": [
+      0.0,
+      0.545,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Cylinder, Label, Valve_Head, Lever, Pin, Handle, Hose, Nozzle, Gauge",
+    "grip": "carry_handle, lever_grip"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "d7b0b25aa74055984f8bec9d3fa14740"
+}

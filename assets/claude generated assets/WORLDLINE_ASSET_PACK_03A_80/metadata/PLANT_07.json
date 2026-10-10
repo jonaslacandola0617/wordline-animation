@@ -1,0 +1,51 @@
+{
+ "asset_id": "PLANT_07",
+ "title": "Bamboo Cluster",
+ "category": "plants",
+ "obj": "../plants/PLANT_07.obj",
+ "mtl": "../plants/PLANT_07.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.51,
+  0.0,
+  -2.7
+ ],
+ "bbox_max": [
+  2.724,
+  7.874,
+  2.491
+ ],
+ "size_xyz": [
+  5.234,
+  7.874,
+  5.192
+ ],
+ "triangles": 5620,
+ "groups": [
+  "soil",
+  "stem_1",
+  "branches",
+  "leaves",
+  "stem_2",
+  "stem_3",
+  "stem_4",
+  "stem_5",
+  "stem_6",
+  "stem_7",
+  "stem_8",
+  "stem_9",
+  "stem_10"
+ ],
+ "materials": [
+  "soil",
+  "bamboo",
+  "grass",
+  "foliage_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

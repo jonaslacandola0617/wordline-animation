@@ -1,0 +1,284 @@
+{
+  "id": "ANIMAL_03",
+  "name": "Crow",
+  "category": "animals",
+  "obj": "animals/ANIMAL_03_Crow.obj",
+  "mtl": "animals/ANIMAL_03_Crow.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing, wings half-open",
+  "dimensions": {
+    "x_width_m": 1.0371,
+    "y_height_m": 0.3626,
+    "z_depth_m": 0.7406
+  },
+  "bounds_file_min": [
+    -0.5185,
+    0.003,
+    -0.3381
+  ],
+  "bounds_file_max": [
+    0.5185,
+    0.3656,
+    0.4025
+  ],
+  "triangles": 1268,
+  "parts": [
+    {
+      "object": "ANIMAL_03_Crow_Body",
+      "parent": "ANIMAL_03_Crow_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_crow_black",
+        "WL_crow_sheen"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_03_Crow_Neck",
+      "parent": "ANIMAL_03_Crow_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_crow_sheen"
+      ],
+      "triangles": 92
+    },
+    {
+      "object": "ANIMAL_03_Crow_Head",
+      "parent": "ANIMAL_03_Crow_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.2834,
+        -0.2288
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_03_Crow_Beak",
+      "parent": "ANIMAL_03_Crow_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.2834,
+        -0.2288
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_03_Crow_Eye_L",
+      "parent": "ANIMAL_03_Crow_Head",
+      "pivot_file_xyz": [
+        0.0343,
+        0.2931,
+        -0.242
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_03_Crow_Eye_R",
+      "parent": "ANIMAL_03_Crow_Head",
+      "pivot_file_xyz": [
+        -0.0343,
+        0.2931,
+        -0.242
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_03_Crow_Tail",
+      "parent": "ANIMAL_03_Crow_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.2222,
+        0.2024
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_L_Arm",
+      "parent": "ANIMAL_03_Crow_Body",
+      "pivot_file_xyz": [
+        0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_L_Coverts",
+      "parent": "ANIMAL_03_Crow_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_sheen"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_L_Secondaries",
+      "parent": "ANIMAL_03_Crow_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_L_Primaries",
+      "parent": "ANIMAL_03_Crow_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_R_Arm",
+      "parent": "ANIMAL_03_Crow_Body",
+      "pivot_file_xyz": [
+        -0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_R_Coverts",
+      "parent": "ANIMAL_03_Crow_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_sheen"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_R_Secondaries",
+      "parent": "ANIMAL_03_Crow_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_03_Crow_Wing_R_Primaries",
+      "parent": "ANIMAL_03_Crow_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0562,
+        0.2546,
+        -0.0616
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_03_Crow_Leg_L",
+      "parent": "ANIMAL_03_Crow_Body",
+      "pivot_file_xyz": [
+        0.0324,
+        0.179,
+        -0.0088
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 26
+    },
+    {
+      "object": "ANIMAL_03_Crow_Leg_R",
+      "parent": "ANIMAL_03_Crow_Body",
+      "pivot_file_xyz": [
+        -0.0324,
+        0.179,
+        -0.0088
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 26
+    },
+    {
+      "object": "ANIMAL_03_Crow_Foot_L",
+      "parent": "ANIMAL_03_Crow_Leg_L",
+      "pivot_file_xyz": [
+        0.0324,
+        0.0448,
+        -0.0088
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "ANIMAL_03_Crow_Foot_R",
+      "parent": "ANIMAL_03_Crow_Leg_R",
+      "pivot_file_xyz": [
+        -0.0324,
+        0.0448,
+        -0.0088
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 48
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "wingspan_m": 0.95
+  },
+  "open_part_count": 0,
+  "geometry_hash": "28617d6657800c17ab340c73edb8c83f"
+}

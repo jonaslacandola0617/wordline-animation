@@ -1,0 +1,51 @@
+{
+  "id": "DISASTER_01",
+  "name": "Atmospheric Impact Asteroid",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_01_AtmosphericImpactAsteroid.obj",
+  "mtl": "disaster_objects/DISASTER_01_AtmosphericImpactAsteroid.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting; scorched leading face toward +Y (-Z in file)",
+  "dimensions": {
+    "x_width_m": 4.3038,
+    "y_height_m": 3.1446,
+    "z_depth_m": 3.9818
+  },
+  "bounds_file_min": [
+    -2.1436,
+    0.0,
+    -2.0013
+  ],
+  "bounds_file_max": [
+    2.1602,
+    3.1446,
+    1.9805
+  ],
+  "triangles": 560,
+  "parts": [
+    {
+      "object": "DISASTER_01_AtmosphericImpactAsteroid_Body",
+      "parent": "DISASTER_01_AtmosphericImpactAsteroid_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.5626,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark",
+        "WL_rock_char",
+        "WL_ember"
+      ],
+      "triangles": 560
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "size_note": "~4.8 m long impactor; asymmetric lobes, scorched ablation face, ember hot-spots"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "970d759f9c62ea467214dc96f381c6d3"
+}

@@ -1,0 +1,44 @@
+{
+ "asset_id": "TERRAIN_14",
+ "title": "Cave Entrance",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_14.obj",
+ "mtl": "../terrain/TERRAIN_14.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -11.804,
+  0.0,
+  -10.2
+ ],
+ "bbox_max": [
+  10.961,
+  11.542,
+  12.962
+ ],
+ "size_xyz": [
+  22.765,
+  11.542,
+  23.162
+ ],
+ "triangles": 1928,
+ "groups": [
+  "rock_mass",
+  "cave_interior",
+  "cave_floor",
+  "overhang",
+  "boulders"
+ ],
+ "materials": [
+  "rock_dark",
+  "rock_mid",
+  "rock_light",
+  "black",
+  "ash"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

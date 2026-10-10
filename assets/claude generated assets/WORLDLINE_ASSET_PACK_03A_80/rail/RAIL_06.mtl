@@ -1,0 +1,56 @@
+newmtl rock_mid
+Ka 0.224 0.211 0.191
+Kd 0.639 0.604 0.545
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl warm_concrete
+Ka 0.276 0.259 0.242
+Kd 0.788 0.741 0.690
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rubber
+Ka 0.056 0.065 0.071
+Kd 0.161 0.184 0.204
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl dark_steel
+Ka 0.086 0.099 0.110
+Kd 0.247 0.282 0.314
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl steel
+Ka 0.143 0.159 0.170
+Kd 0.408 0.455 0.486
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl alloy
+Ka 0.270 0.279 0.285
+Kd 0.773 0.796 0.816
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl rock_light
+Ka 0.248 0.235 0.213
+Kd 0.710 0.671 0.608
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

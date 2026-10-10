@@ -1,0 +1,127 @@
+{
+  "id": "INTERIOR_03",
+  "name": "Sofa",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_03_Sofa.obj",
+  "mtl": "interiors/INTERIOR_03_Sofa.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "three-seat sofa",
+  "dimensions": {
+    "x_width_m": 2.0,
+    "y_height_m": 0.88,
+    "z_depth_m": 0.9094
+  },
+  "bounds_file_min": [
+    -1.0,
+    0.0,
+    -0.45
+  ],
+  "bounds_file_max": [
+    1.0,
+    0.88,
+    0.4594
+  ],
+  "triangles": 564,
+  "parts": [
+    {
+      "object": "INTERIOR_03_Sofa_Base",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_03_Sofa_Arms",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_03_Sofa_Back",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_03_Sofa_Seat_Cushions",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "INTERIOR_03_Sofa_Back_Cushions",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "INTERIOR_03_Sofa_Pillow",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_coral"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_03_Sofa_Feet",
+      "parent": "INTERIOR_03_Sofa_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 80
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Base, Cushions, Backs, Arms, Pillow, Feet"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "4234ee53da86b21ec163fac5e31cc91a"
+}

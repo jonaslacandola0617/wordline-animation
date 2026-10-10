@@ -1,0 +1,181 @@
+{
+  "id": "DISASTER_12",
+  "name": "Collapsed Boat Hull",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_12_CollapsedBoatHull.obj",
+  "mtl": "disaster_objects/DISASTER_12_CollapsedBoatHull.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "wrecked timber fishing boat heeled over on the ground, keel broken amidships",
+  "dimensions": {
+    "x_width_m": 4.4119,
+    "y_height_m": 3.2762,
+    "z_depth_m": 7.5323
+  },
+  "bounds_file_min": [
+    -1.229,
+    -0.0,
+    -3.8743
+  ],
+  "bounds_file_max": [
+    3.1828,
+    3.2762,
+    3.658
+  ],
+  "triangles": 3508,
+  "parts": [
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Keel_Aft",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_timber"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Keel_Fore",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_timber"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Ribs",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_timber"
+      ],
+      "triangles": 1360
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Planks_Port",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_hull_blue",
+        "WL_hull_white"
+      ],
+      "triangles": 696
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Planks_Starboard",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_hull_blue",
+        "WL_hull_white"
+      ],
+      "triangles": 844
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Stem",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_timber"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Transom",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_hull_white"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Deck_Beams",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 60
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Cabin_Posts",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 92
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Mast_Broken",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        2.0825,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "DISASTER_12_CollapsedBoatHull_Rudder_Detached",
+      "parent": "DISASTER_12_CollapsedBoatHull_Root",
+      "pivot_file_xyz": [
+        2.349,
+        1.1674,
+        2.9924
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 24
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Keel_Aft/Keel_Fore (broken), Ribs, Planks_Port, Planks_Starboard (strakes missing/splintered), Stem, Transom, Deck_Beams, Cabin_Posts, Mast_Broken, Rudder_Detached"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "2553a11c861a8b572c415cf60475ea44"
+}

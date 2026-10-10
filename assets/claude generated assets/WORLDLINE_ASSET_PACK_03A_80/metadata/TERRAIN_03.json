@@ -1,0 +1,44 @@
+{
+ "asset_id": "TERRAIN_03",
+ "title": "Rock Cluster",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_03.obj",
+ "mtl": "../terrain/TERRAIN_03.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -3.075,
+  0.0,
+  -3.325
+ ],
+ "bbox_max": [
+  3.537,
+  2.001,
+  2.647
+ ],
+ "size_xyz": [
+  6.612,
+  2.001,
+  5.973
+ ],
+ "triangles": 1520,
+ "groups": [
+  "rock_1",
+  "rock_2",
+  "rock_3",
+  "rock_4",
+  "rock_5",
+  "rock_6",
+  "rock_7"
+ ],
+ "materials": [
+  "rock_light",
+  "rock_mid",
+  "rock_dark"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

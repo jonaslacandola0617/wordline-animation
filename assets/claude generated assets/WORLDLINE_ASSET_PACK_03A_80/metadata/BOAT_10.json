@@ -1,0 +1,71 @@
+{
+ "asset_id": "BOAT_10",
+ "title": "Oil Tanker",
+ "category": "boats",
+ "obj": "../boats/BOAT_10.obj",
+ "mtl": "../boats/BOAT_10.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -9.5,
+  0.0,
+  -61.875
+ ],
+ "bbox_max": [
+  9.5,
+  26.456,
+  62.5
+ ],
+ "size_xyz": [
+  19.0,
+  26.456,
+  124.375
+ ],
+ "triangles": 4656,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "superstructure",
+  "windows",
+  "deck2",
+  "bridge",
+  "funnel",
+  "mast",
+  "deck_pipes",
+  "pipe_supports",
+  "manifold",
+  "walkway",
+  "hose_derrick",
+  "forecastle_machinery",
+  "railings",
+  "stern_deck_house"
+ ],
+ "materials": [
+  "hull_red",
+  "dark_steel",
+  "white",
+  "glass_dark",
+  "cont_red",
+  "black",
+  "light_grey",
+  "steel",
+  "rust",
+  "red",
+  "yellow"
+ ],
+ "pivots": {
+  "waterline_reference": [
+   0,
+   4.576,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 4.576,
+  "draft_m": 4.576,
+  "note": "After export the keel sits at Y=0; the waterline plane is at Y = waterline_height_above_keel_m"
+ }
+}

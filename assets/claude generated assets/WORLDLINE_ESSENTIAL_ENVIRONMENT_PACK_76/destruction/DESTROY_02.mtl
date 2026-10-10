@@ -1,0 +1,24 @@
+# WORLDLINE LAB ASSET PACK 02 shared material library (subset)
+newmtl concrete_core
+Ka 0.161 0.154 0.143
+Kd 0.460 0.440 0.410
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl plaster_cream
+Ka 0.294 0.280 0.245
+Kd 0.840 0.800 0.700
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl rebar
+Ka 0.140 0.087 0.063
+Kd 0.400 0.250 0.180
+Ks 0.200 0.200 0.200
+Ns 20
+d 1.0
+illum 2

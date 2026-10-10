@@ -1,0 +1,75 @@
+{
+  "id": "DEBRIS_10",
+  "name": "Metal Sheet",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_10_MetalSheet.obj",
+  "mtl": "floating_debris/DEBRIS_10_MetalSheet.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "corrugated sheet, bent and torn, lying on the ground",
+  "dimensions": {
+    "x_width_m": 1.0,
+    "y_height_m": 0.3114,
+    "z_depth_m": 1.6009
+  },
+  "bounds_file_min": [
+    -0.5,
+    0.0,
+    -0.8048
+  ],
+  "bounds_file_max": [
+    0.5,
+    0.3114,
+    0.7961
+  ],
+  "triangles": 1332,
+  "parts": [
+    {
+      "object": "DEBRIS_10_MetalSheet_Sheet",
+      "parent": "DEBRIS_10_MetalSheet_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0453,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 1152
+    },
+    {
+      "object": "DEBRIS_10_MetalSheet_Rust_Patches",
+      "parent": "DEBRIS_10_MetalSheet_Sheet",
+      "pivot_file_xyz": [
+        0.0,
+        0.0453,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 100
+    },
+    {
+      "object": "DEBRIS_10_MetalSheet_Fasteners",
+      "parent": "DEBRIS_10_MetalSheet_Sheet",
+      "pivot_file_xyz": [
+        0.0,
+        0.0453,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 80
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Sheet (corrugated), Torn_Edge, Rust_Patches, Fasteners"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "07144a99b0ac8539ec7c9e90be7f73ef"
+}

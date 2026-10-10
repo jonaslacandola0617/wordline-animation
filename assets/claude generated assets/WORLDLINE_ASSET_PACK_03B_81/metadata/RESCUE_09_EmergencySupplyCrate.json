@@ -1,0 +1,165 @@
+{
+  "id": "RESCUE_09",
+  "name": "Emergency Supply Crate",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_09_EmergencySupplyCrate.obj",
+  "mtl": "emergency/RESCUE_09_EmergencySupplyCrate.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "opened plastic crate; lid hinged open ~100 degrees, contents visible",
+  "dimensions": {
+    "x_width_m": 0.79,
+    "y_height_m": 0.7487,
+    "z_depth_m": 0.6569
+  },
+  "bounds_file_min": [
+    -0.395,
+    0.0,
+    -0.295
+  ],
+  "bounds_file_max": [
+    0.395,
+    0.7487,
+    0.3619
+  ],
+  "triangles": 1056,
+  "parts": [
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_med_green"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Label",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Label_Cross",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Label",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_med_red"
+      ],
+      "triangles": 24
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Handles",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Lid",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.47,
+        0.29
+      ],
+      "materials": [
+        "WL_med_green"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Latches",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Water_Bottles",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 500
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Ration_Packs",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas_red"
+      ],
+      "triangles": 176
+    },
+    {
+      "object": "RESCUE_09_EmergencySupplyCrate_Blanket_Roll",
+      "parent": "RESCUE_09_EmergencySupplyCrate_Crate_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_hiviz_orange"
+      ],
+      "triangles": 36
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "side_handle_L": [
+      -0.385,
+      0.36,
+      -0.0
+    ],
+    "side_handle_R": [
+      0.385,
+      0.36,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Crate_Body, Lid (hinge pivot in metadata), Latches, Handles, Water_Bottles, Ration_Packs, Blanket_Roll, Label",
+    "grip": "side_handle_L/R"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "cdd798ff990cac174faee0ddf57ab28f"
+}

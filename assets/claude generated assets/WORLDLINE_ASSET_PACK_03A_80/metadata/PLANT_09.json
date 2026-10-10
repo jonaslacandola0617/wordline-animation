@@ -1,0 +1,50 @@
+{
+ "asset_id": "PLANT_09",
+ "title": "Planter Flowers",
+ "category": "plants",
+ "obj": "../plants/PLANT_09.obj",
+ "mtl": "../plants/PLANT_09.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.591,
+  0.0,
+  -0.55
+ ],
+ "bbox_max": [
+  0.55,
+  1.358,
+  0.604
+ ],
+ "size_xyz": [
+  1.141,
+  1.358,
+  1.154
+ ],
+ "triangles": 2064,
+ "groups": [
+  "pot",
+  "pot_rim",
+  "soil",
+  "stems",
+  "petals",
+  "flower_centers",
+  "leaves"
+ ],
+ "materials": [
+  "coral",
+  "pot",
+  "soil",
+  "foliage_deep",
+  "pink",
+  "yellow",
+  "purple",
+  "offwhite",
+  "foliage_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

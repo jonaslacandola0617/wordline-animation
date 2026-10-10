@@ -1,0 +1,69 @@
+{
+  "id": "CELESTIAL_05",
+  "name": "Saturn",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_05_Saturn.obj",
+  "mtl": "celestial/CELESTIAL_05_Saturn.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "equatorial ring plane horizontal; oblate (0.902)",
+  "dimensions": {
+    "x_width_m": 4.69,
+    "y_height_m": 1.7986,
+    "z_depth_m": 4.69
+  },
+  "bounds_file_min": [
+    -2.345,
+    -0.9047,
+    -2.345
+  ],
+  "bounds_file_max": [
+    2.345,
+    0.8939,
+    2.345
+  ],
+  "triangles": 29120,
+  "parts": [
+    {
+      "object": "CELESTIAL_05_Saturn_Saturn",
+      "parent": "CELESTIAL_05_Saturn_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_sat_cream",
+        "WL_sat_dark",
+        "WL_sat_gold",
+        "WL_sat_pale"
+      ],
+      "triangles": 20480
+    },
+    {
+      "object": "CELESTIAL_05_Saturn_Rings",
+      "parent": "CELESTIAL_05_Saturn_Saturn",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_ring_c",
+        "WL_ring_b",
+        "WL_ring_a",
+        "WL_ring_gap"
+      ],
+      "triangles": 8640
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 60,268 km (equatorial); rings extend to 2.34 units",
+    "geometry": "banded globe with north polar hexagon; Rings = separate solid annulus meshes (C, B ringlets, A, Encke gap and Cassini Division left as true gaps, thin F ring)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "669621649f9e4dd4f11c03d99df46e14"
+}

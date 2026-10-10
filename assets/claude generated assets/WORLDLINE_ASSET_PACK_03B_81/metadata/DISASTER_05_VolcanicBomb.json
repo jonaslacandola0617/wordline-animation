@@ -1,0 +1,50 @@
+{
+  "id": "DISASTER_05",
+  "name": "Volcanic Bomb",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_05_VolcanicBomb.obj",
+  "mtl": "disaster_objects/DISASTER_05_VolcanicBomb.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting",
+  "dimensions": {
+    "x_width_m": 0.8118,
+    "y_height_m": 0.5032,
+    "z_depth_m": 0.5339
+  },
+  "bounds_file_min": [
+    -0.3896,
+    0.0,
+    -0.2675
+  ],
+  "bounds_file_max": [
+    0.4222,
+    0.5032,
+    0.2664
+  ],
+  "triangles": 196,
+  "parts": [
+    {
+      "object": "DISASTER_05_VolcanicBomb_Bomb",
+      "parent": "DISASTER_05_VolcanicBomb_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.2527,
+        -0.0
+      ],
+      "materials": [
+        "WL_basalt",
+        "WL_ember"
+      ],
+      "triangles": 196
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "materials": "basalt crust, ember fissure bands recessed into the crust"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "14626bd7434b0b76370fd397d63bcfef"
+}

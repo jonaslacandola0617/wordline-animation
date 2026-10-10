@@ -1,0 +1,149 @@
+{
+  "id": "RESCUE_01",
+  "name": "Stretcher",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_01_Stretcher.obj",
+  "mtl": "emergency/RESCUE_01_Stretcher.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "flat on ground, head toward -Y",
+  "dimensions": {
+    "x_width_m": 0.65,
+    "y_height_m": 0.18,
+    "z_depth_m": 2.4
+  },
+  "bounds_file_min": [
+    -0.325,
+    0.0,
+    -1.2
+  ],
+  "bounds_file_max": [
+    0.325,
+    0.18,
+    1.2
+  ],
+  "triangles": 1128,
+  "parts": [
+    {
+      "object": "RESCUE_01_Stretcher_Rails",
+      "parent": "RESCUE_01_Stretcher_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "RESCUE_01_Stretcher_Cross_Bars",
+      "parent": "RESCUE_01_Stretcher_Rails",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "RESCUE_01_Stretcher_Bed",
+      "parent": "RESCUE_01_Stretcher_Rails",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas_green"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "RESCUE_01_Stretcher_Handles",
+      "parent": "RESCUE_01_Stretcher_Rails",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 192
+    },
+    {
+      "object": "RESCUE_01_Stretcher_Feet",
+      "parent": "RESCUE_01_Stretcher_Rails",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 448
+    },
+    {
+      "object": "RESCUE_01_Stretcher_Straps",
+      "parent": "RESCUE_01_Stretcher_Bed",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral"
+      ],
+      "triangles": 264
+    },
+    {
+      "object": "RESCUE_01_Stretcher_Head_Pad",
+      "parent": "RESCUE_01_Stretcher_Bed",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "handle_head_L": [
+      -0.3,
+      0.13,
+      1.1
+    ],
+    "handle_head_R": [
+      0.3,
+      0.13,
+      1.1
+    ],
+    "handle_foot_L": [
+      -0.3,
+      0.13,
+      -1.1
+    ],
+    "handle_foot_R": [
+      0.3,
+      0.13,
+      -1.1
+    ]
+  },
+  "notes": {
+    "parts": "Rails, Bed, Handles (4), Cross_Bars, Straps, Feet",
+    "grip": "handle_head_L/R, handle_foot_L/R"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "184f705fad8d03d8de53d30cab59fa27"
+}

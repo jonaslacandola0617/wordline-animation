@@ -1,0 +1,42 @@
+{
+ "asset_id": "TERRAIN_04",
+ "title": "Cliff Face",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_04.obj",
+ "mtl": "../terrain/TERRAIN_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -31.0,
+  0.0,
+  -17.0
+ ],
+ "bbox_max": [
+  31.0,
+  27.757,
+  17.0
+ ],
+ "size_xyz": [
+  62.0,
+  27.757,
+  34.0
+ ],
+ "triangles": 3392,
+ "groups": [
+  "cliff"
+ ],
+ "materials": [
+  "foliage_mid",
+  "rust",
+  "warm_concrete",
+  "rock_mid",
+  "rock_dark",
+  "grass",
+  "rock_light"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,3821 @@
+{
+ "PROP_01": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_01__base",
+   "PROP_01__pole",
+   "PROP_01__mast_arm",
+   "PROP_01__housing",
+   "PROP_01__backplate",
+   "PROP_01__lens_signal_red",
+   "PROP_01__visor",
+   "PROP_01__lens_signal_amber",
+   "PROP_01__lens_signal_green",
+   "PROP_01__mount",
+   "PROP_01__head_hanger",
+   "PROP_01__pole_bracket",
+   "PROP_01__junction_box",
+   "PROP_01__conduit"
+  ],
+  "detachable_parts": [
+   {
+    "part": "mast_arm",
+    "obj_groups": [
+     "PROP_01__mast_arm"
+    ],
+    "description": "mast arm + brace + hanging heads (snaps off at pole top)",
+    "pivot_m": [
+     0,
+     4.85,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.015,
+     4.019,
+     -0.075
+    ],
+    "bbox_max": [
+     3.901,
+     4.993,
+     0.075
+    ]
+   }
+  ]
+ },
+ "PROP_03": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_03__base",
+   "PROP_03__post",
+   "PROP_03__handhole",
+   "PROP_03__arm",
+   "PROP_03__luminaire",
+   "PROP_03__lens"
+  ],
+  "detachable_parts": [
+   {
+    "part": "arm",
+    "obj_groups": [
+     "PROP_03__arm"
+    ],
+    "description": "swan-neck arm + luminaire",
+    "pivot_m": [
+     0,
+     5.9,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.085,
+     5.85,
+     -0.085
+    ],
+    "bbox_max": [
+     1.754,
+     6.584,
+     0.085
+    ]
+   }
+  ]
+ },
+ "PROP_04": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_04__base",
+   "PROP_04__pole",
+   "PROP_04__winch_door",
+   "PROP_04__arm",
+   "PROP_04__luminaire",
+   "PROP_04__lens"
+  ],
+  "detachable_parts": [
+   {
+    "part": "arm",
+    "obj_groups": [
+     "PROP_04__arm"
+    ],
+    "description": "twin arms + luminaires (top assembly)",
+    "pivot_m": [
+     0,
+     9.7,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -3.206,
+     9.123,
+     -0.07
+    ],
+    "bbox_max": [
+     3.206,
+     10.195,
+     0.07
+    ]
+   }
+  ]
+ },
+ "PROP_05": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_05__plinth",
+   "PROP_05__columns",
+   "PROP_05__canopy",
+   "PROP_05__back_panel",
+   "PROP_05__back_frame",
+   "PROP_05__bench",
+   "PROP_05__ad_frame",
+   "PROP_05__ad_panel",
+   "PROP_05__sign_pole",
+   "PROP_05__sign",
+   "PROP_05__sign_pictogram"
+  ],
+  "detachable_parts": [
+   {
+    "part": "canopy",
+    "obj_groups": [
+     "PROP_05__canopy"
+    ],
+    "description": "roof canopy (separates from columns)",
+    "pivot_m": [
+     0,
+     2.6,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -2.15,
+     2.6,
+     -1.12
+    ],
+    "bbox_max": [
+     2.15,
+     2.85,
+     1.12
+    ]
+   },
+   {
+    "part": "back_panel",
+    "obj_groups": [
+     "PROP_05__back_panel"
+    ],
+    "description": "glass panel",
+    "pivot_m": [
+     0,
+     1.5,
+     -0.7
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.7,
+     0.45,
+     -0.72
+    ],
+    "bbox_max": [
+     1.7,
+     2.55,
+     -0.7
+    ]
+   }
+  ]
+ },
+ "PROP_08": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_08__base",
+   "PROP_08__barrel",
+   "PROP_08__bonnet",
+   "PROP_08__nut",
+   "PROP_08__nozzle",
+   "PROP_08__nozzle_cap",
+   "PROP_08__pumper",
+   "PROP_08__pumper_cap"
+  ],
+  "detachable_parts": [
+   {
+    "part": "bonnet",
+    "obj_groups": [
+     "PROP_08__bonnet"
+    ],
+    "description": "bonnet + nut (shears off)",
+    "pivot_m": [
+     0,
+     0.56,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.15,
+     0.56,
+     -0.15
+    ],
+    "bbox_max": [
+     0.15,
+     0.76,
+     0.15
+    ]
+   }
+  ]
+ },
+ "PROP_09": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_09__base",
+   "PROP_09__collar",
+   "PROP_09__shaft",
+   "PROP_09__band",
+   "PROP_09__cap"
+  ],
+  "detachable_parts": [
+   {
+    "part": "shaft",
+    "obj_groups": [
+     "PROP_09__shaft"
+    ],
+    "description": "bollard shaft + cap (sheared at collar)",
+    "pivot_m": [
+     0,
+     0.125,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.085,
+     0.125,
+     -0.085
+    ],
+    "bbox_max": [
+     0.085,
+     0.745,
+     0.085
+    ]
+   }
+  ]
+ },
+ "PROP_10": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_10__posts",
+   "PROP_10__spacer",
+   "PROP_10__bolts",
+   "PROP_10__rail"
+  ],
+  "detachable_parts": [
+   {
+    "part": "rail",
+    "obj_groups": [
+     "PROP_10__rail"
+    ],
+    "description": "W-beam rail",
+    "pivot_m": [
+     0.19,
+     0.53,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.19,
+     0.375,
+     -2.0
+    ],
+    "bbox_max": [
+     0.274,
+     0.685,
+     2.0
+    ]
+   },
+   {
+    "part": "posts",
+    "obj_groups": [
+     "PROP_10__posts"
+    ],
+    "description": "posts",
+    "pivot_m": [
+     0,
+     0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.075,
+     -0.1,
+     -1.95
+    ],
+    "bbox_max": [
+     0.075,
+     0.78,
+     1.95
+    ]
+   }
+  ]
+ },
+ "PROP_14": {
+  "category": "street_props",
+  "all_obj_groups": [
+   "PROP_14__footing",
+   "PROP_14__column",
+   "PROP_14__base_plate",
+   "PROP_14__brace",
+   "PROP_14__rear_strut",
+   "PROP_14__rear_foot",
+   "PROP_14__girder",
+   "PROP_14__frame",
+   "PROP_14__face",
+   "PROP_14__catwalk",
+   "PROP_14__catwalk_rail",
+   "PROP_14__flood_arm",
+   "PROP_14__flood",
+   "PROP_14__flood_lens"
+  ],
+  "detachable_parts": [
+   {
+    "part": "face",
+    "obj_groups": [
+     "PROP_14__face"
+    ],
+    "description": "face panel",
+    "pivot_m": [
+     0,
+     6.1,
+     0.1
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -4.05,
+     4.55,
+     0.12
+    ],
+    "bbox_max": [
+     4.05,
+     7.65,
+     0.15
+    ]
+   }
+  ]
+ },
+ "UTILITY_01": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_01__pole",
+   "UTILITY_01__ground_sleeve",
+   "UTILITY_01__pole_cap",
+   "UTILITY_01__crossarm_upper",
+   "UTILITY_01__brace_upper",
+   "UTILITY_01__bolt_upper",
+   "UTILITY_01__through_bolt",
+   "UTILITY_01__crossarm_lower",
+   "UTILITY_01__brace_lower",
+   "UTILITY_01__bolt_lower",
+   "UTILITY_01__insulator_upper",
+   "UTILITY_01__insulator_top",
+   "UTILITY_01__insulator_lower",
+   "UTILITY_01__pegs",
+   "UTILITY_01__ground_wire_staple"
+  ],
+  "detachable_parts": [
+   {
+    "part": "crossarm_upper",
+    "obj_groups": [
+     "UTILITY_01__crossarm_upper"
+    ],
+    "description": "upper crossarm + insulators",
+    "pivot_m": [
+     0,
+     9.2,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.3,
+     9.13,
+     -0.07
+    ],
+    "bbox_max": [
+     1.3,
+     9.27,
+     0.07
+    ]
+   }
+  ]
+ },
+ "UTILITY_02": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_02__pole_section",
+   "UTILITY_02__hanger_bar",
+   "UTILITY_02__tank",
+   "UTILITY_02__ribs",
+   "UTILITY_02__lid_ring",
+   "UTILITY_02__bushing_HV",
+   "UTILITY_02__terminal_HV",
+   "UTILITY_02__terminal_LV",
+   "UTILITY_02__mount_strap",
+   "UTILITY_02__hanger_lug",
+   "UTILITY_02__nameplate"
+  ],
+  "detachable_parts": [
+   {
+    "part": "bushing_HV",
+    "obj_groups": [
+     "UTILITY_02__bushing_HV"
+    ],
+    "description": "HV bushings",
+    "pivot_m": [
+     0,
+     1.7,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.295,
+     1.7,
+     -0.075
+    ],
+    "bbox_max": [
+     0.295,
+     2.12,
+     0.075
+    ]
+   },
+   {
+    "part": "tank",
+    "obj_groups": [
+     "UTILITY_02__tank"
+    ],
+    "description": "transformer can (falls from hangers)",
+    "pivot_m": [
+     0,
+     1.0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.4,
+     0.5,
+     -0.39
+    ],
+    "bbox_max": [
+     0.4,
+     1.7,
+     0.39
+    ]
+   }
+  ]
+ },
+ "UTILITY_03": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_03__pad",
+   "UTILITY_03__pad_edge",
+   "UTILITY_03__cabinet",
+   "UTILITY_03__roof",
+   "UTILITY_03__roof_cap",
+   "UTILITY_03__door",
+   "UTILITY_03__door_panel",
+   "UTILITY_03__hinge",
+   "UTILITY_03__handle",
+   "UTILITY_03__padlock",
+   "UTILITY_03__vent",
+   "UTILITY_03__vent_side",
+   "UTILITY_03__warning_label",
+   "UTILITY_03__danger_label",
+   "UTILITY_03__conduit",
+   "UTILITY_03__pad_bolts"
+  ],
+  "detachable_parts": [
+   {
+    "part": "door",
+    "obj_groups": [
+     "UTILITY_03__door",
+     "UTILITY_03__door_panel"
+    ],
+    "description": "doors (hinged left/right)",
+    "pivot_m": [
+     -0.72,
+     0.8,
+     0.62
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.7,
+     0.28,
+     0.6
+    ],
+    "bbox_max": [
+     0.7,
+     1.25,
+     0.655
+    ]
+   }
+  ]
+ },
+ "UTILITY_04": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_04__legs",
+   "UTILITY_04__x_brace",
+   "UTILITY_04__ring",
+   "UTILITY_04__peak",
+   "UTILITY_04__crossarm",
+   "UTILITY_04__insulator_string",
+   "UTILITY_04__yoke",
+   "UTILITY_04__footing",
+   "UTILITY_04__base_plate"
+  ],
+  "detachable_parts": [
+   {
+    "part": "crossarm",
+    "obj_groups": [
+     "UTILITY_04__crossarm"
+    ],
+    "description": "crossarm trusses + insulator strings (snap at tower nodes)",
+    "pivot_m": [
+     0,
+     20,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -6.455,
+     14.93,
+     -0.37
+    ],
+    "bbox_max": [
+     6.455,
+     26.352,
+     0.37
+    ]
+   },
+   {
+    "part": "peak",
+    "obj_groups": [
+     "UTILITY_04__peak"
+    ],
+    "description": "top peak",
+    "pivot_m": [
+     0,
+     30,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.153,
+     29.974,
+     -1.153
+    ],
+    "bbox_max": [
+     1.153,
+     36.0,
+     1.153
+    ]
+   }
+  ]
+ },
+ "UTILITY_05": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_05__column",
+   "UTILITY_05__base_plate",
+   "UTILITY_05__gusset",
+   "UTILITY_05__footing",
+   "UTILITY_05__chord",
+   "UTILITY_05__web",
+   "UTILITY_05__knee_brace",
+   "UTILITY_05__mount_plate",
+   "UTILITY_05__insulator_string",
+   "UTILITY_05__clamp"
+  ],
+  "detachable_parts": [
+   {
+    "part": "web",
+    "obj_groups": [
+     "UTILITY_05__web"
+    ],
+    "description": "cross-member truss + insulators (spans between columns)",
+    "pivot_m": [
+     0,
+     7.9,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -3.031,
+     7.384,
+     -0.035
+    ],
+    "bbox_max": [
+     3.031,
+     8.416,
+     0.035
+    ]
+   }
+  ]
+ },
+ "UTILITY_06": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_06__slab",
+   "UTILITY_06__gravel",
+   "UTILITY_06__plinth",
+   "UTILITY_06__tank",
+   "UTILITY_06__tank_lid",
+   "UTILITY_06__radiator",
+   "UTILITY_06__radiator_header",
+   "UTILITY_06__conservator",
+   "UTILITY_06__support",
+   "UTILITY_06__bushing_HV",
+   "UTILITY_06__bushing_LV",
+   "UTILITY_06__switchgear",
+   "UTILITY_06__sw_door",
+   "UTILITY_06__sw_handle",
+   "UTILITY_06__sw_light",
+   "UTILITY_06__gantry",
+   "UTILITY_06__gantry_a",
+   "UTILITY_06__gantry_beam",
+   "UTILITY_06__busbar",
+   "UTILITY_06__busbar_support",
+   "UTILITY_06__kiosk",
+   "UTILITY_06__kiosk_roof",
+   "UTILITY_06__kiosk_door",
+   "UTILITY_06__fence_post",
+   "UTILITY_06__fence_rail"
+  ],
+  "detachable_parts": [
+   {
+    "part": "tank",
+    "obj_groups": [
+     "UTILITY_06__tank",
+     "UTILITY_06__tank_lid"
+    ],
+    "description": "transformer tanks",
+    "pivot_m": [
+     0,
+     1.3,
+     0.8
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -3.65,
+     0.5,
+     -0.15
+    ],
+    "bbox_max": [
+     1.25,
+     2.2,
+     1.75
+    ]
+   },
+   {
+    "part": "switchgear",
+    "obj_groups": [
+     "UTILITY_06__switchgear"
+    ],
+    "description": "switchgear cabinets",
+    "pivot_m": [
+     -2,
+     1.2,
+     -2.6
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -3.9,
+     0.23,
+     -3.0
+    ],
+    "bbox_max": [
+     0.7,
+     2.3,
+     -2.2
+    ]
+   }
+  ]
+ },
+ "UTILITY_07": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_07__curb_rail",
+   "UTILITY_07__feet",
+   "UTILITY_07__housing",
+   "UTILITY_07__top_panel",
+   "UTILITY_07__fan_shroud",
+   "UTILITY_07__fan_guard",
+   "UTILITY_07__fan_hub",
+   "UTILITY_07__fan_blades",
+   "UTILITY_07__coil_grille",
+   "UTILITY_07__end_grille",
+   "UTILITY_07__access_panel",
+   "UTILITY_07__panel_handle",
+   "UTILITY_07__line_set",
+   "UTILITY_07__disconnect"
+  ],
+  "detachable_parts": [
+   {
+    "part": "fan_blades",
+    "obj_groups": [
+     "UTILITY_07__fan_blades"
+    ],
+    "description": "fan blades",
+    "pivot_m": [
+     0.55,
+     1.18,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.251,
+     1.17,
+     -0.336
+    ],
+    "bbox_max": [
+     0.89,
+     1.19,
+     0.336
+    ]
+   },
+   {
+    "part": "top_panel",
+    "obj_groups": [
+     "UTILITY_07__top_panel"
+    ],
+    "description": "top panel",
+    "pivot_m": [
+     0,
+     1.18,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.12,
+     1.18,
+     -0.52
+    ],
+    "bbox_max": [
+     1.12,
+     1.2,
+     0.52
+    ]
+   }
+  ]
+ },
+ "UTILITY_08": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_08__legs",
+   "UTILITY_08__foot",
+   "UTILITY_08__stand_ring",
+   "UTILITY_08__stand_brace",
+   "UTILITY_08__deck",
+   "UTILITY_08__tank",
+   "UTILITY_08__hoops",
+   "UTILITY_08__roof",
+   "UTILITY_08__hatch",
+   "UTILITY_08__vent",
+   "UTILITY_08__ladder_rail",
+   "UTILITY_08__ladder_rung",
+   "UTILITY_08__pipe",
+   "UTILITY_08__valve",
+   "UTILITY_08__inlet_pipe",
+   "UTILITY_08__gauge"
+  ],
+  "detachable_parts": [
+   {
+    "part": "roof",
+    "obj_groups": [
+     "UTILITY_08__roof"
+    ],
+    "description": "tank roof + vent + hatch",
+    "pivot_m": [
+     0,
+     3.96,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.34,
+     3.96,
+     -1.34
+    ],
+    "bbox_max": [
+     1.34,
+     4.52,
+     1.34
+    ]
+   },
+   {
+    "part": "tank",
+    "obj_groups": [
+     "UTILITY_08__tank"
+    ],
+    "description": "tank body",
+    "pivot_m": [
+     0,
+     3.0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.3,
+     2.12,
+     -1.3
+    ],
+    "bbox_max": [
+     1.3,
+     3.96,
+     1.3
+    ]
+   }
+  ]
+ },
+ "UTILITY_09": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_09__reflector",
+   "UTILITY_09__feed_strut",
+   "UTILITY_09__lnb",
+   "UTILITY_09__feed_horn",
+   "UTILITY_09__lnb_cable",
+   "UTILITY_09__hub",
+   "UTILITY_09__elevation_arm",
+   "UTILITY_09__azimuth_plate",
+   "UTILITY_09__azimuth_slots",
+   "UTILITY_09__mast",
+   "UTILITY_09__wall_plate"
+  ],
+  "detachable_parts": [
+   {
+    "part": "reflector",
+    "obj_groups": [
+     "UTILITY_09__reflector"
+    ],
+    "description": "dish",
+    "pivot_m": [
+     0,
+     1.9,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.81,
+     1.401,
+     -0.088
+    ],
+    "bbox_max": [
+     0.81,
+     2.832,
+     0.798
+    ]
+   },
+   {
+    "part": "feed_strut",
+    "obj_groups": [
+     "UTILITY_09__feed_strut"
+    ],
+    "description": "feed assembly",
+    "pivot_m": [
+     0,
+     2.252103672089418,
+     0.6622106946441951
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.701,
+     1.403,
+     0.197
+    ],
+    "bbox_max": [
+     0.701,
+     2.478,
+     0.788
+    ]
+   }
+  ]
+ },
+ "UTILITY_11": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_11__skid",
+   "UTILITY_11__feet",
+   "UTILITY_11__engine",
+   "UTILITY_11__alternator",
+   "UTILITY_11__fuel_tank",
+   "UTILITY_11__fuel_cap",
+   "UTILITY_11__air_filter",
+   "UTILITY_11__recoil",
+   "UTILITY_11__muffler",
+   "UTILITY_11__exhaust",
+   "UTILITY_11__panel",
+   "UTILITY_11__outlet",
+   "UTILITY_11__switch",
+   "UTILITY_11__gauge",
+   "UTILITY_11__cage",
+   "UTILITY_11__wheel",
+   "UTILITY_11__hub",
+   "UTILITY_11__handle",
+   "UTILITY_11__handle_grip"
+  ],
+  "detachable_parts": [
+   {
+    "part": "wheel",
+    "obj_groups": [
+     "UTILITY_11__wheel"
+    ],
+    "description": "wheels",
+    "pivot_m": [
+     0.5,
+     0.14,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.36,
+     0.0,
+     -0.4
+    ],
+    "bbox_max": [
+     0.64,
+     0.28,
+     0.4
+    ]
+   }
+  ]
+ },
+ "UTILITY_12": {
+  "category": "utilities",
+  "all_obj_groups": [
+   "UTILITY_12__pedestal",
+   "UTILITY_12__cabinet",
+   "UTILITY_12__roof",
+   "UTILITY_12__door",
+   "UTILITY_12__door_inset",
+   "UTILITY_12__hinge",
+   "UTILITY_12__handle",
+   "UTILITY_12__lock",
+   "UTILITY_12__meter_window",
+   "UTILITY_12__side_louvre",
+   "UTILITY_12__conduit",
+   "UTILITY_12__warning"
+  ],
+  "detachable_parts": [
+   {
+    "part": "door",
+    "obj_groups": [
+     "UTILITY_12__door",
+     "UTILITY_12__door_inset"
+    ],
+    "description": "doors",
+    "pivot_m": [
+     -0.38,
+     0.9,
+     0.24
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.38,
+     0.35,
+     0.225
+    ],
+    "bbox_max": [
+     0.38,
+     1.4,
+     0.262
+    ]
+   }
+  ]
+ },
+ "HARBOR_01": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_01__deck_planks",
+   "HARBOR_01__stringers",
+   "HARBOR_01__cross_beams",
+   "HARBOR_01__piles",
+   "HARBOR_01__pile_caps",
+   "HARBOR_01__fascia",
+   "HARBOR_01__cleats"
+  ],
+  "detachable_parts": [
+   {
+    "part": "deck_planks",
+    "obj_groups": [
+     "HARBOR_01__deck_planks"
+    ],
+    "description": "deck planks (peel individually)",
+    "pivot_m": [
+     0,
+     1.16,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.5,
+     1.12,
+     -5.99
+    ],
+    "bbox_max": [
+     1.5,
+     1.2,
+     5.99
+    ]
+   },
+   {
+    "part": "piles",
+    "obj_groups": [
+     "HARBOR_01__piles"
+    ],
+    "description": "piles",
+    "pivot_m": [
+     0,
+     0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.567,
+     -3.0,
+     -5.567
+    ],
+    "bbox_max": [
+     1.567,
+     1.2,
+     5.567
+    ]
+   },
+   {
+    "part": "stringers",
+    "obj_groups": [
+     "HARBOR_01__stringers"
+    ],
+    "description": "stringers",
+    "pivot_m": [
+     0,
+     1.0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.26,
+     0.92,
+     -6
+    ],
+    "bbox_max": [
+     1.26,
+     1.12,
+     6
+    ]
+   }
+  ]
+ },
+ "HARBOR_02": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_02__deck",
+   "HARBOR_02__deck_topping",
+   "HARBOR_02__curb",
+   "HARBOR_02__joints",
+   "HARBOR_02__piers",
+   "HARBOR_02__cross_beams",
+   "HARBOR_02__long_beams",
+   "HARBOR_02__fenders",
+   "HARBOR_02__fender_chain",
+   "HARBOR_02__bollard_pad",
+   "HARBOR_02__bollard_socket"
+  ],
+  "detachable_parts": [
+   {
+    "part": "deck",
+    "obj_groups": [
+     "HARBOR_02__deck",
+     "HARBOR_02__deck_topping"
+    ],
+    "description": "deck slab (sheared from piers)",
+    "pivot_m": [
+     0,
+     1.25,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -3.0,
+     1.0,
+     -6
+    ],
+    "bbox_max": [
+     3.0,
+     1.56,
+     6
+    ]
+   },
+   {
+    "part": "piers",
+    "obj_groups": [
+     "HARBOR_02__piers"
+    ],
+    "description": "support piers",
+    "pivot_m": [
+     0,
+     -1,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -2.32,
+     -3.0,
+     -5.32
+    ],
+    "bbox_max": [
+     2.32,
+     1.0,
+     5.32
+    ]
+   }
+  ]
+ },
+ "HARBOR_03": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_03__pontoons",
+   "HARBOR_03__pontoon_caps",
+   "HARBOR_03__frame",
+   "HARBOR_03__straps",
+   "HARBOR_03__deck",
+   "HARBOR_03__rail_posts",
+   "HARBOR_03__rail",
+   "HARBOR_03__cleats",
+   "HARBOR_03__hinge_plate",
+   "HARBOR_03__hinge_pin"
+  ],
+  "detachable_parts": [
+   {
+    "part": "deck",
+    "obj_groups": [
+     "HARBOR_03__deck"
+    ],
+    "description": "deck planks",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.2,
+     0.45,
+     -2.99
+    ],
+    "bbox_max": [
+     1.2,
+     0.55,
+     2.99
+    ]
+   },
+   {
+    "part": "pontoons",
+    "obj_groups": [
+     "HARBOR_03__pontoons"
+    ],
+    "description": "pontoons",
+    "pivot_m": [
+     0,
+     0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.2,
+     -0.45,
+     -2.8
+    ],
+    "bbox_max": [
+     1.2,
+     0.45,
+     2.8
+    ]
+   }
+  ]
+ },
+ "HARBOR_04": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_04__section_1",
+   "HARBOR_04__section_1_courses",
+   "HARBOR_04__section_1_cap",
+   "HARBOR_04__section_1_ring",
+   "HARBOR_04__section_2",
+   "HARBOR_04__section_2_courses",
+   "HARBOR_04__section_2_cap",
+   "HARBOR_04__section_2_ring",
+   "HARBOR_04__section_3",
+   "HARBOR_04__section_3_courses",
+   "HARBOR_04__section_3_cap",
+   "HARBOR_04__section_3_ring",
+   "HARBOR_04__joints",
+   "HARBOR_04__toe_apron",
+   "HARBOR_04__ladder_rung",
+   "HARBOR_04__railing_sockets"
+  ],
+  "detachable_parts": [
+   {
+    "part": "section_1",
+    "obj_groups": [
+     "HARBOR_04__section_1",
+     "HARBOR_04__section_1_courses",
+     "HARBOR_04__section_1_cap",
+     "HARBOR_04__section_1_ring"
+    ],
+    "description": "wall section 1",
+    "pivot_m": [
+     0,
+     0,
+     -4
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.6,
+     -2.0,
+     -5.98
+    ],
+    "bbox_max": [
+     1.9,
+     2.9,
+     -2.02
+    ]
+   },
+   {
+    "part": "section_2",
+    "obj_groups": [
+     "HARBOR_04__section_2",
+     "HARBOR_04__section_2_courses",
+     "HARBOR_04__section_2_cap",
+     "HARBOR_04__section_2_ring"
+    ],
+    "description": "wall section 2",
+    "pivot_m": [
+     0,
+     0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.6,
+     -2.0,
+     -1.98
+    ],
+    "bbox_max": [
+     1.9,
+     2.9,
+     1.98
+    ]
+   },
+   {
+    "part": "section_3",
+    "obj_groups": [
+     "HARBOR_04__section_3",
+     "HARBOR_04__section_3_courses",
+     "HARBOR_04__section_3_cap",
+     "HARBOR_04__section_3_ring"
+    ],
+    "description": "wall section 3",
+    "pivot_m": [
+     0,
+     0,
+     4
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.6,
+     -2.0,
+     2.02
+    ],
+    "bbox_max": [
+     1.9,
+     2.9,
+     5.98
+    ]
+   }
+  ]
+ },
+ "HARBOR_05": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_05__core",
+   "HARBOR_05__rocks",
+   "HARBOR_05__armour_row1",
+   "HARBOR_05__armour_row2",
+   "HARBOR_05__armour_row3",
+   "HARBOR_05__armour_row4",
+   "HARBOR_05__armour_row5",
+   "HARBOR_05__armour_row6",
+   "HARBOR_05__armour_row7",
+   "HARBOR_05__armour_row8",
+   "HARBOR_05__armour_row9"
+  ],
+  "detachable_parts": [
+   {
+    "part": "armour_row5",
+    "obj_groups": [
+     "HARBOR_05__armour_row5"
+    ],
+    "description": "crest armour units (can be dislodged individually)",
+    "pivot_m": [
+     0,
+     3.1,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.252,
+     2.103,
+     -5.858
+    ],
+    "bbox_max": [
+     1.269,
+     4.518,
+     6.082
+    ]
+   }
+  ]
+ },
+ "HARBOR_06": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_06__plinth",
+   "HARBOR_06__steps",
+   "HARBOR_06__tower_white_paint",
+   "HARBOR_06__tower_band_trim",
+   "HARBOR_06__tower_traffic_red",
+   "HARBOR_06__door_frame",
+   "HARBOR_06__door",
+   "HARBOR_06__door_arch",
+   "HARBOR_06__window_frame",
+   "HARBOR_06__window",
+   "HARBOR_06__window_sill",
+   "HARBOR_06__gallery_floor",
+   "HARBOR_06__gallery_brackets",
+   "HARBOR_06__railing_posts",
+   "HARBOR_06__railing_rails",
+   "HARBOR_06__lantern_base",
+   "HARBOR_06__lantern_glass",
+   "HARBOR_06__lantern_mullions",
+   "HARBOR_06__lantern_ring",
+   "HARBOR_06__lamp",
+   "HARBOR_06__lamp_lens",
+   "HARBOR_06__dome",
+   "HARBOR_06__vane"
+  ],
+  "detachable_parts": [
+   {
+    "part": "dome",
+    "obj_groups": [
+     "HARBOR_06__dome"
+    ],
+    "description": "lantern dome + vane",
+    "pivot_m": [
+     0,
+     20.55,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.7,
+     20.57,
+     -1.7
+    ],
+    "bbox_max": [
+     1.7,
+     21.6,
+     1.7
+    ]
+   },
+   {
+    "part": "lantern_glass",
+    "obj_groups": [
+     "HARBOR_06__lantern_glass"
+    ],
+    "description": "lantern glazing",
+    "pivot_m": [
+     0,
+     19.55,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.5,
+     18.75,
+     -1.5
+    ],
+    "bbox_max": [
+     1.5,
+     20.45,
+     1.5
+    ]
+   }
+  ]
+ },
+ "HARBOR_07": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_07__rail",
+   "HARBOR_07__bogie",
+   "HARBOR_07__wheels",
+   "HARBOR_07__legs",
+   "HARBOR_07__sill",
+   "HARBOR_07__portal_top",
+   "HARBOR_07__leg_brace",
+   "HARBOR_07__slew_ring",
+   "HARBOR_07__house",
+   "HARBOR_07__cab",
+   "HARBOR_07__cab_window",
+   "HARBOR_07__counterweight",
+   "HARBOR_07__house_vents",
+   "HARBOR_07__winch_house",
+   "HARBOR_07__winch_drum",
+   "HARBOR_07__a_frame",
+   "HARBOR_07__a_frame_sheave",
+   "HARBOR_07__boom_chord",
+   "HARBOR_07__boom_web",
+   "HARBOR_07__jib",
+   "HARBOR_07__jib_pin",
+   "HARBOR_07__jib_sheave",
+   "HARBOR_07__ropes",
+   "HARBOR_07__hook_block",
+   "HARBOR_07__hook"
+  ],
+  "detachable_parts": [
+   {
+    "part": "house",
+    "obj_groups": [
+     "HARBOR_07__house",
+     "HARBOR_07__house_vents"
+    ],
+    "description": "slewing house",
+    "pivot_m": [
+     0,
+     7.0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.75,
+     7.0,
+     -2.8
+    ],
+    "bbox_max": [
+     1.75,
+     9.35,
+     1.4
+    ]
+   },
+   {
+    "part": "boom_chord",
+    "obj_groups": [
+     "HARBOR_07__boom_chord"
+    ],
+    "description": "boom (separately addressable)",
+    "pivot_m": [
+     0,
+     9.0,
+     1.0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.772,
+     8.944,
+     0.424
+    ],
+    "bbox_max": [
+     0.772,
+     16.46,
+     10.544
+    ]
+   },
+   {
+    "part": "jib",
+    "obj_groups": [
+     "HARBOR_07__jib",
+     "HARBOR_07__jib_pin",
+     "HARBOR_07__jib_sheave"
+    ],
+    "description": "jib",
+    "pivot_m": [
+     0,
+     16,
+     10.5
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.45,
+     14.934,
+     10.36
+    ],
+    "bbox_max": [
+     0.45,
+     16.14,
+     14.98
+    ]
+   },
+   {
+    "part": "hook",
+    "obj_groups": [
+     "HARBOR_07__hook_block",
+     "HARBOR_07__hook"
+    ],
+    "description": "hook block",
+    "pivot_m": [
+     0,
+     6.5,
+     14.9
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.3,
+     4.856,
+     14.6
+    ],
+    "bbox_max": [
+     0.307,
+     7.0,
+     15.2
+    ]
+   },
+   {
+    "part": "legs",
+    "obj_groups": [
+     "HARBOR_07__legs"
+    ],
+    "description": "portal legs",
+    "pivot_m": [
+     0,
+     3,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -3.424,
+     0.603,
+     -3.226
+    ],
+    "bbox_max": [
+     3.424,
+     6.547,
+     3.226
+    ]
+   }
+  ]
+ },
+ "HARBOR_09": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_09__float_red",
+   "HARBOR_09__float_deck",
+   "HARBOR_09__fender_ring",
+   "HARBOR_09__keel",
+   "HARBOR_09__mooring_eye",
+   "HARBOR_09__tower",
+   "HARBOR_09__tower_ring",
+   "HARBOR_09__lantern",
+   "HARBOR_09__lantern_cap",
+   "HARBOR_09__lantern_base",
+   "HARBOR_09__topmark",
+   "HARBOR_09__radar_reflector"
+  ],
+  "detachable_parts": [
+   {
+    "part": "lantern",
+    "obj_groups": [
+     "HARBOR_09__lantern",
+     "HARBOR_09__lantern_cap",
+     "HARBOR_09__lantern_base"
+    ],
+    "description": "lantern",
+    "pivot_m": [
+     0,
+     3.2,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.22,
+     3.0,
+     -0.22
+    ],
+    "bbox_max": [
+     0.22,
+     3.6,
+     0.22
+    ]
+   }
+  ]
+ },
+ "HARBOR_10": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_10__side_wall",
+   "HARBOR_10__floor",
+   "HARBOR_10__roof",
+   "HARBOR_10__top_rail",
+   "HARBOR_10__bottom_rail",
+   "HARBOR_10__end_header",
+   "HARBOR_10__end_sill",
+   "HARBOR_10__corner_castings",
+   "HARBOR_10__back_panel",
+   "HARBOR_10__back_panel_core",
+   "HARBOR_10__door_leaf",
+   "HARBOR_10__door_ribs",
+   "HARBOR_10__locking_bars",
+   "HARBOR_10__cam_handle",
+   "HARBOR_10__bar_guides",
+   "HARBOR_10__hinges",
+   "HARBOR_10__door_seal",
+   "HARBOR_10__data_plate"
+  ],
+  "detachable_parts": [
+   {
+    "part": "door_leaf",
+    "obj_groups": [
+     "HARBOR_10__door_leaf"
+    ],
+    "description": "door leaves (hinged)",
+    "pivot_m": [
+     1.1199999999999999,
+     1.3,
+     6.095
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.12,
+     0.16,
+     5.975
+    ],
+    "bbox_max": [
+     1.12,
+     2.43,
+     6.075
+    ]
+   },
+   {
+    "part": "roof",
+    "obj_groups": [
+     "HARBOR_10__roof"
+    ],
+    "description": "roof sheet",
+    "pivot_m": [
+     0,
+     2.59,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.12,
+     2.39,
+     -5.895
+    ],
+    "bbox_max": [
+     1.12,
+     2.52,
+     5.895
+    ]
+   }
+  ]
+ },
+ "HARBOR_11": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_11__platform",
+   "HARBOR_11__platform_beams",
+   "HARBOR_11__legs",
+   "HARBOR_11__foot",
+   "HARBOR_11__leg_brace",
+   "HARBOR_11__platform_grip",
+   "HARBOR_11__ramp_plate",
+   "HARBOR_11__ramp_beams",
+   "HARBOR_11__ramp_ribs",
+   "HARBOR_11__rail_posts",
+   "HARBOR_11__rail_top",
+   "HARBOR_11__rail_mid",
+   "HARBOR_11__toe_plate",
+   "HARBOR_11__hinge",
+   "HARBOR_11__rams",
+   "HARBOR_11__ram_rods",
+   "HARBOR_11__wheel_stops"
+  ],
+  "detachable_parts": [
+   {
+    "part": "ramp_plate",
+    "obj_groups": [
+     "HARBOR_11__ramp_plate"
+    ],
+    "description": "ramp deck (hinged)",
+    "pivot_m": [
+     0,
+     1.1,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.55,
+     1.044,
+     0.003
+    ],
+    "bbox_max": [
+     1.55,
+     2.097,
+     5.009
+    ]
+   },
+   {
+    "part": "rams",
+    "obj_groups": [
+     "HARBOR_11__rams"
+    ],
+    "description": "hydraulic rams",
+    "pivot_m": [
+     0,
+     0.7,
+     -1
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.07,
+     0.481,
+     -1.611
+    ],
+    "bbox_max": [
+     1.07,
+     0.919,
+     0.311
+    ]
+   }
+  ]
+ },
+ "HARBOR_13": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_13__floats",
+   "HARBOR_13__float_ribs",
+   "HARBOR_13__frame",
+   "HARBOR_13__deck",
+   "HARBOR_13__rub_rail",
+   "HARBOR_13__cleats",
+   "HARBOR_13__connector_lug",
+   "HARBOR_13__connector_pin"
+  ],
+  "detachable_parts": [
+   {
+    "part": "deck",
+    "obj_groups": [
+     "HARBOR_13__deck"
+    ],
+    "description": "deck planks",
+    "pivot_m": [
+     0,
+     0.33,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.75,
+     0.3,
+     -2.935
+    ],
+    "bbox_max": [
+     0.75,
+     0.36,
+     3.02
+    ]
+   },
+   {
+    "part": "floats",
+    "obj_groups": [
+     "HARBOR_13__floats"
+    ],
+    "description": "floats",
+    "pivot_m": [
+     0,
+     -0.1,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.8,
+     -0.35,
+     -2.9
+    ],
+    "bbox_max": [
+     0.8,
+     0.2,
+     2.9
+    ]
+   }
+  ]
+ },
+ "HARBOR_14": {
+  "category": "harbor",
+  "all_obj_groups": [
+   "HARBOR_14__bogies",
+   "HARBOR_14__legs",
+   "HARBOR_14__rails",
+   "HARBOR_14__sill",
+   "HARBOR_14__portal_beam",
+   "HARBOR_14__brace_x",
+   "HARBOR_14__sill_z",
+   "HARBOR_14__portal_beam_z",
+   "HARBOR_14__brace_z",
+   "HARBOR_14__boom",
+   "HARBOR_14__boom_cross",
+   "HARBOR_14__boom_tip",
+   "HARBOR_14__machinery_house",
+   "HARBOR_14__machinery_roof",
+   "HARBOR_14__house_vents",
+   "HARBOR_14__a_frame",
+   "HARBOR_14__a_frame_top",
+   "HARBOR_14__a_frame_brace",
+   "HARBOR_14__stays",
+   "HARBOR_14__trolley",
+   "HARBOR_14__trolley_cab",
+   "HARBOR_14__trolley_cab_window",
+   "HARBOR_14__cab_hanger",
+   "HARBOR_14__hoist_ropes",
+   "HARBOR_14__spreader",
+   "HARBOR_14__twist_locks",
+   "HARBOR_14__trolley_rails"
+  ],
+  "detachable_parts": [
+   {
+    "part": "boom",
+    "obj_groups": [
+     "HARBOR_14__boom",
+     "HARBOR_14__boom_cross",
+     "HARBOR_14__boom_tip"
+    ],
+    "description": "boom girder (separately addressable)",
+    "pivot_m": [
+     0,
+     22.7,
+     6.0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.76,
+     22.54,
+     -16.128
+    ],
+    "bbox_max": [
+     1.76,
+     26.598,
+     31.078
+    ]
+   },
+   {
+    "part": "trolley",
+    "obj_groups": [
+     "HARBOR_14__trolley",
+     "HARBOR_14__trolley_cab",
+     "HARBOR_14__trolley_cab_window",
+     "HARBOR_14__trolley_rails"
+    ],
+    "description": "trolley",
+    "pivot_m": [
+     0,
+     22.7,
+     16.0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -2.2,
+     20.0,
+     -16.0
+    ],
+    "bbox_max": [
+     4.02,
+     22.7,
+     30.0
+    ]
+   },
+   {
+    "part": "spreader",
+    "obj_groups": [
+     "HARBOR_14__spreader"
+    ],
+    "description": "spreader",
+    "pivot_m": [
+     0,
+     9.0,
+     16.0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.2,
+     9.0,
+     9.9
+    ],
+    "bbox_max": [
+     1.2,
+     9.6,
+     22.1
+    ]
+   },
+   {
+    "part": "a_frame",
+    "obj_groups": [
+     "HARBOR_14__a_frame",
+     "HARBOR_14__a_frame_top",
+     "HARBOR_14__a_frame_brace"
+    ],
+    "description": "A-frame",
+    "pivot_m": [
+     0,
+     25.7,
+     2.5
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -2.499,
+     25.673,
+     2.15
+    ],
+    "bbox_max": [
+     2.499,
+     42.05,
+     2.85
+    ]
+   },
+   {
+    "part": "legs",
+    "obj_groups": [
+     "HARBOR_14__legs"
+    ],
+    "description": "portal legs",
+    "pivot_m": [
+     0,
+     11,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -8.05,
+     0.9,
+     -7.55
+    ],
+    "bbox_max": [
+     8.05,
+     22.0,
+     7.55
+    ]
+   }
+  ]
+ },
+ "DESTROY_01": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_01__footing",
+   "DESTROY_01__backing",
+   "DESTROY_01__panel_1",
+   "DESTROY_01__panel_1_spall",
+   "DESTROY_01__panel_2",
+   "DESTROY_01__panel_3",
+   "DESTROY_01__panel_4",
+   "DESTROY_01__panel_5",
+   "DESTROY_01__panel_5_spall",
+   "DESTROY_01__panel_6",
+   "DESTROY_01__panel_7",
+   "DESTROY_01__panel_8",
+   "DESTROY_01__panel_9",
+   "DESTROY_01__panel_9_spall",
+   "DESTROY_01__panel_10",
+   "DESTROY_01__panel_11",
+   "DESTROY_01__panel_12",
+   "DESTROY_01__rebar",
+   "DESTROY_01__spall_chip"
+  ],
+  "detachable_parts": [
+   {
+    "part": "panel_1",
+    "obj_groups": [
+     "DESTROY_01__panel_1",
+     "DESTROY_01__panel_1_spall"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     1.691,
+     0.764,
+     0.017
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     1.298,
+     0.764,
+     -0.15
+    ],
+    "bbox_max": [
+     2.084,
+     2.467,
+     0.185
+    ]
+   },
+   {
+    "part": "panel_2",
+    "obj_groups": [
+     "DESTROY_01__panel_2"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     3.45,
+     0.131,
+     0.01
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.905,
+     0.131,
+     -0.15
+    ],
+    "bbox_max": [
+     3.995,
+     1.845,
+     0.171
+    ]
+   },
+   {
+    "part": "panel_3",
+    "obj_groups": [
+     "DESTROY_01__panel_3"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     2.023,
+     0.944,
+     0.003
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     1.697,
+     0.944,
+     -0.15
+    ],
+    "bbox_max": [
+     2.348,
+     2.24,
+     0.157
+    ]
+   },
+   {
+    "part": "panel_4",
+    "obj_groups": [
+     "DESTROY_01__panel_4"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     0.834,
+     0.743,
+     0.005
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.264,
+     0.743,
+     -0.15
+    ],
+    "bbox_max": [
+     1.403,
+     1.938,
+     0.16
+    ]
+   },
+   {
+    "part": "panel_5",
+    "obj_groups": [
+     "DESTROY_01__panel_5",
+     "DESTROY_01__panel_5_spall"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     2.34,
+     1.726,
+     0.009
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     1.535,
+     1.726,
+     -0.15
+    ],
+    "bbox_max": [
+     3.144,
+     2.588,
+     0.169
+    ]
+   },
+   {
+    "part": "panel_6",
+    "obj_groups": [
+     "DESTROY_01__panel_6"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     0.595,
+     0.326,
+     0.004
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.006,
+     0.326,
+     -0.15
+    ],
+    "bbox_max": [
+     1.185,
+     1.41,
+     0.157
+    ]
+   },
+   {
+    "part": "panel_7",
+    "obj_groups": [
+     "DESTROY_01__panel_7"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     0.753,
+     1.438,
+     0.003
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.023,
+     1.438,
+     -0.15
+    ],
+    "bbox_max": [
+     1.484,
+     2.583,
+     0.155
+    ]
+   },
+   {
+    "part": "panel_8",
+    "obj_groups": [
+     "DESTROY_01__panel_8"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     3.107,
+     0.125,
+     0.009
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.396,
+     0.125,
+     -0.15
+    ],
+    "bbox_max": [
+     3.817,
+     0.941,
+     0.168
+    ]
+   },
+   {
+    "part": "panel_9",
+    "obj_groups": [
+     "DESTROY_01__panel_9",
+     "DESTROY_01__panel_9_spall"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     3.481,
+     1.722,
+     0.015
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.985,
+     1.722,
+     -0.15
+    ],
+    "bbox_max": [
+     3.977,
+     2.58,
+     0.18
+    ]
+   },
+   {
+    "part": "panel_10",
+    "obj_groups": [
+     "DESTROY_01__panel_10"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     2.736,
+     0.928,
+     -0.005
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.295,
+     0.928,
+     -0.15
+    ],
+    "bbox_max": [
+     3.178,
+     1.873,
+     0.139
+    ]
+   },
+   {
+    "part": "panel_11",
+    "obj_groups": [
+     "DESTROY_01__panel_11"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     0.723,
+     0.124,
+     0.002
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.011,
+     0.124,
+     -0.15
+    ],
+    "bbox_max": [
+     1.436,
+     0.738,
+     0.155
+    ]
+   },
+   {
+    "part": "panel_12",
+    "obj_groups": [
+     "DESTROY_01__panel_12"
+    ],
+    "description": "fracture panel (falls independently)",
+    "pivot_m": [
+     1.921,
+     0.142,
+     0.002
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     1.431,
+     0.142,
+     -0.15
+    ],
+    "bbox_max": [
+     2.411,
+     0.913,
+     0.154
+    ]
+   }
+  ]
+ },
+ "DESTROY_02": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_02__core",
+   "DESTROY_02__skin_front",
+   "DESTROY_02__skin_back",
+   "DESTROY_02__rebar",
+   "DESTROY_02__fragment_1",
+   "DESTROY_02__fragment_1_skin",
+   "DESTROY_02__fragment_2",
+   "DESTROY_02__fragment_2_skin",
+   "DESTROY_02__fragment_3",
+   "DESTROY_02__fragment_3_skin",
+   "DESTROY_02__fragment_4",
+   "DESTROY_02__fragment_4_skin",
+   "DESTROY_02__fragment_5",
+   "DESTROY_02__fragment_5_skin"
+  ],
+  "detachable_parts": [
+   {
+    "part": "fragment_1",
+    "obj_groups": [
+     "DESTROY_02__fragment_1",
+     "DESTROY_02__fragment_1_skin"
+    ],
+    "description": "detached fragment",
+    "pivot_m": [
+     2.909,
+     0.005,
+     0.895
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.496,
+     0.005,
+     0.479
+    ],
+    "bbox_max": [
+     3.322,
+     0.386,
+     1.312
+    ]
+   },
+   {
+    "part": "fragment_2",
+    "obj_groups": [
+     "DESTROY_02__fragment_2",
+     "DESTROY_02__fragment_2_skin"
+    ],
+    "description": "detached fragment",
+    "pivot_m": [
+     -2.807,
+     0.0,
+     0.781
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -3.197,
+     0.0,
+     0.437
+    ],
+    "bbox_max": [
+     -2.416,
+     0.318,
+     1.125
+    ]
+   },
+   {
+    "part": "fragment_3",
+    "obj_groups": [
+     "DESTROY_02__fragment_3",
+     "DESTROY_02__fragment_3_skin"
+    ],
+    "description": "detached fragment",
+    "pivot_m": [
+     1.196,
+     -0.034,
+     1.394
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.921,
+     -0.034,
+     1.067
+    ],
+    "bbox_max": [
+     1.47,
+     0.275,
+     1.721
+    ]
+   },
+   {
+    "part": "fragment_4",
+    "obj_groups": [
+     "DESTROY_02__fragment_4",
+     "DESTROY_02__fragment_4_skin"
+    ],
+    "description": "detached fragment",
+    "pivot_m": [
+     -0.688,
+     0.0,
+     1.485
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.902,
+     0.0,
+     1.291
+    ],
+    "bbox_max": [
+     -0.474,
+     0.212,
+     1.679
+    ]
+   },
+   {
+    "part": "fragment_5",
+    "obj_groups": [
+     "DESTROY_02__fragment_5",
+     "DESTROY_02__fragment_5_skin"
+    ],
+    "description": "detached fragment",
+    "pivot_m": [
+     0.207,
+     0.083,
+     1.09
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.04,
+     0.083,
+     0.83
+    ],
+    "bbox_max": [
+     0.454,
+     0.478,
+     1.351
+    ]
+   }
+  ]
+ },
+ "DESTROY_03": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_03__plinth",
+   "DESTROY_03__left_jamb",
+   "DESTROY_03__right_jamb_lower",
+   "DESTROY_03__right_jamb_upper",
+   "DESTROY_03__header",
+   "DESTROY_03__sill_left",
+   "DESTROY_03__sill_right_fallen",
+   "DESTROY_03__mullion_upper",
+   "DESTROY_03__mullion_lower_stub",
+   "DESTROY_03__glass_remnant_1",
+   "DESTROY_03__glass_remnant_2",
+   "DESTROY_03__glass_remnant_3",
+   "DESTROY_03__glass_remnant_4",
+   "DESTROY_03__glass_remnant_5",
+   "DESTROY_03__glass_remnant_6",
+   "DESTROY_03__glass_remnant_7",
+   "DESTROY_03__glass_fallen"
+  ],
+  "detachable_parts": [
+   {
+    "part": "glass_remnant_1",
+    "obj_groups": [
+     "DESTROY_03__glass_remnant_1"
+    ],
+    "description": "glass remnants",
+    "pivot_m": [
+     -0.355,
+     1.13,
+     0.0
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.63,
+     1.13,
+     -0.004
+    ],
+    "bbox_max": [
+     -0.08,
+     1.83,
+     0.004
+    ]
+   }
+  ]
+ },
+ "DESTROY_04": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_04__sill_band_core",
+   "DESTROY_04__sill_band_skin",
+   "DESTROY_04__header_band_core",
+   "DESTROY_04__header_band_skin",
+   "DESTROY_04__pier_L_core",
+   "DESTROY_04__pier_L_skin",
+   "DESTROY_04__pier_M_core",
+   "DESTROY_04__pier_M_skin",
+   "DESTROY_04__pier_R_core",
+   "DESTROY_04__pier_R_skin",
+   "DESTROY_04__window_frame",
+   "DESTROY_04__window_glass",
+   "DESTROY_04__rebar",
+   "DESTROY_04__fragment_1",
+   "DESTROY_04__fragment_1_skin",
+   "DESTROY_04__fragment_2",
+   "DESTROY_04__fragment_2_skin",
+   "DESTROY_04__fragment_3",
+   "DESTROY_04__fragment_3_skin"
+  ],
+  "detachable_parts": [
+   {
+    "part": "pier_M_core",
+    "obj_groups": [
+     "DESTROY_04__pier_M_core"
+    ],
+    "description": "falling facade part",
+    "pivot_m": [
+     0.0,
+     0.8,
+     0.0
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.35,
+     0.8,
+     -0.1
+    ],
+    "bbox_max": [
+     0.35,
+     1.9,
+     0.1
+    ]
+   },
+   {
+    "part": "header_band_core",
+    "obj_groups": [
+     "DESTROY_04__header_band_core"
+    ],
+    "description": "falling facade part",
+    "pivot_m": [
+     0.0,
+     1.9,
+     0.0
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -1.6,
+     1.9,
+     -0.1
+    ],
+    "bbox_max": [
+     1.6,
+     2.6,
+     0.1
+    ]
+   },
+   {
+    "part": "pier_R_core",
+    "obj_groups": [
+     "DESTROY_04__pier_R_core"
+    ],
+    "description": "falling facade part",
+    "pivot_m": [
+     1.425,
+     0.8,
+     0.0
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     1.25,
+     0.8,
+     -0.1
+    ],
+    "bbox_max": [
+     1.6,
+     1.9,
+     0.1
+    ]
+   }
+  ]
+ },
+ "DESTROY_05": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_05__wall_core",
+   "DESTROY_05__wall_skin",
+   "DESTROY_05__slab",
+   "DESTROY_05__slab_underside",
+   "DESTROY_05__rebar",
+   "DESTROY_05__corbel",
+   "DESTROY_05__post",
+   "DESTROY_05__post_snapped",
+   "DESTROY_05__post_bent",
+   "DESTROY_05__rail_top_left",
+   "DESTROY_05__rail_top_right",
+   "DESTROY_05__side_post",
+   "DESTROY_05__side_rail",
+   "DESTROY_05__baluster",
+   "DESTROY_05__wall_rebar",
+   "DESTROY_05__rubble"
+  ],
+  "detachable_parts": [
+   {
+    "part": "slab",
+    "obj_groups": [
+     "DESTROY_05__slab",
+     "DESTROY_05__slab_underside"
+    ],
+    "description": "balcony slab (hinge at wall)",
+    "pivot_m": [
+     0,
+     2.0,
+     0.15
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.4,
+     1.387,
+     0.143
+    ],
+    "bbox_max": [
+     1.4,
+     2.128,
+     1.532
+    ]
+   },
+   {
+    "part": "post_bent",
+    "obj_groups": [
+     "DESTROY_05__post_bent"
+    ],
+    "description": "railing",
+    "pivot_m": [
+     0.75,
+     1.579,
+     1.675
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.674,
+     1.579,
+     1.385
+    ],
+    "bbox_max": [
+     0.825,
+     2.206,
+     1.965
+    ]
+   }
+  ]
+ },
+ "DESTROY_06": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_06__wall_plate",
+   "DESTROY_06__tie_beams",
+   "DESTROY_06__rafters",
+   "DESTROY_06__rafter_snapped",
+   "DESTROY_06__rafter_snapped_end",
+   "DESTROY_06__battens",
+   "DESTROY_06__tiles",
+   "DESTROY_06__loose_tiles",
+   "DESTROY_06__ridge_beam",
+   "DESTROY_06__ridge_tiles",
+   "DESTROY_06__debris_tiles"
+  ],
+  "detachable_parts": [
+   {
+    "part": "tiles",
+    "obj_groups": [
+     "DESTROY_06__tiles"
+    ],
+    "description": "roof tiles (shed individually)",
+    "pivot_m": [
+     0.025,
+     0.271,
+     1.183
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -2.0,
+     0.271,
+     -0.117
+    ],
+    "bbox_max": [
+     2.05,
+     1.806,
+     2.482
+    ]
+   },
+   {
+    "part": "rafters",
+    "obj_groups": [
+     "DESTROY_06__rafters"
+    ],
+    "description": "rafters",
+    "pivot_m": [
+     -0.0,
+     0.124,
+     1.437
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -1.85,
+     0.124,
+     -0.066
+    ],
+    "bbox_max": [
+     1.85,
+     1.937,
+     2.94
+    ]
+   }
+  ]
+ },
+ "DESTROY_07": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_07__slab",
+   "DESTROY_07__membrane",
+   "DESTROY_07__membrane_peeled",
+   "DESTROY_07__parapet_back",
+   "DESTROY_07__parapet_left",
+   "DESTROY_07__parapet_right_stub",
+   "DESTROY_07__parapet_right_fallen",
+   "DESTROY_07__parapet_rubble",
+   "DESTROY_07__ac_housing",
+   "DESTROY_07__ac_top",
+   "DESTROY_07__ac_fan_ring",
+   "DESTROY_07__ac_grille",
+   "DESTROY_07__ac_mount_bent",
+   "DESTROY_07__ac_mount",
+   "DESTROY_07__ac_mount_rail",
+   "DESTROY_07__vent_stack_stub",
+   "DESTROY_07__vent_stack_fallen",
+   "DESTROY_07__tank",
+   "DESTROY_07__tank_roof",
+   "DESTROY_07__tank_leg",
+   "DESTROY_07__mast_bent"
+  ],
+  "detachable_parts": [
+   {
+    "part": "ac_housing",
+    "obj_groups": [
+     "DESTROY_07__ac_housing"
+    ],
+    "description": "AC unit",
+    "pivot_m": [
+     -1.241,
+     0.569,
+     -0.449
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -2.071,
+     0.569,
+     -0.999
+    ],
+    "bbox_max": [
+     -0.411,
+     1.807,
+     0.101
+    ]
+   },
+   {
+    "part": "parapet_right_fallen",
+    "obj_groups": [
+     "DESTROY_07__parapet_right_fallen"
+    ],
+    "description": "parapet segment",
+    "pivot_m": [
+     2.472,
+     0.092,
+     0.951
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.075,
+     0.092,
+     0.404
+    ],
+    "bbox_max": [
+     2.869,
+     0.538,
+     1.499
+    ]
+   },
+   {
+    "part": "tank",
+    "obj_groups": [
+     "DESTROY_07__tank",
+     "DESTROY_07__tank_roof",
+     "DESTROY_07__tank_leg"
+    ],
+    "description": "tank",
+    "pivot_m": [
+     -0.91,
+     -0.035,
+     0.763
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -1.654,
+     -0.035,
+     0.113
+    ],
+    "bbox_max": [
+     -0.166,
+     2.313,
+     1.413
+    ]
+   }
+  ]
+ },
+ "DESTROY_08": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_08__bulkhead",
+   "DESTROY_08__bulkhead_courses",
+   "DESTROY_08__frame_post",
+   "DESTROY_08__frame_post_bent",
+   "DESTROY_08__transom",
+   "DESTROY_08__transom_twisted",
+   "DESTROY_08__sill_rail",
+   "DESTROY_08__glass_remnant",
+   "DESTROY_08__glass_fallen",
+   "DESTROY_08__door_frame",
+   "DESTROY_08__door_glass",
+   "DESTROY_08__door_bar",
+   "DESTROY_08__sign_board",
+   "DESTROY_08__sign_text_panel",
+   "DESTROY_08__sign_bracket",
+   "DESTROY_08__sign_bracket_snapped",
+   "DESTROY_08__awning_attached",
+   "DESTROY_08__awning_fallen",
+   "DESTROY_08__debris"
+  ],
+  "detachable_parts": [
+   {
+    "part": "door_frame",
+    "obj_groups": [
+     "DESTROY_08__door_frame"
+    ],
+    "description": "door",
+    "pivot_m": [
+     1.58,
+     0.118,
+     1.189
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.978,
+     0.118,
+     0.881
+    ],
+    "bbox_max": [
+     2.183,
+     2.326,
+     1.498
+    ]
+   },
+   {
+    "part": "sign_board",
+    "obj_groups": [
+     "DESTROY_08__sign_board"
+    ],
+    "description": "sign",
+    "pivot_m": [
+     -1.6,
+     3.4,
+     0.25
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.891,
+     1.504,
+     0.21
+    ],
+    "bbox_max": [
+     -0.135,
+     3.393,
+     0.29
+    ]
+   },
+   {
+    "part": "awning_attached",
+    "obj_groups": [
+     "DESTROY_08__awning_attached"
+    ],
+    "description": "awning",
+    "pivot_m": [
+     -1.15,
+     2.911,
+     0.43
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -2.0,
+     2.911,
+     0.014
+    ],
+    "bbox_max": [
+     -0.3,
+     3.505,
+     0.846
+    ]
+   }
+  ]
+ },
+ "DESTROY_09": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_09__piece_A_shell",
+   "DESTROY_09__piece_A_core",
+   "DESTROY_09__base_plate",
+   "DESTROY_09__base_bolt_stubs",
+   "DESTROY_09__piece_B_shell",
+   "DESTROY_09__piece_B_core",
+   "DESTROY_09__capital",
+   "DESTROY_09__bars_A",
+   "DESTROY_09__bars_B",
+   "DESTROY_09__stirrups",
+   "DESTROY_09__spall"
+  ],
+  "detachable_parts": [
+   {
+    "part": "piece_B_shell",
+    "obj_groups": [
+     "DESTROY_09__piece_B_shell"
+    ],
+    "description": "column upper piece",
+    "pivot_m": [
+     2.85,
+     0.35,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     2.636,
+     0.0,
+     -0.464
+    ],
+    "bbox_max": [
+     4.084,
+     0.7,
+     0.396
+    ]
+   },
+   {
+    "part": "piece_A_shell",
+    "obj_groups": [
+     "DESTROY_09__piece_A_shell"
+    ],
+    "description": "column lower piece",
+    "pivot_m": [
+     0,
+     0.35,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.0,
+     0.0,
+     -0.35
+    ],
+    "bbox_max": [
+     2.681,
+     0.7,
+     0.35
+    ]
+   }
+  ]
+ },
+ "DESTROY_10": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_10__near_flange_top",
+   "DESTROY_10__near_flange_bottom",
+   "DESTROY_10__near_web",
+   "DESTROY_10__near_tear_flap",
+   "DESTROY_10__near_web_tear",
+   "DESTROY_10__far_beam",
+   "DESTROY_10__far_crumple",
+   "DESTROY_10__far_flange_peeled",
+   "DESTROY_10__end_plate_near",
+   "DESTROY_10__bolts_near",
+   "DESTROY_10__end_plate_far",
+   "DESTROY_10__bolts_far",
+   "DESTROY_10__support_blocks",
+   "DESTROY_10__debris"
+  ],
+  "detachable_parts": [
+   {
+    "part": "far_beam",
+    "obj_groups": [
+     "DESTROY_10__far_beam"
+    ],
+    "description": "far half of beam",
+    "pivot_m": [
+     3.0,
+     1.2,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     2.961,
+     -0.15,
+     -0.1
+    ],
+    "bbox_max": [
+     6.409,
+     1.396,
+     0.1
+    ]
+   },
+   {
+    "part": "near_flange_top",
+    "obj_groups": [
+     "DESTROY_10__near_flange_top"
+    ],
+    "description": "near half",
+    "pivot_m": [
+     0,
+     1.2,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.0,
+     1.378,
+     -0.1
+    ],
+    "bbox_max": [
+     2.7,
+     1.4,
+     0.1
+    ]
+   }
+  ]
+ },
+ "DESTROY_11": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_11__p1_plate",
+   "DESTROY_11__p1_skin",
+   "DESTROY_11__p1_underside",
+   "DESTROY_11__p2_plate",
+   "DESTROY_11__p2_skin",
+   "DESTROY_11__p2_underside",
+   "DESTROY_11__p3_plate",
+   "DESTROY_11__p3_skin",
+   "DESTROY_11__p3_underside",
+   "DESTROY_11__p4_plate",
+   "DESTROY_11__p4_skin",
+   "DESTROY_11__p4_underside",
+   "DESTROY_11__p5_plate",
+   "DESTROY_11__p5_skin",
+   "DESTROY_11__p5_underside",
+   "DESTROY_11__p6_plate",
+   "DESTROY_11__p6_skin",
+   "DESTROY_11__p6_underside",
+   "DESTROY_11__p7_plate",
+   "DESTROY_11__p7_skin",
+   "DESTROY_11__p7_underside",
+   "DESTROY_11__p8_plate",
+   "DESTROY_11__p8_skin",
+   "DESTROY_11__p8_underside",
+   "DESTROY_11__rebar",
+   "DESTROY_11__chips"
+  ],
+  "detachable_parts": [
+   {
+    "part": "p1_plate",
+    "obj_groups": [
+     "DESTROY_11__p1_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     0.5578124884718584,
+     0.12,
+     2.238399450396984
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.014,
+     0.0,
+     1.678
+    ],
+    "bbox_max": [
+     1.641,
+     0.25,
+     2.786
+    ]
+   },
+   {
+    "part": "p2_plate",
+    "obj_groups": [
+     "DESTROY_11__p2_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     0.5629741292003656,
+     0.12,
+     1.2284321264998952
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.006,
+     -0.106,
+     0.7
+    ],
+    "bbox_max": [
+     1.123,
+     0.315,
+     1.997
+    ]
+   },
+   {
+    "part": "p3_plate",
+    "obj_groups": [
+     "DESTROY_11__p3_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     1.696558289505453,
+     0.12,
+     2.367522910343643
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.587,
+     -0.064,
+     1.893
+    ],
+    "bbox_max": [
+     2.615,
+     0.392,
+     2.78
+    ]
+   },
+   {
+    "part": "p4_plate",
+    "obj_groups": [
+     "DESTROY_11__p4_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     1.418739927172178,
+     0.12,
+     1.550270470404623
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.565,
+     0.033,
+     1.027
+    ],
+    "bbox_max": [
+     1.897,
+     0.695,
+     1.985
+    ]
+   },
+   {
+    "part": "p5_plate",
+    "obj_groups": [
+     "DESTROY_11__p5_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     0.5785239775706208,
+     0.12,
+     0.37994315431133197
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.009,
+     -0.07,
+     -0.004
+    ],
+    "bbox_max": [
+     1.154,
+     0.324,
+     0.823
+    ]
+   },
+   {
+    "part": "p6_plate",
+    "obj_groups": [
+     "DESTROY_11__p6_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     2.5924851150005943,
+     0.12,
+     1.9548572811385194
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     1.815,
+     0.003,
+     1.301
+    ],
+    "bbox_max": [
+     3.589,
+     0.681,
+     2.81
+    ]
+   },
+   {
+    "part": "p7_plate",
+    "obj_groups": [
+     "DESTROY_11__p7_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     3.0016363954471132,
+     0.12,
+     0.7356559377261684
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     1.939,
+     -0.061,
+     0.016
+    ],
+    "bbox_max": [
+     3.612,
+     0.36,
+     1.664
+    ]
+   },
+   {
+    "part": "p8_plate",
+    "obj_groups": [
+     "DESTROY_11__p8_plate"
+    ],
+    "description": "slab fracture plate",
+    "pivot_m": [
+     1.6919187461422167,
+     0.12,
+     0.722001128280232
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     1.152,
+     -0.101,
+     -0.027
+    ],
+    "bbox_max": [
+     2.875,
+     0.525,
+     1.249
+    ]
+   }
+  ]
+ },
+ "DESTROY_12": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_12__concrete_blocks",
+   "DESTROY_12__bricks",
+   "DESTROY_12__panels",
+   "DESTROY_12__timber",
+   "DESTROY_12__rebar",
+   "DESTROY_12__mortar_chunks",
+   "DESTROY_12__base_dust"
+  ],
+  "detachable_parts": []
+ },
+ "DESTROY_13": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_13__wall_A_bricks",
+   "DESTROY_13__wall_A_mortar_bed",
+   "DESTROY_13__wall_B_bricks",
+   "DESTROY_13__wall_B_mortar_bed",
+   "DESTROY_13__wall_C_tilted_bricks",
+   "DESTROY_13__wall_C_tilted_mortar_bed",
+   "DESTROY_13__loose_bricks",
+   "DESTROY_13__mortar_crumbs"
+  ],
+  "detachable_parts": [
+   {
+    "part": "loose_bricks",
+    "obj_groups": [
+     "DESTROY_13__loose_bricks"
+    ],
+    "description": "loose bricks",
+    "pivot_m": [
+     0.022,
+     -0.059,
+     -0.054
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -2.008,
+     -0.059,
+     -1.896
+    ],
+    "bbox_max": [
+     2.052,
+     0.179,
+     1.788
+    ]
+   }
+  ]
+ },
+ "DESTROY_14": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_14__shards_standing",
+   "DESTROY_14__shards_flat",
+   "DESTROY_14__frame_slivers",
+   "DESTROY_14__glass_crumbs"
+  ],
+  "detachable_parts": []
+ },
+ "DESTROY_15": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_15__beam",
+   "DESTROY_15__end_plate",
+   "DESTROY_15__bolts",
+   "DESTROY_15__torn_flange_a",
+   "DESTROY_15__torn_flange_b",
+   "DESTROY_15__far_end_tear"
+  ],
+  "detachable_parts": [
+   {
+    "part": "beam",
+    "obj_groups": [
+     "DESTROY_15__beam"
+    ],
+    "description": "beam",
+    "pivot_m": [
+     2.8,
+     -0.104,
+     -0.024
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.063,
+     -0.104,
+     -0.517
+    ],
+    "bbox_max": [
+     5.664,
+     0.983,
+     0.47
+    ]
+   }
+  ]
+ },
+ "DESTROY_16": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_16__stump",
+   "DESTROY_16__stump_splinters",
+   "DESTROY_16__ground_sleeve",
+   "DESTROY_16__pole_staples",
+   "DESTROY_16__upper_section",
+   "DESTROY_16__upper_section_splinters",
+   "DESTROY_16__upper_fracture_cap",
+   "DESTROY_16__crossarm",
+   "DESTROY_16__crossarm_brace",
+   "DESTROY_16__insulators",
+   "DESTROY_16__cable",
+   "DESTROY_16__cable_on_ground",
+   "DESTROY_16__splinter_chips"
+  ],
+  "detachable_parts": [
+   {
+    "part": "upper_section",
+    "obj_groups": [
+     "DESTROY_16__upper_section",
+     "DESTROY_16__upper_section_splinters"
+    ],
+    "description": "upper pole",
+    "pivot_m": [
+     0.55,
+     2.55,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     0.467,
+     2.396,
+     -2.506
+    ],
+    "bbox_max": [
+     7.174,
+     5.467,
+     0.156
+    ]
+   },
+   {
+    "part": "crossarm",
+    "obj_groups": [
+     "DESTROY_16__crossarm",
+     "DESTROY_16__crossarm_brace"
+    ],
+    "description": "crossarm",
+    "pivot_m": [
+     5.999,
+     3.803,
+     -1.946
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     5.392,
+     3.803,
+     -2.26
+    ],
+    "bbox_max": [
+     6.606,
+     6.073,
+     -1.631
+    ]
+   },
+   {
+    "part": "insulators",
+    "obj_groups": [
+     "DESTROY_16__insulators"
+    ],
+    "description": "insulators",
+    "pivot_m": [
+     6.3,
+     3.993,
+     -2.082
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     5.803,
+     3.993,
+     -2.297
+    ],
+    "bbox_max": [
+     6.798,
+     6.034,
+     -1.867
+    ]
+   },
+   {
+    "part": "stump",
+    "obj_groups": [
+     "DESTROY_16__stump",
+     "DESTROY_16__stump_splinters"
+    ],
+    "description": "stump",
+    "pivot_m": [
+     0,
+     0,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -0.206,
+     0.0,
+     -0.199
+    ],
+    "bbox_max": [
+     0.222,
+     3.841,
+     0.224
+    ]
+   },
+   {
+    "part": "cable",
+    "obj_groups": [
+     "DESTROY_16__cable",
+     "DESTROY_16__cable_on_ground"
+    ],
+    "description": "cables",
+    "pivot_m": [
+     4.596,
+     0.021,
+     0.164
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     2.391,
+     0.021,
+     -2.282
+    ],
+    "bbox_max": [
+     6.8,
+     6.021,
+     2.611
+    ]
+   }
+  ]
+ },
+ "DESTROY_17": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_17__base_plate",
+   "DESTROY_17__post_1",
+   "DESTROY_17__post_2_bent",
+   "DESTROY_17__post_3_stub",
+   "DESTROY_17__post_3_fallen",
+   "DESTROY_17__post_4_lean",
+   "DESTROY_17__rail_top_12",
+   "DESTROY_17__rail_top_2_hang",
+   "DESTROY_17__rail_top_4_stub",
+   "DESTROY_17__rail_end_flat",
+   "DESTROY_17__rail_detached",
+   "DESTROY_17__rail_mid_12",
+   "DESTROY_17__rail_mid_23_snapped",
+   "DESTROY_17__baluster",
+   "DESTROY_17__baluster_bent",
+   "DESTROY_17__baluster_fallen"
+  ],
+  "detachable_parts": [
+   {
+    "part": "post_2_bent",
+    "obj_groups": [
+     "DESTROY_17__post_2_bent"
+    ],
+    "description": "railing part",
+    "pivot_m": [
+     0.125,
+     0.02,
+     1.06
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.047,
+     0.02,
+     0.95
+    ],
+    "bbox_max": [
+     0.297,
+     1.023,
+     1.17
+    ]
+   },
+   {
+    "part": "rail_top_12",
+    "obj_groups": [
+     "DESTROY_17__rail_top_12"
+    ],
+    "description": "railing part",
+    "pivot_m": [
+     0.121,
+     0.973,
+     0.563
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     -0.035,
+     0.973,
+     -0.003
+    ],
+    "bbox_max": [
+     0.278,
+     1.135,
+     1.129
+    ]
+   },
+   {
+    "part": "rail_detached",
+    "obj_groups": [
+     "DESTROY_17__rail_detached"
+    ],
+    "description": "railing part",
+    "pivot_m": [
+     0.848,
+     0.005,
+     1.004
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.567,
+     0.005,
+     0.389
+    ],
+    "bbox_max": [
+     1.129,
+     0.075,
+     1.619
+    ]
+   },
+   {
+    "part": "post_3_fallen",
+    "obj_groups": [
+     "DESTROY_17__post_3_fallen"
+    ],
+    "description": "railing part",
+    "pivot_m": [
+     0.283,
+     0.012,
+     2.759
+    ],
+    "pivot_source": "bbox base-centre",
+    "bbox_min": [
+     0.08,
+     0.012,
+     2.382
+    ],
+    "bbox_max": [
+     0.485,
+     0.2,
+     3.136
+    ]
+   }
+  ]
+ },
+ "DESTROY_18": {
+  "category": "destruction",
+  "all_obj_groups": [
+   "DESTROY_18__deck",
+   "DESTROY_18__deck_finish",
+   "DESTROY_18__floor_joists",
+   "DESTROY_18__truss_L",
+   "DESTROY_18__glazing_L",
+   "DESTROY_18__glazing_shards_L",
+   "DESTROY_18__handrail_L",
+   "DESTROY_18__truss_R",
+   "DESTROY_18__glazing_R",
+   "DESTROY_18__handrail_R",
+   "DESTROY_18__roof_frame",
+   "DESTROY_18__roof_glazing",
+   "DESTROY_18__roof_ribs",
+   "DESTROY_18__roof_edge_bent",
+   "DESTROY_18__conn_plates",
+   "DESTROY_18__conn_bolts",
+   "DESTROY_18__deck_teeth",
+   "DESTROY_18__rubble",
+   "DESTROY_18__rebar",
+   "DESTROY_18__handrail_detached",
+   "DESTROY_18__glazing_fallen",
+   "DESTROY_18__glass_shards",
+   "DESTROY_18__truss_fallen_member"
+  ],
+  "detachable_parts": [
+   {
+    "part": "truss_L",
+    "obj_groups": [
+     "DESTROY_18__truss_L"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.69,
+     0.108,
+     -0.643
+    ],
+    "bbox_max": [
+     -1.348,
+     4.364,
+     7.785
+    ]
+   },
+   {
+    "part": "truss_R",
+    "obj_groups": [
+     "DESTROY_18__truss_R"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     1.106,
+     0.255,
+     -0.643
+    ],
+    "bbox_max": [
+     1.448,
+     4.51,
+     7.785
+    ]
+   },
+   {
+    "part": "glazing_R",
+    "obj_groups": [
+     "DESTROY_18__glazing_R"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     1.17,
+     0.431,
+     -0.462
+    ],
+    "bbox_max": [
+     1.391,
+     4.188,
+     7.638
+    ]
+   },
+   {
+    "part": "glazing_L",
+    "obj_groups": [
+     "DESTROY_18__glazing_L"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.626,
+     0.285,
+     -0.462
+    ],
+    "bbox_max": [
+     -1.405,
+     4.042,
+     7.638
+    ]
+   },
+   {
+    "part": "handrail_R",
+    "obj_groups": [
+     "DESTROY_18__handrail_R"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     1.104,
+     0.417,
+     -0.134
+    ],
+    "bbox_max": [
+     1.285,
+     2.844,
+     7.479
+    ]
+   },
+   {
+    "part": "handrail_L",
+    "obj_groups": [
+     "DESTROY_18__handrail_L"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.452,
+     0.283,
+     -0.134
+    ],
+    "bbox_max": [
+     -1.272,
+     2.71,
+     7.479
+    ]
+   },
+   {
+    "part": "roof_glazing",
+    "obj_groups": [
+     "DESTROY_18__roof_glazing"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.534,
+     2.619,
+     -0.577
+    ],
+    "bbox_max": [
+     1.157,
+     4.559,
+     7.128
+    ]
+   },
+   {
+    "part": "deck",
+    "obj_groups": [
+     "DESTROY_18__deck",
+     "DESTROY_18__deck_finish",
+     "DESTROY_18__deck_teeth"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -1.502,
+     -0.065,
+     -0.043
+    ],
+    "bbox_max": [
+     1.397,
+     2.144,
+     8.225
+    ]
+   },
+   {
+    "part": "handrail_detached",
+    "obj_groups": [
+     "DESTROY_18__handrail_detached"
+    ],
+    "description": "skybridge part (separately animatable)",
+    "pivot_m": [
+     0,
+     0.5,
+     0
+    ],
+    "pivot_source": "authored",
+    "bbox_min": [
+     -2.23,
+     0.03,
+     0.994
+    ],
+    "bbox_max": [
+     2.729,
+     0.09,
+     4.005
+    ]
+   }
+  ]
+ }
+}

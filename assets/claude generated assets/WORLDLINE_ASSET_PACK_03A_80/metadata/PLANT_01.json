@@ -1,0 +1,40 @@
+{
+ "asset_id": "PLANT_01",
+ "title": "Grass Tuft",
+ "category": "plants",
+ "obj": "../plants/PLANT_01.obj",
+ "mtl": "../plants/PLANT_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.327,
+  0,
+  -0.354
+ ],
+ "bbox_max": [
+  0.304,
+  0.525,
+  0.279
+ ],
+ "size_xyz": [
+  0.631,
+  0.525,
+  0.633
+ ],
+ "triangles": 756,
+ "groups": [
+  "soil",
+  "blades"
+ ],
+ "materials": [
+  "soil",
+  "foliage_mid",
+  "grass",
+  "foliage_deep"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

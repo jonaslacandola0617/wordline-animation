@@ -1,0 +1,224 @@
+{
+  "id": "DISASTER_11",
+  "name": "Overturned Vehicle Shell",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_11_OverturnedVehicleShell.obj",
+  "mtl": "disaster_objects/DISASTER_11_OverturnedVehicleShell.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "car shell resting on its crushed roof; wheels up, front-right wheel and door torn off beside it",
+  "dimensions": {
+    "x_width_m": 3.5002,
+    "y_height_m": 1.5043,
+    "z_depth_m": 4.736
+  },
+  "bounds_file_min": [
+    -2.4722,
+    -0.0,
+    -2.368
+  ],
+  "bounds_file_max": [
+    1.028,
+    1.5043,
+    2.368
+  ],
+  "triangles": 3006,
+  "parts": [
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Body_Shell",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.4805,
+        -0.0
+      ],
+      "materials": [
+        "WL_car_red",
+        "WL_car_dark"
+      ],
+      "triangles": 358
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Cabin_Roof",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.4805,
+        -0.0
+      ],
+      "materials": [
+        "WL_car_red"
+      ],
+      "triangles": 316
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Pillars",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.4805,
+        -0.0
+      ],
+      "materials": [
+        "WL_car_red"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Glass_Remnants",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Cabin_Roof",
+      "pivot_file_xyz": [
+        0.0,
+        1.4805,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Door_FL",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.9,
+        0.8305,
+        0.3
+      ],
+      "materials": [
+        "WL_car_red"
+      ],
+      "triangles": 124
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Door_FR_Detached",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        -2.2,
+        0.3805,
+        -0.24
+      ],
+      "materials": [
+        "WL_car_red"
+      ],
+      "triangles": 124
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Hood",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        -0.0,
+        0.5805,
+        -1.02
+      ],
+      "materials": [
+        "WL_car_red"
+      ],
+      "triangles": 320
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Bumper_Front",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        -0.0,
+        1.0605,
+        -2.3
+      ],
+      "materials": [
+        "WL_car_dark"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Bumper_Rear",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        -0.0,
+        1.0605,
+        2.3
+      ],
+      "materials": [
+        "WL_car_dark"
+      ],
+      "triangles": 56
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Underbody",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.0,
+        1.4805,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 204
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Wheel_FL",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.93,
+        1.1405,
+        -1.37
+      ],
+      "materials": [
+        "WL_rubber",
+        "WL_steel"
+      ],
+      "triangles": 324
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Wheel_RL",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        0.93,
+        1.1405,
+        1.37
+      ],
+      "materials": [
+        "WL_rubber",
+        "WL_steel"
+      ],
+      "triangles": 324
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Wheel_RR",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        -0.93,
+        1.1405,
+        1.37
+      ],
+      "materials": [
+        "WL_rubber",
+        "WL_steel"
+      ],
+      "triangles": 324
+    },
+    {
+      "object": "DISASTER_11_OverturnedVehicleShell_Wheel_FR_Detached",
+      "parent": "DISASTER_11_OverturnedVehicleShell_Root",
+      "pivot_file_xyz": [
+        -2.05,
+        0.6235,
+        -1.95
+      ],
+      "materials": [
+        "WL_rubber",
+        "WL_steel"
+      ],
+      "triangles": 324
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Body_Shell (modelled crush damage), Cabin_Roof (crushed), Pillars, Glass_Remnants, Hood (buckled), Door_FL, Door_FR_Detached, Bumpers, Underbody, Wheel_*",
+    "note": "built as a damaged shell (crumpled roof, torn panels, exposed chassis), not a rotated intact car"
+  },
+  "open_part_count": 2,
+  "geometry_hash": "695c0b10fde22383d5bd0e3a380af533"
+}

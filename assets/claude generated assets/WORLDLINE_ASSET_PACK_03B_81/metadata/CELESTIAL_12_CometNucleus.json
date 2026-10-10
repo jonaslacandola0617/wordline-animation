@@ -1,0 +1,66 @@
+{
+  "id": "CELESTIAL_12",
+  "name": "Comet Nucleus",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_12_CometNucleus.obj",
+  "mtl": "celestial/CELESTIAL_12_CometNucleus.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "bilobate; lobes along X",
+  "dimensions": {
+    "x_width_m": 3.4087,
+    "y_height_m": 1.7618,
+    "z_depth_m": 1.7159
+  },
+  "bounds_file_min": [
+    -1.8839,
+    -0.8835,
+    -0.8381
+  ],
+  "bounds_file_max": [
+    1.5248,
+    0.8784,
+    0.8777
+  ],
+  "triangles": 21580,
+  "parts": [
+    {
+      "object": "CELESTIAL_12_CometNucleus_Nucleus",
+      "parent": "CELESTIAL_12_CometNucleus_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_comet_dark",
+        "WL_comet_mid",
+        "WL_comet_ice",
+        "WL_comet_vent"
+      ],
+      "triangles": 20480
+    },
+    {
+      "object": "CELESTIAL_12_CometNucleus_Boulders",
+      "parent": "CELESTIAL_12_CometNucleus_Nucleus",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_comet_mid"
+      ],
+      "triangles": 1100
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = ~1 km (nucleus ~4.8 units long)",
+    "geometry": "bilobate nucleus (smooth union of two lobes via a neck), terraced cliffs, 7 sinkhole pits with active vents (emissive), ice patches, 55 boulders; no tail or coma modelled"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "cc05077572b887f2484544c36122dea5"
+}

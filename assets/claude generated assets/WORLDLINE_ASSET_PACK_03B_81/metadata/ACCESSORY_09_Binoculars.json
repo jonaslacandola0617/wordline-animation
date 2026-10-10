@@ -1,0 +1,139 @@
+{
+  "id": "ACCESSORY_09",
+  "name": "Binoculars",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_09_Binoculars.obj",
+  "mtl": "accessories/ACCESSORY_09_Binoculars.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "lying on its barrels, lenses toward +Y",
+  "dimensions": {
+    "x_width_m": 0.184,
+    "y_height_m": 0.079,
+    "z_depth_m": 0.2306
+  },
+  "bounds_file_min": [
+    -0.092,
+    0.0,
+    -0.141
+  ],
+  "bounds_file_max": [
+    0.092,
+    0.079,
+    0.0896
+  ],
+  "triangles": 948,
+  "parts": [
+    {
+      "object": "ACCESSORY_09_Binoculars_Barrel_L",
+      "parent": "ACCESSORY_09_Binoculars_Root",
+      "pivot_file_xyz": [
+        -0.045,
+        0.039,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 196
+    },
+    {
+      "object": "ACCESSORY_09_Binoculars_Barrel_R",
+      "parent": "ACCESSORY_09_Binoculars_Root",
+      "pivot_file_xyz": [
+        0.045,
+        0.039,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 196
+    },
+    {
+      "object": "ACCESSORY_09_Binoculars_Bridge",
+      "parent": "ACCESSORY_09_Binoculars_Barrel_L",
+      "pivot_file_xyz": [
+        0.0,
+        -0.001,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "ACCESSORY_09_Binoculars_Focus_Wheel",
+      "parent": "ACCESSORY_09_Binoculars_Bridge",
+      "pivot_file_xyz": [
+        0.0,
+        -0.001,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ACCESSORY_09_Binoculars_Objective_Lenses",
+      "parent": "ACCESSORY_09_Binoculars_Barrel_L",
+      "pivot_file_xyz": [
+        0.0,
+        -0.001,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 104
+    },
+    {
+      "object": "ACCESSORY_09_Binoculars_Eyecups",
+      "parent": "ACCESSORY_09_Binoculars_Barrel_L",
+      "pivot_file_xyz": [
+        0.0,
+        -0.001,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 240
+    },
+    {
+      "object": "ACCESSORY_09_Binoculars_Strap_Lugs",
+      "parent": "ACCESSORY_09_Binoculars_Barrel_L",
+      "pivot_file_xyz": [
+        0.0,
+        -0.001,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 88
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "grip_L": [
+      -0.07,
+      0.039,
+      -0.02
+    ],
+    "grip_R": [
+      0.07,
+      0.039,
+      -0.02
+    ]
+  },
+  "notes": {
+    "parts": "Barrel_L/R, Bridge, Focus_Wheel, Eyecups, Objective_Lenses, Strap_Lugs",
+    "grip": "grip_L / grip_R"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "08e7cc5c3585d043dce5c4014f460c6a"
+}

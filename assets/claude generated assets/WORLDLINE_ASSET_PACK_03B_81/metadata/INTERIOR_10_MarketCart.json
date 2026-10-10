@@ -1,0 +1,130 @@
+{
+  "id": "INTERIOR_10",
+  "name": "Market Cart",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_10_MarketCart.obj",
+  "mtl": "interiors/INTERIOR_10_MarketCart.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "hand cart, handles toward -Y",
+  "dimensions": {
+    "x_width_m": 1.52,
+    "y_height_m": 1.905,
+    "z_depth_m": 2.3777
+  },
+  "bounds_file_min": [
+    -0.76,
+    0.0,
+    -0.95
+  ],
+  "bounds_file_max": [
+    0.76,
+    1.905,
+    1.4277
+  ],
+  "triangles": 1672,
+  "parts": [
+    {
+      "object": "INTERIOR_10_MarketCart_Cart_Bed",
+      "parent": "INTERIOR_10_MarketCart_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.025,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 220
+    },
+    {
+      "object": "INTERIOR_10_MarketCart_Handles",
+      "parent": "INTERIOR_10_MarketCart_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.025,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 52
+    },
+    {
+      "object": "INTERIOR_10_MarketCart_Wheel_L",
+      "parent": "INTERIOR_10_MarketCart_Cart_Bed",
+      "pivot_file_xyz": [
+        -0.72,
+        0.395,
+        -0.2
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 364
+    },
+    {
+      "object": "INTERIOR_10_MarketCart_Wheel_R",
+      "parent": "INTERIOR_10_MarketCart_Cart_Bed",
+      "pivot_file_xyz": [
+        0.72,
+        0.395,
+        -0.2
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 364
+    },
+    {
+      "object": "INTERIOR_10_MarketCart_Awning_Poles",
+      "parent": "INTERIOR_10_MarketCart_Cart_Bed",
+      "pivot_file_xyz": [
+        0.0,
+        -0.025,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "INTERIOR_10_MarketCart_Awning",
+      "parent": "INTERIOR_10_MarketCart_Cart_Bed",
+      "pivot_file_xyz": [
+        0.0,
+        -0.025,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral",
+        "WL_offwhite"
+      ],
+      "triangles": 72
+    },
+    {
+      "object": "INTERIOR_10_MarketCart_Produce",
+      "parent": "INTERIOR_10_MarketCart_Cart_Bed",
+      "pivot_file_xyz": [
+        0.0,
+        -0.025,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral",
+        "WL_yellow",
+        "WL_foliage_mid"
+      ],
+      "triangles": 520
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Cart_Bed, Wheel_L/R (axle pivots), Handles, Awning_Poles, Awning, Produce, Crates"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "df0381f1af46c784b8218672a03c870c"
+}

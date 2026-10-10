@@ -1,0 +1,88 @@
+{
+  "id": "DEBRIS_08",
+  "name": "Shattered Window Panel",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_08_ShatteredWindowPanel.obj",
+  "mtl": "floating_debris/DEBRIS_08_ShatteredWindowPanel.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "window frame lying flat, glass cracked with missing shards",
+  "dimensions": {
+    "x_width_m": 1.57,
+    "y_height_m": 0.05,
+    "z_depth_m": 1.41
+  },
+  "bounds_file_min": [
+    -0.75,
+    0.0,
+    -0.66
+  ],
+  "bounds_file_max": [
+    0.82,
+    0.05,
+    0.75
+  ],
+  "triangles": 570,
+  "parts": [
+    {
+      "object": "DEBRIS_08_ShatteredWindowPanel_Frame",
+      "parent": "DEBRIS_08_ShatteredWindowPanel_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 264
+    },
+    {
+      "object": "DEBRIS_08_ShatteredWindowPanel_Glass_Shards",
+      "parent": "DEBRIS_08_ShatteredWindowPanel_Frame",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 230
+    },
+    {
+      "object": "DEBRIS_08_ShatteredWindowPanel_Loose_Shards",
+      "parent": "DEBRIS_08_ShatteredWindowPanel_Frame",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "DEBRIS_08_ShatteredWindowPanel_Sill",
+      "parent": "DEBRIS_08_ShatteredWindowPanel_Frame",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Frame, Glass_Shards (radial fracture), Sill, Loose_Shards, Glazing_Putty"
+  },
+  "open_part_count": 1,
+  "geometry_hash": "161a6a6265cf6b30d321869d6c2b7c56"
+}

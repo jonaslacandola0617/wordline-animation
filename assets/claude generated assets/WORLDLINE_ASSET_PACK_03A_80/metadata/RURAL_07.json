@@ -1,0 +1,60 @@
+{
+ "asset_id": "RURAL_07",
+ "title": "Oil Storage Tank",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_07.obj",
+ "mtl": "../rural_landmarks/RURAL_07.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -18.0,
+  0.0,
+  -18.0
+ ],
+ "bbox_max": [
+  18.28,
+  13.98,
+  18.0
+ ],
+ "size_xyz": [
+  36.28,
+  13.98,
+  36.0
+ ],
+ "triangles": 6160,
+ "groups": [
+  "pad",
+  "shell",
+  "weld_bands",
+  "roof_rim",
+  "roof",
+  "roof_vents",
+  "roof_hatch",
+  "top_walkway",
+  "top_rail",
+  "stair_treads",
+  "stair_rail",
+  "stair_handrail",
+  "stair_stringer",
+  "pipes",
+  "valves",
+  "manway",
+  "foam_pipe",
+  "bund_wall"
+ ],
+ "materials": [
+  "concrete",
+  "light_grey",
+  "steel",
+  "warm_concrete",
+  "dark_steel",
+  "yellow",
+  "red",
+  "concrete_dark"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,38 @@
+{
+ "asset_id": "TERRAIN_02",
+ "title": "Large Boulder",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_02.obj",
+ "mtl": "../terrain/TERRAIN_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.981,
+  0.0,
+  -3.063
+ ],
+ "bbox_max": [
+  3.389,
+  2.876,
+  2.696
+ ],
+ "size_xyz": [
+  6.37,
+  2.876,
+  5.758
+ ],
+ "triangles": 1280,
+ "groups": [
+  "boulder"
+ ],
+ "materials": [
+  "rock_light",
+  "rock_mid",
+  "rock_dark"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

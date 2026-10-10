@@ -1,0 +1,72 @@
+{
+ "asset_id": "LAND_10",
+ "title": "Bulldozer",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_10.obj",
+ "mtl": "../land_vehicles/LAND_10.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.95,
+  0.0,
+  -3.62
+ ],
+ "bbox_max": [
+  1.95,
+  3.535,
+  2.3
+ ],
+ "size_xyz": [
+  3.9,
+  3.535,
+  5.92
+ ],
+ "triangles": 2160,
+ "groups": [
+  "track_L",
+  "track_R",
+  "chassis",
+  "engine_hood",
+  "grille",
+  "track_fenders",
+  "cab_frame",
+  "cab_roof",
+  "cab_glass",
+  "seat",
+  "exhaust",
+  "blade",
+  "push_arms",
+  "hydraulics",
+  "ripper"
+ ],
+ "materials": [
+  "rubber",
+  "steel",
+  "dark_steel",
+  "yellow",
+  "black",
+  "glass",
+  "chrome"
+ ],
+ "pivots": {
+  "track_L": [
+   -1.35,
+   0.71,
+   -0.0
+  ],
+  "track_R": [
+   1.35,
+   0.71,
+   -0.0
+  ],
+  "blade": [
+   0,
+   0.735,
+   -3.3
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

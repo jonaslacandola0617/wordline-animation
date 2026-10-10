@@ -1,0 +1,160 @@
+{
+  "id": "ACCESSORY_10",
+  "name": "Telescope",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_10_Telescope.obj",
+  "mtl": "accessories/ACCESSORY_10_Telescope.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "tripod-mounted refractor telescope pointing up-and-forward",
+  "dimensions": {
+    "x_width_m": 1.0789,
+    "y_height_m": 1.6874,
+    "z_depth_m": 1.3782
+  },
+  "bounds_file_min": [
+    -0.5324,
+    0.0,
+    -0.761
+  ],
+  "bounds_file_max": [
+    0.5465,
+    1.6874,
+    0.6172
+  ],
+  "triangles": 1016,
+  "parts": [
+    {
+      "object": "ACCESSORY_10_Telescope_Tripod_Legs",
+      "parent": "ACCESSORY_10_Telescope_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 156
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Mount_Head",
+      "parent": "ACCESSORY_10_Telescope_Tripod_Legs",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 196
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Tube",
+      "parent": "ACCESSORY_10_Telescope_Mount_Head",
+      "pivot_file_xyz": [
+        0.0,
+        1.1253,
+        -0.0
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 216
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Dew_Shield",
+      "parent": "ACCESSORY_10_Telescope_Tube",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Tube_Rings",
+      "parent": "ACCESSORY_10_Telescope_Tube",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 104
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Finder_Scope",
+      "parent": "ACCESSORY_10_Telescope_Tube",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 164
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Focuser",
+      "parent": "ACCESSORY_10_Telescope_Tube",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Eyepiece",
+      "parent": "ACCESSORY_10_Telescope_Tube",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_10_Telescope_Focus_Knob",
+      "parent": "ACCESSORY_10_Telescope_Tube",
+      "pivot_file_xyz": [
+        0.0,
+        0.0053,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 56
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "focus_knob": [
+      0.05,
+      0.97048,
+      0.22117
+    ]
+  },
+  "notes": {
+    "parts": "Tripod_Legs, Mount_Head, Tube (tilt pivot), Dew_Shield, Finder_Scope, Eyepiece, Focuser, Tube_Rings",
+    "grip": "focus_knob"
+  },
+  "open_part_count": 1,
+  "geometry_hash": "a00e7dc99df706e28c2b143efd66be43"
+}

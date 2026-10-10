@@ -1,0 +1,8769 @@
+{
+ "pack": "WORLDLINE_ESSENTIAL_ENVIRONMENT_PACK_76",
+ "units": "metres",
+ "up_axis": "Y",
+ "forward_axis": "+Z",
+ "handedness": "right",
+ "assets": {
+  "ROAD_01": {
+   "name": "ROAD_01",
+   "category": "roads",
+   "description": "Two-lane city road, 12 m module",
+   "obj": "roads/ROAD_01.obj",
+   "mtl": "roads/ROAD_01.mtl",
+   "preview": "previews/roads/ROAD_01.png",
+   "triangles": 320,
+   "vertices": 212,
+   "dimensions_m": [
+    7.3,
+    0.55,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.65,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     3.65,
+     0.15,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 92.3
+  },
+  "ROAD_02": {
+   "name": "ROAD_02",
+   "category": "roads",
+   "description": "Four-lane boulevard with planted median, 12 m module",
+   "obj": "roads/ROAD_02.obj",
+   "mtl": "roads/ROAD_02.mtl",
+   "preview": "previews/roads/ROAD_02.png",
+   "triangles": 792,
+   "vertices": 488,
+   "dimensions_m": [
+    15.7,
+    0.7,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -7.85,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     7.85,
+     0.3,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "marking_white",
+    "soil"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "median_base": [
+     "concrete_weathered"
+    ],
+    "median_curb": [
+     "concrete_pale"
+    ],
+    "median_soil": [
+     "soil"
+    ],
+    "tree_pit": [
+     "concrete_weathered"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 97.2
+  },
+  "ROAD_03": {
+   "name": "ROAD_03",
+   "category": "roads",
+   "description": "Six-lane main avenue with paved median, 12 m module",
+   "obj": "roads/ROAD_03.obj",
+   "mtl": "roads/ROAD_03.mtl",
+   "preview": "previews/roads/ROAD_03.png",
+   "triangles": 756,
+   "vertices": 496,
+   "dimensions_m": [
+    23.3,
+    0.73,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -11.65,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     11.65,
+     0.33,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "marking_white"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "median_base": [
+     "concrete_weathered"
+    ],
+    "median_block": [
+     "concrete_pale"
+    ],
+    "median_seams": [
+     "concrete_weathered"
+    ],
+    "lamp_socket": [
+     "galvanized_steel"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 22.8,
+     "total_width_with_curbs": 23.3,
+     "curb_height": 0.15,
+     "lanes": 6,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 22.8,
+     "total_width_with_curbs": 23.3,
+     "curb_height": 0.15,
+     "lanes": 6,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 98.2
+  },
+  "ROAD_04": {
+   "name": "ROAD_04",
+   "category": "roads",
+   "description": "T-intersection (arms E,S,W; north closed), 12x12 m",
+   "obj": "roads/ROAD_04.obj",
+   "mtl": "roads/ROAD_04.mtl",
+   "preview": "previews/roads/ROAD_04.png",
+   "triangles": 756,
+   "vertices": 482,
+   "dimensions_m": [
+    12.0,
+    0.55,
+    9.65
+   ],
+   "bounding_box_m": {
+    "min": [
+     -6.0,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     6.0,
+     0.15,
+     3.65
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "crosswalk": [
+     "marking_white"
+    ],
+    "curb": [
+     "concrete_pale"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "arm_E",
+     "position": [
+      6,
+      0,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_S",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_W",
+     "position": [
+      -6,
+      0,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 97.8
+  },
+  "ROAD_05": {
+   "name": "ROAD_05",
+   "category": "roads",
+   "description": "Four-way intersection, 12x12 m",
+   "obj": "roads/ROAD_05.obj",
+   "mtl": "roads/ROAD_05.mtl",
+   "preview": "previews/roads/ROAD_05.png",
+   "triangles": 1132,
+   "vertices": 712,
+   "dimensions_m": [
+    12.0,
+    0.55,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -6.0,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     6.0,
+     0.15,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "crosswalk": [
+     "marking_white"
+    ],
+    "curb": [
+     "concrete_pale"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "arm_N",
+     "position": [
+      0,
+      0,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_E",
+     "position": [
+      6,
+      0,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_S",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_W",
+     "position": [
+      -6,
+      0,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 97.6
+  },
+  "ROAD_06": {
+   "name": "ROAD_06",
+   "category": "roads",
+   "description": "Roundabout with raised planted island, 24x24 m (arms along +/-X,+/-Z)",
+   "obj": "roads/ROAD_06.obj",
+   "mtl": "roads/ROAD_06.mtl",
+   "preview": "previews/roads/ROAD_06.png",
+   "triangles": 2908,
+   "vertices": 1720,
+   "dimensions_m": [
+    24.0,
+    1.56,
+    24.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -12.0,
+     -0.4,
+     -12.0
+    ],
+    "max": [
+     12.0,
+     1.16,
+     12.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "dusty_stone",
+    "marking_white",
+    "marking_yellow",
+    "soil"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "island_curb": [
+     "concrete_pale"
+    ],
+    "island_soil": [
+     "soil"
+    ],
+    "island_bed": [
+     "dusty_stone"
+    ],
+    "island_plinth": [
+     "concrete_pale",
+     "soil"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "crosswalk": [
+     "marking_white"
+    ],
+    "splitter": [
+     "concrete_pale"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "arm_0",
+     "position": [
+      0,
+      0,
+      12
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_90",
+     "position": [
+      12,
+      0,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_180",
+     "position": [
+      0,
+      0,
+      -12
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_270",
+     "position": [
+      -12,
+      0,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    }
+   ],
+   "notes": [
+    "Module is 24 m; arms join standard 12 m two-lane modules at +/-12 m."
+   ],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 97.4
+  },
+  "ROAD_07": {
+   "name": "ROAD_07",
+   "category": "roads",
+   "description": "90-degree curved two-lane road, centreline radius 12 m; enters (0,0,-6) heading +Z, exits (12,0,6) heading +X",
+   "obj": "roads/ROAD_07.obj",
+   "mtl": "roads/ROAD_07.mtl",
+   "preview": "previews/roads/ROAD_07.png",
+   "triangles": 1472,
+   "vertices": 780,
+   "dimensions_m": [
+    15.864,
+    0.55,
+    15.864
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.643,
+     -0.4,
+     -6.22
+    ],
+    "max": [
+     12.22,
+     0.15,
+     9.643
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      12.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 97.1
+  },
+  "ROAD_08": {
+   "name": "ROAD_08",
+   "category": "roads",
+   "description": "Sloped two-lane road: +1.5 m over 12 m, with embankment fill",
+   "obj": "roads/ROAD_08.obj",
+   "mtl": "roads/ROAD_08.mtl",
+   "preview": "previews/roads/ROAD_08.png",
+   "triangles": 308,
+   "vertices": 204,
+   "dimensions_m": [
+    7.3,
+    3.45,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.65,
+     -1.8,
+     -6.0
+    ],
+    "max": [
+     3.65,
+     1.65,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "dusty_stone",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ],
+    "embankment": [
+     "dusty_stone"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      1.5,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 1.5
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 92.0
+  },
+  "ROAD_09": {
+   "name": "ROAD_09",
+   "category": "roads",
+   "description": "Coastal boulevard: two lanes + 4.2 m sea-side promenade (+X side), parapet with railing sockets, seawall lip",
+   "obj": "roads/ROAD_09.obj",
+   "mtl": "roads/ROAD_09.mtl",
+   "preview": "previews/roads/ROAD_09.png",
+   "triangles": 760,
+   "vertices": 472,
+   "dimensions_m": [
+    11.9,
+    2.93,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.65,
+     -2.2,
+     -6.0
+    ],
+    "max": [
+     8.25,
+     0.73,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "coastal_weathered",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white",
+     "marking_yellow"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ],
+    "promenade": [
+     "concrete_pale",
+     "concrete_weathered"
+    ],
+    "promenade_seams": [
+     "concrete_weathered"
+    ],
+    "parapet": [
+     "concrete_pale"
+    ],
+    "seawall_lip": [
+     "coastal_weathered",
+     "concrete_weathered"
+    ],
+    "railing_socket": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "railing_mount_z-4.5",
+     "position": [
+      7.68,
+      0.73,
+      -4.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z-1.5",
+     "position": [
+      7.68,
+      0.73,
+      -1.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z1.5",
+     "position": [
+      7.68,
+      0.73,
+      1.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z4.5",
+     "position": [
+      7.68,
+      0.73,
+      4.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "seawall_interface",
+     "position": [
+      7.95,
+      -0.4,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "mates": "HARBOR_04"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 96.8
+  },
+  "ROAD_10": {
+   "name": "ROAD_10",
+   "category": "roads",
+   "description": "Highway section: 2 lanes per direction (3.5 m), 2.5 m paved shoulders, jersey median, edge parapets with guardrail sockets",
+   "obj": "roads/ROAD_10.obj",
+   "mtl": "roads/ROAD_10.mtl",
+   "preview": "previews/roads/ROAD_10.png",
+   "triangles": 848,
+   "vertices": 512,
+   "dimensions_m": [
+    21.1,
+    1.24,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -10.55,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     10.55,
+     0.84,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "marking_white",
+    "marking_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "shoulder": [
+     "asphalt_cool"
+    ],
+    "markings": [
+     "marking_white",
+     "marking_yellow"
+    ],
+    "edge_parapet": [
+     "concrete_pale"
+    ],
+    "guardrail_socket": [
+     "galvanized_steel"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ],
+    "median_barrier": [
+     "concrete_pale"
+    ],
+    "median_cap": [
+     "concrete_weathered"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "guardrail_mount_L_z-4",
+     "position": [
+      -10.32,
+      0.55,
+      -4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_L_z0",
+     "position": [
+      -10.32,
+      0.55,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_L_z4",
+     "position": [
+      -10.32,
+      0.55,
+      4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_R_z-4",
+     "position": [
+      10.32,
+      0.55,
+      -4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_R_z0",
+     "position": [
+      10.32,
+      0.55,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_R_z4",
+     "position": [
+      10.32,
+      0.55,
+      4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "end",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_incl_shoulders_and_parapets": 21.099999999999998,
+     "lanes": 4,
+     "lane_width": 3.5,
+     "shoulder": 2.5,
+     "surface_y": 0
+    },
+    {
+     "name": "end",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_incl_shoulders_and_parapets": 21.099999999999998,
+     "lanes": 4,
+     "lane_width": 3.5,
+     "shoulder": 2.5,
+     "surface_y": 0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 98.4
+  },
+  "ROAD_11": {
+   "name": "ROAD_11",
+   "category": "roads",
+   "description": "Elevated curved highway ramp: 60 deg arc R=28 m, +4 m rise, one-way 2 x 3.5 m lanes, girder + pier, parapet sockets",
+   "obj": "roads/ROAD_11.obj",
+   "mtl": "roads/ROAD_11.mtl",
+   "preview": "previews/roads/ROAD_11.png",
+   "triangles": 2016,
+   "vertices": 1060,
+   "dimensions_m": [
+    20.27,
+    6.5,
+    27.869
+   ],
+   "bounding_box_m": {
+    "min": [
+     -4.098,
+     -1.6,
+     -6.143
+    ],
+    "max": [
+     16.173,
+     4.9,
+     21.726
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "marking_white"
+   ],
+   "groups": {
+    "deck": [
+     "asphalt_warm"
+    ],
+    "girder": [
+     "concrete_weathered"
+    ],
+    "parapet": [
+     "concrete_pale"
+    ],
+    "markings": [
+     "marking_white"
+    ],
+    "guardrail_socket": [
+     "galvanized_steel"
+    ],
+    "pier": [
+     "concrete_weathered"
+    ],
+    "pier_cap": [
+     "concrete_pale"
+    ],
+    "pier_foot": [
+     "concrete_weathered"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 8.2,
+     "lanes": 2,
+     "lane_width": 3.5,
+     "surface_y": 0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      14.0,
+      4.0,
+      18.249
+     ],
+     "direction": [
+      0.8536201226889306,
+      0.1351683574447689,
+      0.5030528812025811
+     ],
+     "width": 8.2,
+     "lanes": 2,
+     "lane_width": 3.5,
+     "surface_y": 4.0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "ROAD_12": {
+   "name": "ROAD_12",
+   "category": "roads",
+   "description": "Sidewalk module 3 x 12 m, top at +0.15 m; road-side edge at x=-1.5; furniture slots at x=-0.85",
+   "obj": "roads/ROAD_12.obj",
+   "mtl": "roads/ROAD_12.mtl",
+   "preview": "previews/roads/ROAD_12.png",
+   "triangles": 720,
+   "vertices": 448,
+   "dimensions_m": [
+    3.0,
+    0.575,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.5,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     1.5,
+     0.175,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "concrete_weathered",
+    "rubber_dark"
+   ],
+   "groups": {
+    "base": [
+     "concrete_weathered"
+    ],
+    "tiles": [
+     "concrete_pale"
+    ],
+    "building_edge": [
+     "concrete_weathered"
+    ],
+    "furniture_slot": [
+     "concrete_weathered"
+    ],
+    "manhole": [
+     "brushed_metal",
+     "rubber_dark"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "furniture_slot_z-4",
+     "position": [
+      -0.85,
+      0.165,
+      -4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_*"
+    },
+    {
+     "name": "furniture_slot_z0",
+     "position": [
+      -0.85,
+      0.165,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_*"
+    },
+    {
+     "name": "furniture_slot_z4",
+     "position": [
+      -0.85,
+      0.165,
+      4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_*"
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.15,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 3.0,
+     "surface_y": 0.15
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.15,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 3.0,
+     "surface_y": 0.15
+    }
+   ],
+   "notes": [
+    "Place with road-side edge against curb outer face (x = carriageway half-width + 0.25)."
+   ],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "ROAD_13": {
+   "name": "ROAD_13",
+   "category": "roads",
+   "description": "Street corner sidewalk 3x3 m with R=1.25 m rounded curb corner, tactile paving. Origin = JUNCTION CENTRE (NE corner; rotate 90 deg steps)",
+   "obj": "roads/ROAD_13.obj",
+   "mtl": "roads/ROAD_13.mtl",
+   "preview": "previews/roads/ROAD_13.png",
+   "triangles": 884,
+   "vertices": 540,
+   "dimensions_m": [
+    3.04,
+    0.587,
+    3.04
+   ],
+   "bounding_box_m": {
+    "min": [
+     3.61,
+     -0.4,
+     3.61
+    ],
+    "max": [
+     6.65,
+     0.187,
+     6.65
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "concrete_pale",
+    "concrete_weathered",
+    "tactile_yellow"
+   ],
+   "groups": {
+    "base": [
+     "concrete_weathered"
+    ],
+    "paving": [
+     "concrete_pale"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "tactile": [
+     "tactile_yellow"
+    ],
+    "curb_cap": [
+     "concrete_pale"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_x",
+     "position": [
+      6.65,
+      0.15,
+      5.15
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "width": 3.0,
+     "mates": "ROAD_12 (offset)"
+    },
+    {
+     "name": "end_z",
+     "position": [
+      5.15,
+      0.15,
+      6.65
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 3.0,
+     "mates": "ROAD_12 (rotated)"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "ROAD_14": {
+   "name": "ROAD_14",
+   "category": "roads",
+   "description": "Pedestrian-refuge traffic island on a four-lane boulevard (matches ROAD_02 profile at ends)",
+   "obj": "roads/ROAD_14.obj",
+   "mtl": "roads/ROAD_14.mtl",
+   "preview": "previews/roads/ROAD_14.png",
+   "triangles": 1008,
+   "vertices": 632,
+   "dimensions_m": [
+    15.7,
+    0.69,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -7.85,
+     -0.4,
+     -6.0
+    ],
+    "max": [
+     7.85,
+     0.29,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "asphalt_warm",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "marking_white",
+    "safety_yellow",
+    "soil",
+    "tactile_yellow"
+   ],
+   "groups": {
+    "surface": [
+     "asphalt_cool",
+     "asphalt_warm"
+    ],
+    "markings": [
+     "asphalt_cool",
+     "marking_white"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "seams": [
+     "concrete_weathered"
+    ],
+    "wear": [
+     "asphalt_cool"
+    ],
+    "median_base": [
+     "concrete_weathered"
+    ],
+    "island_curb": [
+     "concrete_pale"
+    ],
+    "island_deck": [
+     "concrete_weathered"
+    ],
+    "refuge_bed": [
+     "soil"
+    ],
+    "bollard_socket": [
+     "galvanized_steel"
+    ],
+    "refuge_crossing": [
+     "tactile_yellow"
+    ],
+    "tactile": [
+     "tactile_yellow"
+    ],
+    "nose_marking": [
+     "safety_yellow"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "bollard_mount_z-5.2",
+     "position": [
+      0,
+      0.28,
+      -5.2
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_09"
+    },
+    {
+     "name": "bollard_mount_z5.2",
+     "position": [
+      0,
+      0.28,
+      5.2
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_09"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    200,
+    4000
+   ],
+   "watertight_edge_pct": 98.7
+  },
+  "PROP_01": {
+   "name": "PROP_01",
+   "category": "street_props",
+   "description": "Mast-arm vehicle traffic signal, 3 heads (red/amber/green lenses emissive), 5.2 m",
+   "obj": "street_props/PROP_01.obj",
+   "mtl": "street_props/PROP_01.mtl",
+   "preview": "previews/street_props/PROP_01.png",
+   "triangles": 1724,
+   "vertices": 996,
+   "dimensions_m": [
+    4.211,
+    5.12,
+    1.17
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.31,
+     0.0,
+     -0.3
+    ],
+    "max": [
+     3.901,
+     5.12,
+     0.87
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "cable_black",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "paint_navy",
+    "rubber_dark",
+    "signal_amber",
+    "signal_green",
+    "signal_red"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "pole": [
+     "metal_painted_grey"
+    ],
+    "mast_arm": [
+     "metal_painted_grey"
+    ],
+    "housing": [
+     "paint_navy"
+    ],
+    "backplate": [
+     "rubber_dark"
+    ],
+    "lens_signal_red": [
+     "signal_red"
+    ],
+    "visor": [
+     "rubber_dark"
+    ],
+    "lens_signal_amber": [
+     "signal_amber"
+    ],
+    "lens_signal_green": [
+     "signal_green"
+    ],
+    "mount": [
+     "galvanized_steel"
+    ],
+    "head_hanger": [
+     "galvanized_steel"
+    ],
+    "pole_bracket": [
+     "galvanized_steel"
+    ],
+    "junction_box": [
+     "paint_navy",
+     "rubber_dark"
+    ],
+    "conduit": [
+     "cable_black"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "cable_anchor_mast_tip",
+     "position": [
+      3.9,
+      4.95,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "base_ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_02": {
+   "name": "PROP_02",
+   "category": "street_props",
+   "description": "Pedestrian crossing signal with red-hand / walking-figure displays and push-button, 3.1 m",
+   "obj": "street_props/PROP_02.obj",
+   "mtl": "street_props/PROP_02.mtl",
+   "preview": "previews/street_props/PROP_02.png",
+   "triangles": 544,
+   "vertices": 320,
+   "dimensions_m": [
+    0.62,
+    3.13,
+    0.63
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.31,
+     0.0,
+     -0.17
+    ],
+    "max": [
+     0.31,
+     3.13,
+     0.46
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "lamp_emissive",
+    "metal_painted_grey",
+    "paint_navy",
+    "rubber_dark",
+    "safety_yellow",
+    "sign_white",
+    "signal_red"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "pole": [
+     "metal_painted_grey"
+    ],
+    "housing": [
+     "paint_navy",
+     "rubber_dark"
+    ],
+    "hood": [
+     "rubber_dark"
+    ],
+    "display_hand": [
+     "signal_red"
+    ],
+    "display_walk": [
+     "lamp_emissive"
+    ],
+    "button_unit": [
+     "brushed_metal",
+     "safety_yellow",
+     "sign_white"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "button_press",
+     "position": [
+      0,
+      1.2,
+      0.18
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "cable_anchor",
+     "position": [
+      0,
+      2.9,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 99.5
+  },
+  "PROP_03": {
+   "name": "PROP_03",
+   "category": "street_props",
+   "description": "Urban streetlight: tapered octagonal post, swan-neck arm, shaped luminaire, 6.4 m",
+   "obj": "street_props/PROP_03.obj",
+   "mtl": "street_props/PROP_03.mtl",
+   "preview": "previews/street_props/PROP_03.png",
+   "triangles": 456,
+   "vertices": 264,
+   "dimensions_m": [
+    2.6,
+    6.584,
+    0.5
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.25,
+     0.0,
+     -0.25
+    ],
+    "max": [
+     2.35,
+     6.584,
+     0.25
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "lamp_emissive",
+    "metal_painted_grey",
+    "rubber_dark"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "post": [
+     "metal_painted_grey"
+    ],
+    "handhole": [
+     "galvanized_steel",
+     "rubber_dark"
+    ],
+    "arm": [
+     "metal_painted_grey"
+    ],
+    "luminaire": [
+     "metal_painted_grey"
+    ],
+    "lens": [
+     "lamp_emissive"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "lamp_centre",
+     "position": [
+      1.95,
+      6.1,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor",
+     "position": [
+      1.75,
+      6.25,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_04": {
+   "name": "PROP_04",
+   "category": "street_props",
+   "description": "Highway lamp: 10 m 12-sided pole, twin truss arms with cobra luminaires, flanged base with gussets",
+   "obj": "street_props/PROP_04.obj",
+   "mtl": "street_props/PROP_04.mtl",
+   "preview": "previews/street_props/PROP_04.png",
+   "triangles": 552,
+   "vertices": 320,
+   "dimensions_m": [
+    7.2,
+    10.3,
+    1.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.6,
+     0.0,
+     -0.5
+    ],
+    "max": [
+     3.6,
+     10.3,
+     0.5
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "lamp_emissive",
+    "metal_painted_grey"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "pole": [
+     "metal_painted_grey"
+    ],
+    "winch_door": [
+     "galvanized_steel"
+    ],
+    "arm": [
+     "metal_painted_grey"
+    ],
+    "luminaire": [
+     "metal_painted_grey"
+    ],
+    "lens": [
+     "lamp_emissive"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "lamp_L",
+     "position": [
+      -3.0,
+      9.98,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "lamp_R",
+     "position": [
+      3.0,
+      9.98,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_05": {
+   "name": "PROP_05",
+   "category": "street_props",
+   "description": "Bus stop shelter 3.8 x 1.7 m: canopy, glazed back/side panels, slatted bench, lit ad panel, route sign pole",
+   "obj": "street_props/PROP_05.obj",
+   "mtl": "street_props/PROP_05.mtl",
+   "preview": "previews/street_props/PROP_05.png",
+   "triangles": 592,
+   "vertices": 360,
+   "dimensions_m": [
+    4.65,
+    3.4,
+    2.24
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.5,
+     0.0,
+     -1.12
+    ],
+    "max": [
+     2.15,
+     3.4,
+     1.12
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "ad_panel",
+    "brushed_metal",
+    "concrete_weathered",
+    "galvanized_steel",
+    "glass_tinted",
+    "metal_painted_grey",
+    "paint_blue",
+    "sign_blue",
+    "sign_white",
+    "timber_warm"
+   ],
+   "groups": {
+    "plinth": [
+     "concrete_weathered"
+    ],
+    "columns": [
+     "galvanized_steel"
+    ],
+    "canopy": [
+     "galvanized_steel",
+     "metal_painted_grey",
+     "paint_blue"
+    ],
+    "back_panel": [
+     "glass_tinted"
+    ],
+    "back_frame": [
+     "galvanized_steel"
+    ],
+    "bench": [
+     "galvanized_steel",
+     "timber_warm"
+    ],
+    "ad_frame": [
+     "brushed_metal"
+    ],
+    "ad_panel": [
+     "ad_panel",
+     "glass_tinted"
+    ],
+    "sign_pole": [
+     "metal_painted_grey"
+    ],
+    "sign": [
+     "sign_blue"
+    ],
+    "sign_pictogram": [
+     "sign_white"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "kerb_edge",
+     "position": [
+      0,
+      0,
+      1.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "note": "front faces +Z; place with +Z toward road"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 99.5
+  },
+  "PROP_06": {
+   "name": "PROP_06",
+   "category": "street_props",
+   "description": "Public bench 1.8 m: timber seat/back slats, cast-iron style side frames with armrests",
+   "obj": "street_props/PROP_06.obj",
+   "mtl": "street_props/PROP_06.mtl",
+   "preview": "previews/street_props/PROP_06.png",
+   "triangles": 480,
+   "vertices": 288,
+   "dimensions_m": [
+    1.76,
+    0.96,
+    0.638
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.88,
+     0.0,
+     -0.378
+    ],
+    "max": [
+     0.88,
+     0.96,
+     0.26
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "metal_painted_grey",
+    "rubber_dark",
+    "timber_warm"
+   ],
+   "groups": {
+    "foot": [
+     "rubber_dark"
+    ],
+    "frame": [
+     "metal_painted_grey"
+    ],
+    "armrest": [
+     "brushed_metal"
+    ],
+    "seat": [
+     "timber_warm"
+    ],
+    "backrest": [
+     "timber_warm"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "seat_centre",
+     "position": [
+      0,
+      0.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_07": {
+   "name": "PROP_07",
+   "category": "street_props",
+   "description": "Urban trash bin 0.55 m dia: tapered shell, banded straps, rim, lid with opening, hinged flap, base ring",
+   "obj": "street_props/PROP_07.obj",
+   "mtl": "street_props/PROP_07.mtl",
+   "preview": "previews/street_props/PROP_07.png",
+   "triangles": 844,
+   "vertices": 468,
+   "dimensions_m": [
+    0.6,
+    1.02,
+    0.6
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.3,
+     0.0,
+     -0.3
+    ],
+    "max": [
+     0.3,
+     1.02,
+     0.3
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "paint_green",
+    "rubber_dark"
+   ],
+   "groups": {
+    "shell": [
+     "paint_green"
+    ],
+    "base_ring": [
+     "rubber_dark"
+    ],
+    "straps": [
+     "brushed_metal"
+    ],
+    "rim": [
+     "brushed_metal"
+    ],
+    "lid": [
+     "paint_green"
+    ],
+    "cavity": [
+     "rubber_dark"
+    ],
+    "flap": [
+     "brushed_metal"
+    ],
+    "flap_hinge": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 94.7
+  },
+  "PROP_08": {
+   "name": "PROP_08",
+   "category": "street_props",
+   "description": "Fire hydrant 0.8 m: base flange, barrel, bonnet, 2 side nozzles + pumper nozzle, pentagonal operating nut, chains",
+   "obj": "street_props/PROP_08.obj",
+   "mtl": "street_props/PROP_08.mtl",
+   "preview": "previews/street_props/PROP_08.png",
+   "triangles": 748,
+   "vertices": 398,
+   "dimensions_m": [
+    0.62,
+    0.82,
+    0.467
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.31,
+     0.0,
+     -0.162
+    ],
+    "max": [
+     0.31,
+     0.82,
+     0.305
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "safety_yellow",
+    "traffic_red"
+   ],
+   "groups": {
+    "base": [
+     "brushed_metal"
+    ],
+    "barrel": [
+     "traffic_red"
+    ],
+    "bonnet": [
+     "safety_yellow"
+    ],
+    "nut": [
+     "brushed_metal"
+    ],
+    "nozzle": [
+     "traffic_red"
+    ],
+    "nozzle_cap": [
+     "brushed_metal"
+    ],
+    "pumper": [
+     "traffic_red"
+    ],
+    "pumper_cap": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_09": {
+   "name": "PROP_09",
+   "category": "street_props",
+   "description": "Street bollard 1.0 m: base flange with bolts, collar, chamfered shaft, reflective band, domed cap",
+   "obj": "street_props/PROP_09.obj",
+   "mtl": "street_props/PROP_09.mtl",
+   "preview": "previews/street_props/PROP_09.png",
+   "triangles": 472,
+   "vertices": 256,
+   "dimensions_m": [
+    0.3,
+    1.0,
+    0.3
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.15,
+     0.0,
+     -0.15
+    ],
+    "max": [
+     0.15,
+     1.0,
+     0.15
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "marking_white",
+    "metal_painted_grey",
+    "safety_yellow"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "collar": [
+     "galvanized_steel"
+    ],
+    "shaft": [
+     "metal_painted_grey"
+    ],
+    "band": [
+     "marking_white",
+     "safety_yellow"
+    ],
+    "cap": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_10": {
+   "name": "PROP_10",
+   "category": "street_props",
+   "description": "Modular W-beam guardrail 4 m: I-section posts, spacer blocks, corrugated rail with splice bolts; modules chain at z=+/-2",
+   "obj": "street_props/PROP_10.obj",
+   "mtl": "street_props/PROP_10.mtl",
+   "preview": "previews/street_props/PROP_10.png",
+   "triangles": 432,
+   "vertices": 244,
+   "dimensions_m": [
+    0.365,
+    0.88,
+    4.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.075,
+     -0.1,
+     -2.0
+    ],
+    "max": [
+     0.29,
+     0.78,
+     2.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_weathered",
+    "galvanized_steel"
+   ],
+   "groups": {
+    "posts": [
+     "galvanized_steel"
+    ],
+    "spacer": [
+     "concrete_weathered"
+    ],
+    "bolts": [
+     "brushed_metal"
+    ],
+    "rail": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.19,
+      0.53,
+      -2.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.19,
+      0.53,
+      2.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "mates": "PROP_10"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_11": {
+   "name": "PROP_11",
+   "category": "street_props",
+   "description": "Jersey concrete barrier 3 m: sloped faces, chamfered edges, lifting loops, interlocking end pockets, reflectors",
+   "obj": "street_props/PROP_11.obj",
+   "mtl": "street_props/PROP_11.mtl",
+   "preview": "previews/street_props/PROP_11.png",
+   "triangles": 208,
+   "vertices": 132,
+   "dimensions_m": [
+    0.62,
+    0.91,
+    3.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.31,
+     0.0,
+     -1.5
+    ],
+    "max": [
+     0.31,
+     0.91,
+     1.5
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "concrete_pale",
+    "concrete_weathered",
+    "rebar",
+    "safety_orange"
+   ],
+   "groups": {
+    "body": [
+     "concrete_pale"
+    ],
+    "foot_skirt": [
+     "concrete_weathered"
+    ],
+    "lifting_loop": [
+     "rebar"
+    ],
+    "reflector": [
+     "safety_orange"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.4,
+      -1.5
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.4,
+      1.5
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_12": {
+   "name": "PROP_12",
+   "category": "street_props",
+   "description": "Traffic cone 0.72 m: weighted square rubber base, orange body, two reflective collars",
+   "obj": "street_props/PROP_12.obj",
+   "mtl": "street_props/PROP_12.mtl",
+   "preview": "previews/street_props/PROP_12.png",
+   "triangles": 404,
+   "vertices": 220,
+   "dimensions_m": [
+    0.46,
+    0.745,
+    0.46
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.23,
+     0.0,
+     -0.23
+    ],
+    "max": [
+     0.23,
+     0.745,
+     0.23
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "marking_white",
+    "rubber_dark",
+    "safety_orange"
+   ],
+   "groups": {
+    "base": [
+     "rubber_dark"
+    ],
+    "body_safety_orange": [
+     "safety_orange"
+    ],
+    "body_marking_white": [
+     "marking_white"
+    ],
+    "tip": [
+     "safety_orange"
+    ]
+   },
+   "connection_points": [],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 95.7
+  },
+  "PROP_13": {
+   "name": "PROP_13",
+   "category": "street_props",
+   "description": "Street-name sign: 3.2 m pole, finial, two perpendicular blades with white borders on brackets; sign_face groups are decal surfaces",
+   "obj": "street_props/PROP_13.obj",
+   "mtl": "street_props/PROP_13.mtl",
+   "preview": "previews/street_props/PROP_13.png",
+   "triangles": 356,
+   "vertices": 208,
+   "dimensions_m": [
+    1.07,
+    3.26,
+    0.92
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.11,
+     0.0,
+     -0.81
+    ],
+    "max": [
+     0.96,
+     3.26,
+     0.11
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "sign_green",
+    "sign_white"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "pole": [
+     "galvanized_steel"
+    ],
+    "blade_border": [
+     "sign_white"
+    ],
+    "sign_face_decal": [
+     "sign_green"
+    ],
+    "bracket": [
+     "galvanized_steel"
+    ],
+    "clamp": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "decal_A",
+     "position": [
+      0.45,
+      2.8,
+      0.016
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "decal_B",
+     "position": [
+      0.0,
+      2.5,
+      0.38
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_14": {
+   "name": "PROP_14",
+   "category": "street_props",
+   "description": "Billboard 8 x 3.5 m: twin I-beam columns on footings, rear bracing, service catwalk with rail, frame + face panel, two floodlights",
+   "obj": "street_props/PROP_14.obj",
+   "mtl": "street_props/PROP_14.mtl",
+   "preview": "previews/street_props/PROP_14.png",
+   "triangles": 640,
+   "vertices": 392,
+   "dimensions_m": [
+    8.6,
+    7.975,
+    3.65
+   ],
+   "bounding_box_m": {
+    "min": [
+     -4.3,
+     0.0,
+     -2.2
+    ],
+    "max": [
+     4.3,
+     7.975,
+     1.45
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "ad_panel",
+    "brushed_metal",
+    "concrete_weathered",
+    "galvanized_steel",
+    "lamp_emissive",
+    "metal_painted_grey",
+    "paint_navy",
+    "safety_yellow"
+   ],
+   "groups": {
+    "footing": [
+     "concrete_weathered"
+    ],
+    "column": [
+     "galvanized_steel"
+    ],
+    "base_plate": [
+     "galvanized_steel"
+    ],
+    "brace": [
+     "galvanized_steel"
+    ],
+    "rear_strut": [
+     "galvanized_steel"
+    ],
+    "rear_foot": [
+     "concrete_weathered"
+    ],
+    "girder": [
+     "metal_painted_grey"
+    ],
+    "frame": [
+     "paint_navy"
+    ],
+    "face": [
+     "ad_panel"
+    ],
+    "catwalk": [
+     "brushed_metal"
+    ],
+    "catwalk_rail": [
+     "safety_yellow"
+    ],
+    "flood_arm": [
+     "galvanized_steel"
+    ],
+    "flood": [
+     "metal_painted_grey"
+    ],
+    "flood_lens": [
+     "lamp_emissive"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "face_centre",
+     "position": [
+      0,
+      6.1,
+      0.15
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 8.1,
+     "height": 3.1
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_15": {
+   "name": "PROP_15",
+   "category": "street_props",
+   "description": "Double-sided advertising kiosk 1.2 x 2.2 m: plinth, frame, glazed display panels, lit crown, feet",
+   "obj": "street_props/PROP_15.obj",
+   "mtl": "street_props/PROP_15.mtl",
+   "preview": "previews/street_props/PROP_15.png",
+   "triangles": 216,
+   "vertices": 136,
+   "dimensions_m": [
+    1.4,
+    2.28,
+    0.6
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.7,
+     0.0,
+     -0.3
+    ],
+    "max": [
+     0.7,
+     2.28,
+     0.3
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "ad_panel",
+    "brushed_metal",
+    "concrete_weathered",
+    "glass_tinted",
+    "lamp_emissive",
+    "metal_painted_grey",
+    "paint_navy",
+    "rubber_dark"
+   ],
+   "groups": {
+    "plinth": [
+     "concrete_weathered"
+    ],
+    "foot": [
+     "rubber_dark"
+    ],
+    "body": [
+     "paint_navy"
+    ],
+    "display": [
+     "ad_panel"
+    ],
+    "glass": [
+     "glass_tinted"
+    ],
+    "trim": [
+     "brushed_metal"
+    ],
+    "crown": [
+     "metal_painted_grey"
+    ],
+    "crown_light": [
+     "lamp_emissive"
+    ],
+    "side_vent": [
+     "rubber_dark"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "display_front",
+     "position": [
+      0,
+      1.15,
+      0.24
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "display_back",
+     "position": [
+      0,
+      1.15,
+      -0.24
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "PROP_16": {
+   "name": "PROP_16",
+   "category": "street_props",
+   "description": "Public planter 1.5 x 0.8 x 0.65 m: real 0.1 m walls, floor, coping, corner pilasters, recessed soil bed with planting hole (no plant)",
+   "obj": "street_props/PROP_16.obj",
+   "mtl": "street_props/PROP_16.mtl",
+   "preview": "previews/street_props/PROP_16.png",
+   "triangles": 452,
+   "vertices": 264,
+   "dimensions_m": [
+    1.54,
+    0.71,
+    0.84
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.77,
+     0.0,
+     -0.42
+    ],
+    "max": [
+     0.77,
+     0.71,
+     0.42
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "concrete_pale",
+    "concrete_weathered",
+    "rubber_dark",
+    "soil"
+   ],
+   "groups": {
+    "floor": [
+     "concrete_weathered"
+    ],
+    "wall": [
+     "concrete_pale"
+    ],
+    "pilaster": [
+     "concrete_weathered"
+    ],
+    "band": [
+     "concrete_weathered"
+    ],
+    "soil": [
+     "soil"
+    ],
+    "planting_hole": [
+     "rubber_dark"
+    ],
+    "soil_ring": [
+     "soil"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "planting_point",
+     "position": [
+      0,
+      0.52,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "note": "attach foliage/tree asset here"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 95.7
+  },
+  "PROP_17": {
+   "name": "PROP_17",
+   "category": "street_props",
+   "description": "Bicycle rack: 5 inverted-U hoops with cross-bar and grounded flange plates, 3 m run",
+   "obj": "street_props/PROP_17.obj",
+   "mtl": "street_props/PROP_17.mtl",
+   "preview": "previews/street_props/PROP_17.png",
+   "triangles": 2696,
+   "vertices": 1552,
+   "dimensions_m": [
+    0.94,
+    1.025,
+    2.54
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.47,
+     0.0,
+     -1.27
+    ],
+    "max": [
+     0.47,
+     1.025,
+     1.27
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel"
+   ],
+   "groups": {
+    "hoop": [
+     "galvanized_steel"
+    ],
+    "flange": [
+     "brushed_metal",
+     "galvanized_steel"
+    ],
+    "crossbar": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -1.5
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "mates": "PROP_17"
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      1.5
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 99.6
+  },
+  "PROP_18": {
+   "name": "PROP_18",
+   "category": "street_props",
+   "description": "Parking meter 1.45 m: base plate, post, rounded head with glass display, keypad, coin/card slots, solar panel",
+   "obj": "street_props/PROP_18.obj",
+   "mtl": "street_props/PROP_18.mtl",
+   "preview": "previews/street_props/PROP_18.png",
+   "triangles": 628,
+   "vertices": 364,
+   "dimensions_m": [
+    0.26,
+    1.482,
+    0.26
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.13,
+     0.0,
+     -0.13
+    ],
+    "max": [
+     0.13,
+     1.482,
+     0.13
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "glass_tinted",
+    "metal_painted_grey",
+    "paint_blue",
+    "paint_navy",
+    "rubber_dark",
+    "signal_green"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "post": [
+     "metal_painted_grey"
+    ],
+    "head": [
+     "paint_navy"
+    ],
+    "screen": [
+     "glass_tinted"
+    ],
+    "screen_text": [
+     "signal_green"
+    ],
+    "keypad": [
+     "rubber_dark"
+    ],
+    "keys": [
+     "brushed_metal"
+    ],
+    "coin_slot": [
+     "brushed_metal",
+     "rubber_dark"
+    ],
+    "card_slot": [
+     "rubber_dark"
+    ],
+    "solar": [
+     "paint_blue"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "head_top",
+     "position": [
+      0,
+      1.465,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    150,
+    2500
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_01": {
+   "name": "UTILITY_01",
+   "category": "utilities",
+   "description": "Wooden utility pole 10 m: tapered log, two crossarms with braces, 5 pin insulators, climbing pegs, ground sleeve",
+   "obj": "utilities/UTILITY_01.obj",
+   "mtl": "utilities/UTILITY_01.mtl",
+   "preview": "previews/utilities/UTILITY_01.png",
+   "triangles": 1524,
+   "vertices": 820,
+   "dimensions_m": [
+    2.6,
+    10.38,
+    0.508
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.3,
+     0.0,
+     -0.248
+    ],
+    "max": [
+     1.3,
+     10.38,
+     0.26
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "insulator_ceramic",
+    "rubber_dark",
+    "timber_warm",
+    "wood_weathered"
+   ],
+   "groups": {
+    "pole": [
+     "wood_weathered"
+    ],
+    "ground_sleeve": [
+     "rubber_dark"
+    ],
+    "pole_cap": [
+     "timber_warm"
+    ],
+    "crossarm_upper": [
+     "timber_warm"
+    ],
+    "brace_upper": [
+     "timber_warm"
+    ],
+    "bolt_upper": [
+     "galvanized_steel"
+    ],
+    "through_bolt": [
+     "galvanized_steel"
+    ],
+    "crossarm_lower": [
+     "timber_warm"
+    ],
+    "brace_lower": [
+     "timber_warm"
+    ],
+    "bolt_lower": [
+     "galvanized_steel"
+    ],
+    "insulator_upper": [
+     "insulator_ceramic"
+    ],
+    "insulator_top": [
+     "insulator_ceramic"
+    ],
+    "insulator_lower": [
+     "insulator_ceramic"
+    ],
+    "pegs": [
+     "galvanized_steel"
+    ],
+    "ground_wire_staple": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "cable_anchor_top",
+     "position": [
+      0,
+      10.3,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_U1",
+     "position": [
+      -1.1,
+      9.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_U2",
+     "position": [
+      0,
+      9.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_U3",
+     "position": [
+      1.1,
+      9.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_L1",
+     "position": [
+      -0.8,
+      8.78,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_L2",
+     "position": [
+      0.8,
+      8.78,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_02": {
+   "name": "UTILITY_02",
+   "category": "utilities",
+   "description": "Pole-mounted distribution transformer on 1.8 m pole section: ribbed tank, domed lid, 3 HV bushings, 2 LV terminals, hanger lugs, straps",
+   "obj": "utilities/UTILITY_02.obj",
+   "mtl": "utilities/UTILITY_02.mtl",
+   "preview": "previews/utilities/UTILITY_02.png",
+   "triangles": 1596,
+   "vertices": 870,
+   "dimensions_m": [
+    0.85,
+    2.39,
+    1.339
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.425,
+     -0.2,
+     -0.799
+    ],
+    "max": [
+     0.425,
+     2.19,
+     0.54
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "insulator_grey",
+    "metal_painted_grey",
+    "wood_weathered"
+   ],
+   "groups": {
+    "pole_section": [
+     "wood_weathered"
+    ],
+    "hanger_bar": [
+     "galvanized_steel"
+    ],
+    "tank": [
+     "insulator_grey"
+    ],
+    "ribs": [
+     "metal_painted_grey"
+    ],
+    "lid_ring": [
+     "brushed_metal"
+    ],
+    "bushing_HV": [
+     "insulator_grey"
+    ],
+    "terminal_HV": [
+     "brushed_metal"
+    ],
+    "terminal_LV": [
+     "brushed_metal"
+    ],
+    "mount_strap": [
+     "galvanized_steel"
+    ],
+    "hanger_lug": [
+     "galvanized_steel"
+    ],
+    "nameplate": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "terminal_HV1",
+     "position": [
+      -0.22,
+      2.2,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_HV2",
+     "position": [
+      0,
+      2.2,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_HV3",
+     "position": [
+      0.22,
+      2.2,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_LV_L",
+     "position": [
+      -0.17,
+      1.35,
+      0.54
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_LV_R",
+     "position": [
+      0.17,
+      1.35,
+      0.54
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_03": {
+   "name": "UTILITY_03",
+   "category": "utilities",
+   "description": "Pad-mount transformer 1.5 x 1.3 x 1.4 m on chamfered concrete pad: hooded roof, double hinged doors, louvres, padlock, conduits",
+   "obj": "utilities/UTILITY_03.obj",
+   "mtl": "utilities/UTILITY_03.mtl",
+   "preview": "previews/utilities/UTILITY_03.png",
+   "triangles": 972,
+   "vertices": 592,
+   "dimensions_m": [
+    2.0,
+    1.55,
+    1.8
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.0,
+     0.0,
+     -0.9
+    ],
+    "max": [
+     1.0,
+     1.55,
+     0.9
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "paint_green",
+    "rubber_dark",
+    "safety_yellow",
+    "traffic_red"
+   ],
+   "groups": {
+    "pad": [
+     "concrete_pale"
+    ],
+    "pad_edge": [
+     "concrete_weathered"
+    ],
+    "cabinet": [
+     "paint_green"
+    ],
+    "roof": [
+     "paint_green"
+    ],
+    "roof_cap": [
+     "metal_painted_grey"
+    ],
+    "door": [
+     "paint_green"
+    ],
+    "door_panel": [
+     "metal_painted_grey"
+    ],
+    "hinge": [
+     "brushed_metal"
+    ],
+    "handle": [
+     "brushed_metal"
+    ],
+    "padlock": [
+     "safety_yellow"
+    ],
+    "vent": [
+     "rubber_dark"
+    ],
+    "vent_side": [
+     "rubber_dark"
+    ],
+    "warning_label": [
+     "safety_yellow"
+    ],
+    "danger_label": [
+     "traffic_red"
+    ],
+    "conduit": [
+     "galvanized_steel"
+    ],
+    "pad_bolts": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "ground_cable_entry",
+     "position": [
+      0,
+      0.18,
+      -0.5
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "door_L",
+     "position": [
+      -0.7,
+      0.8,
+      0.64
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "door_R",
+     "position": [
+      0.7,
+      0.8,
+      0.64
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_04": {
+   "name": "UTILITY_04",
+   "category": "utilities",
+   "description": "High-voltage lattice transmission tower 34 m: tapered 4-leg frame, X-bracing on every panel, ring frames, 3 truss crossarms, 6 insulator strings, earth-wire peak",
+   "obj": "utilities/UTILITY_04.obj",
+   "mtl": "utilities/UTILITY_04.mtl",
+   "preview": "previews/utilities/UTILITY_04.png",
+   "triangles": 6124,
+   "vertices": 3588,
+   "dimensions_m": [
+    13.12,
+    36.5,
+    7.8
+   ],
+   "bounding_box_m": {
+    "min": [
+     -6.56,
+     -0.5,
+     -3.9
+    ],
+    "max": [
+     6.56,
+     36.0,
+     3.9
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_weathered",
+    "galvanized_steel",
+    "insulator_ceramic"
+   ],
+   "groups": {
+    "legs": [
+     "galvanized_steel"
+    ],
+    "x_brace": [
+     "galvanized_steel"
+    ],
+    "ring": [
+     "galvanized_steel"
+    ],
+    "peak": [
+     "galvanized_steel"
+    ],
+    "crossarm": [
+     "galvanized_steel"
+    ],
+    "insulator_string": [
+     "galvanized_steel",
+     "insulator_ceramic"
+    ],
+    "yoke": [
+     "galvanized_steel"
+    ],
+    "footing": [
+     "concrete_weathered"
+    ],
+    "base_plate": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "conductor_L_25",
+     "position": [
+      -4.4,
+      23.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_R_25",
+     "position": [
+      4.4,
+      23.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_L_20",
+     "position": [
+      -5.4,
+      18.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_R_20",
+     "position": [
+      5.4,
+      18.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_L_15",
+     "position": [
+      -6.4,
+      13.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_R_15",
+     "position": [
+      6.4,
+      13.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "earth_wire_-1",
+     "position": [
+      0,
+      36.0,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "earth_wire_1",
+     "position": [
+      0,
+      36.0,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_05": {
+   "name": "UTILITY_05",
+   "category": "utilities",
+   "description": "Steel portal frame for overhead cable runs 8.5 m: 2 I-beam columns, truss cross-member, 6 hanging insulator strings, gusseted base plates",
+   "obj": "utilities/UTILITY_05.obj",
+   "mtl": "utilities/UTILITY_05.mtl",
+   "preview": "previews/utilities/UTILITY_05.png",
+   "triangles": 3336,
+   "vertices": 1832,
+   "dimensions_m": [
+    7.2,
+    9.07,
+    1.2
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.6,
+     -0.6,
+     -0.6
+    ],
+    "max": [
+     3.6,
+     8.47,
+     0.6
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_weathered",
+    "galvanized_steel",
+    "insulator_ceramic"
+   ],
+   "groups": {
+    "column": [
+     "galvanized_steel"
+    ],
+    "base_plate": [
+     "galvanized_steel"
+    ],
+    "gusset": [
+     "galvanized_steel"
+    ],
+    "footing": [
+     "concrete_weathered"
+    ],
+    "chord": [
+     "galvanized_steel"
+    ],
+    "web": [
+     "galvanized_steel"
+    ],
+    "knee_brace": [
+     "galvanized_steel"
+    ],
+    "mount_plate": [
+     "brushed_metal"
+    ],
+    "insulator_string": [
+     "galvanized_steel",
+     "insulator_ceramic"
+    ],
+    "clamp": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "cable_x-2.4",
+     "position": [
+      -2.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x-1.4",
+     "position": [
+      -1.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x-0.4",
+     "position": [
+      -0.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x0.4",
+     "position": [
+      0.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x1.4",
+     "position": [
+      1.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x2.4",
+     "position": [
+      2.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_06": {
+   "name": "UTILITY_06",
+   "category": "utilities",
+   "description": "Compact substation module 9 x 7 m: 2 oil transformers with radiators/bushings/conservators, switchgear row, 3-phase busbar gantry, control kiosk, kerb + fence rail",
+   "obj": "utilities/UTILITY_06.obj",
+   "mtl": "utilities/UTILITY_06.mtl",
+   "preview": "previews/utilities/UTILITY_06.png",
+   "triangles": 5448,
+   "vertices": 2928,
+   "dimensions_m": [
+    9.0,
+    4.5,
+    7.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -4.5,
+     0.0,
+     -3.5
+    ],
+    "max": [
+     4.5,
+     4.5,
+     3.5
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "concrete_weathered",
+    "dusty_stone",
+    "galvanized_steel",
+    "insulator_ceramic",
+    "insulator_grey",
+    "metal_painted_grey",
+    "paint_blue",
+    "paint_green",
+    "plaster_cream",
+    "signal_amber",
+    "signal_green"
+   ],
+   "groups": {
+    "slab": [
+     "concrete_weathered"
+    ],
+    "gravel": [
+     "dusty_stone"
+    ],
+    "plinth": [
+     "concrete_pale"
+    ],
+    "tank": [
+     "paint_green"
+    ],
+    "tank_lid": [
+     "metal_painted_grey"
+    ],
+    "radiator": [
+     "metal_painted_grey"
+    ],
+    "radiator_header": [
+     "metal_painted_grey"
+    ],
+    "conservator": [
+     "paint_green"
+    ],
+    "support": [
+     "metal_painted_grey"
+    ],
+    "bushing_HV": [
+     "insulator_ceramic"
+    ],
+    "bushing_LV": [
+     "insulator_grey"
+    ],
+    "switchgear": [
+     "paint_blue"
+    ],
+    "sw_door": [
+     "metal_painted_grey"
+    ],
+    "sw_handle": [
+     "brushed_metal"
+    ],
+    "sw_light": [
+     "signal_amber",
+     "signal_green"
+    ],
+    "gantry": [
+     "galvanized_steel"
+    ],
+    "gantry_a": [
+     "galvanized_steel"
+    ],
+    "gantry_beam": [
+     "galvanized_steel"
+    ],
+    "busbar": [
+     "brushed_metal"
+    ],
+    "busbar_support": [
+     "insulator_ceramic"
+    ],
+    "kiosk": [
+     "plaster_cream"
+    ],
+    "kiosk_roof": [
+     "paint_blue"
+    ],
+    "kiosk_door": [
+     "metal_painted_grey"
+    ],
+    "fence_post": [
+     "galvanized_steel"
+    ],
+    "fence_rail": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "busbar_phase_0",
+     "position": [
+      4.1,
+      3.7,
+      2.1
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "busbar_phase_1",
+     "position": [
+      4.1,
+      3.7,
+      2.6
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "busbar_phase_2",
+     "position": [
+      4.1,
+      3.7,
+      3.1
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_07": {
+   "name": "UTILITY_07",
+   "category": "utilities",
+   "description": "Rooftop packaged AC unit 2.3 x 1.1 x 1.2 m: sheet-metal housing, fan shroud with 5-blade fan, louvred coil grilles, access panels, refrigerant lines, feet + curb rail",
+   "obj": "utilities/UTILITY_07.obj",
+   "mtl": "utilities/UTILITY_07.mtl",
+   "preview": "previews/utilities/UTILITY_07.png",
+   "triangles": 1436,
+   "vertices": 880,
+   "dimensions_m": [
+    2.73,
+    1.305,
+    1.4
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.53,
+     0.0,
+     -0.7
+    ],
+    "max": [
+     1.2,
+     1.305,
+     0.7
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "cable_black",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "rubber_dark",
+    "safety_yellow",
+    "white_paint"
+   ],
+   "groups": {
+    "curb_rail": [
+     "galvanized_steel"
+    ],
+    "feet": [
+     "rubber_dark"
+    ],
+    "housing": [
+     "white_paint"
+    ],
+    "top_panel": [
+     "metal_painted_grey"
+    ],
+    "fan_shroud": [
+     "metal_painted_grey"
+    ],
+    "fan_guard": [
+     "galvanized_steel"
+    ],
+    "fan_hub": [
+     "rubber_dark"
+    ],
+    "fan_blades": [
+     "rubber_dark"
+    ],
+    "coil_grille": [
+     "galvanized_steel"
+    ],
+    "end_grille": [
+     "galvanized_steel"
+    ],
+    "access_panel": [
+     "metal_painted_grey"
+    ],
+    "panel_handle": [
+     "brushed_metal"
+    ],
+    "line_set": [
+     "brushed_metal",
+     "cable_black"
+    ],
+    "disconnect": [
+     "safety_yellow"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "roof_mount",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 96.1
+  },
+  "UTILITY_08": {
+   "name": "UTILITY_08",
+   "category": "utilities",
+   "description": "Rooftop water tank 4.4 m high: 16-sided tank with 4 hoop bands, conical roof, hatch + ladder, 4-leg braced steel stand, inlet/outlet piping, gauge",
+   "obj": "utilities/UTILITY_08.obj",
+   "mtl": "utilities/UTILITY_08.mtl",
+   "preview": "previews/utilities/UTILITY_08.png",
+   "triangles": 1750,
+   "vertices": 1000,
+   "dimensions_m": [
+    3.2,
+    4.814,
+    2.82
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.35,
+     -0.014,
+     -1.35
+    ],
+    "max": [
+     1.85,
+     4.8,
+     1.47
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "coastal_weathered",
+    "galvanized_steel",
+    "glass_tinted",
+    "paint_blue",
+    "rust_metal",
+    "traffic_red"
+   ],
+   "groups": {
+    "legs": [
+     "galvanized_steel"
+    ],
+    "foot": [
+     "galvanized_steel"
+    ],
+    "stand_ring": [
+     "galvanized_steel"
+    ],
+    "stand_brace": [
+     "galvanized_steel"
+    ],
+    "deck": [
+     "galvanized_steel"
+    ],
+    "tank": [
+     "coastal_weathered"
+    ],
+    "hoops": [
+     "galvanized_steel"
+    ],
+    "roof": [
+     "rust_metal"
+    ],
+    "hatch": [
+     "galvanized_steel"
+    ],
+    "vent": [
+     "galvanized_steel"
+    ],
+    "ladder_rail": [
+     "galvanized_steel"
+    ],
+    "ladder_rung": [
+     "galvanized_steel"
+    ],
+    "pipe": [
+     "paint_blue"
+    ],
+    "valve": [
+     "traffic_red"
+    ],
+    "inlet_pipe": [
+     "paint_blue"
+    ],
+    "gauge": [
+     "glass_tinted"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "level_sensor",
+     "position": [
+      -0.9,
+      3.2,
+      0.9
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "roof_mount",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_09": {
+   "name": "UTILITY_09",
+   "category": "utilities",
+   "description": "Satellite dish 1.6 m: thick parabolic reflector, rim, 3 feed struts, LNB + feed horn, elevation arm, azimuth plate, mast and wall bracket",
+   "obj": "utilities/UTILITY_09.obj",
+   "mtl": "utilities/UTILITY_09.mtl",
+   "preview": "previews/utilities/UTILITY_09.png",
+   "triangles": 1468,
+   "vertices": 774,
+   "dimensions_m": [
+    1.62,
+    2.832,
+    1.085
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.81,
+     0.0,
+     -0.267
+    ],
+    "max": [
+     0.81,
+     2.832,
+     0.818
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "cable_black",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "paint_navy",
+    "rubber_dark",
+    "white_paint"
+   ],
+   "groups": {
+    "reflector": [
+     "white_paint"
+    ],
+    "feed_strut": [
+     "galvanized_steel"
+    ],
+    "lnb": [
+     "paint_navy"
+    ],
+    "feed_horn": [
+     "white_paint"
+    ],
+    "lnb_cable": [
+     "cable_black"
+    ],
+    "hub": [
+     "galvanized_steel"
+    ],
+    "elevation_arm": [
+     "galvanized_steel"
+    ],
+    "azimuth_plate": [
+     "galvanized_steel"
+    ],
+    "azimuth_slots": [
+     "rubber_dark"
+    ],
+    "mast": [
+     "metal_painted_grey"
+    ],
+    "wall_plate": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "lnb_cable_out",
+     "position": [
+      0,
+      2.332,
+      0.812
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "mount",
+     "position": [
+      0,
+      0,
+      0.45
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_10": {
+   "name": "UTILITY_10",
+   "category": "utilities",
+   "description": "Cellular antenna mast 12 m: guyless monopole, triangular platform with rail, 3 sector panels with clamps/tilt bars, 3 RRUs, microwave dish, lightning rod, cable ladder",
+   "obj": "utilities/UTILITY_10.obj",
+   "mtl": "utilities/UTILITY_10.mtl",
+   "preview": "previews/utilities/UTILITY_10.png",
+   "triangles": 1724,
+   "vertices": 1018,
+   "dimensions_m": [
+    3.514,
+    12.4,
+    3.09
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.757,
+     0.0,
+     -1.065
+    ],
+    "max": [
+     1.757,
+     12.4,
+     2.025
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "insulator_grey",
+    "metal_painted_grey",
+    "rubber_dark",
+    "safety_yellow",
+    "sign_white",
+    "white_paint"
+   ],
+   "groups": {
+    "base": [
+     "galvanized_steel"
+    ],
+    "mast": [
+     "galvanized_steel"
+    ],
+    "flange": [
+     "galvanized_steel"
+    ],
+    "platform": [
+     "metal_painted_grey"
+    ],
+    "platform_rail": [
+     "safety_yellow"
+    ],
+    "platform_post": [
+     "safety_yellow"
+    ],
+    "platform_brace": [
+     "galvanized_steel"
+    ],
+    "antenna": [
+     "white_paint"
+    ],
+    "antenna_cap": [
+     "insulator_grey"
+    ],
+    "antenna_face": [
+     "sign_white"
+    ],
+    "clamp": [
+     "galvanized_steel"
+    ],
+    "arm": [
+     "galvanized_steel"
+    ],
+    "tilt_bar": [
+     "galvanized_steel"
+    ],
+    "rru": [
+     "metal_painted_grey"
+    ],
+    "rru_fins": [
+     "galvanized_steel"
+    ],
+    "mw_dish": [
+     "white_paint"
+    ],
+    "mw_mount": [
+     "galvanized_steel"
+    ],
+    "lightning_rod": [
+     "brushed_metal"
+    ],
+    "cable_ladder": [
+     "rubber_dark"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "sector_0",
+     "position": [
+      0.0,
+      11.0,
+      1.75
+     ],
+     "direction": [
+      0.0,
+      0,
+      1.0
+     ]
+    },
+    {
+     "name": "sector_1",
+     "position": [
+      -1.516,
+      11.0,
+      -0.875
+     ],
+     "direction": [
+      -0.8660254037844387,
+      0,
+      -0.4999999999999998
+     ]
+    },
+    {
+     "name": "sector_2",
+     "position": [
+      1.516,
+      11.0,
+      -0.875
+     ],
+     "direction": [
+      0.8660254037844384,
+      0,
+      -0.5000000000000004
+     ]
+    },
+    {
+     "name": "mast_base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_11": {
+   "name": "UTILITY_11",
+   "category": "utilities",
+   "description": "Portable generator 0.95 x 0.55 x 0.75 m: tubular roll cage, engine housing, fuel tank + cap, muffler/exhaust, control panel with outlets, wheels, handle, recoil starter",
+   "obj": "utilities/UTILITY_11.obj",
+   "mtl": "utilities/UTILITY_11.mtl",
+   "preview": "previews/utilities/UTILITY_11.png",
+   "triangles": 1144,
+   "vertices": 648,
+   "dimensions_m": [
+    1.42,
+    0.82,
+    1.112
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.78,
+     0.0,
+     -0.4
+    ],
+    "max": [
+     0.64,
+     0.82,
+     0.712
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "glass_tinted",
+    "metal_painted_grey",
+    "paint_navy",
+    "rubber_dark",
+    "rust_metal",
+    "safety_orange",
+    "safety_yellow",
+    "traffic_red"
+   ],
+   "groups": {
+    "skid": [
+     "metal_painted_grey"
+    ],
+    "feet": [
+     "rubber_dark"
+    ],
+    "engine": [
+     "safety_orange"
+    ],
+    "alternator": [
+     "metal_painted_grey"
+    ],
+    "fuel_tank": [
+     "safety_orange"
+    ],
+    "fuel_cap": [
+     "rubber_dark"
+    ],
+    "air_filter": [
+     "rubber_dark"
+    ],
+    "recoil": [
+     "traffic_red"
+    ],
+    "muffler": [
+     "rust_metal"
+    ],
+    "exhaust": [
+     "rust_metal"
+    ],
+    "panel": [
+     "paint_navy"
+    ],
+    "outlet": [
+     "rubber_dark"
+    ],
+    "switch": [
+     "safety_yellow"
+    ],
+    "gauge": [
+     "glass_tinted"
+    ],
+    "cage": [
+     "galvanized_steel"
+    ],
+    "wheel": [
+     "rubber_dark"
+    ],
+    "hub": [
+     "brushed_metal"
+    ],
+    "handle": [
+     "metal_painted_grey"
+    ],
+    "handle_grip": [
+     "rubber_dark"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "power_out",
+     "position": [
+      0.33,
+      0.4,
+      0.3
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "exhaust_out",
+     "position": [
+      0.38,
+      0.66,
+      -0.34
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "UTILITY_12": {
+   "name": "UTILITY_12",
+   "category": "utilities",
+   "description": "Street electrical cabinet 0.8 x 0.45 x 1.5 m: concrete pedestal, sloped-roof cabinet, double doors with hinges/handle/lock, top louvres, meter window",
+   "obj": "utilities/UTILITY_12.obj",
+   "mtl": "utilities/UTILITY_12.mtl",
+   "preview": "previews/utilities/UTILITY_12.png",
+   "triangles": 620,
+   "vertices": 376,
+   "dimensions_m": [
+    1.0,
+    1.62,
+    0.7
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.5,
+     0.0,
+     -0.35
+    ],
+    "max": [
+     0.5,
+     1.62,
+     0.35
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "galvanized_steel",
+    "glass_tinted",
+    "metal_painted_grey",
+    "paint_green",
+    "rubber_dark",
+    "safety_yellow"
+   ],
+   "groups": {
+    "pedestal": [
+     "concrete_pale"
+    ],
+    "cabinet": [
+     "paint_green"
+    ],
+    "roof": [
+     "paint_green"
+    ],
+    "door": [
+     "paint_green"
+    ],
+    "door_inset": [
+     "metal_painted_grey"
+    ],
+    "hinge": [
+     "brushed_metal"
+    ],
+    "handle": [
+     "brushed_metal"
+    ],
+    "lock": [
+     "safety_yellow"
+    ],
+    "meter_window": [
+     "glass_tinted"
+    ],
+    "side_louvre": [
+     "rubber_dark"
+    ],
+    "conduit": [
+     "galvanized_steel"
+    ],
+    "warning": [
+     "safety_yellow"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "cable_in",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    500,
+    4000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_01": {
+   "name": "HARBOR_01",
+   "category": "harbor",
+   "description": "Wooden pier module 3 x 12 m: 60 deck planks, 3 stringers, 5 cross-beams, 10 round piles with caps, edge fascia, cleats; deck top y=+1.2 above waterline y=0",
+   "obj": "harbor/HARBOR_01.obj",
+   "mtl": "harbor/HARBOR_01.mtl",
+   "preview": "previews/harbor/HARBOR_01.png",
+   "triangles": 2696,
+   "vertices": 1568,
+   "dimensions_m": [
+    3.2,
+    4.31,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.6,
+     -3.0,
+     -6.0
+    ],
+    "max": [
+     1.6,
+     1.31,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "rubber_dark",
+    "timber_warm",
+    "wood_weathered"
+   ],
+   "groups": {
+    "deck_planks": [
+     "timber_warm",
+     "wood_weathered"
+    ],
+    "stringers": [
+     "wood_weathered"
+    ],
+    "cross_beams": [
+     "wood_weathered"
+    ],
+    "piles": [
+     "wood_weathered"
+    ],
+    "pile_caps": [
+     "rubber_dark"
+    ],
+    "fascia": [
+     "wood_weathered"
+    ],
+    "cleats": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "mooring_z-4.5",
+     "position": [
+      1.3,
+      1.25,
+      -4.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "mooring_z-1.5",
+     "position": [
+      1.3,
+      1.25,
+      -1.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "mooring_z1.5",
+     "position": [
+      1.3,
+      1.25,
+      1.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "mooring_z4.5",
+     "position": [
+      1.3,
+      1.25,
+      4.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      1.2,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 3.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      1.2,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 3.0
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_02": {
+   "name": "HARBOR_02",
+   "category": "harbor",
+   "description": "Concrete pier module 6 x 12 m: 0.6 m deck slab with chamfered curb, 8 square piers, cross-beams, rubber fenders, bollard pads, expansion joints; deck top y=+1.6",
+   "obj": "harbor/HARBOR_02.obj",
+   "mtl": "harbor/HARBOR_02.mtl",
+   "preview": "previews/harbor/HARBOR_02.png",
+   "triangles": 1308,
+   "vertices": 736,
+   "dimensions_m": [
+    6.8,
+    4.9,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.4,
+     -3.0,
+     -6.0
+    ],
+    "max": [
+     3.4,
+     1.9,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "rubber_dark"
+   ],
+   "groups": {
+    "deck": [
+     "concrete_weathered"
+    ],
+    "deck_topping": [
+     "concrete_pale"
+    ],
+    "curb": [
+     "concrete_pale"
+    ],
+    "joints": [
+     "rubber_dark"
+    ],
+    "piers": [
+     "concrete_pale"
+    ],
+    "cross_beams": [
+     "concrete_weathered"
+    ],
+    "long_beams": [
+     "concrete_weathered"
+    ],
+    "fenders": [
+     "rubber_dark"
+    ],
+    "fender_chain": [
+     "galvanized_steel"
+    ],
+    "bollard_pad": [
+     "concrete_weathered"
+    ],
+    "bollard_socket": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "bollard_mount_-1_-3.0",
+     "position": [
+      -2.2,
+      1.74,
+      -3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "bollard_mount_1_-3.0",
+     "position": [
+      2.2,
+      1.74,
+      -3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "bollard_mount_-1_3.0",
+     "position": [
+      -2.2,
+      1.74,
+      3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "bollard_mount_1_3.0",
+     "position": [
+      2.2,
+      1.74,
+      3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      1.56,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 6
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      1.56,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 6
+    },
+    {
+     "name": "seawall_edge",
+     "position": [
+      3.0,
+      1.56,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "mates": "HARBOR_04"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_03": {
+   "name": "HARBOR_03",
+   "category": "harbor",
+   "description": "Floating steel/timber dock 2.4 x 6 m: 2 cylindrical pontoons, steel frame, timber deck, side rails, cleats, end hinge plates; deck top y=+0.55",
+   "obj": "harbor/HARBOR_03.obj",
+   "mtl": "harbor/HARBOR_03.mtl",
+   "preview": "previews/harbor/HARBOR_03.png",
+   "triangles": 1952,
+   "vertices": 1152,
+   "dimensions_m": [
+    2.5,
+    1.675,
+    6.24
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.25,
+     -0.45,
+     -3.12
+    ],
+    "max": [
+     1.25,
+     1.225,
+     3.12
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "paint_blue",
+    "safety_yellow",
+    "timber_warm",
+    "wood_weathered"
+   ],
+   "groups": {
+    "pontoons": [
+     "paint_blue"
+    ],
+    "pontoon_caps": [
+     "paint_blue"
+    ],
+    "frame": [
+     "metal_painted_grey"
+    ],
+    "straps": [
+     "galvanized_steel"
+    ],
+    "deck": [
+     "timber_warm",
+     "wood_weathered"
+    ],
+    "rail_posts": [
+     "safety_yellow"
+    ],
+    "rail": [
+     "safety_yellow"
+    ],
+    "cleats": [
+     "galvanized_steel"
+    ],
+    "hinge_plate": [
+     "galvanized_steel"
+    ],
+    "hinge_pin": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.55,
+      -3.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 2.4
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.55,
+      3.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 2.4
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_04": {
+   "name": "HARBOR_04",
+   "category": "harbor",
+   "description": "Concrete seawall 12 m: recurved water-facing profile (+X side), 3 structural sections with joints, toe apron, top walkway edge, parapet, rings & ladder recess; walkway y=+2.2",
+   "obj": "harbor/HARBOR_04.obj",
+   "mtl": "harbor/HARBOR_04.mtl",
+   "preview": "previews/harbor/HARBOR_04.png",
+   "triangles": 992,
+   "vertices": 584,
+   "dimensions_m": [
+    4.0,
+    5.15,
+    12.0
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.6,
+     -2.2,
+     -6.0
+    ],
+    "max": [
+     2.4,
+     2.95,
+     6.0
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "concrete_weathered",
+    "dusty_stone",
+    "galvanized_steel",
+    "rubber_dark"
+   ],
+   "groups": {
+    "section_1": [
+     "concrete_pale"
+    ],
+    "section_1_courses": [
+     "concrete_weathered"
+    ],
+    "section_1_cap": [
+     "concrete_pale"
+    ],
+    "section_1_ring": [
+     "brushed_metal"
+    ],
+    "section_2": [
+     "concrete_weathered"
+    ],
+    "section_2_courses": [
+     "concrete_weathered"
+    ],
+    "section_2_cap": [
+     "concrete_pale"
+    ],
+    "section_2_ring": [
+     "brushed_metal"
+    ],
+    "section_3": [
+     "concrete_pale"
+    ],
+    "section_3_courses": [
+     "concrete_weathered"
+    ],
+    "section_3_cap": [
+     "concrete_pale"
+    ],
+    "section_3_ring": [
+     "brushed_metal"
+    ],
+    "joints": [
+     "rubber_dark"
+    ],
+    "toe_apron": [
+     "dusty_stone"
+    ],
+    "ladder_rung": [
+     "galvanized_steel"
+    ],
+    "railing_sockets": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "railing_mount_z-5.5",
+     "position": [
+      0.35,
+      2.95,
+      -5.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z-1.5",
+     "position": [
+      0.35,
+      2.95,
+      -1.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z2.5",
+     "position": [
+      0.35,
+      2.95,
+      2.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z5.5",
+     "position": [
+      0.35,
+      2.95,
+      5.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "road_edge",
+     "position": [
+      -1.6,
+      2.2,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "mates": "ROAD_09"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_05": {
+   "name": "HARBOR_05",
+   "category": "harbor",
+   "description": "Rubble-mound breakwater 12 m: quarry-rock core with trapezoid profile + 3 courses of interlocking 4-legged concrete armour units (tetrapods)",
+   "obj": "harbor/HARBOR_05.obj",
+   "mtl": "harbor/HARBOR_05.mtl",
+   "preview": "previews/harbor/HARBOR_05.png",
+   "triangles": 5484,
+   "vertices": 3330,
+   "dimensions_m": [
+    9.744,
+    4.951,
+    12.418
+   ],
+   "bounding_box_m": {
+    "min": [
+     -4.872,
+     -0.433,
+     -6.159
+    ],
+    "max": [
+     4.871,
+     4.518,
+     6.26
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "concrete_pale",
+    "dusty_stone"
+   ],
+   "groups": {
+    "core": [
+     "dusty_stone"
+    ],
+    "rocks": [
+     "dusty_stone"
+    ],
+    "armour_row1": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row2": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row3": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row4": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row5": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row6": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row7": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row8": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "armour_row9": [
+     "broken_concrete",
+     "concrete_pale"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_06": {
+   "name": "HARBOR_06",
+   "category": "harbor",
+   "description": "Lighthouse 20 m: stone plinth + steps, tapered banded tower (red/white), arched door, 3 window levels, gallery with railing, glazed lantern room with mullions, dome, lightning rod",
+   "obj": "harbor/HARBOR_06.obj",
+   "mtl": "harbor/HARBOR_06.mtl",
+   "preview": "previews/harbor/HARBOR_06.png",
+   "triangles": 3152,
+   "vertices": 1818,
+   "dimensions_m": [
+    8.4,
+    23.15,
+    8.4
+   ],
+   "bounding_box_m": {
+    "min": [
+     -4.2,
+     0.0,
+     -4.2
+    ],
+    "max": [
+     4.2,
+     23.15,
+     4.2
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "concrete_weathered",
+    "dusty_stone",
+    "glass_tinted",
+    "lamp_emissive",
+    "traffic_red",
+    "white_paint",
+    "wood_weathered"
+   ],
+   "groups": {
+    "plinth": [
+     "dusty_stone"
+    ],
+    "steps": [
+     "concrete_weathered",
+     "dusty_stone"
+    ],
+    "tower_white_paint": [
+     "white_paint"
+    ],
+    "tower_band_trim": [
+     "concrete_pale"
+    ],
+    "tower_traffic_red": [
+     "traffic_red"
+    ],
+    "door_frame": [
+     "concrete_pale"
+    ],
+    "door": [
+     "wood_weathered"
+    ],
+    "door_arch": [
+     "wood_weathered"
+    ],
+    "window_frame": [
+     "concrete_pale"
+    ],
+    "window": [
+     "glass_tinted"
+    ],
+    "window_sill": [
+     "concrete_weathered"
+    ],
+    "gallery_floor": [
+     "concrete_pale"
+    ],
+    "gallery_brackets": [
+     "concrete_weathered"
+    ],
+    "railing_posts": [
+     "brushed_metal"
+    ],
+    "railing_rails": [
+     "brushed_metal"
+    ],
+    "lantern_base": [
+     "traffic_red"
+    ],
+    "lantern_glass": [
+     "glass_tinted"
+    ],
+    "lantern_mullions": [
+     "brushed_metal"
+    ],
+    "lantern_ring": [
+     "brushed_metal"
+    ],
+    "lamp": [
+     "lamp_emissive"
+    ],
+    "lamp_lens": [
+     "glass_tinted"
+    ],
+    "dome": [
+     "traffic_red"
+    ],
+    "vane": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "light_origin",
+     "position": [
+      0,
+      19.6,
+      0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "emissive": "lamp_emissive"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 99.9
+  },
+  "HARBOR_07": {
+   "name": "HARBOR_07",
+   "category": "harbor",
+   "description": "Harbour jib crane 22 m: rail-mounted portal base with 4 legs, slewing house + cab + counterweight, A-frame, articulated lattice boom + jib, hoist/luffing ropes, winch house, hook block; groups: base/house/boom/jib/ropes/hook",
+   "obj": "harbor/HARBOR_07.obj",
+   "mtl": "harbor/HARBOR_07.mtl",
+   "preview": "previews/harbor/HARBOR_07.png",
+   "triangles": 1696,
+   "vertices": 1024,
+   "dimensions_m": [
+    7.1,
+    16.46,
+    19.4
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.55,
+     0.0,
+     -4.2
+    ],
+    "max": [
+     3.55,
+     16.46,
+     15.2
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "cable_black",
+    "concrete_weathered",
+    "glass_tinted",
+    "metal_painted_grey",
+    "paint_navy",
+    "rubber_dark",
+    "rust_metal",
+    "safety_orange",
+    "safety_yellow"
+   ],
+   "groups": {
+    "rail": [
+     "rust_metal"
+    ],
+    "bogie": [
+     "metal_painted_grey"
+    ],
+    "wheels": [
+     "rubber_dark"
+    ],
+    "legs": [
+     "safety_yellow"
+    ],
+    "sill": [
+     "safety_yellow"
+    ],
+    "portal_top": [
+     "safety_yellow"
+    ],
+    "leg_brace": [
+     "safety_yellow"
+    ],
+    "slew_ring": [
+     "metal_painted_grey"
+    ],
+    "house": [
+     "metal_painted_grey",
+     "safety_yellow"
+    ],
+    "cab": [
+     "paint_navy"
+    ],
+    "cab_window": [
+     "glass_tinted"
+    ],
+    "counterweight": [
+     "concrete_weathered"
+    ],
+    "house_vents": [
+     "rubber_dark"
+    ],
+    "winch_house": [
+     "safety_yellow"
+    ],
+    "winch_drum": [
+     "brushed_metal"
+    ],
+    "a_frame": [
+     "safety_yellow"
+    ],
+    "a_frame_sheave": [
+     "brushed_metal"
+    ],
+    "boom_chord": [
+     "safety_yellow"
+    ],
+    "boom_web": [
+     "safety_yellow"
+    ],
+    "jib": [
+     "safety_yellow"
+    ],
+    "jib_pin": [
+     "brushed_metal"
+    ],
+    "jib_sheave": [
+     "brushed_metal"
+    ],
+    "ropes": [
+     "cable_black"
+    ],
+    "hook_block": [
+     "safety_orange"
+    ],
+    "hook": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "rail_centre",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "hook_point",
+     "position": [
+      0.05,
+      5.0,
+      14.9
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_08": {
+   "name": "HARBOR_08",
+   "category": "harbor",
+   "description": "Double-bitt mooring bollard 0.9 m: oval cast base plate with 8 anchor bolts, twin tapered posts with flared heads, cross web, rope wear grooves",
+   "obj": "harbor/HARBOR_08.obj",
+   "mtl": "harbor/HARBOR_08.mtl",
+   "preview": "previews/harbor/HARBOR_08.png",
+   "triangles": 768,
+   "vertices": 412,
+   "dimensions_m": [
+    1.24,
+    0.9,
+    0.748
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.62,
+     0.0,
+     -0.374
+    ],
+    "max": [
+     0.62,
+     0.9,
+     0.374
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "metal_painted_grey",
+    "rust_metal"
+   ],
+   "groups": {
+    "base_plate": [
+     "rust_metal"
+    ],
+    "anchor_bolts": [
+     "galvanized_steel"
+    ],
+    "post": [
+     "metal_painted_grey"
+    ],
+    "groove": [
+     "rust_metal"
+    ],
+    "web": [
+     "metal_painted_grey"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "rope_loop",
+     "position": [
+      0,
+      0.6,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_09": {
+   "name": "HARBOR_09",
+   "category": "harbor",
+   "description": "Navigation buoy 4.5 m: banded float with fenders ring, keel weight, 4-leg tower, emissive lantern, radar reflector, topmark, mooring eye; origin at waterline",
+   "obj": "harbor/HARBOR_09.obj",
+   "mtl": "harbor/HARBOR_09.mtl",
+   "preview": "previews/harbor/HARBOR_09.png",
+   "triangles": 732,
+   "vertices": 420,
+   "dimensions_m": [
+    2.4,
+    7.326,
+    2.4
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.2,
+     -2.926,
+     -1.2
+    ],
+    "max": [
+     1.2,
+     4.4,
+     1.2
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "lamp_emissive",
+    "metal_painted_grey",
+    "rubber_dark",
+    "rust_metal",
+    "traffic_red"
+   ],
+   "groups": {
+    "float_red": [
+     "traffic_red"
+    ],
+    "float_deck": [
+     "traffic_red"
+    ],
+    "fender_ring": [
+     "rubber_dark"
+    ],
+    "keel": [
+     "rust_metal"
+    ],
+    "mooring_eye": [
+     "galvanized_steel"
+    ],
+    "tower": [
+     "metal_painted_grey"
+    ],
+    "tower_ring": [
+     "metal_painted_grey"
+    ],
+    "lantern": [
+     "lamp_emissive"
+    ],
+    "lantern_cap": [
+     "metal_painted_grey"
+    ],
+    "lantern_base": [
+     "metal_painted_grey"
+    ],
+    "topmark": [
+     "traffic_red"
+    ],
+    "radar_reflector": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "mooring_point",
+     "position": [
+      0,
+      -2.9,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_10": {
+   "name": "HARBOR_10",
+   "category": "harbor",
+   "description": "ISO 40-ft shipping container 12.19 x 2.44 x 2.59 m: corrugated side walls + roof, 8 corner castings, top/bottom rails, double doors with 4 locking bars + cam handles, forklift pockets",
+   "obj": "harbor/HARBOR_10.obj",
+   "mtl": "harbor/HARBOR_10.mtl",
+   "preview": "previews/harbor/HARBOR_10.png",
+   "triangles": 3232,
+   "vertices": 1752,
+   "dimensions_m": [
+    2.5,
+    2.59,
+    12.36
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.25,
+     0.0,
+     -6.125
+    ],
+    "max": [
+     1.25,
+     2.59,
+     6.235
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "container_blue",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "rubber_dark",
+    "sign_white",
+    "wood_weathered"
+   ],
+   "groups": {
+    "side_wall": [
+     "container_blue"
+    ],
+    "floor": [
+     "wood_weathered"
+    ],
+    "roof": [
+     "container_blue"
+    ],
+    "top_rail": [
+     "container_blue"
+    ],
+    "bottom_rail": [
+     "container_blue"
+    ],
+    "end_header": [
+     "container_blue"
+    ],
+    "end_sill": [
+     "container_blue"
+    ],
+    "corner_castings": [
+     "metal_painted_grey"
+    ],
+    "back_panel": [
+     "container_blue"
+    ],
+    "back_panel_core": [
+     "container_blue"
+    ],
+    "door_leaf": [
+     "container_blue"
+    ],
+    "door_ribs": [
+     "container_blue"
+    ],
+    "locking_bars": [
+     "galvanized_steel"
+    ],
+    "cam_handle": [
+     "galvanized_steel"
+    ],
+    "bar_guides": [
+     "galvanized_steel"
+    ],
+    "hinges": [
+     "galvanized_steel"
+    ],
+    "door_seal": [
+     "rubber_dark"
+    ],
+    "data_plate": [
+     "sign_white"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "lift_points",
+     "position": [
+      0,
+      2.59,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "note": "4 top corner castings"
+    },
+    {
+     "name": "stack_above",
+     "position": [
+      0,
+      2.59,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_10"
+    },
+    {
+     "name": "door_end",
+     "position": [
+      0,
+      1.295,
+      6.095
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_11": {
+   "name": "HARBOR_11",
+   "category": "harbor",
+   "description": "Port loading ramp 3.2 m wide: 2.4 m landing platform, 5 m hinged ramp rising to the platform, anti-slip ribs, side rails, I-beam supports, hydraulic rams, wheel stops",
+   "obj": "harbor/HARBOR_11.obj",
+   "mtl": "harbor/HARBOR_11.mtl",
+   "preview": "previews/harbor/HARBOR_11.png",
+   "triangles": 1740,
+   "vertices": 1044,
+   "dimensions_m": [
+    3.3,
+    2.997,
+    7.818
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.65,
+     0.0,
+     -2.509
+    ],
+    "max": [
+     1.65,
+     2.997,
+     5.31
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "paint_blue",
+    "rubber_dark",
+    "safety_yellow"
+   ],
+   "groups": {
+    "platform": [
+     "metal_painted_grey"
+    ],
+    "platform_beams": [
+     "galvanized_steel"
+    ],
+    "legs": [
+     "galvanized_steel"
+    ],
+    "foot": [
+     "galvanized_steel"
+    ],
+    "leg_brace": [
+     "galvanized_steel"
+    ],
+    "platform_grip": [
+     "rubber_dark"
+    ],
+    "ramp_plate": [
+     "metal_painted_grey"
+    ],
+    "ramp_beams": [
+     "galvanized_steel"
+    ],
+    "ramp_ribs": [
+     "rubber_dark"
+    ],
+    "rail_posts": [
+     "safety_yellow"
+    ],
+    "rail_top": [
+     "safety_yellow"
+    ],
+    "rail_mid": [
+     "safety_yellow"
+    ],
+    "toe_plate": [
+     "metal_painted_grey"
+    ],
+    "hinge": [
+     "brushed_metal"
+    ],
+    "rams": [
+     "paint_blue"
+    ],
+    "ram_rods": [
+     "brushed_metal"
+    ],
+    "wheel_stops": [
+     "safety_yellow"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "ramp_toe",
+     "position": [
+      0,
+      0.1,
+      -5.2
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "platform_edge",
+     "position": [
+      0,
+      1.12,
+      2.4
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_12": {
+   "name": "HARBOR_12",
+   "category": "harbor",
+   "description": "Coastal pedestrian railing 3 m bay: 3 square posts with base plates + bolts, round top rail, mid rail, 19 balusters, ball finials; bays chain at z=+/-1.5",
+   "obj": "harbor/HARBOR_12.obj",
+   "mtl": "harbor/HARBOR_12.mtl",
+   "preview": "previews/harbor/HARBOR_12.png",
+   "triangles": 860,
+   "vertices": 514,
+   "dimensions_m": [
+    0.2,
+    1.225,
+    3.2
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.1,
+     0.0,
+     -1.6
+    ],
+    "max": [
+     0.1,
+     1.225,
+     1.6
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "paint_navy"
+   ],
+   "groups": {
+    "base_plate": [
+     "galvanized_steel"
+    ],
+    "posts": [
+     "paint_navy"
+    ],
+    "finials": [
+     "galvanized_steel"
+    ],
+    "top_rail": [
+     "galvanized_steel"
+    ],
+    "mid_rail": [
+     "paint_navy"
+    ],
+    "bottom_rail": [
+     "paint_navy"
+    ],
+    "balusters": [
+     "paint_navy"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -1.5
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      1.5
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "mount_pattern",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ],
+     "mates": "HARBOR_04/ROAD_09 sockets"
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_13": {
+   "name": "HARBOR_13",
+   "category": "harbor",
+   "description": "Marina pontoon walkway 1.5 x 6 m: 2 white polyethylene floats, aluminium frame, timber deck, rub rails, 6 horn cleats, connector lugs, power pedestal base",
+   "obj": "harbor/HARBOR_13.obj",
+   "mtl": "harbor/HARBOR_13.mtl",
+   "preview": "previews/harbor/HARBOR_13.png",
+   "triangles": 1808,
+   "vertices": 1056,
+   "dimensions_m": [
+    1.72,
+    0.798,
+    6.2
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.86,
+     -0.35,
+     -3.1
+    ],
+    "max": [
+     0.86,
+     0.448,
+     3.1
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_pale",
+    "galvanized_steel",
+    "rubber_dark",
+    "timber_warm",
+    "white_paint",
+    "wood_weathered"
+   ],
+   "groups": {
+    "floats": [
+     "white_paint"
+    ],
+    "float_ribs": [
+     "concrete_pale"
+    ],
+    "frame": [
+     "brushed_metal"
+    ],
+    "deck": [
+     "timber_warm",
+     "wood_weathered"
+    ],
+    "rub_rail": [
+     "rubber_dark"
+    ],
+    "cleats": [
+     "galvanized_steel"
+    ],
+    "connector_lug": [
+     "galvanized_steel"
+    ],
+    "connector_pin": [
+     "brushed_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.36,
+      -3.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 1.5
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.36,
+      3.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 1.5
+    },
+    {
+     "name": "pile_hoop",
+     "position": [
+      0.9,
+      0.3,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "HARBOR_14": {
+   "name": "HARBOR_14",
+   "category": "harbor",
+   "description": "Quay container gantry crane 48 m: 4 braced portal legs on bogies, lattice boom 38 m out over water, backreach girder, A-frame with backstays, machinery house, trolley with ropes + spreader, cab; rail span along X, boom along +Z (water)",
+   "obj": "harbor/HARBOR_14.obj",
+   "mtl": "harbor/HARBOR_14.mtl",
+   "preview": "previews/harbor/HARBOR_14.png",
+   "triangles": 2840,
+   "vertices": 1848,
+   "dimensions_m": [
+    24.0,
+    42.05,
+    47.206
+   ],
+   "bounding_box_m": {
+    "min": [
+     -12.0,
+     0.0,
+     -16.128
+    ],
+    "max": [
+     12.0,
+     42.05,
+     31.078
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "cable_black",
+    "glass_tinted",
+    "metal_painted_grey",
+    "paint_blue",
+    "rubber_dark",
+    "rust_metal",
+    "safety_orange",
+    "white_paint"
+   ],
+   "groups": {
+    "bogies": [
+     "metal_painted_grey"
+    ],
+    "legs": [
+     "metal_painted_grey"
+    ],
+    "rails": [
+     "rust_metal"
+    ],
+    "sill": [
+     "metal_painted_grey"
+    ],
+    "portal_beam": [
+     "metal_painted_grey"
+    ],
+    "brace_x": [
+     "metal_painted_grey"
+    ],
+    "sill_z": [
+     "metal_painted_grey"
+    ],
+    "portal_beam_z": [
+     "metal_painted_grey"
+    ],
+    "brace_z": [
+     "metal_painted_grey"
+    ],
+    "boom": [
+     "paint_blue"
+    ],
+    "boom_cross": [
+     "paint_blue"
+    ],
+    "boom_tip": [
+     "safety_orange"
+    ],
+    "machinery_house": [
+     "white_paint"
+    ],
+    "machinery_roof": [
+     "metal_painted_grey"
+    ],
+    "house_vents": [
+     "rubber_dark"
+    ],
+    "a_frame": [
+     "paint_blue"
+    ],
+    "a_frame_top": [
+     "paint_blue"
+    ],
+    "a_frame_brace": [
+     "paint_blue"
+    ],
+    "stays": [
+     "cable_black"
+    ],
+    "trolley": [
+     "safety_orange"
+    ],
+    "trolley_cab": [
+     "white_paint"
+    ],
+    "trolley_cab_window": [
+     "glass_tinted"
+    ],
+    "cab_hanger": [
+     "metal_painted_grey"
+    ],
+    "hoist_ropes": [
+     "cable_black"
+    ],
+    "spreader": [
+     "safety_orange"
+    ],
+    "twist_locks": [
+     "brushed_metal"
+    ],
+    "trolley_rails": [
+     "rust_metal"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "rail_gauge_centre",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ],
+     "gauge": 15.0,
+     "wheel_base": 14.0
+    },
+    {
+     "name": "spreader_point",
+     "position": [
+      0,
+      9.0,
+      16.0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "boom_tip",
+     "position": [
+      0,
+      26.5,
+      31.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    1000,
+    10000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_01": {
+   "name": "DESTROY_01",
+   "category": "destruction",
+   "description": "Cracked concrete wall 4 x 2.6 x 0.3 m: 12 Voronoi-fractured panels with 2-7 cm open cracks of varied depth, offset faces, exposed rebar, spalled corner, footing",
+   "obj": "destruction/DESTROY_01.obj",
+   "mtl": "destruction/DESTROY_01.mtl",
+   "preview": "previews/destruction/DESTROY_01.png",
+   "triangles": 380,
+   "vertices": 234,
+   "dimensions_m": [
+    4.2,
+    2.588,
+    0.863
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.1,
+     0.0,
+     -0.35
+    ],
+    "max": [
+     4.1,
+     2.588,
+     0.513
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "concrete_core",
+    "concrete_pale",
+    "concrete_weathered",
+    "rebar"
+   ],
+   "groups": {
+    "footing": [
+     "concrete_weathered"
+    ],
+    "backing": [
+     "concrete_core"
+    ],
+    "panel_1": [
+     "concrete_weathered"
+    ],
+    "panel_1_spall": [
+     "broken_concrete"
+    ],
+    "panel_2": [
+     "concrete_pale"
+    ],
+    "panel_3": [
+     "concrete_pale"
+    ],
+    "panel_4": [
+     "concrete_weathered"
+    ],
+    "panel_5": [
+     "concrete_pale"
+    ],
+    "panel_5_spall": [
+     "broken_concrete"
+    ],
+    "panel_6": [
+     "concrete_pale"
+    ],
+    "panel_7": [
+     "concrete_weathered"
+    ],
+    "panel_8": [
+     "concrete_pale"
+    ],
+    "panel_9": [
+     "concrete_pale"
+    ],
+    "panel_9_spall": [
+     "broken_concrete"
+    ],
+    "panel_10": [
+     "concrete_weathered"
+    ],
+    "panel_11": [
+     "concrete_pale"
+    ],
+    "panel_12": [
+     "concrete_pale"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "spall_chip": [
+     "broken_concrete"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "footing_base",
+     "position": [
+      2.0,
+      0.0,
+      0.0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_02": {
+   "name": "DESTROY_02",
+   "category": "destruction",
+   "description": "Partially collapsed plastered concrete wall 4 x 2.8 x 0.34 m: jagged broken top, exposed concrete core between recessed plaster skins, bent rebar, 5 detached fragments",
+   "obj": "destruction/DESTROY_02.obj",
+   "mtl": "destruction/DESTROY_02.mtl",
+   "preview": "previews/destruction/DESTROY_02.png",
+   "triangles": 448,
+   "vertices": 266,
+   "dimensions_m": [
+    6.519,
+    3.085,
+    1.891
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.197,
+     -0.034,
+     -0.17
+    ],
+    "max": [
+     3.322,
+     3.051,
+     1.721
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "concrete_core",
+    "plaster_cream",
+    "rebar"
+   ],
+   "groups": {
+    "core": [
+     "concrete_core"
+    ],
+    "skin_front": [
+     "plaster_cream"
+    ],
+    "skin_back": [
+     "plaster_cream"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "fragment_1": [
+     "concrete_core"
+    ],
+    "fragment_1_skin": [
+     "plaster_cream"
+    ],
+    "fragment_2": [
+     "concrete_core"
+    ],
+    "fragment_2_skin": [
+     "plaster_cream"
+    ],
+    "fragment_3": [
+     "concrete_core"
+    ],
+    "fragment_3_skin": [
+     "plaster_cream"
+    ],
+    "fragment_4": [
+     "concrete_core"
+    ],
+    "fragment_4_skin": [
+     "plaster_cream"
+    ],
+    "fragment_5": [
+     "concrete_core"
+    ],
+    "fragment_5_skin": [
+     "plaster_cream"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_03": {
+   "name": "DESTROY_03",
+   "category": "destruction",
+   "description": "Shattered window assembly 1.4 x 1.7 m: bent aluminium frame (header bowed, right jamb kinked, sill snapped, mullion sheared), glass remnants fanning from corners, fallen shards, plinth",
+   "obj": "destruction/DESTROY_03.obj",
+   "mtl": "destruction/DESTROY_03.mtl",
+   "preview": "previews/destruction/DESTROY_03.png",
+   "triangles": 448,
+   "vertices": 284,
+   "dimensions_m": [
+    1.8,
+    1.931,
+    1.165
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.9,
+     -0.031,
+     -0.2
+    ],
+    "max": [
+     0.9,
+     1.9,
+     0.965
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_weathered",
+    "glass_tinted"
+   ],
+   "groups": {
+    "plinth": [
+     "concrete_weathered"
+    ],
+    "left_jamb": [
+     "brushed_metal"
+    ],
+    "right_jamb_lower": [
+     "brushed_metal"
+    ],
+    "right_jamb_upper": [
+     "brushed_metal"
+    ],
+    "header": [
+     "brushed_metal"
+    ],
+    "sill_left": [
+     "brushed_metal"
+    ],
+    "sill_right_fallen": [
+     "brushed_metal"
+    ],
+    "mullion_upper": [
+     "brushed_metal"
+    ],
+    "mullion_lower_stub": [
+     "brushed_metal"
+    ],
+    "glass_remnant_1": [
+     "glass_tinted"
+    ],
+    "glass_remnant_2": [
+     "glass_tinted"
+    ],
+    "glass_remnant_3": [
+     "glass_tinted"
+    ],
+    "glass_remnant_4": [
+     "glass_tinted"
+    ],
+    "glass_remnant_5": [
+     "glass_tinted"
+    ],
+    "glass_remnant_6": [
+     "glass_tinted"
+    ],
+    "glass_remnant_7": [
+     "glass_tinted"
+    ],
+    "glass_fallen": [
+     "glass_tinted"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "plinth_base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_04": {
+   "name": "DESTROY_04",
+   "category": "destruction",
+   "description": "Detached facade panel 3.2 x 2.6 x 0.3 m: plaster front skin, concrete core, 2 window openings with bent frames, jagged torn bottom + top-right corner, protruding rebar, 3 shed fragments",
+   "obj": "destruction/DESTROY_04.obj",
+   "mtl": "destruction/DESTROY_04.mtl",
+   "preview": "previews/destruction/DESTROY_04.png",
+   "triangles": 696,
+   "vertices": 416,
+   "dimensions_m": [
+    4.694,
+    3.16,
+    1.605
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.35,
+     -0.255,
+     -0.1
+    ],
+    "max": [
+     2.343,
+     2.905,
+     1.505
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "concrete_core",
+    "glass_tinted",
+    "plaster_cream",
+    "rebar"
+   ],
+   "groups": {
+    "sill_band_core": [
+     "concrete_core"
+    ],
+    "sill_band_skin": [
+     "plaster_cream"
+    ],
+    "header_band_core": [
+     "concrete_core"
+    ],
+    "header_band_skin": [
+     "plaster_cream"
+    ],
+    "pier_L_core": [
+     "concrete_core"
+    ],
+    "pier_L_skin": [
+     "plaster_cream"
+    ],
+    "pier_M_core": [
+     "concrete_core"
+    ],
+    "pier_M_skin": [
+     "plaster_cream"
+    ],
+    "pier_R_core": [
+     "concrete_core"
+    ],
+    "pier_R_skin": [
+     "plaster_cream"
+    ],
+    "window_frame": [
+     "brushed_metal"
+    ],
+    "window_glass": [
+     "glass_tinted"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "fragment_1": [
+     "concrete_core"
+    ],
+    "fragment_1_skin": [
+     "plaster_cream"
+    ],
+    "fragment_2": [
+     "concrete_core"
+    ],
+    "fragment_2_skin": [
+     "plaster_cream"
+    ],
+    "fragment_3": [
+     "concrete_core"
+    ],
+    "fragment_3_skin": [
+     "plaster_cream"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 98.0
+  },
+  "DESTROY_05": {
+   "name": "DESTROY_05",
+   "category": "destruction",
+   "description": "Collapsed balcony: fractured wall root with rebar, 2.8 x 1.4 m slab hinged down 24 deg, railing with bent/snapped posts and drooping rail, broken corbels, rubble",
+   "obj": "destruction/DESTROY_05.obj",
+   "mtl": "destruction/DESTROY_05.mtl",
+   "preview": "previews/destruction/DESTROY_05.png",
+   "triangles": 716,
+   "vertices": 426,
+   "dimensions_m": [
+    3.6,
+    3.0,
+    2.786
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.8,
+     0.0,
+     -0.15
+    ],
+    "max": [
+     1.8,
+     3.0,
+     2.636
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "brushed_metal",
+    "concrete_core",
+    "concrete_pale",
+    "concrete_weathered",
+    "plaster_cream",
+    "rebar"
+   ],
+   "groups": {
+    "wall_core": [
+     "concrete_core"
+    ],
+    "wall_skin": [
+     "plaster_cream"
+    ],
+    "slab": [
+     "concrete_pale"
+    ],
+    "slab_underside": [
+     "concrete_core"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "corbel": [
+     "concrete_weathered"
+    ],
+    "post": [
+     "brushed_metal"
+    ],
+    "post_snapped": [
+     "brushed_metal"
+    ],
+    "post_bent": [
+     "brushed_metal"
+    ],
+    "rail_top_left": [
+     "brushed_metal"
+    ],
+    "rail_top_right": [
+     "brushed_metal"
+    ],
+    "side_post": [
+     "brushed_metal"
+    ],
+    "side_rail": [
+     "brushed_metal"
+    ],
+    "baluster": [
+     "brushed_metal"
+    ],
+    "wall_rebar": [
+     "rebar"
+    ],
+    "rubble": [
+     "broken_concrete"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_06": {
+   "name": "DESTROY_06",
+   "category": "destruction",
+   "description": "Broken pitched roof section 4 x 3.2 m at 30 deg: wall plate + tie beams, rafters (2 snapped), battens, clay-tile courses with a 1.6 m storm hole, ragged eave, torn ridge",
+   "obj": "destruction/DESTROY_06.obj",
+   "mtl": "destruction/DESTROY_06.mtl",
+   "preview": "previews/destruction/DESTROY_06.png",
+   "triangles": 2308,
+   "vertices": 1424,
+   "dimensions_m": [
+    4.229,
+    2.12,
+    4.355
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.129,
+     0.0,
+     -1.373
+    ],
+    "max": [
+     2.1,
+     2.12,
+     2.983
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brick_red",
+    "roof_tile",
+    "timber_warm",
+    "wood_weathered"
+   ],
+   "groups": {
+    "wall_plate": [
+     "wood_weathered"
+    ],
+    "tie_beams": [
+     "timber_warm"
+    ],
+    "rafters": [
+     "timber_warm"
+    ],
+    "rafter_snapped": [
+     "timber_warm"
+    ],
+    "rafter_snapped_end": [
+     "timber_warm"
+    ],
+    "battens": [
+     "wood_weathered"
+    ],
+    "tiles": [
+     "brick_red",
+     "roof_tile"
+    ],
+    "loose_tiles": [
+     "roof_tile"
+    ],
+    "ridge_beam": [
+     "timber_warm"
+    ],
+    "ridge_tiles": [
+     "roof_tile"
+    ],
+    "debris_tiles": [
+     "roof_tile"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 98.8
+  },
+  "DESTROY_07": {
+   "name": "DESTROY_07",
+   "category": "destruction",
+   "description": "Damaged rooftop assembly 4.5 x 3.4 m: slab with broken corner + peeled membrane, collapsed parapet, tipped AC unit on bent mounts, snapped vent stack, leaning tank with kinked legs",
+   "obj": "destruction/DESTROY_07.obj",
+   "mtl": "destruction/DESTROY_07.mtl",
+   "preview": "previews/destruction/DESTROY_07.png",
+   "triangles": 968,
+   "vertices": 564,
+   "dimensions_m": [
+    5.119,
+    2.661,
+    3.614
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.25,
+     -0.035,
+     -1.7
+    ],
+    "max": [
+     2.869,
+     2.626,
+     1.914
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "asphalt_cool",
+    "broken_concrete",
+    "coastal_weathered",
+    "concrete_weathered",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "plaster_cream",
+    "rubber_dark",
+    "rust_metal",
+    "white_paint"
+   ],
+   "groups": {
+    "slab": [
+     "concrete_weathered"
+    ],
+    "membrane": [
+     "asphalt_cool"
+    ],
+    "membrane_peeled": [
+     "asphalt_cool"
+    ],
+    "parapet_back": [
+     "plaster_cream"
+    ],
+    "parapet_left": [
+     "plaster_cream"
+    ],
+    "parapet_right_stub": [
+     "plaster_cream"
+    ],
+    "parapet_right_fallen": [
+     "plaster_cream"
+    ],
+    "parapet_rubble": [
+     "broken_concrete"
+    ],
+    "ac_housing": [
+     "white_paint"
+    ],
+    "ac_top": [
+     "metal_painted_grey"
+    ],
+    "ac_fan_ring": [
+     "rubber_dark"
+    ],
+    "ac_grille": [
+     "galvanized_steel"
+    ],
+    "ac_mount_bent": [
+     "galvanized_steel"
+    ],
+    "ac_mount": [
+     "galvanized_steel"
+    ],
+    "ac_mount_rail": [
+     "galvanized_steel"
+    ],
+    "vent_stack_stub": [
+     "galvanized_steel"
+    ],
+    "vent_stack_fallen": [
+     "galvanized_steel"
+    ],
+    "tank": [
+     "coastal_weathered"
+    ],
+    "tank_roof": [
+     "rust_metal"
+    ],
+    "tank_leg": [
+     "galvanized_steel"
+    ],
+    "mast_bent": [
+     "galvanized_steel"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_08": {
+   "name": "DESTROY_08",
+   "category": "destruction",
+   "description": "Destroyed storefront 4 x 3.4 m: cracked brick bulkhead, bent aluminium frame, door torn off hinges and dropped, glass remnants, sign board hanging by one bracket, collapsed awning, debris",
+   "obj": "destruction/DESTROY_08.obj",
+   "mtl": "destruction/DESTROY_08.mtl",
+   "preview": "previews/destruction/DESTROY_08.png",
+   "triangles": 768,
+   "vertices": 482,
+   "dimensions_m": [
+    4.223,
+    3.513,
+    2.106
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.04,
+     -0.008,
+     -0.18
+    ],
+    "max": [
+     2.183,
+     3.505,
+     1.926
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brick_red",
+    "brushed_metal",
+    "galvanized_steel",
+    "glass_tinted",
+    "mortar",
+    "sign_blue",
+    "sign_white",
+    "traffic_red"
+   ],
+   "groups": {
+    "bulkhead": [
+     "brick_red"
+    ],
+    "bulkhead_courses": [
+     "mortar"
+    ],
+    "frame_post": [
+     "brushed_metal"
+    ],
+    "frame_post_bent": [
+     "brushed_metal"
+    ],
+    "transom": [
+     "brushed_metal"
+    ],
+    "transom_twisted": [
+     "brushed_metal"
+    ],
+    "sill_rail": [
+     "brushed_metal"
+    ],
+    "glass_remnant": [
+     "glass_tinted"
+    ],
+    "glass_fallen": [
+     "glass_tinted"
+    ],
+    "door_frame": [
+     "brushed_metal"
+    ],
+    "door_glass": [
+     "glass_tinted"
+    ],
+    "door_bar": [
+     "brushed_metal"
+    ],
+    "sign_board": [
+     "sign_blue"
+    ],
+    "sign_text_panel": [
+     "sign_white"
+    ],
+    "sign_bracket": [
+     "galvanized_steel"
+    ],
+    "sign_bracket_snapped": [
+     "galvanized_steel"
+    ],
+    "awning_attached": [
+     "traffic_red"
+    ],
+    "awning_fallen": [
+     "traffic_red"
+    ],
+    "debris": [
+     "brick_red"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_09": {
+   "name": "DESTROY_09",
+   "category": "destruction",
+   "description": "Fallen structural column 4.1 m x 0.7 dia: snapped in two, jagged fracture faces with exposed inner core, 8 longitudinal bars + stirrups bent out of the break, base plate end and flared capital end, spall chunks",
+   "obj": "destruction/DESTROY_09.obj",
+   "mtl": "destruction/DESTROY_09.mtl",
+   "preview": "previews/destruction/DESTROY_09.png",
+   "triangles": 1296,
+   "vertices": 760,
+   "dimensions_m": [
+    4.749,
+    1.0,
+    1.348
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.3,
+     -0.15,
+     -0.655
+    ],
+    "max": [
+     4.449,
+     0.85,
+     0.693
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "concrete_core",
+    "concrete_pale",
+    "galvanized_steel",
+    "rebar"
+   ],
+   "groups": {
+    "piece_A_shell": [
+     "concrete_pale"
+    ],
+    "piece_A_core": [
+     "concrete_core"
+    ],
+    "base_plate": [
+     "galvanized_steel"
+    ],
+    "base_bolt_stubs": [
+     "galvanized_steel"
+    ],
+    "piece_B_shell": [
+     "concrete_pale"
+    ],
+    "piece_B_core": [
+     "concrete_core"
+    ],
+    "capital": [
+     "concrete_pale"
+    ],
+    "bars_A": [
+     "rebar"
+    ],
+    "bars_B": [
+     "rebar"
+    ],
+    "stirrups": [
+     "rebar"
+    ],
+    "spall": [
+     "broken_concrete"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "piece_A_end",
+     "position": [
+      0,
+      0.35,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 99.7
+  },
+  "DESTROY_10": {
+   "name": "DESTROY_10",
+   "category": "destruction",
+   "description": "Fractured steel I-beam 6.4 m: sheared at mid-span with torn staggered flange/web ends; far half buckled and drooped in 4 kinks with flange crumple; end plates + bolt holes",
+   "obj": "destruction/DESTROY_10.obj",
+   "mtl": "destruction/DESTROY_10.mtl",
+   "preview": "previews/destruction/DESTROY_10.png",
+   "triangles": 796,
+   "vertices": 458,
+   "dimensions_m": [
+    6.6,
+    1.71,
+    1.256
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.1,
+     -0.23,
+     -0.435
+    ],
+    "max": [
+     6.5,
+     1.48,
+     0.821
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "brushed_metal",
+    "concrete_weathered",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "rust_metal"
+   ],
+   "groups": {
+    "near_flange_top": [
+     "metal_painted_grey"
+    ],
+    "near_flange_bottom": [
+     "metal_painted_grey"
+    ],
+    "near_web": [
+     "metal_painted_grey"
+    ],
+    "near_tear_flap": [
+     "metal_painted_grey"
+    ],
+    "near_web_tear": [
+     "metal_painted_grey"
+    ],
+    "far_beam": [
+     "metal_painted_grey"
+    ],
+    "far_crumple": [
+     "rust_metal"
+    ],
+    "far_flange_peeled": [
+     "metal_painted_grey"
+    ],
+    "end_plate_near": [
+     "galvanized_steel"
+    ],
+    "bolts_near": [
+     "brushed_metal"
+    ],
+    "end_plate_far": [
+     "galvanized_steel"
+    ],
+    "bolts_far": [
+     "brushed_metal"
+    ],
+    "support_blocks": [
+     "concrete_weathered"
+    ],
+    "debris": [
+     "broken_concrete"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "near_end",
+     "position": [
+      0,
+      1.2,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_11": {
+   "name": "DESTROY_11",
+   "category": "destruction",
+   "description": "Broken concrete slab 3.6 x 2.8 x 0.25 m: 8 Voronoi fracture plates, three tilted/stacked, 0.25 m exposed cross-sections, top finish skin, rebar mesh across gaps",
+   "obj": "destruction/DESTROY_11.obj",
+   "mtl": "destruction/DESTROY_11.mtl",
+   "preview": "previews/destruction/DESTROY_11.png",
+   "triangles": 620,
+   "vertices": 386,
+   "dimensions_m": [
+    4.005,
+    0.843,
+    3.044
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.389,
+     -0.116,
+     -0.225
+    ],
+    "max": [
+     3.616,
+     0.727,
+     2.819
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "concrete_core",
+    "concrete_pale",
+    "rebar"
+   ],
+   "groups": {
+    "p1_plate": [
+     "concrete_core"
+    ],
+    "p1_skin": [
+     "concrete_pale"
+    ],
+    "p1_underside": [
+     "broken_concrete"
+    ],
+    "p2_plate": [
+     "concrete_core"
+    ],
+    "p2_skin": [
+     "concrete_pale"
+    ],
+    "p2_underside": [
+     "broken_concrete"
+    ],
+    "p3_plate": [
+     "concrete_core"
+    ],
+    "p3_skin": [
+     "concrete_pale"
+    ],
+    "p3_underside": [
+     "broken_concrete"
+    ],
+    "p4_plate": [
+     "concrete_core"
+    ],
+    "p4_skin": [
+     "concrete_pale"
+    ],
+    "p4_underside": [
+     "broken_concrete"
+    ],
+    "p5_plate": [
+     "concrete_core"
+    ],
+    "p5_skin": [
+     "concrete_pale"
+    ],
+    "p5_underside": [
+     "broken_concrete"
+    ],
+    "p6_plate": [
+     "concrete_core"
+    ],
+    "p6_skin": [
+     "concrete_pale"
+    ],
+    "p6_underside": [
+     "broken_concrete"
+    ],
+    "p7_plate": [
+     "concrete_core"
+    ],
+    "p7_skin": [
+     "concrete_pale"
+    ],
+    "p7_underside": [
+     "broken_concrete"
+    ],
+    "p8_plate": [
+     "concrete_core"
+    ],
+    "p8_skin": [
+     "concrete_pale"
+    ],
+    "p8_underside": [
+     "broken_concrete"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "chips": [
+     "broken_concrete"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      1.8,
+      0,
+      1.4
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_12": {
+   "name": "DESTROY_12",
+   "category": "destruction",
+   "description": "Construction debris pile r~2.3 m: 20 concrete blocks, 16 bricks, 7 plastered panel shards, 5 timber beams, 9 protruding rebar spikes, mortar chunks; heap-shaped placement, no random triangles",
+   "obj": "destruction/DESTROY_12.obj",
+   "mtl": "destruction/DESTROY_12.mtl",
+   "preview": "previews/destruction/DESTROY_12.png",
+   "triangles": 1396,
+   "vertices": 830,
+   "dimensions_m": [
+    5.8,
+    2.502,
+    5.645
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.876,
+     0.0,
+     -2.842
+    ],
+    "max": [
+     2.924,
+     2.502,
+     2.804
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brick_red",
+    "broken_concrete",
+    "concrete_pale",
+    "dusty_stone",
+    "mortar",
+    "plaster_cream",
+    "rebar",
+    "timber_warm"
+   ],
+   "groups": {
+    "concrete_blocks": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "bricks": [
+     "brick_red"
+    ],
+    "panels": [
+     "plaster_cream"
+    ],
+    "timber": [
+     "timber_warm"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "mortar_chunks": [
+     "mortar"
+    ],
+    "base_dust": [
+     "dusty_stone"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_13": {
+   "name": "DESTROY_13",
+   "category": "destruction",
+   "description": "Brick rubble: 3 mortar-bonded wall fragments (staggered courses, jagged outlines, mortar beds) plus ~40 loose whole/half bricks and mortar crumbs",
+   "obj": "destruction/DESTROY_13.obj",
+   "mtl": "destruction/DESTROY_13.mtl",
+   "preview": "previews/destruction/DESTROY_13.png",
+   "triangles": 3568,
+   "vertices": 2072,
+   "dimensions_m": [
+    4.06,
+    1.755,
+    3.723
+   ],
+   "bounding_box_m": {
+    "min": [
+     -2.008,
+     -1.159,
+     -1.896
+    ],
+    "max": [
+     2.052,
+     0.596,
+     1.827
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brick_red",
+    "mortar"
+   ],
+   "groups": {
+    "wall_A_bricks": [
+     "brick_red"
+    ],
+    "wall_A_mortar_bed": [
+     "mortar"
+    ],
+    "wall_B_bricks": [
+     "brick_red"
+    ],
+    "wall_B_mortar_bed": [
+     "mortar"
+    ],
+    "wall_C_tilted_bricks": [
+     "brick_red"
+    ],
+    "wall_C_tilted_mortar_bed": [
+     "mortar"
+    ],
+    "loose_bricks": [
+     "brick_red"
+    ],
+    "mortar_crumbs": [
+     "mortar"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_14": {
+   "name": "DESTROY_14",
+   "category": "destruction",
+   "description": "Glass shard collection: 30 angular shards (tri/quad/pent, 6-12 mm thick, 0.1-0.55 m) lying, leaning and wedged against 3 aluminium frame slivers",
+   "obj": "destruction/DESTROY_14.obj",
+   "mtl": "destruction/DESTROY_14.mtl",
+   "preview": "previews/destruction/DESTROY_14.png",
+   "triangles": 568,
+   "vertices": 386,
+   "dimensions_m": [
+    2.063,
+    0.33,
+    1.935
+   ],
+   "bounding_box_m": {
+    "min": [
+     -1.033,
+     -0.02,
+     -0.994
+    ],
+    "max": [
+     1.03,
+     0.31,
+     0.942
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "glass_tinted"
+   ],
+   "groups": {
+    "shards_standing": [
+     "glass_tinted"
+    ],
+    "shards_flat": [
+     "glass_tinted"
+    ],
+    "frame_slivers": [
+     "brushed_metal"
+    ],
+    "glass_crumbs": [
+     "glass_tinted"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_15": {
+   "name": "DESTROY_15",
+   "category": "destruction",
+   "description": "Twisted structural steel I-beam 5.6 m: continuous 150-degree torsion, S-bend in two planes, crumpled flange widths, torn-off end flanges, end plate",
+   "obj": "destruction/DESTROY_15.obj",
+   "mtl": "destruction/DESTROY_15.mtl",
+   "preview": "previews/destruction/DESTROY_15.png",
+   "triangles": 732,
+   "vertices": 384,
+   "dimensions_m": [
+    6.081,
+    1.087,
+    1.97
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.063,
+     -0.104,
+     -0.977
+    ],
+    "max": [
+     6.017,
+     0.983,
+     0.993
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "brushed_metal",
+    "galvanized_steel",
+    "metal_painted_grey",
+    "rust_metal"
+   ],
+   "groups": {
+    "beam": [
+     "metal_painted_grey"
+    ],
+    "end_plate": [
+     "galvanized_steel"
+    ],
+    "bolts": [
+     "brushed_metal"
+    ],
+    "torn_flange_a": [
+     "rust_metal"
+    ],
+    "torn_flange_b": [
+     "rust_metal"
+    ],
+    "far_end_tear": [
+     "metal_painted_grey"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "end_plate",
+     "position": [
+      0,
+      0.55,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_16": {
+   "name": "DESTROY_16",
+   "category": "destruction",
+   "description": "Snapped wooden utility pole: 2.8 m stump with splintered fracture + splinters; 7 m upper section fallen leaning, splintered lower end, crossarm with insulators, severed cables draped; stump and upper section are separate groups",
+   "obj": "destruction/DESTROY_16.obj",
+   "mtl": "destruction/DESTROY_16.mtl",
+   "preview": "previews/destruction/DESTROY_16.png",
+   "triangles": 1224,
+   "vertices": 694,
+   "dimensions_m": [
+    7.692,
+    6.073,
+    5.117
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.517,
+     0.0,
+     -2.506
+    ],
+    "max": [
+     7.174,
+     6.073,
+     2.611
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "cable_black",
+    "galvanized_steel",
+    "insulator_ceramic",
+    "rubber_dark",
+    "timber_warm",
+    "wood_weathered"
+   ],
+   "groups": {
+    "stump": [
+     "wood_weathered"
+    ],
+    "stump_splinters": [
+     "wood_weathered"
+    ],
+    "ground_sleeve": [
+     "rubber_dark"
+    ],
+    "pole_staples": [
+     "galvanized_steel"
+    ],
+    "upper_section": [
+     "wood_weathered"
+    ],
+    "upper_section_splinters": [
+     "wood_weathered"
+    ],
+    "upper_fracture_cap": [
+     "timber_warm"
+    ],
+    "crossarm": [
+     "timber_warm"
+    ],
+    "crossarm_brace": [
+     "timber_warm"
+    ],
+    "insulators": [
+     "insulator_ceramic"
+    ],
+    "cable": [
+     "cable_black"
+    ],
+    "cable_on_ground": [
+     "cable_black"
+    ],
+    "splinter_chips": [
+     "wood_weathered"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "stump_base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "upper_fracture",
+     "position": [
+      0.55,
+      2.55,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_17": {
+   "name": "DESTROY_17",
+   "category": "destruction",
+   "description": "Broken metal railing 3 m: 4 posts (intact / bent 22 deg / snapped at 0.4 m / leaning), top & mid rails kinked, snapped and drooping, detached rail piece, bent balusters, flattened tube ends",
+   "obj": "destruction/DESTROY_17.obj",
+   "mtl": "destruction/DESTROY_17.mtl",
+   "preview": "previews/destruction/DESTROY_17.png",
+   "triangles": 1048,
+   "vertices": 624,
+   "dimensions_m": [
+    1.229,
+    2.051,
+    3.503
+   ],
+   "bounding_box_m": {
+    "min": [
+     -0.1,
+     -0.866,
+     -0.1
+    ],
+    "max": [
+     1.129,
+     1.185,
+     3.403
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "galvanized_steel",
+    "paint_navy"
+   ],
+   "groups": {
+    "base_plate": [
+     "galvanized_steel"
+    ],
+    "post_1": [
+     "paint_navy"
+    ],
+    "post_2_bent": [
+     "paint_navy"
+    ],
+    "post_3_stub": [
+     "paint_navy"
+    ],
+    "post_3_fallen": [
+     "paint_navy"
+    ],
+    "post_4_lean": [
+     "paint_navy"
+    ],
+    "rail_top_12": [
+     "galvanized_steel"
+    ],
+    "rail_top_2_hang": [
+     "galvanized_steel"
+    ],
+    "rail_top_4_stub": [
+     "galvanized_steel"
+    ],
+    "rail_end_flat": [
+     "galvanized_steel"
+    ],
+    "rail_detached": [
+     "galvanized_steel"
+    ],
+    "rail_mid_12": [
+     "paint_navy"
+    ],
+    "rail_mid_23_snapped": [
+     "paint_navy"
+    ],
+    "baluster": [
+     "paint_navy"
+    ],
+    "baluster_bent": [
+     "paint_navy"
+    ],
+    "baluster_fallen": [
+     "paint_navy"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "bay_end_A",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "bay_end_B",
+     "position": [
+      0,
+      0,
+      3
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  },
+  "DESTROY_18": {
+   "name": "DESTROY_18",
+   "category": "destruction",
+   "description": "Collapsed skybridge segment 8 x 2.8 m: steel Warren side trusses (one buckled), floor deck with torn end, partly glazed canopy with shattered panels, interior handrails, torn connection plates, tilted 13 deg onto debris; glazing, railing, truss groups separable",
+   "obj": "destruction/DESTROY_18.obj",
+   "mtl": "destruction/DESTROY_18.mtl",
+   "preview": "previews/destruction/DESTROY_18.png",
+   "triangles": 2108,
+   "vertices": 1298,
+   "dimensions_m": [
+    6.58,
+    4.728,
+    9.476
+   ],
+   "bounding_box_m": {
+    "min": [
+     -3.052,
+     -0.148,
+     -0.665
+    ],
+    "max": [
+     3.528,
+     4.581,
+     8.81
+    ]
+   },
+   "pivot_origin": "model origin (0,0,0) - see description/connection points; Y-up, +Z forward",
+   "materials": [
+    "broken_concrete",
+    "brushed_metal",
+    "concrete_core",
+    "concrete_pale",
+    "concrete_weathered",
+    "galvanized_steel",
+    "glass_tinted",
+    "metal_painted_grey",
+    "rebar"
+   ],
+   "groups": {
+    "deck": [
+     "concrete_weathered"
+    ],
+    "deck_finish": [
+     "concrete_pale"
+    ],
+    "floor_joists": [
+     "metal_painted_grey"
+    ],
+    "truss_L": [
+     "metal_painted_grey"
+    ],
+    "glazing_L": [
+     "glass_tinted"
+    ],
+    "glazing_shards_L": [
+     "glass_tinted"
+    ],
+    "handrail_L": [
+     "brushed_metal"
+    ],
+    "truss_R": [
+     "metal_painted_grey"
+    ],
+    "glazing_R": [
+     "glass_tinted"
+    ],
+    "handrail_R": [
+     "brushed_metal"
+    ],
+    "roof_frame": [
+     "metal_painted_grey"
+    ],
+    "roof_glazing": [
+     "glass_tinted"
+    ],
+    "roof_ribs": [
+     "metal_painted_grey"
+    ],
+    "roof_edge_bent": [
+     "metal_painted_grey"
+    ],
+    "conn_plates": [
+     "galvanized_steel"
+    ],
+    "conn_bolts": [
+     "brushed_metal"
+    ],
+    "deck_teeth": [
+     "concrete_core"
+    ],
+    "rubble": [
+     "broken_concrete",
+     "concrete_pale"
+    ],
+    "rebar": [
+     "rebar"
+    ],
+    "handrail_detached": [
+     "brushed_metal"
+    ],
+    "glazing_fallen": [
+     "glass_tinted"
+    ],
+    "glass_shards": [
+     "glass_tinted"
+    ],
+    "truss_fallen_member": [
+     "metal_painted_grey"
+    ]
+   },
+   "connection_points": [
+    {
+     "name": "conn_end_fixed",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "conn_end_free",
+     "position": [
+      0,
+      1.75,
+      8.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "notes": [],
+   "suggested_triangle_range": [
+    400,
+    5000
+   ],
+   "watertight_edge_pct": 100.0
+  }
+ }
+}

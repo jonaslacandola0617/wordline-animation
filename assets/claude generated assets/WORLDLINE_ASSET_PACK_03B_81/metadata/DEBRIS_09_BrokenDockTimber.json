@@ -1,0 +1,114 @@
+{
+  "id": "DEBRIS_09",
+  "name": "Broken Dock Timber",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_09_BrokenDockTimber.obj",
+  "mtl": "floating_debris/DEBRIS_09_BrokenDockTimber.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "snapped pile section with decking plank still bolted",
+  "dimensions": {
+    "x_width_m": 1.1712,
+    "y_height_m": 0.41,
+    "z_depth_m": 2.8902
+  },
+  "bounds_file_min": [
+    -0.35,
+    0.0,
+    -1.5902
+  ],
+  "bounds_file_max": [
+    0.8212,
+    0.41,
+    1.3
+  ],
+  "triangles": 452,
+  "parts": [
+    {
+      "object": "DEBRIS_09_BrokenDockTimber_Pile",
+      "parent": "DEBRIS_09_BrokenDockTimber_Root",
+      "pivot_file_xyz": [
+        0.0,
+        -0.01,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 60
+    },
+    {
+      "object": "DEBRIS_09_BrokenDockTimber_Splintered_End",
+      "parent": "DEBRIS_09_BrokenDockTimber_Pile",
+      "pivot_file_xyz": [
+        0.0,
+        -0.01,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "DEBRIS_09_BrokenDockTimber_Decking_Plank",
+      "parent": "DEBRIS_09_BrokenDockTimber_Pile",
+      "pivot_file_xyz": [
+        0.0,
+        -0.01,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "DEBRIS_09_BrokenDockTimber_Bracket",
+      "parent": "DEBRIS_09_BrokenDockTimber_Pile",
+      "pivot_file_xyz": [
+        0.0,
+        -0.01,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "DEBRIS_09_BrokenDockTimber_Bolts",
+      "parent": "DEBRIS_09_BrokenDockTimber_Decking_Plank",
+      "pivot_file_xyz": [
+        0.0,
+        -0.01,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "DEBRIS_09_BrokenDockTimber_Rope",
+      "parent": "DEBRIS_09_BrokenDockTimber_Pile",
+      "pivot_file_xyz": [
+        0.0,
+        -0.01,
+        -0.0
+      ],
+      "materials": [
+        "WL_canvas"
+      ],
+      "triangles": 56
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Pile, Splintered_End, Decking_Plank, Bolts, Bracket, Rope"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "1698c748a3fe7d003a5fc5dadfd2c904"
+}

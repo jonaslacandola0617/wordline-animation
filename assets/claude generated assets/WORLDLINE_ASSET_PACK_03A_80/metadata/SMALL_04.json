@@ -1,0 +1,89 @@
+{
+ "asset_id": "SMALL_04",
+ "title": "Electric Bicycle",
+ "category": "small_vehicles",
+ "obj": "../small_vehicles/SMALL_04.obj",
+ "mtl": "../small_vehicles/SMALL_04.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.352,
+  0.0,
+  -0.775
+ ],
+ "bbox_max": [
+  0.352,
+  1.153,
+  0.775
+ ],
+ "size_xyz": [
+  0.705,
+  1.153,
+  1.55
+ ],
+ "triangles": 2508,
+ "groups": [
+  "wheel_R",
+  "wheel_F",
+  "frame",
+  "seatpost",
+  "chainstays",
+  "seatstays",
+  "fork",
+  "crank",
+  "pedals",
+  "grips",
+  "fenders",
+  "chainring",
+  "chain",
+  "saddle",
+  "handlebar",
+  "stem",
+  "battery",
+  "hub_motor",
+  "motor_drive",
+  "display",
+  "rear_rack",
+  "headlight",
+  "kickstand",
+  "taillight"
+ ],
+ "materials": [
+  "rubber",
+  "alloy",
+  "steel",
+  "dark_steel",
+  "chrome",
+  "light_grey",
+  "black",
+  "light_blue",
+  "light_head",
+  "light_red"
+ ],
+ "pivots": {
+  "wheel_R": [
+   0,
+   0.348,
+   0.44
+  ],
+  "wheel_F": [
+   0,
+   0.348,
+   -0.44
+  ],
+  "crank": [
+   0,
+   0.308,
+   0.05
+  ],
+  "front_fork": [
+   0,
+   0.808,
+   -0.35
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,51 @@
+{
+  "id": "DISASTER_03",
+  "name": "Lunar Fragment",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_03_LunarFragment.obj",
+  "mtl": "disaster_objects/DISASTER_03_LunarFragment.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting",
+  "dimensions": {
+    "x_width_m": 1.7784,
+    "y_height_m": 1.3646,
+    "z_depth_m": 1.317
+  },
+  "bounds_file_min": [
+    -0.9325,
+    0.0,
+    -0.7378
+  ],
+  "bounds_file_max": [
+    0.8459,
+    1.3646,
+    0.5792
+  ],
+  "triangles": 342,
+  "parts": [
+    {
+      "object": "DISASTER_03_LunarFragment_Fragment",
+      "parent": "DISASTER_03_LunarFragment_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.5429,
+        -0.0
+      ],
+      "materials": [
+        "WL_regolith",
+        "WL_lunar_dark",
+        "WL_lunar_fresh"
+      ],
+      "triangles": 342
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "materials": "regolith surface, banded fractured interior (lunar_dark / lunar_fresh)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "0d8a89f4d101a8d122d2c01c5e54dfb9"
+}

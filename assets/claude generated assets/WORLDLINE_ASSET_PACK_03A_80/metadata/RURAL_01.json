@@ -1,0 +1,70 @@
+{
+ "asset_id": "RURAL_01",
+ "title": "Windmill (windpump)",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_01.obj",
+ "mtl": "../rural_landmarks/RURAL_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.65,
+  0.0,
+  -4.6
+ ],
+ "bbox_max": [
+  2.65,
+  15.192,
+  1.5
+ ],
+ "size_xyz": [
+  5.3,
+  15.192,
+  6.1
+ ],
+ "triangles": 2304,
+ "groups": [
+  "tower",
+  "tower_braces",
+  "footings",
+  "platform",
+  "platform_rail",
+  "gearbox",
+  "swivel",
+  "rotor_hub",
+  "rotor_blades",
+  "rotor_rings",
+  "tail_boom",
+  "tail_vane",
+  "pump_rod",
+  "pump_head",
+  "pump_spout",
+  "trough",
+  "trough_water"
+ ],
+ "materials": [
+  "steel",
+  "concrete",
+  "timber",
+  "dark_steel",
+  "offwhite",
+  "blue_steel",
+  "coral",
+  "water_edge"
+ ],
+ "pivots": {
+  "rotor": [
+   0,
+   12.542,
+   0.85
+  ],
+  "tail_vane": [
+   0,
+   12.542,
+   -0.3
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

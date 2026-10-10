@@ -1,0 +1,311 @@
+{
+  "id": "ANIMAL_01",
+  "name": "Pigeon",
+  "category": "animals",
+  "obj": "animals/ANIMAL_01_Pigeon.obj",
+  "mtl": "animals/ANIMAL_01_Pigeon.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing, wings half-open (take-off display)",
+  "dimensions": {
+    "x_width_m": 0.6995,
+    "y_height_m": 0.2442,
+    "z_depth_m": 0.4747
+  },
+  "bounds_file_min": [
+    -0.3497,
+    0.002,
+    -0.2065
+  ],
+  "bounds_file_max": [
+    0.3497,
+    0.2463,
+    0.2682
+  ],
+  "triangles": 1248,
+  "parts": [
+    {
+      "object": "ANIMAL_01_Pigeon_Body",
+      "parent": "ANIMAL_01_Pigeon_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_pigeon_grey",
+        "WL_pigeon_grey"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Neck",
+      "parent": "ANIMAL_01_Pigeon_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_pigeon_grey"
+      ],
+      "triangles": 92
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Head",
+      "parent": "ANIMAL_01_Pigeon_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.1808,
+        -0.15
+      ],
+      "materials": [
+        "WL_pigeon_grey"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Beak",
+      "parent": "ANIMAL_01_Pigeon_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.1808,
+        -0.15
+      ],
+      "materials": [
+        "WL_beak_dark"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Cere",
+      "parent": "ANIMAL_01_Pigeon_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.1808,
+        -0.15
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Eye_L",
+      "parent": "ANIMAL_01_Pigeon_Head",
+      "pivot_file_xyz": [
+        0.0265,
+        0.1883,
+        -0.1602
+      ],
+      "materials": [
+        "WL_eye_orange"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Eye_R",
+      "parent": "ANIMAL_01_Pigeon_Head",
+      "pivot_file_xyz": [
+        -0.0265,
+        0.1883,
+        -0.1602
+      ],
+      "materials": [
+        "WL_eye_orange"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Neck_Patch",
+      "parent": "ANIMAL_01_Pigeon_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.1808,
+        -0.15
+      ],
+      "materials": [
+        "WL_pigeon_neck"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Tail",
+      "parent": "ANIMAL_01_Pigeon_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.1312,
+        0.138
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 100
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_L_Arm",
+      "parent": "ANIMAL_01_Pigeon_Body",
+      "pivot_file_xyz": [
+        0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_grey"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_L_Coverts",
+      "parent": "ANIMAL_01_Pigeon_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_L_Secondaries",
+      "parent": "ANIMAL_01_Pigeon_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_L_Primaries",
+      "parent": "ANIMAL_01_Pigeon_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_R_Arm",
+      "parent": "ANIMAL_01_Pigeon_Body",
+      "pivot_file_xyz": [
+        -0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_grey"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_R_Coverts",
+      "parent": "ANIMAL_01_Pigeon_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_R_Secondaries",
+      "parent": "ANIMAL_01_Pigeon_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Wing_R_Primaries",
+      "parent": "ANIMAL_01_Pigeon_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0484,
+        0.1591,
+        -0.042
+      ],
+      "materials": [
+        "WL_pigeon_dark"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Leg_L",
+      "parent": "ANIMAL_01_Pigeon_Body",
+      "pivot_file_xyz": [
+        0.0279,
+        0.094,
+        -0.006
+      ],
+      "materials": [
+        "WL_pigeon_pink"
+      ],
+      "triangles": 26
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Leg_R",
+      "parent": "ANIMAL_01_Pigeon_Body",
+      "pivot_file_xyz": [
+        -0.0279,
+        0.094,
+        -0.006
+      ],
+      "materials": [
+        "WL_pigeon_pink"
+      ],
+      "triangles": 26
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Foot_L",
+      "parent": "ANIMAL_01_Pigeon_Leg_L",
+      "pivot_file_xyz": [
+        0.0279,
+        0.028,
+        -0.006
+      ],
+      "materials": [
+        "WL_pigeon_pink"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "ANIMAL_01_Pigeon_Foot_R",
+      "parent": "ANIMAL_01_Pigeon_Leg_R",
+      "pivot_file_xyz": [
+        -0.0279,
+        0.028,
+        -0.006
+      ],
+      "materials": [
+        "WL_pigeon_pink"
+      ],
+      "triangles": 48
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "wingspan_m": 0.62,
+    "named_groups": "Body, Neck, Head, Beak, Wing_L/R_{Arm,Coverts,Secondaries,Primaries}, Tail, Leg_L/R, Foot_L/R"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "35c7539e8b1d5e4479a2eec1f8588946"
+}

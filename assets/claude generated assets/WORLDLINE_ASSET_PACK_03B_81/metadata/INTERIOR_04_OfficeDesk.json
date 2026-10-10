@@ -1,0 +1,140 @@
+{
+  "id": "INTERIOR_04",
+  "name": "Office Desk",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_04_OfficeDesk.obj",
+  "mtl": "interiors/INTERIOR_04_OfficeDesk.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "drawers facing +Y side of the user (-Y)",
+  "dimensions": {
+    "x_width_m": 1.5,
+    "y_height_m": 0.765,
+    "z_depth_m": 0.755
+  },
+  "bounds_file_min": [
+    -0.75,
+    0.0,
+    -0.38
+  ],
+  "bounds_file_max": [
+    0.75,
+    0.765,
+    0.375
+  ],
+  "triangles": 464,
+  "parts": [
+    {
+      "object": "INTERIOR_04_OfficeDesk_Top",
+      "parent": "INTERIOR_04_OfficeDesk_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Pedestal",
+      "parent": "INTERIOR_04_OfficeDesk_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Drawer_1",
+      "parent": "INTERIOR_04_OfficeDesk_Pedestal",
+      "pivot_file_xyz": [
+        -0.54,
+        0.2,
+        -0.35
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Drawer_2",
+      "parent": "INTERIOR_04_OfficeDesk_Pedestal",
+      "pivot_file_xyz": [
+        -0.54,
+        0.41,
+        -0.35
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Drawer_3",
+      "parent": "INTERIOR_04_OfficeDesk_Pedestal",
+      "pivot_file_xyz": [
+        -0.54,
+        0.62,
+        -0.35
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Side_Panel",
+      "parent": "INTERIOR_04_OfficeDesk_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Modesty_Panel",
+      "parent": "INTERIOR_04_OfficeDesk_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_04_OfficeDesk_Grommet",
+      "parent": "INTERIOR_04_OfficeDesk_Top",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Top, Pedestal, Drawer_1..3 (slide along +Y), Side_Panel, Modesty_Panel, Grommet"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "377b7bd63e67edb4c182f980848c89b9"
+}

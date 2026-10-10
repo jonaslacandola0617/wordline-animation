@@ -1,0 +1,88 @@
+{
+  "id": "DEBRIS_01",
+  "name": "Driftwood",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_01_Driftwood.obj",
+  "mtl": "floating_debris/DEBRIS_01_Driftwood.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "resting on the ground",
+  "dimensions": {
+    "x_width_m": 3.4872,
+    "y_height_m": 0.6033,
+    "z_depth_m": 0.9551
+  },
+  "bounds_file_min": [
+    -1.9073,
+    0.0,
+    -0.5138
+  ],
+  "bounds_file_max": [
+    1.5798,
+    0.6033,
+    0.4413
+  ],
+  "triangles": 642,
+  "parts": [
+    {
+      "object": "DEBRIS_01_Driftwood_Trunk",
+      "parent": "DEBRIS_01_Driftwood_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.1047,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 178
+    },
+    {
+      "object": "DEBRIS_01_Driftwood_Branches",
+      "parent": "DEBRIS_01_Driftwood_Trunk",
+      "pivot_file_xyz": [
+        0.0,
+        0.1047,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 144
+    },
+    {
+      "object": "DEBRIS_01_Driftwood_Root_Knuckle",
+      "parent": "DEBRIS_01_Driftwood_Trunk",
+      "pivot_file_xyz": [
+        0.0,
+        0.1047,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 236
+    },
+    {
+      "object": "DEBRIS_01_Driftwood_Broken_Ends",
+      "parent": "DEBRIS_01_Driftwood_Trunk",
+      "pivot_file_xyz": [
+        0.0,
+        0.1047,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 84
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Trunk (bleached), Branches, Root_Knuckle, Broken_Ends"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "75f6a85e97da8e048bb66d79eee56509"
+}

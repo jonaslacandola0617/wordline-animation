@@ -1,0 +1,102 @@
+{
+ "asset_id": "LAND_09",
+ "title": "Cement Mixer",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_09.obj",
+ "mtl": "../land_vehicles/LAND_09.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.72,
+  0.0,
+  -5.05
+ ],
+ "bbox_max": [
+  1.72,
+  4.496,
+  6.7
+ ],
+ "size_xyz": [
+  3.44,
+  4.496,
+  11.75
+ ],
+ "triangles": 6212,
+ "groups": [
+  "frame",
+  "cab",
+  "windows",
+  "mirrors",
+  "hood",
+  "bumper",
+  "grille",
+  "lights",
+  "drum",
+  "drum_bands",
+  "drum_ring",
+  "chute",
+  "support_frame",
+  "water_tank",
+  "wheel_F_L",
+  "wheel_F_R",
+  "wheel_R1_L",
+  "wheel_R1_R",
+  "wheel_R2_L",
+  "wheel_R2_R"
+ ],
+ "materials": [
+  "dark_steel",
+  "offwhite",
+  "glass",
+  "black",
+  "light_head",
+  "light_red",
+  "coral",
+  "steel",
+  "blue_steel",
+  "rubber",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "drum": [
+   0,
+   1.9,
+   5.25
+  ],
+  "wheel_F_L": [
+   -1.15,
+   0.58,
+   -3.0
+  ],
+  "wheel_F_R": [
+   1.15,
+   0.58,
+   -3.0
+  ],
+  "wheel_R1_L": [
+   -0.79,
+   0.58,
+   2.0
+  ],
+  "wheel_R1_R": [
+   0.79,
+   0.58,
+   2.0
+  ],
+  "wheel_R2_L": [
+   -0.79,
+   0.58,
+   3.6
+  ],
+  "wheel_R2_R": [
+   0.79,
+   0.58,
+   3.6
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

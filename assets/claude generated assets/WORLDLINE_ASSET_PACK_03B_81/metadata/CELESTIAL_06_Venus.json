@@ -1,0 +1,53 @@
+{
+  "id": "CELESTIAL_06",
+  "name": "Venus",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_06_Venus.obj",
+  "mtl": "celestial/CELESTIAL_06_Venus.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "north pole +Y(file)",
+  "dimensions": {
+    "x_width_m": 2.0028,
+    "y_height_m": 2.0005,
+    "z_depth_m": 2.0069
+  },
+  "bounds_file_min": [
+    -1.0012,
+    -1.0005,
+    -1.0033
+  ],
+  "bounds_file_max": [
+    1.0016,
+    1.0,
+    1.0036
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_06_Venus_Venus",
+      "parent": "CELESTIAL_06_Venus_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_venus_a",
+        "WL_venus_b",
+        "WL_venus_c",
+        "WL_venus_d"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 6051.8 km",
+    "geometry": "smooth globe with swirling cloud-deck bands, polar vortex dimples and chevron wave ridges modelled as shallow displacement"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "f08f8e8f85849a7eac7f5774a1ccfb41"
+}

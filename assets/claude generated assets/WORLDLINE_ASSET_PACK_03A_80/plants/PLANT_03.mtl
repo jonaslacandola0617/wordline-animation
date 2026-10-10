@@ -1,0 +1,64 @@
+newmtl soil
+Ka 0.189 0.147 0.110
+Kd 0.541 0.420 0.314
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl bark
+Ka 0.167 0.124 0.093
+Kd 0.478 0.353 0.267
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl foliage_mid
+Ka 0.139 0.202 0.147
+Kd 0.396 0.576 0.420
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl foliage_deep
+Ka 0.089 0.152 0.118
+Kd 0.255 0.435 0.337
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl pink
+Ka 0.314 0.191 0.231
+Kd 0.898 0.545 0.659
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl coral
+Ka 0.296 0.161 0.132
+Kd 0.847 0.459 0.376
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl offwhite
+Ka 0.324 0.318 0.306
+Kd 0.925 0.910 0.875
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl yellow
+Ka 0.314 0.250 0.106
+Kd 0.898 0.714 0.302
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

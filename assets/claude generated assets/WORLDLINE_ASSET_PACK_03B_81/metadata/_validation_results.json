@@ -1,0 +1,2468 @@
+{
+ "summary": {
+  "total": 81,
+  "per_category": {
+   "animals": 8,
+   "disaster": 14,
+   "celestial": 12,
+   "interiors": 14,
+   "accessories": 12,
+   "emergency": 9,
+   "debris": 12
+  },
+  "expected": {
+   "animals": 8,
+   "disaster": 14,
+   "celestial": 12,
+   "interiors": 14,
+   "accessories": 12,
+   "emergency": 9,
+   "debris": 12
+  },
+  "counts_ok": true,
+  "assets_with_problems": [],
+  "assets_with_warnings": [
+   "ANIMAL_03",
+   "ANIMAL_05",
+   "ANIMAL_06",
+   "ANIMAL_07",
+   "ANIMAL_08",
+   "DISASTER_11",
+   "INTERIOR_04",
+   "INTERIOR_10",
+   "ACCESSORY_09",
+   "RESCUE_02",
+   "RESCUE_03"
+  ],
+  "total_vertices": 168055,
+  "total_faces": 328898
+ },
+ "assets": {
+  "ANIMAL_01": {
+   "id": "ANIMAL_01",
+   "name": "Pigeon",
+   "category": "animals",
+   "problems": [],
+   "warnings": [],
+   "vertices": 730,
+   "faces": 1248,
+   "objects": 21,
+   "materials": [
+    "WL_beak_dark",
+    "WL_eye_orange",
+    "WL_offwhite",
+    "WL_pigeon_dark",
+    "WL_pigeon_grey",
+    "WL_pigeon_neck",
+    "WL_pigeon_pink"
+   ],
+   "bbox_min": [
+    -0.3497,
+    0.002,
+    -0.2065
+   ],
+   "bbox_max": [
+    0.3497,
+    0.2463,
+    0.2682
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "b36c9cf0fa059f23a8ed130e81790755"
+  },
+  "ANIMAL_02": {
+   "id": "ANIMAL_02",
+   "name": "Seagull",
+   "category": "animals",
+   "problems": [],
+   "warnings": [],
+   "vertices": 770,
+   "faces": 1316,
+   "objects": 22,
+   "materials": [
+    "WL_beak_yellow",
+    "WL_crow_black",
+    "WL_eye_dark",
+    "WL_gull_grey",
+    "WL_gull_red",
+    "WL_white"
+   ],
+   "bbox_min": [
+    -0.6735,
+    -0.0797,
+    -0.3454
+   ],
+   "bbox_max": [
+    0.6735,
+    0.0875,
+    0.362
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "66a2ae3854b0b826339f593098a5b7b0"
+  },
+  "ANIMAL_03": {
+   "id": "ANIMAL_03",
+   "name": "Crow",
+   "category": "animals",
+   "problems": [],
+   "warnings": [
+    "1 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 742,
+   "faces": 1268,
+   "objects": 19,
+   "materials": [
+    "WL_crow_black",
+    "WL_crow_sheen",
+    "WL_eye_dark",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.5185,
+    0.003,
+    -0.3381
+   ],
+   "bbox_max": [
+    0.5185,
+    0.3656,
+    0.4025
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 1,
+   "geometry_hash": "0fdeb99c8706f5d4dd75e64e872e073f"
+  },
+  "ANIMAL_04": {
+   "id": "ANIMAL_04",
+   "name": "Eagle",
+   "category": "animals",
+   "problems": [],
+   "warnings": [],
+   "vertices": 924,
+   "faces": 1588,
+   "objects": 24,
+   "materials": [
+    "WL_beak_yellow",
+    "WL_eagle_brown",
+    "WL_eagle_light",
+    "WL_eagle_white",
+    "WL_rubber",
+    "WL_talon"
+   ],
+   "bbox_min": [
+    -1.0918,
+    -0.4548,
+    -0.6603
+   ],
+   "bbox_max": [
+    1.0918,
+    0.1538,
+    0.7359
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "ee11b64e0ae30331764ae4babfdb89dc"
+  },
+  "ANIMAL_05": {
+   "id": "ANIMAL_05",
+   "name": "Dog",
+   "category": "animals",
+   "problems": [],
+   "warnings": [
+    "3 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 524,
+   "faces": 956,
+   "objects": 23,
+   "materials": [
+    "WL_coral",
+    "WL_dog_dark",
+    "WL_dog_light",
+    "WL_dog_tan",
+    "WL_eye_dark",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.167,
+    -0.0,
+    -0.692
+   ],
+   "bbox_max": [
+    0.167,
+    0.7884,
+    0.5203
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 3,
+   "geometry_hash": "0ac917773e96980109a47a28192af329"
+  },
+  "ANIMAL_06": {
+   "id": "ANIMAL_06",
+   "name": "Cat",
+   "category": "animals",
+   "problems": [],
+   "warnings": [
+    "3 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 500,
+   "faces": 880,
+   "objects": 23,
+   "materials": [
+    "WL_cat_grey",
+    "WL_cat_stripe",
+    "WL_offwhite",
+    "WL_pink_nose",
+    "WL_plant_green",
+    "WL_white"
+   ],
+   "bbox_min": [
+    -0.1156,
+    -0.0,
+    -0.413
+   ],
+   "bbox_max": [
+    0.1156,
+    0.5851,
+    0.4153
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 3,
+   "geometry_hash": "0f961999320b8279c18c036677a7036b"
+  },
+  "ANIMAL_07": {
+   "id": "ANIMAL_07",
+   "name": "Deer",
+   "category": "animals",
+   "problems": [],
+   "warnings": [
+    "1 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 564,
+   "faces": 1012,
+   "objects": 21,
+   "materials": [
+    "WL_antler",
+    "WL_deer_belly",
+    "WL_deer_brown",
+    "WL_eye_dark",
+    "WL_hoof",
+    "WL_offwhite",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.2081,
+    0.0,
+    -0.756
+   ],
+   "bbox_max": [
+    0.2081,
+    1.9315,
+    0.5647
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 1,
+   "geometry_hash": "0ec29137ae2b4f07787c15bb477bf870"
+  },
+  "ANIMAL_08": {
+   "id": "ANIMAL_08",
+   "name": "Cow",
+   "category": "animals",
+   "problems": [],
+   "warnings": [
+    "3 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 556,
+   "faces": 1004,
+   "objects": 23,
+   "materials": [
+    "WL_cow_black",
+    "WL_cow_pink",
+    "WL_cow_white",
+    "WL_eye_dark",
+    "WL_hoof",
+    "WL_rubber",
+    "WL_stone"
+   ],
+   "bbox_min": [
+    -0.3521,
+    0.0,
+    -1.345
+   ],
+   "bbox_max": [
+    0.3521,
+    1.41,
+    0.9857
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 3,
+   "geometry_hash": "7ac0b4a3ebd23dde83ff6a5b0ba0ec74"
+  },
+  "DISASTER_01": {
+   "id": "DISASTER_01",
+   "name": "Atmospheric Impact Asteroid",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 288,
+   "faces": 560,
+   "objects": 1,
+   "materials": [
+    "WL_ember",
+    "WL_rock_char",
+    "WL_rock_dark"
+   ],
+   "bbox_min": [
+    -2.1436,
+    0.0,
+    -2.0013
+   ],
+   "bbox_max": [
+    2.1602,
+    3.1446,
+    1.9805
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "558d7d40bf4e31c087021757288daa83"
+  },
+  "DISASTER_02": {
+   "id": "DISASTER_02",
+   "name": "Meteor Fragment",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 191,
+   "faces": 378,
+   "objects": 1,
+   "materials": [
+    "WL_crust_black",
+    "WL_meteor_core"
+   ],
+   "bbox_min": [
+    -0.4791,
+    0.0,
+    -0.4796
+   ],
+   "bbox_max": [
+    0.4725,
+    0.8443,
+    0.471
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "4572c53a75226994dfb28831017ba9ee"
+  },
+  "DISASTER_03": {
+   "id": "DISASTER_03",
+   "name": "Lunar Fragment",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 173,
+   "faces": 342,
+   "objects": 1,
+   "materials": [
+    "WL_lunar_dark",
+    "WL_lunar_fresh",
+    "WL_regolith"
+   ],
+   "bbox_min": [
+    -0.9325,
+    0.0,
+    -0.7378
+   ],
+   "bbox_max": [
+    0.8459,
+    1.3646,
+    0.5792
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "735c29f106c87bbe98ed1d8f91595644"
+  },
+  "DISASTER_04": {
+   "id": "DISASTER_04",
+   "name": "Fractured Rock",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 328,
+   "faces": 644,
+   "objects": 3,
+   "materials": [
+    "WL_ash",
+    "WL_rock_dark"
+   ],
+   "bbox_min": [
+    -1.9537,
+    0.0,
+    -1.4976
+   ],
+   "bbox_max": [
+    1.7131,
+    2.2881,
+    1.4185
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "5824995398c454257a4f0aa21fdff7ee"
+  },
+  "DISASTER_05": {
+   "id": "DISASTER_05",
+   "name": "Volcanic Bomb",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 100,
+   "faces": 196,
+   "objects": 1,
+   "materials": [
+    "WL_basalt",
+    "WL_ember"
+   ],
+   "bbox_min": [
+    -0.3896,
+    0.0,
+    -0.2675
+   ],
+   "bbox_max": [
+    0.4222,
+    0.5032,
+    0.2664
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "2875860dd43793ae15621214da904ef8"
+  },
+  "DISASTER_06": {
+   "id": "DISASTER_06",
+   "name": "Lava Rock",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 162,
+   "faces": 320,
+   "objects": 1,
+   "materials": [
+    "WL_basalt",
+    "WL_crust_black",
+    "WL_lava_glow"
+   ],
+   "bbox_min": [
+    -0.5725,
+    0.0,
+    -0.4929
+   ],
+   "bbox_max": [
+    0.4974,
+    0.7768,
+    0.5055
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "c6d3b4b3ecff70bfef00d6a2444251a6"
+  },
+  "DISASTER_07": {
+   "id": "DISASTER_07",
+   "name": "Lava Crust Piece",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 418,
+   "faces": 800,
+   "objects": 4,
+   "materials": [
+    "WL_basalt",
+    "WL_crust_black",
+    "WL_lava_glow",
+    "WL_rock_dark"
+   ],
+   "bbox_min": [
+    -1.2878,
+    0.0,
+    -0.8851
+   ],
+   "bbox_max": [
+    1.2919,
+    0.2591,
+    0.956
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "a4f881e23589e3c7ad5796dd287d8f57"
+  },
+  "DISASTER_08": {
+   "id": "DISASTER_08",
+   "name": "Ground Fissure Module",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 292,
+   "faces": 532,
+   "objects": 5,
+   "materials": [
+    "WL_rock_char",
+    "WL_rock_dark",
+    "WL_rock_mid",
+    "WL_soil"
+   ],
+   "bbox_min": [
+    -2.0,
+    -1.75,
+    -2.0
+   ],
+   "bbox_max": [
+    2.0,
+    0.0,
+    2.0
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "2873f46982af0ff6f8a532fc0736d933"
+  },
+  "DISASTER_09": {
+   "id": "DISASTER_09",
+   "name": "Impact Crater",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 2393,
+   "faces": 4718,
+   "objects": 2,
+   "materials": [
+    "WL_dirt_dark",
+    "WL_rock_dark",
+    "WL_rock_mid",
+    "WL_sand",
+    "WL_soil"
+   ],
+   "bbox_min": [
+    -5.0,
+    -2.6,
+    -5.0
+   ],
+   "bbox_max": [
+    5.0,
+    1.0739,
+    5.0
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "836076cc4e0f7ac999a2397e99a06e87"
+  },
+  "DISASTER_10": {
+   "id": "DISASTER_10",
+   "name": "Uprooted Tree",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 793,
+   "faces": 1410,
+   "objects": 6,
+   "materials": [
+    "WL_bark",
+    "WL_bark_fresh",
+    "WL_dirt_dark",
+    "WL_foliage_deep",
+    "WL_foliage_mid",
+    "WL_root",
+    "WL_soil"
+   ],
+   "bbox_min": [
+    -1.8019,
+    0.0,
+    -4.9537
+   ],
+   "bbox_max": [
+    2.3073,
+    2.7037,
+    2.6677
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "c5bbe22ffd7047f7279e9a502be544ac"
+  },
+  "DISASTER_11": {
+   "id": "DISASTER_11",
+   "name": "Overturned Vehicle Shell",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [
+    "3 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 1571,
+   "faces": 3006,
+   "objects": 14,
+   "materials": [
+    "WL_car_dark",
+    "WL_car_red",
+    "WL_glass",
+    "WL_rubber",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -2.4722,
+    0.0,
+    -2.368
+   ],
+   "bbox_max": [
+    1.028,
+    1.5043,
+    2.368
+   ],
+   "degenerate_triangles": 8,
+   "duplicate_object_meshes": 3,
+   "geometry_hash": "66529e8e344041deb90e1e76fdbf9fd8"
+  },
+  "DISASTER_12": {
+   "id": "DISASTER_12",
+   "name": "Collapsed Boat Hull",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 1902,
+   "faces": 3508,
+   "objects": 11,
+   "materials": [
+    "WL_hull_blue",
+    "WL_hull_white",
+    "WL_timber",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -1.229,
+    0.0,
+    -3.8743
+   ],
+   "bbox_max": [
+    3.1828,
+    3.2762,
+    3.658
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "8034234a91053150db8bdc402d91cd53"
+  },
+  "DISASTER_13": {
+   "id": "DISASTER_13",
+   "name": "Broken Road Slab",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 668,
+   "faces": 1196,
+   "objects": 5,
+   "materials": [
+    "WL_asphalt",
+    "WL_concrete",
+    "WL_metal_rust",
+    "WL_road_line"
+   ],
+   "bbox_min": [
+    -2.1652,
+    0.0,
+    -5.0094
+   ],
+   "bbox_max": [
+    2.3718,
+    2.292,
+    3.9129
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "dcf5e0e20c359663325b1e78902bfed0"
+  },
+  "DISASTER_14": {
+   "id": "DISASTER_14",
+   "name": "Ice Fragment",
+   "category": "disaster",
+   "problems": [],
+   "warnings": [],
+   "vertices": 293,
+   "faces": 558,
+   "objects": 3,
+   "materials": [
+    "WL_ice_deep",
+    "WL_ice_pale",
+    "WL_ice_white"
+   ],
+   "bbox_min": [
+    -0.6023,
+    0.0,
+    -0.517
+   ],
+   "bbox_max": [
+    0.5922,
+    1.1321,
+    0.4947
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "c50b1833acf1fb2141e4aa02512a86f8"
+  },
+  "CELESTIAL_01": {
+   "id": "CELESTIAL_01",
+   "name": "Detailed Moon",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_moon_floor",
+    "WL_moon_hi",
+    "WL_moon_mare",
+    "WL_moon_rim"
+   ],
+   "bbox_min": [
+    -0.9991,
+    -1.0005,
+    -1.0016
+   ],
+   "bbox_max": [
+    1.0014,
+    1.0085,
+    1.0017
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "2844376459c2df531549215baeea773d"
+  },
+  "CELESTIAL_02": {
+   "id": "CELESTIAL_02",
+   "name": "Earth",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 11322,
+   "faces": 22280,
+   "objects": 2,
+   "materials": [
+    "WL_cloud",
+    "WL_desert",
+    "WL_land_brown",
+    "WL_land_dark",
+    "WL_land_green",
+    "WL_ocean",
+    "WL_ocean_deep",
+    "WL_ocean_shallow",
+    "WL_polar"
+   ],
+   "bbox_min": [
+    -1.0337,
+    -1.0191,
+    -1.049
+   ],
+   "bbox_max": [
+    1.0342,
+    1.0146,
+    1.0321
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "61c041895d64140cb9b36ae705dbe51e"
+  },
+  "CELESTIAL_03": {
+   "id": "CELESTIAL_03",
+   "name": "Mars",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_mars_dark",
+    "WL_mars_ice",
+    "WL_mars_light",
+    "WL_mars_red"
+   ],
+   "bbox_min": [
+    -1.0007,
+    -1.0069,
+    -1.0027
+   ],
+   "bbox_max": [
+    1.0173,
+    1.0053,
+    1.0031
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "10e163ddf7cc7933a0a25fa393d2ed01"
+  },
+  "CELESTIAL_04": {
+   "id": "CELESTIAL_04",
+   "name": "Jupiter",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_jup_brown",
+    "WL_jup_cream",
+    "WL_jup_red",
+    "WL_jup_rust",
+    "WL_jup_tan",
+    "WL_jup_white"
+   ],
+   "bbox_min": [
+    -1.002,
+    -0.9335,
+    -1.0017
+   ],
+   "bbox_max": [
+    0.9997,
+    0.9374,
+    0.9997
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "174b429492f111d994b51f8d7467fe4f"
+  },
+  "CELESTIAL_05": {
+   "id": "CELESTIAL_05",
+   "name": "Saturn",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 14562,
+   "faces": 29120,
+   "objects": 2,
+   "materials": [
+    "WL_ring_a",
+    "WL_ring_b",
+    "WL_ring_c",
+    "WL_ring_gap",
+    "WL_sat_cream",
+    "WL_sat_dark",
+    "WL_sat_gold",
+    "WL_sat_pale"
+   ],
+   "bbox_min": [
+    -2.345,
+    -0.9047,
+    -2.345
+   ],
+   "bbox_max": [
+    2.345,
+    0.8939,
+    2.345
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "eab76444e9d1c35851ade8d0642935d6"
+  },
+  "CELESTIAL_06": {
+   "id": "CELESTIAL_06",
+   "name": "Venus",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_venus_a",
+    "WL_venus_b",
+    "WL_venus_c",
+    "WL_venus_d"
+   ],
+   "bbox_min": [
+    -1.0012,
+    -1.0005,
+    -1.0033
+   ],
+   "bbox_max": [
+    1.0016,
+    1.0,
+    1.0036
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "d81421c629acf9c4d44ad8fb12f4ad69"
+  },
+  "CELESTIAL_07": {
+   "id": "CELESTIAL_07",
+   "name": "Mercury",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_merc_a",
+    "WL_merc_b",
+    "WL_merc_c",
+    "WL_merc_d"
+   ],
+   "bbox_min": [
+    -1.0,
+    -1.0062,
+    -1.0066
+   ],
+   "bbox_max": [
+    1.0055,
+    1.0003,
+    1.0011
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "2cfef4e0c2121a4ff113cdc1d3fea5d6"
+  },
+  "CELESTIAL_08": {
+   "id": "CELESTIAL_08",
+   "name": "Neptune",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_nep_a",
+    "WL_nep_b",
+    "WL_nep_c",
+    "WL_nep_d"
+   ],
+   "bbox_min": [
+    -1.0006,
+    -0.9801,
+    -1.0
+   ],
+   "bbox_max": [
+    1.0,
+    0.9859,
+    1.0004
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "761fa900cb960051bf16e1240c19afbd"
+  },
+  "CELESTIAL_09": {
+   "id": "CELESTIAL_09",
+   "name": "Rocky Rogue Planet",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_rogue_dark",
+    "WL_rogue_glow",
+    "WL_rogue_hi",
+    "WL_rogue_mid"
+   ],
+   "bbox_min": [
+    -1.0134,
+    -1.0223,
+    -1.0231
+   ],
+   "bbox_max": [
+    1.0236,
+    1.0177,
+    1.0088
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "e6d3cc48b3b3c50685205cb50a0df401"
+  },
+  "CELESTIAL_10": {
+   "id": "CELESTIAL_10",
+   "name": "Icy Rogue Planet",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10242,
+   "faces": 20480,
+   "objects": 1,
+   "materials": [
+    "WL_ice_rog_a",
+    "WL_ice_rog_b",
+    "WL_ice_rog_c",
+    "WL_ice_rog_d",
+    "WL_ice_rog_e"
+   ],
+   "bbox_min": [
+    -1.0071,
+    -1.0084,
+    -1.0071
+   ],
+   "bbox_max": [
+    1.0062,
+    1.0064,
+    1.0072
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "09cc77da13799a10f25ace18f3f4a17d"
+  },
+  "CELESTIAL_11": {
+   "id": "CELESTIAL_11",
+   "name": "Detailed Astronomical Asteroid",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 11082,
+   "faces": 21880,
+   "objects": 2,
+   "materials": [
+    "WL_aster_a",
+    "WL_aster_b",
+    "WL_aster_c",
+    "WL_aster_d"
+   ],
+   "bbox_min": [
+    -1.3588,
+    -0.6909,
+    -0.7685
+   ],
+   "bbox_max": [
+    1.3263,
+    0.7061,
+    0.7962
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "6e67ccc68239cdb13bd34712f81a1f88"
+  },
+  "CELESTIAL_12": {
+   "id": "CELESTIAL_12",
+   "name": "Comet Nucleus",
+   "category": "celestial",
+   "problems": [],
+   "warnings": [],
+   "vertices": 10902,
+   "faces": 21580,
+   "objects": 2,
+   "materials": [
+    "WL_comet_dark",
+    "WL_comet_ice",
+    "WL_comet_mid",
+    "WL_comet_vent"
+   ],
+   "bbox_min": [
+    -1.8839,
+    -0.8835,
+    -0.8381
+   ],
+   "bbox_max": [
+    1.5248,
+    0.8784,
+    0.8777
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "41777a8e211b5eaa84e8973a12af1f70"
+  },
+  "INTERIOR_01": {
+   "id": "INTERIOR_01",
+   "name": "Chair",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 216,
+   "faces": 380,
+   "objects": 5,
+   "materials": [
+    "WL_fabric_coral",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.23,
+    0.0,
+    -0.22
+   ],
+   "bbox_max": [
+    0.23,
+    0.96,
+    0.22
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "8c2c9cbb106a56f53bf3446c720cb2f2"
+  },
+  "INTERIOR_02": {
+   "id": "INTERIOR_02",
+   "name": "Table",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 120,
+   "faces": 204,
+   "objects": 3,
+   "materials": [
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.9933,
+    0.0,
+    -0.5464
+   ],
+   "bbox_max": [
+    0.9933,
+    0.76,
+    0.5464
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "e09ce68c082c78d2992a5394926299e3"
+  },
+  "INTERIOR_03": {
+   "id": "INTERIOR_03",
+   "name": "Sofa",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 312,
+   "faces": 564,
+   "objects": 7,
+   "materials": [
+    "WL_fabric_blue",
+    "WL_fabric_coral",
+    "WL_wood_dark"
+   ],
+   "bbox_min": [
+    -1.0,
+    0.0,
+    -0.45
+   ],
+   "bbox_max": [
+    1.0,
+    0.88,
+    0.4593
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "bd1b017a77bb5ebd061a3dfbde05e0e3"
+  },
+  "INTERIOR_04": {
+   "id": "INTERIOR_04",
+   "name": "Office Desk",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [
+    "2 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 256,
+   "faces": 464,
+   "objects": 8,
+   "materials": [
+    "WL_concrete",
+    "WL_plastic_black",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.75,
+    0.0,
+    -0.38
+   ],
+   "bbox_max": [
+    0.75,
+    0.765,
+    0.375
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 2,
+   "geometry_hash": "f5d625af35d99d539831880a802a58d3"
+  },
+  "INTERIOR_05": {
+   "id": "INTERIOR_05",
+   "name": "Office Chair",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 532,
+   "faces": 964,
+   "objects": 6,
+   "materials": [
+    "WL_chrome",
+    "WL_fabric_grey",
+    "WL_plastic_black",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.32,
+    0.0,
+    -0.3528
+   ],
+   "bbox_max": [
+    0.32,
+    0.975,
+    0.2961
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "0792cc413f07a142eff53a0443076667"
+  },
+  "INTERIOR_06": {
+   "id": "INTERIOR_06",
+   "name": "Shelf",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 1352,
+   "faces": 2476,
+   "objects": 4,
+   "materials": [
+    "WL_concrete",
+    "WL_coral",
+    "WL_fabric_blue",
+    "WL_foliage_mid",
+    "WL_offwhite",
+    "WL_wood_dark",
+    "WL_wood_light",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.415,
+    0.0,
+    -0.15
+   ],
+   "bbox_max": [
+    0.415,
+    1.83,
+    0.15
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "f45719b74e3ec6370446d2e73bc18ff0"
+  },
+  "INTERIOR_07": {
+   "id": "INTERIOR_07",
+   "name": "Commercial Counter",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 264,
+   "faces": 476,
+   "objects": 5,
+   "materials": [
+    "WL_concrete",
+    "WL_coral",
+    "WL_glass",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -1.17,
+    0.0,
+    -0.42
+   ],
+   "bbox_max": [
+    1.17,
+    1.84,
+    0.37
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "52482f5a760261bddcaae35c4ddc56dc"
+  },
+  "INTERIOR_08": {
+   "id": "INTERIOR_08",
+   "name": "Refrigerator",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 184,
+   "faces": 332,
+   "objects": 5,
+   "materials": [
+    "WL_chrome",
+    "WL_plastic_black",
+    "WL_safety_white"
+   ],
+   "bbox_min": [
+    -0.35,
+    0.0,
+    -0.44
+   ],
+   "bbox_max": [
+    0.35,
+    1.78,
+    0.34
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "3f806048845997d08b772a0d80c050bd"
+  },
+  "INTERIOR_09": {
+   "id": "INTERIOR_09",
+   "name": "Vending Machine",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 832,
+   "faces": 1464,
+   "objects": 7,
+   "materials": [
+    "WL_coral",
+    "WL_fabric_blue",
+    "WL_foliage_mid",
+    "WL_glass",
+    "WL_plastic_black",
+    "WL_plastic_white",
+    "WL_red_paint",
+    "WL_screen_lit",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.485,
+    0.0,
+    -0.45
+   ],
+   "bbox_max": [
+    0.485,
+    1.88,
+    0.435
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "a541d1cc28dc2db730c4acdadb21a997"
+  },
+  "INTERIOR_10": {
+   "id": "INTERIOR_10",
+   "name": "Market Cart",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [
+    "1 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 960,
+   "faces": 1672,
+   "objects": 7,
+   "materials": [
+    "WL_coral",
+    "WL_foliage_mid",
+    "WL_offwhite",
+    "WL_wood_dark",
+    "WL_wood_light",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.76,
+    0.0,
+    -0.95
+   ],
+   "bbox_max": [
+    0.76,
+    1.905,
+    1.4277
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 1,
+   "geometry_hash": "a704bd39bd77b7c9ff4a8edb9045bf84"
+  },
+  "INTERIOR_11": {
+   "id": "INTERIOR_11",
+   "name": "Restaurant Table",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 652,
+   "faces": 1252,
+   "objects": 8,
+   "materials": [
+    "WL_glass",
+    "WL_offwhite",
+    "WL_safety_white",
+    "WL_steel",
+    "WL_wood_dark",
+    "WL_wood_light",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.4175,
+    0.0,
+    -0.4175
+   ],
+   "bbox_max": [
+    0.4175,
+    0.86,
+    0.4175
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "8c30d55232c779dc5f76cb3083e7d376"
+  },
+  "INTERIOR_12": {
+   "id": "INTERIOR_12",
+   "name": "Outdoor Umbrella",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 468,
+   "faces": 788,
+   "objects": 6,
+   "materials": [
+    "WL_concrete",
+    "WL_coral",
+    "WL_metal_gal",
+    "WL_offwhite",
+    "WL_wood_dark"
+   ],
+   "bbox_min": [
+    -1.5,
+    0.0,
+    -1.5
+   ],
+   "bbox_max": [
+    1.5,
+    2.72,
+    1.5
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "0bf0c9878353034f471f035c5cdf51f3"
+  },
+  "INTERIOR_13": {
+   "id": "INTERIOR_13",
+   "name": "Cash Register",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 576,
+   "faces": 1052,
+   "objects": 7,
+   "materials": [
+    "WL_plastic_black",
+    "WL_plastic_white",
+    "WL_safety_white",
+    "WL_screen_lit",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.2094,
+    0.0,
+    -0.24
+   ],
+   "bbox_max": [
+    0.2094,
+    0.445,
+    0.1982
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "5ebe8a1e51b628b70d21cc097d8f47c8"
+  },
+  "INTERIOR_14": {
+   "id": "INTERIOR_14",
+   "name": "Display Cabinet",
+   "category": "interiors",
+   "problems": [],
+   "warnings": [],
+   "vertices": 872,
+   "faces": 1628,
+   "objects": 7,
+   "materials": [
+    "WL_chrome",
+    "WL_coral",
+    "WL_fabric_blue",
+    "WL_glass",
+    "WL_screen_lit",
+    "WL_wood_dark",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.475,
+    0.0,
+    -0.24
+   ],
+   "bbox_max": [
+    0.475,
+    1.88,
+    0.225
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "1120bbcf2c234fb108bf4678b0bde3df"
+  },
+  "ACCESSORY_01": {
+   "id": "ACCESSORY_01",
+   "name": "Smartphone",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 196,
+   "faces": 336,
+   "objects": 6,
+   "materials": [
+    "WL_chrome",
+    "WL_plastic_black",
+    "WL_screen_lit",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.039,
+    0.0,
+    -0.075
+   ],
+   "bbox_max": [
+    0.039,
+    0.0131,
+    0.075
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "b48574e38e16398d394f9d303c20782a"
+  },
+  "ACCESSORY_02": {
+   "id": "ACCESSORY_02",
+   "name": "Backpack",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 272,
+   "faces": 504,
+   "objects": 7,
+   "materials": [
+    "WL_canvas_green",
+    "WL_canvas_red",
+    "WL_chrome",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.2448,
+    0.0,
+    -0.198
+   ],
+   "bbox_max": [
+    0.2448,
+    0.6094,
+    0.1597
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "d3c2c2a8d1c54adf43b8ff417ae2396b"
+  },
+  "ACCESSORY_03": {
+   "id": "ACCESSORY_03",
+   "name": "Handbag",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 240,
+   "faces": 444,
+   "objects": 5,
+   "materials": [
+    "WL_leather",
+    "WL_leather_dark",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.1692,
+    0.0,
+    -0.1
+   ],
+   "bbox_max": [
+    0.1692,
+    0.3369,
+    0.08
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "a01edcf122b00ad0dddebf7f34d9fc4c"
+  },
+  "ACCESSORY_04": {
+   "id": "ACCESSORY_04",
+   "name": "Suitcase",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 448,
+   "faces": 816,
+   "objects": 7,
+   "materials": [
+    "WL_blue_steel",
+    "WL_chrome",
+    "WL_plastic_black",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.235,
+    0.0,
+    -0.147
+   ],
+   "bbox_max": [
+    0.235,
+    1.004,
+    0.147
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "04522447223ecdaefc70b11a2d55feec"
+  },
+  "ACCESSORY_05": {
+   "id": "ACCESSORY_05",
+   "name": "Umbrella",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 468,
+   "faces": 792,
+   "objects": 5,
+   "materials": [
+    "WL_chrome",
+    "WL_fabric_blue",
+    "WL_offwhite",
+    "WL_steel",
+    "WL_wood_dark"
+   ],
+   "bbox_min": [
+    -0.76,
+    0.0,
+    -0.76
+   ],
+   "bbox_max": [
+    0.76,
+    0.9922,
+    0.76
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "e8ba472b825e12686e30cd08c64640b1"
+  },
+  "ACCESSORY_06": {
+   "id": "ACCESSORY_06",
+   "name": "Hard Hat",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 574,
+   "faces": 1112,
+   "objects": 6,
+   "materials": [
+    "WL_offwhite",
+    "WL_plastic_black",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.1914,
+    0.0,
+    -0.235
+   ],
+   "bbox_max": [
+    0.1914,
+    0.184,
+    0.22
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "2dea2fc6798080c4cc77f5568192fdb7"
+  },
+  "ACCESSORY_07": {
+   "id": "ACCESSORY_07",
+   "name": "Safety Vest",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 418,
+   "faces": 720,
+   "objects": 6,
+   "materials": [
+    "WL_hiviz_orange",
+    "WL_plastic_black",
+    "WL_reflective"
+   ],
+   "bbox_min": [
+    -0.2107,
+    0.0,
+    -0.129
+   ],
+   "bbox_max": [
+    0.2107,
+    0.6178,
+    0.1275
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "54accd11448c7d17baedb969174d9774"
+  },
+  "ACCESSORY_08": {
+   "id": "ACCESSORY_08",
+   "name": "Flashlight",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 508,
+   "faces": 990,
+   "objects": 7,
+   "materials": [
+    "WL_coral",
+    "WL_plastic_black",
+    "WL_red_paint",
+    "WL_rubber",
+    "WL_screen_lit",
+    "WL_silver",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.05,
+    0.0,
+    -0.0487
+   ],
+   "bbox_max": [
+    0.0533,
+    0.2274,
+    0.0487
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "e17a422d0543accbf2a5b675cf564b9d"
+  },
+  "ACCESSORY_09": {
+   "id": "ACCESSORY_09",
+   "name": "Binoculars",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [
+    "1 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 492,
+   "faces": 948,
+   "objects": 7,
+   "materials": [
+    "WL_glass",
+    "WL_plastic_black",
+    "WL_rubber",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.092,
+    0.0,
+    -0.141
+   ],
+   "bbox_max": [
+    0.092,
+    0.079,
+    0.0896
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 1,
+   "geometry_hash": "e52a9b2eca589d3446ee35d4af706863"
+  },
+  "ACCESSORY_10": {
+   "id": "ACCESSORY_10",
+   "name": "Telescope",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 564,
+   "faces": 1016,
+   "objects": 9,
+   "materials": [
+    "WL_plastic_black",
+    "WL_rubber",
+    "WL_safety_white",
+    "WL_steel",
+    "WL_wood_dark"
+   ],
+   "bbox_min": [
+    -0.5324,
+    0.0,
+    -0.761
+   ],
+   "bbox_max": [
+    0.5465,
+    1.6874,
+    0.6172
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "addf224c40034ad6161fc2b15f1a2958"
+  },
+  "ACCESSORY_11": {
+   "id": "ACCESSORY_11",
+   "name": "First-Aid Kit",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 248,
+   "faces": 444,
+   "objects": 7,
+   "materials": [
+    "WL_chrome",
+    "WL_med_green",
+    "WL_offwhite",
+    "WL_plastic_black"
+   ],
+   "bbox_min": [
+    -0.158,
+    0.0,
+    -0.075
+   ],
+   "bbox_max": [
+    0.158,
+    0.2466,
+    0.068
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "5237eaa06acb8fdf74da5c14f5f272b9"
+  },
+  "ACCESSORY_12": {
+   "id": "ACCESSORY_12",
+   "name": "Handheld Radio",
+   "category": "accessories",
+   "problems": [],
+   "warnings": [],
+   "vertices": 242,
+   "faces": 400,
+   "objects": 8,
+   "materials": [
+    "WL_plastic_black",
+    "WL_plastic_white",
+    "WL_red_paint",
+    "WL_rubber",
+    "WL_screen_lit",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.034,
+    0.0,
+    -0.0205
+   ],
+   "bbox_max": [
+    0.0289,
+    0.3001,
+    0.023
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "2e34011c03e2a298bdac5cfe74c3740c"
+  },
+  "RESCUE_01": {
+   "id": "RESCUE_01",
+   "name": "Stretcher",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 624,
+   "faces": 1128,
+   "objects": 7,
+   "materials": [
+    "WL_canvas_green",
+    "WL_coral",
+    "WL_metal_gal",
+    "WL_offwhite",
+    "WL_rubber"
+   ],
+   "bbox_min": [
+    -0.325,
+    0.0,
+    -1.2
+   ],
+   "bbox_max": [
+    0.325,
+    0.18,
+    1.2
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "f8dc2712964a120c70937ba8e968d30c"
+  },
+  "RESCUE_02": {
+   "id": "RESCUE_02",
+   "name": "Rescue Ladder",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [
+    "1 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 480,
+   "faces": 864,
+   "objects": 6,
+   "materials": [
+    "WL_metal_gal",
+    "WL_red_paint",
+    "WL_rubber",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.255,
+    0.0,
+    -1.695
+   ],
+   "bbox_max": [
+    0.255,
+    0.17,
+    1.64
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 1,
+   "geometry_hash": "4253b46ac0f657541dec54267594bd86"
+  },
+  "RESCUE_03": {
+   "id": "RESCUE_03",
+   "name": "Portable Barricade",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [
+    "3 object(s) with identical vertex layout to another object in the same file (mirrored/instanced parts count)"
+   ],
+   "vertices": 1010,
+   "faces": 1848,
+   "objects": 8,
+   "materials": [
+    "WL_offwhite",
+    "WL_red_paint",
+    "WL_reflective",
+    "WL_steel",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.975,
+    0.0,
+    -0.5685
+   ],
+   "bbox_max": [
+    0.975,
+    1.1703,
+    0.5685
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 3,
+   "geometry_hash": "c69a87ae1fdef5afaba367a567f50b74"
+  },
+  "RESCUE_04": {
+   "id": "RESCUE_04",
+   "name": "Warning Siren",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 476,
+   "faces": 904,
+   "objects": 6,
+   "materials": [
+    "WL_led_red",
+    "WL_metal_gal",
+    "WL_plastic_black",
+    "WL_red_paint",
+    "WL_silver",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.46,
+    0.0,
+    -0.46
+   ],
+   "bbox_max": [
+    0.515,
+    2.18,
+    0.46
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "5d564ca24fde7c59294a9468ab121b38"
+  },
+  "RESCUE_05": {
+   "id": "RESCUE_05",
+   "name": "Megaphone",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 350,
+   "faces": 666,
+   "objects": 7,
+   "materials": [
+    "WL_hiviz_orange",
+    "WL_plastic_black",
+    "WL_red_paint",
+    "WL_rubber",
+    "WL_safety_white",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.18,
+    0.0,
+    -0.3195
+   ],
+   "bbox_max": [
+    0.18,
+    0.3545,
+    0.2
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "0bf223a2974d1a14d7a6110eac81d93b"
+  },
+  "RESCUE_06": {
+   "id": "RESCUE_06",
+   "name": "Fire Extinguisher",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 310,
+   "faces": 576,
+   "objects": 9,
+   "materials": [
+    "WL_chrome",
+    "WL_offwhite",
+    "WL_plastic_black",
+    "WL_red_paint",
+    "WL_screen_lit",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.1503,
+    0.0,
+    -0.0835
+   ],
+   "bbox_max": [
+    0.08,
+    0.604,
+    0.078
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "4fa6a66de2631a816adc2bbe03175d23"
+  },
+  "RESCUE_07": {
+   "id": "RESCUE_07",
+   "name": "Flotation Ring",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 564,
+   "faces": 1080,
+   "objects": 4,
+   "materials": [
+    "WL_canvas",
+    "WL_hiviz_orange",
+    "WL_offwhite",
+    "WL_reflective",
+    "WL_wood_dark"
+   ],
+   "bbox_min": [
+    -0.4112,
+    0.0,
+    -0.4112
+   ],
+   "bbox_max": [
+    0.4112,
+    0.14,
+    0.4112
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "fe56ccb06581c7bc967586fd6db607bd"
+  },
+  "RESCUE_08": {
+   "id": "RESCUE_08",
+   "name": "Portable Floodlight",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 400,
+   "faces": 724,
+   "objects": 7,
+   "materials": [
+    "WL_metal_gal",
+    "WL_plastic_black",
+    "WL_rubber",
+    "WL_screen_lit",
+    "WL_steel",
+    "WL_yellow"
+   ],
+   "bbox_min": [
+    -0.7014,
+    0.0,
+    -0.3338
+   ],
+   "bbox_max": [
+    0.5515,
+    2.0864,
+    0.6215
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "88472a0f5b3f38563a0df720fd8be7fe"
+  },
+  "RESCUE_09": {
+   "id": "RESCUE_09",
+   "name": "Emergency Supply Crate",
+   "category": "emergency",
+   "problems": [],
+   "warnings": [],
+   "vertices": 568,
+   "faces": 1056,
+   "objects": 9,
+   "materials": [
+    "WL_canvas_red",
+    "WL_chrome",
+    "WL_glass",
+    "WL_hiviz_orange",
+    "WL_med_green",
+    "WL_med_red",
+    "WL_offwhite",
+    "WL_plastic_black"
+   ],
+   "bbox_min": [
+    -0.395,
+    0.0,
+    -0.295
+   ],
+   "bbox_max": [
+    0.395,
+    0.7487,
+    0.3619
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "78be263963a63f40bee8fbf8d04510e3"
+  },
+  "DEBRIS_01": {
+   "id": "DEBRIS_01",
+   "name": "Driftwood",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 359,
+   "faces": 642,
+   "objects": 4,
+   "materials": [
+    "WL_bark_fresh",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -1.9073,
+    0.0,
+    -0.5138
+   ],
+   "bbox_max": [
+    1.5798,
+    0.6033,
+    0.4413
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "0bff8859845342da1779c84313a28829"
+  },
+  "DEBRIS_02": {
+   "id": "DEBRIS_02",
+   "name": "Wooden Plank",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 218,
+   "faces": 388,
+   "objects": 5,
+   "materials": [
+    "WL_bark_fresh",
+    "WL_metal_rust",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.1365,
+    0.0,
+    -1.3115
+   ],
+   "bbox_max": [
+    0.1325,
+    0.1058,
+    1.0119
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "57e0c29b85fc01a743d37e17f1118b53"
+  },
+  "DEBRIS_03": {
+   "id": "DEBRIS_03",
+   "name": "Broken Crate",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 856,
+   "faces": 1506,
+   "objects": 5,
+   "materials": [
+    "WL_bark_fresh",
+    "WL_metal_rust",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.33,
+    0.0,
+    -0.879
+   ],
+   "bbox_max": [
+    0.479,
+    0.6,
+    0.3388
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "47c15e21986663555f5c592b68cfd91d"
+  },
+  "DEBRIS_04": {
+   "id": "DEBRIS_04",
+   "name": "Floating Barrel",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 368,
+   "faces": 728,
+   "objects": 3,
+   "materials": [
+    "WL_metal_rust",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.45,
+    0.0,
+    -0.3442
+   ],
+   "bbox_max": [
+    0.45,
+    0.713,
+    0.3442
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "32063559e1c5ff444edadae334ce50e4"
+  },
+  "DEBRIS_05": {
+   "id": "DEBRIS_05",
+   "name": "Pallet",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 444,
+   "faces": 796,
+   "objects": 5,
+   "materials": [
+    "WL_bark_fresh",
+    "WL_metal_rust",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.55,
+    0.0,
+    -0.625
+   ],
+   "bbox_max": [
+    0.661,
+    0.1569,
+    0.625
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "195a1895f84897be2b6d1d53e65d7cfc"
+  },
+  "DEBRIS_06": {
+   "id": "DEBRIS_06",
+   "name": "Road Sign Fragment",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 136,
+   "faces": 236,
+   "objects": 5,
+   "materials": [
+    "WL_chrome",
+    "WL_metal_gal",
+    "WL_sign_green",
+    "WL_sign_white",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -1.1054,
+    0.0,
+    -0.32
+   ],
+   "bbox_max": [
+    0.55,
+    0.1882,
+    0.3
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "929fb2b7853b53fee2606d5149f0028f"
+  },
+  "DEBRIS_07": {
+   "id": "DEBRIS_07",
+   "name": "Roof Tile Cluster",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 1738,
+   "faces": 3408,
+   "objects": 2,
+   "materials": [
+    "WL_pot_clay",
+    "WL_rust"
+   ],
+   "bbox_min": [
+    -0.7492,
+    0.0,
+    -0.7563
+   ],
+   "bbox_max": [
+    0.7571,
+    0.082,
+    0.5945
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "a0b1601955c7fe37cf39561e0b0ae5dc"
+  },
+  "DEBRIS_08": {
+   "id": "DEBRIS_08",
+   "name": "Shattered Window Panel",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 352,
+   "faces": 570,
+   "objects": 4,
+   "materials": [
+    "WL_concrete",
+    "WL_glass",
+    "WL_offwhite"
+   ],
+   "bbox_min": [
+    -0.75,
+    0.0,
+    -0.66
+   ],
+   "bbox_max": [
+    0.82,
+    0.05,
+    0.75
+   ],
+   "degenerate_triangles": 2,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "5db65f5e32ee36dd2c81bcbd1be79207"
+  },
+  "DEBRIS_09": {
+   "id": "DEBRIS_09",
+   "name": "Broken Dock Timber",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 262,
+   "faces": 452,
+   "objects": 6,
+   "materials": [
+    "WL_bark_fresh",
+    "WL_canvas",
+    "WL_metal_rust",
+    "WL_steel",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.35,
+    0.0,
+    -1.5902
+   ],
+   "bbox_max": [
+    0.8212,
+    0.41,
+    1.3
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "7e30cd9a4ef6c951ae0763c2f38705b9"
+  },
+  "DEBRIS_10": {
+   "id": "DEBRIS_10",
+   "name": "Metal Sheet",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 686,
+   "faces": 1332,
+   "objects": 3,
+   "materials": [
+    "WL_metal_gal",
+    "WL_metal_rust",
+    "WL_steel"
+   ],
+   "bbox_min": [
+    -0.5,
+    0.0,
+    -0.8048
+   ],
+   "bbox_max": [
+    0.5,
+    0.3114,
+    0.7961
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "f9a0bc10aeabbfa9b704bad6f1f0ebbb"
+  },
+  "DEBRIS_11": {
+   "id": "DEBRIS_11",
+   "name": "Broken Furniture",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 312,
+   "faces": 540,
+   "objects": 6,
+   "materials": [
+    "WL_bark_fresh",
+    "WL_wood_dark",
+    "WL_wood_light"
+   ],
+   "bbox_min": [
+    -0.222,
+    0.0,
+    -0.2675
+   ],
+   "bbox_max": [
+    0.9576,
+    0.3797,
+    0.72
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "c4059c546230dee21167aecf27b0e734"
+  },
+  "DEBRIS_12": {
+   "id": "DEBRIS_12",
+   "name": "Uprooted Planter",
+   "category": "debris",
+   "problems": [],
+   "warnings": [],
+   "vertices": 590,
+   "faces": 1076,
+   "objects": 7,
+   "materials": [
+    "WL_dirt_dark",
+    "WL_plant_green",
+    "WL_pot_clay",
+    "WL_root",
+    "WL_soil"
+   ],
+   "bbox_min": [
+    -0.4604,
+    0.0,
+    -1.0228
+   ],
+   "bbox_max": [
+    0.5396,
+    0.556,
+    0.1
+   ],
+   "degenerate_triangles": 0,
+   "duplicate_object_meshes": 0,
+   "geometry_hash": "0cd54db9a840358fedeb5574f22badbb"
+  }
+ }
+}

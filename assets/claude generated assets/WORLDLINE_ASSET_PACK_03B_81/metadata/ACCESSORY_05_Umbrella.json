@@ -1,0 +1,109 @@
+{
+  "id": "ACCESSORY_05",
+  "name": "Umbrella",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_05_Umbrella.obj",
+  "mtl": "accessories/ACCESSORY_05_Umbrella.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "open umbrella standing on its handle tip",
+  "dimensions": {
+    "x_width_m": 1.52,
+    "y_height_m": 0.9922,
+    "z_depth_m": 1.52
+  },
+  "bounds_file_min": [
+    -0.76,
+    0.0,
+    -0.76
+  ],
+  "bounds_file_max": [
+    0.76,
+    0.9922,
+    0.76
+  ],
+  "triangles": 792,
+  "parts": [
+    {
+      "object": "ACCESSORY_05_Umbrella_Canopy",
+      "parent": "ACCESSORY_05_Umbrella_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.7222,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_blue",
+        "WL_offwhite"
+      ],
+      "triangles": 256
+    },
+    {
+      "object": "ACCESSORY_05_Umbrella_Shaft",
+      "parent": "ACCESSORY_05_Umbrella_Canopy",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0778,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ACCESSORY_05_Umbrella_Ribs",
+      "parent": "ACCESSORY_05_Umbrella_Canopy",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0778,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 320
+    },
+    {
+      "object": "ACCESSORY_05_Umbrella_Handle",
+      "parent": "ACCESSORY_05_Umbrella_Canopy",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0778,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 168
+    },
+    {
+      "object": "ACCESSORY_05_Umbrella_Tip",
+      "parent": "ACCESSORY_05_Umbrella_Canopy",
+      "pivot_file_xyz": [
+        0.0,
+        -0.0778,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 20
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "hook_grip": [
+      0.04,
+      0.07219,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Canopy (8 panels), Ribs, Shaft, Handle, Tip",
+    "grip": "hook_grip"
+  },
+  "open_part_count": 2,
+  "geometry_hash": "080170f58b03c84dff6bd3a344884ffc"
+}

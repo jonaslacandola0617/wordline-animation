@@ -1,0 +1,53 @@
+{
+  "id": "CELESTIAL_09",
+  "name": "Rocky Rogue Planet",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_09_RockyRoguePlanet.obj",
+  "mtl": "celestial/CELESTIAL_09_RockyRoguePlanet.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "north pole +Y(file)",
+  "dimensions": {
+    "x_width_m": 2.0369,
+    "y_height_m": 2.0401,
+    "z_depth_m": 2.0318
+  },
+  "bounds_file_min": [
+    -1.0134,
+    -1.0223,
+    -1.0231
+  ],
+  "bounds_file_max": [
+    1.0236,
+    1.0177,
+    1.0088
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_09_RockyRoguePlanet_Rogue_Rocky",
+      "parent": "CELESTIAL_09_RockyRoguePlanet_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rogue_dark",
+        "WL_rogue_mid",
+        "WL_rogue_hi",
+        "WL_rogue_glow"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = planet radius (fictional, ~1.2 Earth radii)",
+    "geometry": "unlit starless world: ridged mountain chains, canyon network, 30 craters; faint geothermal glow only inside canyon floors and 5 volcanic vents (emissive material)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "c9483cbd5dc0b806b56231dd80accde5"
+}

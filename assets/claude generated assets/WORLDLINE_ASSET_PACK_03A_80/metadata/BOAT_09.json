@@ -1,0 +1,73 @@
+{
+ "asset_id": "BOAT_09",
+ "title": "Coast Guard Boat",
+ "category": "boats",
+ "obj": "../boats/BOAT_09.obj",
+ "mtl": "../boats/BOAT_09.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.64,
+  0.0,
+  -7.92
+ ],
+ "bbox_max": [
+  2.64,
+  8.7,
+  8.6
+ ],
+ "size_xyz": [
+  5.28,
+  8.7,
+  16.52
+ ],
+ "triangles": 2440,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "cabin",
+  "windows",
+  "cabin_roof",
+  "bridge",
+  "bridge_roof",
+  "stripe",
+  "lightbar",
+  "mast",
+  "radar",
+  "railings",
+  "rescue_boat",
+  "davit",
+  "deck_gun"
+ ],
+ "materials": [
+  "dark_steel",
+  "white",
+  "glass_dark",
+  "orange",
+  "light_blue",
+  "light_red",
+  "light_grey",
+  "chrome",
+  "steel"
+ ],
+ "pivots": {
+  "radar": [
+   0,
+   8.65,
+   0.4
+  ],
+  "waterline_reference": [
+   0,
+   0.711,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 0.711,
+  "draft_m": 0.711,
+  "note": "After export the keel sits at Y=0; the waterline plane is at Y = waterline_height_above_keel_m"
+ }
+}

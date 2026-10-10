@@ -1,0 +1,134 @@
+{
+  "id": "ACCESSORY_11",
+  "name": "First-Aid Kit",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_11_FirstAidKit.obj",
+  "mtl": "accessories/ACCESSORY_11_FirstAidKit.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "closed case on ground",
+  "dimensions": {
+    "x_width_m": 0.316,
+    "y_height_m": 0.2466,
+    "z_depth_m": 0.143
+  },
+  "bounds_file_min": [
+    -0.158,
+    0.0,
+    -0.075
+  ],
+  "bounds_file_max": [
+    0.158,
+    0.2466,
+    0.068
+  ],
+  "triangles": 444,
+  "parts": [
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Case",
+      "parent": "ACCESSORY_11_FirstAidKit_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_med_green"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Lid",
+      "parent": "ACCESSORY_11_FirstAidKit_Case",
+      "pivot_file_xyz": [
+        0.0,
+        0.17,
+        0.06
+      ],
+      "materials": [
+        "WL_med_green"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Cross",
+      "parent": "ACCESSORY_11_FirstAidKit_Lid",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 24
+    },
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Cross_Front",
+      "parent": "ACCESSORY_11_FirstAidKit_Case",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 24
+    },
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Latches",
+      "parent": "ACCESSORY_11_FirstAidKit_Case",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Handle",
+      "parent": "ACCESSORY_11_FirstAidKit_Lid",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ACCESSORY_11_FirstAidKit_Corner_Guards",
+      "parent": "ACCESSORY_11_FirstAidKit_Case",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 176
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "carry_handle": [
+      0.0,
+      0.24,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Case, Lid, Cross, Latches, Handle, Corner_Guards",
+    "grip": "carry_handle"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "762bd8d29889cab4c3b41cf8dfbf4c46"
+}

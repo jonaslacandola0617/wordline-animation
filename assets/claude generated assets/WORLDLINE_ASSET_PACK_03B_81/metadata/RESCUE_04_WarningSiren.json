@@ -1,0 +1,115 @@
+{
+  "id": "RESCUE_04",
+  "name": "Warning Siren",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_04_WarningSiren.obj",
+  "mtl": "emergency/RESCUE_04_WarningSiren.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "pole-mounted four-horn siren on a weighted tripod",
+  "dimensions": {
+    "x_width_m": 0.975,
+    "y_height_m": 2.18,
+    "z_depth_m": 0.92
+  },
+  "bounds_file_min": [
+    -0.46,
+    0.0,
+    -0.46
+  ],
+  "bounds_file_max": [
+    0.515,
+    2.18,
+    0.46
+  ],
+  "triangles": 904,
+  "parts": [
+    {
+      "object": "RESCUE_04_WarningSiren_Tripod",
+      "parent": "RESCUE_04_WarningSiren_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 96
+    },
+    {
+      "object": "RESCUE_04_WarningSiren_Mast",
+      "parent": "RESCUE_04_WarningSiren_Tripod",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "RESCUE_04_WarningSiren_Siren_Head",
+      "parent": "RESCUE_04_WarningSiren_Mast",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 136
+    },
+    {
+      "object": "RESCUE_04_WarningSiren_Horns",
+      "parent": "RESCUE_04_WarningSiren_Siren_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_silver"
+      ],
+      "triangles": 552
+    },
+    {
+      "object": "RESCUE_04_WarningSiren_Beacon",
+      "parent": "RESCUE_04_WarningSiren_Siren_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_led_red"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "RESCUE_04_WarningSiren_Battery_Box",
+      "parent": "RESCUE_04_WarningSiren_Tripod",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Tripod, Mast, Siren_Head, Horns (4), Beacon, Battery_Box",
+    "note": "static model; no sound or animation"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "6f1f0ea0ce977c20c7c3d80852f450fb"
+}

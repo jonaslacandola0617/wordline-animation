@@ -1,0 +1,336 @@
+{
+  "id": "ANIMAL_06",
+  "name": "Cat",
+  "category": "animals",
+  "obj": "animals/ANIMAL_06_Cat.obj",
+  "mtl": "animals/ANIMAL_06_Cat.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing, tail curved up",
+  "dimensions": {
+    "x_width_m": 0.2311,
+    "y_height_m": 0.5851,
+    "z_depth_m": 0.8284
+  },
+  "bounds_file_min": [
+    -0.1156,
+    -0.0,
+    -0.413
+  ],
+  "bounds_file_max": [
+    0.1156,
+    0.5851,
+    0.4154
+  ],
+  "triangles": 880,
+  "parts": [
+    {
+      "object": "ANIMAL_06_Cat_Body",
+      "parent": "ANIMAL_06_Cat_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_cat_grey",
+        "WL_cat_stripe"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_06_Cat_Neck",
+      "parent": "ANIMAL_06_Cat_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Head",
+      "parent": "ANIMAL_06_Cat_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.365,
+        -0.335
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_06_Cat_Muzzle",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.365,
+        -0.335
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_06_Cat_Nose",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.365,
+        -0.335
+      ],
+      "materials": [
+        "WL_pink_nose"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_06_Cat_Ear_L",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        0.044,
+        0.405,
+        -0.325
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 8
+    },
+    {
+      "object": "ANIMAL_06_Cat_Ear_R",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        -0.044,
+        0.405,
+        -0.325
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 8
+    },
+    {
+      "object": "ANIMAL_06_Cat_Ear_Inner_L",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        0.044,
+        0.408,
+        -0.33
+      ],
+      "materials": [
+        "WL_pink_nose"
+      ],
+      "triangles": 8
+    },
+    {
+      "object": "ANIMAL_06_Cat_Ear_Inner_R",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        -0.044,
+        0.408,
+        -0.33
+      ],
+      "materials": [
+        "WL_pink_nose"
+      ],
+      "triangles": 8
+    },
+    {
+      "object": "ANIMAL_06_Cat_Eye_L",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        0.032,
+        0.383,
+        -0.383
+      ],
+      "materials": [
+        "WL_plant_green"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_06_Cat_Eye_R",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        -0.032,
+        0.383,
+        -0.383
+      ],
+      "materials": [
+        "WL_plant_green"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_06_Cat_Whiskers_L",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        0.03,
+        0.345,
+        -0.39
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_06_Cat_Whiskers_R",
+      "parent": "ANIMAL_06_Cat_Head",
+      "pivot_file_xyz": [
+        -0.03,
+        0.345,
+        -0.39
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_06_Cat_Leg_Front_L",
+      "parent": "ANIMAL_06_Cat_Body",
+      "pivot_file_xyz": [
+        0.045,
+        0.245,
+        -0.17
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_06_Cat_Leg_Front_R",
+      "parent": "ANIMAL_06_Cat_Body",
+      "pivot_file_xyz": [
+        -0.045,
+        0.245,
+        -0.17
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_06_Cat_Leg_Rear_L",
+      "parent": "ANIMAL_06_Cat_Body",
+      "pivot_file_xyz": [
+        0.05,
+        0.26,
+        0.17
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Leg_Rear_R",
+      "parent": "ANIMAL_06_Cat_Body",
+      "pivot_file_xyz": [
+        -0.05,
+        0.26,
+        0.17
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Paw_Front_L",
+      "parent": "ANIMAL_06_Cat_Leg_Front_L",
+      "pivot_file_xyz": [
+        0.045,
+        0.035,
+        -0.18
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Paw_Front_R",
+      "parent": "ANIMAL_06_Cat_Leg_Front_R",
+      "pivot_file_xyz": [
+        -0.045,
+        0.035,
+        -0.18
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Paw_Rear_L",
+      "parent": "ANIMAL_06_Cat_Leg_Rear_L",
+      "pivot_file_xyz": [
+        0.055,
+        0.03,
+        0.16
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Paw_Rear_R",
+      "parent": "ANIMAL_06_Cat_Leg_Rear_R",
+      "pivot_file_xyz": [
+        -0.055,
+        0.03,
+        0.16
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_06_Cat_Tail",
+      "parent": "ANIMAL_06_Cat_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.31,
+        0.21
+      ],
+      "materials": [
+        "WL_cat_grey"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_06_Cat_Tail_Stripes",
+      "parent": "ANIMAL_06_Cat_Tail",
+      "pivot_file_xyz": [
+        0.0,
+        0.31,
+        0.21
+      ],
+      "materials": [
+        "WL_cat_stripe"
+      ],
+      "triangles": 80
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "named_groups": "Body, Head, Ear_L/R, Leg_*_L/R, Tail, Tail_Stripes, Whiskers"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "1ac2c7c6a3c36c1dbbbce054679cbd4f"
+}

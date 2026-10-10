@@ -1,0 +1,43 @@
+{
+ "asset_id": "PLANT_02",
+ "title": "Tall Grass",
+ "category": "plants",
+ "obj": "../plants/PLANT_02.obj",
+ "mtl": "../plants/PLANT_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.87,
+  0,
+  -0.908
+ ],
+ "bbox_max": [
+  0.777,
+  1.854,
+  0.699
+ ],
+ "size_xyz": [
+  1.647,
+  1.854,
+  1.607
+ ],
+ "triangles": 1296,
+ "groups": [
+  "soil",
+  "blades",
+  "seed_heads",
+  "seed_stems"
+ ],
+ "materials": [
+  "soil",
+  "foliage_mid",
+  "grass",
+  "foliage_deep",
+  "dry_tan"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,80 @@
+{
+ "asset_id": "BOAT_08",
+ "title": "Sailboat",
+ "category": "boats",
+ "obj": "../boats/BOAT_08.obj",
+ "mtl": "../boats/BOAT_08.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.55,
+  0.0,
+  -8.1
+ ],
+ "bbox_max": [
+  1.55,
+  14.97,
+  5.0
+ ],
+ "size_xyz": [
+  3.1,
+  14.97,
+  13.1
+ ],
+ "triangles": 1052,
+ "groups": [
+  "hull_lower",
+  "hull_upper",
+  "cabin",
+  "windows",
+  "deck",
+  "cockpit_seats",
+  "keel_fin",
+  "keel_bulb",
+  "rudder",
+  "tiller",
+  "mast",
+  "boom",
+  "mainsail",
+  "jib",
+  "rigging",
+  "lifelines"
+ ],
+ "materials": [
+  "hull_blue",
+  "white",
+  "glass_dark",
+  "timber",
+  "offwhite",
+  "dark_steel",
+  "alloy",
+  "sail",
+  "steel",
+  "chrome"
+ ],
+ "pivots": {
+  "mast_base": [
+   0,
+   3.03,
+   -0.9
+  ],
+  "boom_pivot": [
+   0,
+   3.83,
+   -0.8
+  ],
+  "waterline_reference": [
+   0,
+   3.68,
+   0
+  ]
+ },
+ "notes": "",
+ "extra": {
+  "waterline_height_above_keel_m": 1.75,
+  "draft_m": 1.75,
+  "note": "Keel bulb bottom at Y=0 after export"
+ }
+}

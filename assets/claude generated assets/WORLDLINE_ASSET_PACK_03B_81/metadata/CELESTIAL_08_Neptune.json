@@ -1,0 +1,53 @@
+{
+  "id": "CELESTIAL_08",
+  "name": "Neptune",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_08_Neptune.obj",
+  "mtl": "celestial/CELESTIAL_08_Neptune.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "Great Dark Spot toward +Y; oblate 0.983",
+  "dimensions": {
+    "x_width_m": 2.0006,
+    "y_height_m": 1.966,
+    "z_depth_m": 2.0004
+  },
+  "bounds_file_min": [
+    -1.0006,
+    -0.9801,
+    -1.0
+  ],
+  "bounds_file_max": [
+    1.0,
+    0.9859,
+    1.0004
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_08_Neptune_Neptune",
+      "parent": "CELESTIAL_08_Neptune_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_nep_a",
+        "WL_nep_b",
+        "WL_nep_c",
+        "WL_nep_d"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 24,764 km",
+    "geometry": "banded ice giant with Great Dark Spot (depressed oval), Scooter and bright cirrus streaks"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "8e1b96d4240045525000ba5ae22e24f4"
+}

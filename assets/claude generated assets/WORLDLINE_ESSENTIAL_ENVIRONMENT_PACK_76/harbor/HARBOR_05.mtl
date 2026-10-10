@@ -1,0 +1,24 @@
+# WORLDLINE LAB ASSET PACK 02 shared material library (subset)
+newmtl dusty_stone
+Ka 0.210 0.193 0.168
+Kd 0.600 0.550 0.480
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl concrete_pale
+Ka 0.266 0.264 0.256
+Kd 0.760 0.755 0.730
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl broken_concrete
+Ka 0.220 0.213 0.199
+Kd 0.630 0.610 0.570
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2

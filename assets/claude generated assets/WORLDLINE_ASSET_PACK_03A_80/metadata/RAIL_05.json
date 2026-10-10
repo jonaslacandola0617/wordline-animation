@@ -1,0 +1,102 @@
+{
+ "asset_id": "RAIL_05",
+ "title": "Freight Train",
+ "category": "rail",
+ "obj": "../rail/RAIL_05.obj",
+ "mtl": "../rail/RAIL_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.55,
+  0.0,
+  -19.5
+ ],
+ "bbox_max": [
+  1.55,
+  4.755,
+  33.7
+ ],
+ "size_xyz": [
+  3.1,
+  4.755,
+  53.2
+ ],
+ "triangles": 6644,
+ "groups": [
+  "loco_frame",
+  "cab",
+  "hood",
+  "cab_windows",
+  "stripe",
+  "walkways",
+  "handrails",
+  "hood_doors",
+  "radiator_fans",
+  "exhaust_stack",
+  "headlight",
+  "cab_roof",
+  "fuel_tank",
+  "loco_bogie_+3.0",
+  "loco_bogie_+15.5",
+  "boxcar",
+  "boxcar_frame",
+  "boxcar_door",
+  "boxcar_rail",
+  "boxcar_ribs",
+  "boxcar_bogie_-13.5",
+  "boxcar_bogie_-4.5",
+  "tank_frame",
+  "tank",
+  "tank_dome",
+  "walkway",
+  "tank_bogie_-30.5",
+  "tank_bogie_-20.5",
+  "couplers"
+ ],
+ "materials": [
+  "dark_steel",
+  "yellow",
+  "glass_dark",
+  "steel",
+  "chrome",
+  "light_head",
+  "rust",
+  "light_grey"
+ ],
+ "pivots": {
+  "loco_bogie_+3.0": [
+   0,
+   0.535,
+   -3.0
+  ],
+  "loco_bogie_+15.5": [
+   0,
+   0.535,
+   -15.5
+  ],
+  "boxcar_bogie_-13.5": [
+   0,
+   0.485,
+   13.5
+  ],
+  "boxcar_bogie_-4.5": [
+   0,
+   0.485,
+   4.5
+  ],
+  "tank_bogie_-30.5": [
+   0,
+   0.485,
+   30.5
+  ],
+  "tank_bogie_-20.5": [
+   0,
+   0.485,
+   20.5
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

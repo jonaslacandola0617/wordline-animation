@@ -1,0 +1,116 @@
+{
+  "id": "DISASTER_10",
+  "name": "Uprooted Tree",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_10_UprootedTree.obj",
+  "mtl": "disaster_objects/DISASTER_10_UprootedTree.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "fallen along +Y (-Z in file); root plate at the rear, snapped crown at the front",
+  "dimensions": {
+    "x_width_m": 4.1092,
+    "y_height_m": 2.7037,
+    "z_depth_m": 7.6214
+  },
+  "bounds_file_min": [
+    -1.8019,
+    0.0,
+    -4.9537
+  ],
+  "bounds_file_max": [
+    2.3073,
+    2.7037,
+    2.6677
+  ],
+  "triangles": 1410,
+  "parts": [
+    {
+      "object": "DISASTER_10_UprootedTree_Trunk",
+      "parent": "DISASTER_10_UprootedTree_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0284,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark"
+      ],
+      "triangles": 266
+    },
+    {
+      "object": "DISASTER_10_UprootedTree_Root_Plate",
+      "parent": "DISASTER_10_UprootedTree_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0284,
+        -0.0
+      ],
+      "materials": [
+        "WL_soil",
+        "WL_dirt_dark"
+      ],
+      "triangles": 220
+    },
+    {
+      "object": "DISASTER_10_UprootedTree_Roots",
+      "parent": "DISASTER_10_UprootedTree_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0284,
+        -0.0
+      ],
+      "materials": [
+        "WL_root"
+      ],
+      "triangles": 396
+    },
+    {
+      "object": "DISASTER_10_UprootedTree_Branches",
+      "parent": "DISASTER_10_UprootedTree_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0284,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark"
+      ],
+      "triangles": 252
+    },
+    {
+      "object": "DISASTER_10_UprootedTree_Foliage",
+      "parent": "DISASTER_10_UprootedTree_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0284,
+        -0.0
+      ],
+      "materials": [
+        "WL_foliage_mid",
+        "WL_foliage_deep"
+      ],
+      "triangles": 180
+    },
+    {
+      "object": "DISASTER_10_UprootedTree_Splinters",
+      "parent": "DISASTER_10_UprootedTree_Trunk",
+      "pivot_file_xyz": [
+        0.0,
+        0.0284,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 96
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Trunk, Root_Plate (soil disc + clods), Roots, Branches, Foliage, Splinters (snapped crown end)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "9fb4fc7f738a47ca9fee18c42e3ad38c"
+}

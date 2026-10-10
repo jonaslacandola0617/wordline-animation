@@ -1,0 +1,49 @@
+{
+ "asset_id": "RAIL_06",
+ "title": "Rail Track Module",
+ "category": "rail",
+ "obj": "../rail/RAIL_06.obj",
+ "mtl": "../rail/RAIL_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -2.245,
+  0.0,
+  -5.086
+ ],
+ "bbox_max": [
+  2.239,
+  0.75,
+  5.05
+ ],
+ "size_xyz": [
+  4.484,
+  0.75,
+  10.136
+ ],
+ "triangles": 2504,
+ "groups": [
+  "ballast",
+  "sleepers",
+  "sleeper_pads",
+  "fasteners",
+  "rails",
+  "rail_heads",
+  "fishplates",
+  "ballast_stones"
+ ],
+ "materials": [
+  "rock_mid",
+  "warm_concrete",
+  "rubber",
+  "dark_steel",
+  "steel",
+  "alloy",
+  "rock_light"
+ ],
+ "pivots": {},
+ "notes": "Gauge 1.435 m (rail centres +-0.7175). Module length 10 m; connect end-to-end along Z.",
+ "extra": {}
+}

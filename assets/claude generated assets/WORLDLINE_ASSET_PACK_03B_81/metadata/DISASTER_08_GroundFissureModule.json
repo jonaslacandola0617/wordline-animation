@@ -1,0 +1,104 @@
+{
+  "id": "DISASTER_08",
+  "name": "Ground Fissure Module",
+  "category": "disaster",
+  "obj": "disaster_objects/DISASTER_08_GroundFissureModule.obj",
+  "mtl": "disaster_objects/DISASTER_08_GroundFissureModule.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "terrain module 4 x 4 m, top surface at y=0",
+  "dimensions": {
+    "x_width_m": 4.0,
+    "y_height_m": 1.75,
+    "z_depth_m": 4.0
+  },
+  "bounds_file_min": [
+    -2.0,
+    -1.75,
+    -2.0
+  ],
+  "bounds_file_max": [
+    2.0,
+    0.0,
+    2.0
+  ],
+  "triangles": 532,
+  "parts": [
+    {
+      "object": "DISASTER_08_GroundFissureModule_Plate_West",
+      "parent": "DISASTER_08_GroundFissureModule_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_soil",
+        "WL_rock_mid"
+      ],
+      "triangles": 140
+    },
+    {
+      "object": "DISASTER_08_GroundFissureModule_Plate_East",
+      "parent": "DISASTER_08_GroundFissureModule_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_soil",
+        "WL_rock_mid"
+      ],
+      "triangles": 144
+    },
+    {
+      "object": "DISASTER_08_GroundFissureModule_Chasm_Floor",
+      "parent": "DISASTER_08_GroundFissureModule_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_char"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "DISASTER_08_GroundFissureModule_Chasm_Rubble",
+      "parent": "DISASTER_08_GroundFissureModule_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rock_dark"
+      ],
+      "triangles": 180
+    },
+    {
+      "object": "DISASTER_08_GroundFissureModule_Slab_Fallen",
+      "parent": "DISASTER_08_GroundFissureModule_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_soil",
+        "WL_rock_mid"
+      ],
+      "triangles": 56
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Plate_West, Plate_East, Chasm_Floor, Chasm_Rubble, Slab_Fallen (collapsed bridge section)"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "7e403b46f767bfe98e0e830af5546a45"
+}

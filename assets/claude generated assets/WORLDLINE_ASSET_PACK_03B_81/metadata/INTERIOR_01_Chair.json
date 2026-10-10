@@ -1,0 +1,101 @@
+{
+  "id": "INTERIOR_01",
+  "name": "Chair",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_01_Chair.obj",
+  "mtl": "interiors/INTERIOR_01_Chair.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "upright, facing +Y",
+  "dimensions": {
+    "x_width_m": 0.46,
+    "y_height_m": 0.96,
+    "z_depth_m": 0.44
+  },
+  "bounds_file_min": [
+    -0.23,
+    0.0,
+    -0.22
+  ],
+  "bounds_file_max": [
+    0.23,
+    0.96,
+    0.22
+  ],
+  "triangles": 380,
+  "parts": [
+    {
+      "object": "INTERIOR_01_Chair_Seat",
+      "parent": "INTERIOR_01_Chair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_01_Chair_Legs",
+      "parent": "INTERIOR_01_Chair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "INTERIOR_01_Chair_Stretchers",
+      "parent": "INTERIOR_01_Chair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "INTERIOR_01_Chair_Backrest",
+      "parent": "INTERIOR_01_Chair_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 176
+    },
+    {
+      "object": "INTERIOR_01_Chair_Seat_Cushion",
+      "parent": "INTERIOR_01_Chair_Seat",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_fabric_coral"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Seat, Backrest, Legs, Stretchers"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "2748ac72b37294d026fc336680bbc52b"
+}

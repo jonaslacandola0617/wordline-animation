@@ -1,0 +1,115 @@
+{
+  "id": "INTERIOR_12",
+  "name": "Outdoor Umbrella",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_12_OutdoorUmbrella.obj",
+  "mtl": "interiors/INTERIOR_12_OutdoorUmbrella.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "open parasol on weighted base",
+  "dimensions": {
+    "x_width_m": 3.0,
+    "y_height_m": 2.72,
+    "z_depth_m": 3.0
+  },
+  "bounds_file_min": [
+    -1.5,
+    0.0,
+    -1.5
+  ],
+  "bounds_file_max": [
+    1.5,
+    2.72,
+    1.5
+  ],
+  "triangles": 788,
+  "parts": [
+    {
+      "object": "INTERIOR_12_OutdoorUmbrella_Base",
+      "parent": "INTERIOR_12_OutdoorUmbrella_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_concrete"
+      ],
+      "triangles": 96
+    },
+    {
+      "object": "INTERIOR_12_OutdoorUmbrella_Pole",
+      "parent": "INTERIOR_12_OutdoorUmbrella_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "INTERIOR_12_OutdoorUmbrella_Canopy",
+      "parent": "INTERIOR_12_OutdoorUmbrella_Pole",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral",
+        "WL_offwhite"
+      ],
+      "triangles": 256
+    },
+    {
+      "object": "INTERIOR_12_OutdoorUmbrella_Ribs",
+      "parent": "INTERIOR_12_OutdoorUmbrella_Pole",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 320
+    },
+    {
+      "object": "INTERIOR_12_OutdoorUmbrella_Finial",
+      "parent": "INTERIOR_12_OutdoorUmbrella_Pole",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "INTERIOR_12_OutdoorUmbrella_Crank",
+      "parent": "INTERIOR_12_OutdoorUmbrella_Pole",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 48
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Base, Pole, Canopy (8 alternating panels), Ribs, Finial, Crank"
+  },
+  "open_part_count": 1,
+  "geometry_hash": "72aaf5d17d05d95b383a151dfe92d92b"
+}

@@ -1,0 +1,100 @@
+{
+ "asset_id": "AIR_02",
+ "title": "Cargo Aircraft",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_02.obj",
+ "mtl": "../aircraft/AIR_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -30.0,
+  0.0,
+  -23.8
+ ],
+ "bbox_max": [
+  30.0,
+  19.4,
+  24.8
+ ],
+ "size_xyz": [
+  60.0,
+  19.4,
+  48.6
+ ],
+ "triangles": 11616,
+ "groups": [
+  "fuselage",
+  "cockpit_hump",
+  "cockpit_windows",
+  "cargo_door",
+  "wings",
+  "stabilizers",
+  "engine_L0",
+  "engine_L0_fan",
+  "pylons",
+  "engine_L1",
+  "engine_L1_fan",
+  "gear_pods",
+  "gear_main_L",
+  "engine_R0",
+  "engine_R0_fan",
+  "engine_R1",
+  "engine_R1_fan",
+  "gear_main_R",
+  "tail_fin",
+  "gear_nose"
+ ],
+ "materials": [
+  "steel",
+  "glass_dark",
+  "dark_steel",
+  "offwhite",
+  "light_grey",
+  "alloy",
+  "chrome",
+  "rubber",
+  "rim_dark",
+  "orange"
+ ],
+ "pivots": {
+  "engine_L0": [
+   -8.5,
+   7.4,
+   -5.8
+  ],
+  "engine_L1": [
+   -17.0,
+   7.4,
+   -4.1
+  ],
+  "gear_main_L": [
+   -2.95,
+   0.68,
+   -2.5
+  ],
+  "engine_R0": [
+   8.5,
+   7.4,
+   -5.8
+  ],
+  "engine_R1": [
+   17.0,
+   7.4,
+   -4.1
+  ],
+  "gear_main_R": [
+   3.45,
+   0.68,
+   -2.5
+  ],
+  "gear_nose": [
+   0.24,
+   0.6,
+   -17.0
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,79 @@
+{
+ "asset_id": "AIR_05",
+ "title": "Fighter Jet",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_05.obj",
+ "mtl": "../aircraft/AIR_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -6.1,
+  0.0,
+  -10.808
+ ],
+ "bbox_max": [
+  6.1,
+  4.9,
+  8.6
+ ],
+ "size_xyz": [
+  12.2,
+  4.9,
+  19.408
+ ],
+ "triangles": 2584,
+ "groups": [
+  "fuselage",
+  "spine",
+  "canopy",
+  "canopy_frame",
+  "wings",
+  "strakes",
+  "stabilators",
+  "tail_fins",
+  "intakes",
+  "intake_lip",
+  "engine_nozzles",
+  "afterburner",
+  "missiles",
+  "missile_fins",
+  "pylons",
+  "pitot",
+  "gear_nose",
+  "gear_main_L",
+  "gear_main_R"
+ ],
+ "materials": [
+  "steel",
+  "dark_steel",
+  "glass_dark",
+  "black",
+  "light_amber",
+  "offwhite",
+  "chrome",
+  "rubber",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "gear_nose": [
+   0,
+   0.28,
+   -6.0
+  ],
+  "gear_main_L": [
+   -1.5,
+   0.36,
+   1.5
+  ],
+  "gear_main_R": [
+   1.5,
+   0.36,
+   1.5
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

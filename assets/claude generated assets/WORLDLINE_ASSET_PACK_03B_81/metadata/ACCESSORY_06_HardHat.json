@@ -1,0 +1,121 @@
+{
+  "id": "ACCESSORY_06",
+  "name": "Hard Hat",
+  "category": "accessories",
+  "obj": "accessories/ACCESSORY_06_HardHat.obj",
+  "mtl": "accessories/ACCESSORY_06_HardHat.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "resting on brim, upright",
+  "dimensions": {
+    "x_width_m": 0.3828,
+    "y_height_m": 0.184,
+    "z_depth_m": 0.455
+  },
+  "bounds_file_min": [
+    -0.1914,
+    0.0,
+    -0.235
+  ],
+  "bounds_file_max": [
+    0.1914,
+    0.184,
+    0.22
+  ],
+  "triangles": 1112,
+  "parts": [
+    {
+      "object": "ACCESSORY_06_HardHat_Shell",
+      "parent": "ACCESSORY_06_HardHat_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 252
+    },
+    {
+      "object": "ACCESSORY_06_HardHat_Brim",
+      "parent": "ACCESSORY_06_HardHat_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 256
+    },
+    {
+      "object": "ACCESSORY_06_HardHat_Ridges",
+      "parent": "ACCESSORY_06_HardHat_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 300
+    },
+    {
+      "object": "ACCESSORY_06_HardHat_Suspension",
+      "parent": "ACCESSORY_06_HardHat_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 232
+    },
+    {
+      "object": "ACCESSORY_06_HardHat_Adjust_Knob",
+      "parent": "ACCESSORY_06_HardHat_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 60
+    },
+    {
+      "object": "ACCESSORY_06_HardHat_Badge",
+      "parent": "ACCESSORY_06_HardHat_Shell",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 12
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "wear_point": [
+      0.0,
+      0.15,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Shell, Brim, Ridges, Suspension, Adjust_Knob, Badge",
+    "grip": "wear_point (crown centre) in metadata"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "7285145e2fb41defdb246a15a85a1c2e"
+}

@@ -1,0 +1,38 @@
+{
+ "asset_id": "TERRAIN_01",
+ "title": "Small Rock",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_01.obj",
+ "mtl": "../terrain/TERRAIN_01.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.958,
+  0.0,
+  -0.844
+ ],
+ "bbox_max": [
+  0.995,
+  0.876,
+  0.68
+ ],
+ "size_xyz": [
+  1.953,
+  0.876,
+  1.524
+ ],
+ "triangles": 320,
+ "groups": [
+  "rock"
+ ],
+ "materials": [
+  "rock_mid",
+  "rock_dark",
+  "rock_light"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

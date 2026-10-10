@@ -1,0 +1,87 @@
+{
+ "asset_id": "LAND_06",
+ "title": "Delivery Van",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_06.obj",
+ "mtl": "../land_vehicles/LAND_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.52,
+  0.0,
+  -2.8
+ ],
+ "bbox_max": [
+  1.52,
+  3.23,
+  3.5
+ ],
+ "size_xyz": [
+  3.04,
+  3.23,
+  6.3
+ ],
+ "triangles": 2800,
+ "groups": [
+  "cargo_box",
+  "cab",
+  "windows",
+  "stripe",
+  "ribs",
+  "mirrors",
+  "rear_doors",
+  "roof_ribs",
+  "grille",
+  "bumpers",
+  "lights",
+  "wheel_F_L",
+  "wheel_F_L_arch",
+  "wheel_F_R",
+  "wheel_F_R_arch",
+  "wheel_R_L",
+  "wheel_R_L_arch",
+  "wheel_R_R",
+  "wheel_R_R_arch"
+ ],
+ "materials": [
+  "offwhite",
+  "blue_steel",
+  "glass",
+  "coral",
+  "light_grey",
+  "dark_steel",
+  "black",
+  "steel",
+  "rubber",
+  "light_head",
+  "light_red",
+  "rim_dark",
+  "alloy"
+ ],
+ "pivots": {
+  "wheel_F_L": [
+   -1.04,
+   0.45,
+   -1.7
+  ],
+  "wheel_F_R": [
+   1.04,
+   0.45,
+   -1.7
+  ],
+  "wheel_R_L": [
+   -1.04,
+   0.45,
+   2.2
+  ],
+  "wheel_R_R": [
+   1.04,
+   0.45,
+   2.2
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

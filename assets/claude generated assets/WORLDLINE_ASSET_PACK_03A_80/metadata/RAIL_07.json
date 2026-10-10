@@ -1,0 +1,62 @@
+{
+ "asset_id": "RAIL_07",
+ "title": "Railway Crossing Barrier",
+ "category": "rail",
+ "obj": "../rail/RAIL_07.obj",
+ "mtl": "../rail/RAIL_07.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -5.0,
+  0.0,
+  -3.5
+ ],
+ "bbox_max": [
+  5.0,
+  4.273,
+  3.5
+ ],
+ "size_xyz": [
+  10.0,
+  4.273,
+  7.0
+ ],
+ "triangles": 1220,
+ "groups": [
+  "road_base",
+  "cabinet",
+  "mast",
+  "mast_base",
+  "boom_housing",
+  "boom_A",
+  "warning_lights",
+  "crossbuck",
+  "boom_B"
+ ],
+ "materials": [
+  "asphalt",
+  "steel",
+  "dark_steel",
+  "concrete",
+  "red",
+  "white",
+  "light_red",
+  "black"
+ ],
+ "pivots": {
+  "boom_A": [
+   -4.3,
+   1.15,
+   -0.0
+  ],
+  "boom_B": [
+   4.3,
+   1.15,
+   -0.0
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

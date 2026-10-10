@@ -1,0 +1,39 @@
+{
+ "asset_id": "TERRAIN_09",
+ "title": "Hillside",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_09.obj",
+ "mtl": "../terrain/TERRAIN_09.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -40.0,
+  0.0,
+  -40.0
+ ],
+ "bbox_max": [
+  40.0,
+  11.514,
+  40.0
+ ],
+ "size_xyz": [
+  80.0,
+  11.514,
+  80.0
+ ],
+ "triangles": 3680,
+ "groups": [
+  "hill"
+ ],
+ "materials": [
+  "foliage_mid",
+  "grass",
+  "rock_mid",
+  "soil"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

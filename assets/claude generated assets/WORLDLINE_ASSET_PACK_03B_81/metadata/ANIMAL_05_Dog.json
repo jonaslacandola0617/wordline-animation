@@ -1,0 +1,336 @@
+{
+  "id": "ANIMAL_05",
+  "name": "Dog",
+  "category": "animals",
+  "obj": "animals/ANIMAL_05_Dog.obj",
+  "mtl": "animals/ANIMAL_05_Dog.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "standing, tail raised",
+  "dimensions": {
+    "x_width_m": 0.334,
+    "y_height_m": 0.7884,
+    "z_depth_m": 1.2123
+  },
+  "bounds_file_min": [
+    -0.167,
+    -0.0,
+    -0.692
+  ],
+  "bounds_file_max": [
+    0.167,
+    0.7884,
+    0.5203
+  ],
+  "triangles": 956,
+  "parts": [
+    {
+      "object": "ANIMAL_05_Dog_Body",
+      "parent": "ANIMAL_05_Dog_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_dog_tan",
+        "WL_dog_light"
+      ],
+      "triangles": 136
+    },
+    {
+      "object": "ANIMAL_05_Dog_Neck",
+      "parent": "ANIMAL_05_Dog_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Head",
+      "parent": "ANIMAL_05_Dog_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.72,
+        -0.52
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_05_Dog_Muzzle",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.72,
+        -0.52
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 76
+    },
+    {
+      "object": "ANIMAL_05_Dog_Nose",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.72,
+        -0.52
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Jaw",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.72,
+        -0.52
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_05_Dog_Ear_L",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        0.055,
+        0.78,
+        -0.5
+      ],
+      "materials": [
+        "WL_dog_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_05_Dog_Ear_R",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        -0.055,
+        0.78,
+        -0.5
+      ],
+      "materials": [
+        "WL_dog_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_05_Dog_Eye_L",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        0.04,
+        0.745,
+        -0.578
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_05_Dog_Eye_R",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        -0.04,
+        0.745,
+        -0.578
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_05_Dog_Brow_L",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        0.04,
+        0.76,
+        -0.58
+      ],
+      "materials": [
+        "WL_dog_dark"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_05_Dog_Brow_R",
+      "parent": "ANIMAL_05_Dog_Head",
+      "pivot_file_xyz": [
+        -0.04,
+        0.76,
+        -0.58
+      ],
+      "materials": [
+        "WL_dog_dark"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_05_Dog_Leg_Front_L",
+      "parent": "ANIMAL_05_Dog_Body",
+      "pivot_file_xyz": [
+        0.085,
+        0.38,
+        -0.25
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Leg_Front_R",
+      "parent": "ANIMAL_05_Dog_Body",
+      "pivot_file_xyz": [
+        -0.085,
+        0.38,
+        -0.25
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Leg_Rear_L",
+      "parent": "ANIMAL_05_Dog_Body",
+      "pivot_file_xyz": [
+        0.095,
+        0.41,
+        0.3
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Leg_Rear_R",
+      "parent": "ANIMAL_05_Dog_Body",
+      "pivot_file_xyz": [
+        -0.095,
+        0.41,
+        0.3
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Paw_Front_L",
+      "parent": "ANIMAL_05_Dog_Leg_Front_L",
+      "pivot_file_xyz": [
+        0.085,
+        0.04,
+        -0.275
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Paw_Front_R",
+      "parent": "ANIMAL_05_Dog_Leg_Front_R",
+      "pivot_file_xyz": [
+        -0.085,
+        0.04,
+        -0.275
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Paw_Rear_L",
+      "parent": "ANIMAL_05_Dog_Leg_Rear_L",
+      "pivot_file_xyz": [
+        0.095,
+        0.04,
+        0.29
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Paw_Rear_R",
+      "parent": "ANIMAL_05_Dog_Leg_Rear_R",
+      "pivot_file_xyz": [
+        -0.095,
+        0.04,
+        0.29
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_05_Dog_Tail",
+      "parent": "ANIMAL_05_Dog_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.53,
+        0.35
+      ],
+      "materials": [
+        "WL_dog_tan"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "ANIMAL_05_Dog_Tail_Tip",
+      "parent": "ANIMAL_05_Dog_Tail",
+      "pivot_file_xyz": [
+        0.0,
+        0.53,
+        0.35
+      ],
+      "materials": [
+        "WL_dog_light"
+      ],
+      "triangles": 32
+    },
+    {
+      "object": "ANIMAL_05_Dog_Collar",
+      "parent": "ANIMAL_05_Dog_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_coral"
+      ],
+      "triangles": 36
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "named_groups": "Body, Neck, Head, Muzzle, Ear_L/R, Leg_Front/Rear_L/R, Paw_*, Tail"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "2d3846ab0570d88b6348f52044f6f35d"
+}

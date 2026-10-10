@@ -1,0 +1,65 @@
+# WORLDLINE LAB ASSET PACK 02 shared material library (subset)
+newmtl concrete_weathered
+Ka 0.193 0.193 0.185
+Kd 0.550 0.550 0.530
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl rubber_dark
+Ka 0.025 0.025 0.028
+Kd 0.070 0.070 0.080
+Ks 0.020 0.020 0.020
+Ns 4
+d 1.0
+illum 2
+
+newmtl paint_navy
+Ka 0.035 0.059 0.105
+Kd 0.100 0.170 0.300
+Ks 0.200 0.200 0.200
+Ns 30
+d 1.0
+illum 2
+
+newmtl ad_panel
+Ka 0.308 0.319 0.332
+Kd 0.880 0.910 0.950
+Ks 0.100 0.100 0.100
+Ns 12
+d 1.0
+illum 2
+
+newmtl glass_tinted
+Ka 0.105 0.182 0.217
+Kd 0.300 0.520 0.620
+Ks 0.800 0.800 0.800
+Ns 90
+d 0.45
+illum 2
+
+newmtl brushed_metal
+Ka 0.210 0.217 0.227
+Kd 0.600 0.620 0.650
+Ks 0.500 0.500 0.500
+Ns 60
+d 1.0
+illum 2
+
+newmtl metal_painted_grey
+Ka 0.147 0.164 0.182
+Kd 0.420 0.470 0.520
+Ks 0.300 0.300 0.300
+Ns 40
+d 1.0
+illum 2
+
+newmtl lamp_emissive
+Ka 0.350 0.332 0.252
+Kd 1.000 0.950 0.720
+Ks 0.000 0.000 0.000
+Ns 1
+d 1
+illum 2
+Ke 1.000 0.920 0.600

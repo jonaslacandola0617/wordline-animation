@@ -1,0 +1,44 @@
+{
+ "asset_id": "PLANT_10",
+ "title": "Mangrove Roots",
+ "category": "plants",
+ "obj": "../plants/PLANT_10.obj",
+ "mtl": "../plants/PLANT_10.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -3.3,
+  0.0,
+  -3.217
+ ],
+ "bbox_max": [
+  3.3,
+  5.869,
+  3.217
+ ],
+ "size_xyz": [
+  6.6,
+  5.869,
+  6.435
+ ],
+ "triangles": 2024,
+ "groups": [
+  "mud",
+  "trunk",
+  "prop_roots",
+  "branch_roots",
+  "pneumatophores",
+  "canopy"
+ ],
+ "materials": [
+  "soil",
+  "bark",
+  "foliage_deep",
+  "foliage_mid"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

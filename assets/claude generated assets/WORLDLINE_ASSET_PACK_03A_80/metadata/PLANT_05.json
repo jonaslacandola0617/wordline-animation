@@ -1,0 +1,40 @@
+{
+ "asset_id": "PLANT_05",
+ "title": "Fern",
+ "category": "plants",
+ "obj": "../plants/PLANT_05.obj",
+ "mtl": "../plants/PLANT_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.575,
+  0.0,
+  -1.438
+ ],
+ "bbox_max": [
+  1.47,
+  0.835,
+  1.218
+ ],
+ "size_xyz": [
+  3.045,
+  0.835,
+  2.656
+ ],
+ "triangles": 3988,
+ "groups": [
+  "crown",
+  "fronds"
+ ],
+ "materials": [
+  "bark",
+  "foliage_mid",
+  "grass",
+  "foliage_deep"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

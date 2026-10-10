@@ -1,0 +1,2982 @@
+{
+ "grid": "Road modules use a 12 m nominal module along local Z (ends at z=-6 and z=+6, centreline x=0). Larger modules are multiples (roundabout 24 m).",
+ "lane_width_m": 3.4,
+ "curb_height_m": 0.15,
+ "curb_width_m": 0.25,
+ "slab_depth_m": 0.4,
+ "traffic": "Right-hand traffic: lanes at x<0 travel +Z, lanes at x>0 travel -Z (arrows follow this).",
+ "junction_arms": "Junctions (ROAD_04/05): arm directions N=+Z, E=+X, S=-Z, W=-X; connection plane at 6 m from centre. ROAD_04 has its closed side to the North.",
+ "sidewalk": "Sidewalk (ROAD_12) 3 m wide, top y=+0.15; road-side edge at x=-1.5 local; place its centreline at carriageway half-width + 0.25 + 1.5 m. Corner module ROAD_13 origin = junction centre.",
+ "modules": {
+  "ROAD_01": {
+   "description": "Two-lane city road, 12 m module",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ]
+  },
+  "ROAD_02": {
+   "description": "Four-lane boulevard with planted median, 12 m module",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ]
+  },
+  "ROAD_03": {
+   "description": "Six-lane main avenue with paved median, 12 m module",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 22.8,
+     "total_width_with_curbs": 23.3,
+     "curb_height": 0.15,
+     "lanes": 6,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 22.8,
+     "total_width_with_curbs": 23.3,
+     "curb_height": 0.15,
+     "lanes": 6,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ]
+  },
+  "ROAD_04": {
+   "description": "T-intersection (arms E,S,W; north closed), 12x12 m",
+   "connection_points": [
+    {
+     "name": "arm_E",
+     "position": [
+      6,
+      0,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_S",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_W",
+     "position": [
+      -6,
+      0,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    }
+   ]
+  },
+  "ROAD_05": {
+   "description": "Four-way intersection, 12x12 m",
+   "connection_points": [
+    {
+     "name": "arm_N",
+     "position": [
+      0,
+      0,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_E",
+     "position": [
+      6,
+      0,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_S",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_W",
+     "position": [
+      -6,
+      0,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    }
+   ]
+  },
+  "ROAD_06": {
+   "description": "Roundabout with raised planted island, 24x24 m (arms along +/-X,+/-Z)",
+   "connection_points": [
+    {
+     "name": "arm_0",
+     "position": [
+      0,
+      0,
+      12
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_90",
+     "position": [
+      12,
+      0,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_180",
+     "position": [
+      0,
+      0,
+      -12
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    },
+    {
+     "name": "arm_270",
+     "position": [
+      -12,
+      0,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0
+    }
+   ]
+  },
+  "ROAD_07": {
+   "description": "90-degree curved two-lane road, centreline radius 12 m; enters (0,0,-6) heading +Z, exits (12,0,6) heading +X",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      12.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    }
+   ]
+  },
+  "ROAD_08": {
+   "description": "Sloped two-lane road: +1.5 m over 12 m, with embankment fill",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      1.5,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 1.5
+    }
+   ]
+  },
+  "ROAD_09": {
+   "description": "Coastal boulevard: two lanes + 4.2 m sea-side promenade (+X side), parapet with railing sockets, seawall lip",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 6.8,
+     "total_width_with_curbs": 7.3,
+     "curb_height": 0.15,
+     "lanes": 2,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "railing_mount_z-4.5",
+     "position": [
+      7.68,
+      0.73,
+      -4.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z-1.5",
+     "position": [
+      7.68,
+      0.73,
+      -1.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z1.5",
+     "position": [
+      7.68,
+      0.73,
+      1.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z4.5",
+     "position": [
+      7.68,
+      0.73,
+      4.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "seawall_interface",
+     "position": [
+      7.95,
+      -0.4,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "mates": "HARBOR_04"
+    }
+   ]
+  },
+  "ROAD_10": {
+   "description": "Highway section: 2 lanes per direction (3.5 m), 2.5 m paved shoulders, jersey median, edge parapets with guardrail sockets",
+   "connection_points": [
+    {
+     "name": "guardrail_mount_L_z-4",
+     "position": [
+      -10.32,
+      0.55,
+      -4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_L_z0",
+     "position": [
+      -10.32,
+      0.55,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_L_z4",
+     "position": [
+      -10.32,
+      0.55,
+      4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_R_z-4",
+     "position": [
+      10.32,
+      0.55,
+      -4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_R_z0",
+     "position": [
+      10.32,
+      0.55,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "guardrail_mount_R_z4",
+     "position": [
+      10.32,
+      0.55,
+      4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "end",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_incl_shoulders_and_parapets": 21.099999999999998,
+     "lanes": 4,
+     "lane_width": 3.5,
+     "shoulder": 2.5,
+     "surface_y": 0
+    },
+    {
+     "name": "end",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_incl_shoulders_and_parapets": 21.099999999999998,
+     "lanes": 4,
+     "lane_width": 3.5,
+     "shoulder": 2.5,
+     "surface_y": 0
+    }
+   ]
+  },
+  "ROAD_11": {
+   "description": "Elevated curved highway ramp: 60 deg arc R=28 m, +4 m rise, one-way 2 x 3.5 m lanes, girder + pier, parapet sockets",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 8.2,
+     "lanes": 2,
+     "lane_width": 3.5,
+     "surface_y": 0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      14.0,
+      4.0,
+      18.249
+     ],
+     "direction": [
+      0.8536201226889306,
+      0.1351683574447689,
+      0.5030528812025811
+     ],
+     "width": 8.2,
+     "lanes": 2,
+     "lane_width": 3.5,
+     "surface_y": 4.0
+    }
+   ]
+  },
+  "ROAD_12": {
+   "description": "Sidewalk module 3 x 12 m, top at +0.15 m; road-side edge at x=-1.5; furniture slots at x=-0.85",
+   "connection_points": [
+    {
+     "name": "furniture_slot_z-4",
+     "position": [
+      -0.85,
+      0.165,
+      -4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_*"
+    },
+    {
+     "name": "furniture_slot_z0",
+     "position": [
+      -0.85,
+      0.165,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_*"
+    },
+    {
+     "name": "furniture_slot_z4",
+     "position": [
+      -0.85,
+      0.165,
+      4
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_*"
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.15,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 3.0,
+     "surface_y": 0.15
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.15,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 3.0,
+     "surface_y": 0.15
+    }
+   ]
+  },
+  "ROAD_13": {
+   "description": "Street corner sidewalk 3x3 m with R=1.25 m rounded curb corner, tactile paving. Origin = JUNCTION CENTRE (NE corner; rotate 90 deg steps)",
+   "connection_points": [
+    {
+     "name": "end_x",
+     "position": [
+      6.65,
+      0.15,
+      5.15
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "width": 3.0,
+     "mates": "ROAD_12 (offset)"
+    },
+    {
+     "name": "end_z",
+     "position": [
+      5.15,
+      0.15,
+      6.65
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 3.0,
+     "mates": "ROAD_12 (rotated)"
+    }
+   ]
+  },
+  "ROAD_14": {
+   "description": "Pedestrian-refuge traffic island on a four-lane boulevard (matches ROAD_02 profile at ends)",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.0,
+      0.0,
+      -6.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.0,
+      0.0,
+      6.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "carriageway_width": 15.2,
+     "total_width_with_curbs": 15.7,
+     "curb_height": 0.15,
+     "lanes": 4,
+     "lane_width": 3.4,
+     "surface_y": 0.0
+    },
+    {
+     "name": "bollard_mount_z-5.2",
+     "position": [
+      0,
+      0.28,
+      -5.2
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_09"
+    },
+    {
+     "name": "bollard_mount_z5.2",
+     "position": [
+      0,
+      0.28,
+      5.2
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "PROP_09"
+    }
+   ]
+  },
+  "PROP_01": {
+   "description": "Mast-arm vehicle traffic signal, 3 heads (red/amber/green lenses emissive), 5.2 m",
+   "connection_points": [
+    {
+     "name": "cable_anchor_mast_tip",
+     "position": [
+      3.9,
+      4.95,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "base_ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_02": {
+   "description": "Pedestrian crossing signal with red-hand / walking-figure displays and push-button, 3.1 m",
+   "connection_points": [
+    {
+     "name": "button_press",
+     "position": [
+      0,
+      1.2,
+      0.18
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "cable_anchor",
+     "position": [
+      0,
+      2.9,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_03": {
+   "description": "Urban streetlight: tapered octagonal post, swan-neck arm, shaped luminaire, 6.4 m",
+   "connection_points": [
+    {
+     "name": "lamp_centre",
+     "position": [
+      1.95,
+      6.1,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor",
+     "position": [
+      1.75,
+      6.25,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_04": {
+   "description": "Highway lamp: 10 m 12-sided pole, twin truss arms with cobra luminaires, flanged base with gussets",
+   "connection_points": [
+    {
+     "name": "lamp_L",
+     "position": [
+      -3.0,
+      9.98,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "lamp_R",
+     "position": [
+      3.0,
+      9.98,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_05": {
+   "description": "Bus stop shelter 3.8 x 1.7 m: canopy, glazed back/side panels, slatted bench, lit ad panel, route sign pole",
+   "connection_points": [
+    {
+     "name": "kerb_edge",
+     "position": [
+      0,
+      0,
+      1.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "note": "front faces +Z; place with +Z toward road"
+    }
+   ]
+  },
+  "PROP_06": {
+   "description": "Public bench 1.8 m: timber seat/back slats, cast-iron style side frames with armrests",
+   "connection_points": [
+    {
+     "name": "seat_centre",
+     "position": [
+      0,
+      0.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_08": {
+   "description": "Fire hydrant 0.8 m: base flange, barrel, bonnet, 2 side nozzles + pumper nozzle, pentagonal operating nut, chains",
+   "connection_points": [
+    {
+     "name": "ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_10": {
+   "description": "Modular W-beam guardrail 4 m: I-section posts, spacer blocks, corrugated rail with splice bolts; modules chain at z=+/-2",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0.19,
+      0.53,
+      -2.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "mates": "PROP_10"
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0.19,
+      0.53,
+      2.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "mates": "PROP_10"
+    }
+   ]
+  },
+  "PROP_11": {
+   "description": "Jersey concrete barrier 3 m: sloped faces, chamfered edges, lifting loops, interlocking end pockets, reflectors",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.4,
+      -1.5
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.4,
+      1.5
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "PROP_13": {
+   "description": "Street-name sign: 3.2 m pole, finial, two perpendicular blades with white borders on brackets; sign_face groups are decal surfaces",
+   "connection_points": [
+    {
+     "name": "decal_A",
+     "position": [
+      0.45,
+      2.8,
+      0.016
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "decal_B",
+     "position": [
+      0.0,
+      2.5,
+      0.38
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "PROP_14": {
+   "description": "Billboard 8 x 3.5 m: twin I-beam columns on footings, rear bracing, service catwalk with rail, frame + face panel, two floodlights",
+   "connection_points": [
+    {
+     "name": "face_centre",
+     "position": [
+      0,
+      6.1,
+      0.15
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 8.1,
+     "height": 3.1
+    }
+   ]
+  },
+  "PROP_15": {
+   "description": "Double-sided advertising kiosk 1.2 x 2.2 m: plinth, frame, glazed display panels, lit crown, feet",
+   "connection_points": [
+    {
+     "name": "display_front",
+     "position": [
+      0,
+      1.15,
+      0.24
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "display_back",
+     "position": [
+      0,
+      1.15,
+      -0.24
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ]
+  },
+  "PROP_16": {
+   "description": "Public planter 1.5 x 0.8 x 0.65 m: real 0.1 m walls, floor, coping, corner pilasters, recessed soil bed with planting hole (no plant)",
+   "connection_points": [
+    {
+     "name": "planting_point",
+     "position": [
+      0,
+      0.52,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "note": "attach foliage/tree asset here"
+    }
+   ]
+  },
+  "PROP_17": {
+   "description": "Bicycle rack: 5 inverted-U hoops with cross-bar and grounded flange plates, 3 m run",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -1.5
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "mates": "PROP_17"
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      1.5
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "PROP_18": {
+   "description": "Parking meter 1.45 m: base plate, post, rounded head with glass display, keypad, coin/card slots, solar panel",
+   "connection_points": [
+    {
+     "name": "head_top",
+     "position": [
+      0,
+      1.465,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_01": {
+   "description": "Wooden utility pole 10 m: tapered log, two crossarms with braces, 5 pin insulators, climbing pegs, ground sleeve",
+   "connection_points": [
+    {
+     "name": "cable_anchor_top",
+     "position": [
+      0,
+      10.3,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_U1",
+     "position": [
+      -1.1,
+      9.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_U2",
+     "position": [
+      0,
+      9.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_U3",
+     "position": [
+      1.1,
+      9.5,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_L1",
+     "position": [
+      -0.8,
+      8.78,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "cable_anchor_L2",
+     "position": [
+      0.8,
+      8.78,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_02": {
+   "description": "Pole-mounted distribution transformer on 1.8 m pole section: ribbed tank, domed lid, 3 HV bushings, 2 LV terminals, hanger lugs, straps",
+   "connection_points": [
+    {
+     "name": "terminal_HV1",
+     "position": [
+      -0.22,
+      2.2,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_HV2",
+     "position": [
+      0,
+      2.2,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_HV3",
+     "position": [
+      0.22,
+      2.2,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_LV_L",
+     "position": [
+      -0.17,
+      1.35,
+      0.54
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "terminal_LV_R",
+     "position": [
+      0.17,
+      1.35,
+      0.54
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_03": {
+   "description": "Pad-mount transformer 1.5 x 1.3 x 1.4 m on chamfered concrete pad: hooded roof, double hinged doors, louvres, padlock, conduits",
+   "connection_points": [
+    {
+     "name": "ground_cable_entry",
+     "position": [
+      0,
+      0.18,
+      -0.5
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "door_L",
+     "position": [
+      -0.7,
+      0.8,
+      0.64
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "door_R",
+     "position": [
+      0.7,
+      0.8,
+      0.64
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "UTILITY_04": {
+   "description": "High-voltage lattice transmission tower 34 m: tapered 4-leg frame, X-bracing on every panel, ring frames, 3 truss crossarms, 6 insulator strings, earth-wire peak",
+   "connection_points": [
+    {
+     "name": "conductor_L_25",
+     "position": [
+      -4.4,
+      23.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_R_25",
+     "position": [
+      4.4,
+      23.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_L_20",
+     "position": [
+      -5.4,
+      18.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_R_20",
+     "position": [
+      5.4,
+      18.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_L_15",
+     "position": [
+      -6.4,
+      13.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "conductor_R_15",
+     "position": [
+      6.4,
+      13.7,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "earth_wire_-1",
+     "position": [
+      0,
+      36.0,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "earth_wire_1",
+     "position": [
+      0,
+      36.0,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_05": {
+   "description": "Steel portal frame for overhead cable runs 8.5 m: 2 I-beam columns, truss cross-member, 6 hanging insulator strings, gusseted base plates",
+   "connection_points": [
+    {
+     "name": "cable_x-2.4",
+     "position": [
+      -2.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x-1.4",
+     "position": [
+      -1.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x-0.4",
+     "position": [
+      -0.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x0.4",
+     "position": [
+      0.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x1.4",
+     "position": [
+      1.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "cable_x2.4",
+     "position": [
+      2.4,
+      6.35,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_06": {
+   "description": "Compact substation module 9 x 7 m: 2 oil transformers with radiators/bushings/conservators, switchgear row, 3-phase busbar gantry, control kiosk, kerb + fence rail",
+   "connection_points": [
+    {
+     "name": "busbar_phase_0",
+     "position": [
+      4.1,
+      3.7,
+      2.1
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "busbar_phase_1",
+     "position": [
+      4.1,
+      3.7,
+      2.6
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "busbar_phase_2",
+     "position": [
+      4.1,
+      3.7,
+      3.1
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_07": {
+   "description": "Rooftop packaged AC unit 2.3 x 1.1 x 1.2 m: sheet-metal housing, fan shroud with 5-blade fan, louvred coil grilles, access panels, refrigerant lines, feet + curb rail",
+   "connection_points": [
+    {
+     "name": "roof_mount",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_08": {
+   "description": "Rooftop water tank 4.4 m high: 16-sided tank with 4 hoop bands, conical roof, hatch + ladder, 4-leg braced steel stand, inlet/outlet piping, gauge",
+   "connection_points": [
+    {
+     "name": "level_sensor",
+     "position": [
+      -0.9,
+      3.2,
+      0.9
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "roof_mount",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_09": {
+   "description": "Satellite dish 1.6 m: thick parabolic reflector, rim, 3 feed struts, LNB + feed horn, elevation arm, azimuth plate, mast and wall bracket",
+   "connection_points": [
+    {
+     "name": "lnb_cable_out",
+     "position": [
+      0,
+      2.332,
+      0.812
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "mount",
+     "position": [
+      0,
+      0,
+      0.45
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_10": {
+   "description": "Cellular antenna mast 12 m: guyless monopole, triangular platform with rail, 3 sector panels with clamps/tilt bars, 3 RRUs, microwave dish, lightning rod, cable ladder",
+   "connection_points": [
+    {
+     "name": "sector_0",
+     "position": [
+      0.0,
+      11.0,
+      1.75
+     ],
+     "direction": [
+      0.0,
+      0,
+      1.0
+     ]
+    },
+    {
+     "name": "sector_1",
+     "position": [
+      -1.516,
+      11.0,
+      -0.875
+     ],
+     "direction": [
+      -0.8660254037844387,
+      0,
+      -0.4999999999999998
+     ]
+    },
+    {
+     "name": "sector_2",
+     "position": [
+      1.516,
+      11.0,
+      -0.875
+     ],
+     "direction": [
+      0.8660254037844384,
+      0,
+      -0.5000000000000004
+     ]
+    },
+    {
+     "name": "mast_base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "UTILITY_11": {
+   "description": "Portable generator 0.95 x 0.55 x 0.75 m: tubular roll cage, engine housing, fuel tank + cap, muffler/exhaust, control panel with outlets, wheels, handle, recoil starter",
+   "connection_points": [
+    {
+     "name": "power_out",
+     "position": [
+      0.33,
+      0.4,
+      0.3
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "exhaust_out",
+     "position": [
+      0.38,
+      0.66,
+      -0.34
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ]
+  },
+  "UTILITY_12": {
+   "description": "Street electrical cabinet 0.8 x 0.45 x 1.5 m: concrete pedestal, sloped-roof cabinet, double doors with hinges/handle/lock, top louvres, meter window",
+   "connection_points": [
+    {
+     "name": "cable_in",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "HARBOR_01": {
+   "description": "Wooden pier module 3 x 12 m: 60 deck planks, 3 stringers, 5 cross-beams, 10 round piles with caps, edge fascia, cleats; deck top y=+1.2 above waterline y=0",
+   "connection_points": [
+    {
+     "name": "mooring_z-4.5",
+     "position": [
+      1.3,
+      1.25,
+      -4.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "mooring_z-1.5",
+     "position": [
+      1.3,
+      1.25,
+      -1.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "mooring_z1.5",
+     "position": [
+      1.3,
+      1.25,
+      1.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "mooring_z4.5",
+     "position": [
+      1.3,
+      1.25,
+      4.5
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      1.2,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 3.0
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      1.2,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 3.0
+    }
+   ]
+  },
+  "HARBOR_02": {
+   "description": "Concrete pier module 6 x 12 m: 0.6 m deck slab with chamfered curb, 8 square piers, cross-beams, rubber fenders, bollard pads, expansion joints; deck top y=+1.6",
+   "connection_points": [
+    {
+     "name": "bollard_mount_-1_-3.0",
+     "position": [
+      -2.2,
+      1.74,
+      -3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "bollard_mount_1_-3.0",
+     "position": [
+      2.2,
+      1.74,
+      -3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "bollard_mount_-1_3.0",
+     "position": [
+      -2.2,
+      1.74,
+      3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "bollard_mount_1_3.0",
+     "position": [
+      2.2,
+      1.74,
+      3.0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_08"
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      1.56,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 6
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      1.56,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 6
+    },
+    {
+     "name": "seawall_edge",
+     "position": [
+      3.0,
+      1.56,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ],
+     "mates": "HARBOR_04"
+    }
+   ]
+  },
+  "HARBOR_03": {
+   "description": "Floating steel/timber dock 2.4 x 6 m: 2 cylindrical pontoons, steel frame, timber deck, side rails, cleats, end hinge plates; deck top y=+0.55",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.55,
+      -3.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 2.4
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.55,
+      3.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 2.4
+    }
+   ]
+  },
+  "HARBOR_04": {
+   "description": "Concrete seawall 12 m: recurved water-facing profile (+X side), 3 structural sections with joints, toe apron, top walkway edge, parapet, rings & ladder recess; walkway y=+2.2",
+   "connection_points": [
+    {
+     "name": "railing_mount_z-5.5",
+     "position": [
+      0.35,
+      2.95,
+      -5.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z-1.5",
+     "position": [
+      0.35,
+      2.95,
+      -1.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z2.5",
+     "position": [
+      0.35,
+      2.95,
+      2.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "railing_mount_z5.5",
+     "position": [
+      0.35,
+      2.95,
+      5.5
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "road_edge",
+     "position": [
+      -1.6,
+      2.2,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ],
+     "mates": "ROAD_09"
+    }
+   ]
+  },
+  "HARBOR_05": {
+   "description": "Rubble-mound breakwater 12 m: quarry-rock core with trapezoid profile + 3 courses of interlocking 4-legged concrete armour units (tetrapods)",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -6
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      6
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "HARBOR_06": {
+   "description": "Lighthouse 20 m: stone plinth + steps, tapered banded tower (red/white), arched door, 3 window levels, gallery with railing, glazed lantern room with mullions, dome, lightning rod",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "light_origin",
+     "position": [
+      0,
+      19.6,
+      0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "emissive": "lamp_emissive"
+    }
+   ]
+  },
+  "HARBOR_07": {
+   "description": "Harbour jib crane 22 m: rail-mounted portal base with 4 legs, slewing house + cab + counterweight, A-frame, articulated lattice boom + jib, hoist/luffing ropes, winch house, hook block; groups: base/house/boom/jib/ropes/hook",
+   "connection_points": [
+    {
+     "name": "rail_centre",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "hook_point",
+     "position": [
+      0.05,
+      5.0,
+      14.9
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "HARBOR_08": {
+   "description": "Double-bitt mooring bollard 0.9 m: oval cast base plate with 8 anchor bolts, twin tapered posts with flared heads, cross web, rope wear grooves",
+   "connection_points": [
+    {
+     "name": "rope_loop",
+     "position": [
+      0,
+      0.6,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "name": "ground",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "HARBOR_09": {
+   "description": "Navigation buoy 4.5 m: banded float with fenders ring, keel weight, 4-leg tower, emissive lantern, radar reflector, topmark, mooring eye; origin at waterline",
+   "connection_points": [
+    {
+     "name": "mooring_point",
+     "position": [
+      0,
+      -2.9,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "HARBOR_10": {
+   "description": "ISO 40-ft shipping container 12.19 x 2.44 x 2.59 m: corrugated side walls + roof, 8 corner castings, top/bottom rails, double doors with 4 locking bars + cam handles, forklift pockets",
+   "connection_points": [
+    {
+     "name": "lift_points",
+     "position": [
+      0,
+      2.59,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "note": "4 top corner castings"
+    },
+    {
+     "name": "stack_above",
+     "position": [
+      0,
+      2.59,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ],
+     "mates": "HARBOR_10"
+    },
+    {
+     "name": "door_end",
+     "position": [
+      0,
+      1.295,
+      6.095
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "HARBOR_11": {
+   "description": "Port loading ramp 3.2 m wide: 2.4 m landing platform, 5 m hinged ramp rising to the platform, anti-slip ribs, side rails, I-beam supports, hydraulic rams, wheel stops",
+   "connection_points": [
+    {
+     "name": "ramp_toe",
+     "position": [
+      0,
+      0.1,
+      -5.2
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "platform_edge",
+     "position": [
+      0,
+      1.12,
+      2.4
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "HARBOR_12": {
+   "description": "Coastal pedestrian railing 3 m bay: 3 square posts with base plates + bolts, round top rail, mid rail, 19 balusters, ball finials; bays chain at z=+/-1.5",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0,
+      -1.5
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "mates": "HARBOR_12"
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0,
+      1.5
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "name": "mount_pattern",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ],
+     "mates": "HARBOR_04/ROAD_09 sockets"
+    }
+   ]
+  },
+  "HARBOR_13": {
+   "description": "Marina pontoon walkway 1.5 x 6 m: 2 white polyethylene floats, aluminium frame, timber deck, rub rails, 6 horn cleats, connector lugs, power pedestal base",
+   "connection_points": [
+    {
+     "name": "end_A",
+     "position": [
+      0,
+      0.36,
+      -3.0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ],
+     "width": 1.5
+    },
+    {
+     "name": "end_B",
+     "position": [
+      0,
+      0.36,
+      3.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ],
+     "width": 1.5
+    },
+    {
+     "name": "pile_hoop",
+     "position": [
+      0.9,
+      0.3,
+      0
+     ],
+     "direction": [
+      1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "HARBOR_14": {
+   "description": "Quay container gantry crane 48 m: 4 braced portal legs on bogies, lattice boom 38 m out over water, backreach girder, A-frame with backstays, machinery house, trolley with ropes + spreader, cab; rail span along X, boom along +Z (water)",
+   "connection_points": [
+    {
+     "name": "rail_gauge_centre",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ],
+     "gauge": 15.0,
+     "wheel_base": 14.0
+    },
+    {
+     "name": "spreader_point",
+     "position": [
+      0,
+      9.0,
+      16.0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "boom_tip",
+     "position": [
+      0,
+      26.5,
+      31.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "DESTROY_01": {
+   "description": "Cracked concrete wall 4 x 2.6 x 0.3 m: 12 Voronoi-fractured panels with 2-7 cm open cracks of varied depth, offset faces, exposed rebar, spalled corner, footing",
+   "connection_points": [
+    {
+     "name": "footing_base",
+     "position": [
+      2.0,
+      0.0,
+      0.0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_02": {
+   "description": "Partially collapsed plastered concrete wall 4 x 2.8 x 0.34 m: jagged broken top, exposed concrete core between recessed plaster skins, bent rebar, 5 detached fragments",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_03": {
+   "description": "Shattered window assembly 1.4 x 1.7 m: bent aluminium frame (header bowed, right jamb kinked, sill snapped, mullion sheared), glass remnants fanning from corners, fallen shards, plinth",
+   "connection_points": [
+    {
+     "name": "plinth_base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_04": {
+   "description": "Detached facade panel 3.2 x 2.6 x 0.3 m: plaster front skin, concrete core, 2 window openings with bent frames, jagged torn bottom + top-right corner, protruding rebar, 3 shed fragments",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_05": {
+   "description": "Collapsed balcony: fractured wall root with rebar, 2.8 x 1.4 m slab hinged down 24 deg, railing with bent/snapped posts and drooping rail, broken corbels, rubble",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_06": {
+   "description": "Broken pitched roof section 4 x 3.2 m at 30 deg: wall plate + tie beams, rafters (2 snapped), battens, clay-tile courses with a 1.6 m storm hole, ragged eave, torn ridge",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_07": {
+   "description": "Damaged rooftop assembly 4.5 x 3.4 m: slab with broken corner + peeled membrane, collapsed parapet, tipped AC unit on bent mounts, snapped vent stack, leaning tank with kinked legs",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_08": {
+   "description": "Destroyed storefront 4 x 3.4 m: cracked brick bulkhead, bent aluminium frame, door torn off hinges and dropped, glass remnants, sign board hanging by one bracket, collapsed awning, debris",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_09": {
+   "description": "Fallen structural column 4.1 m x 0.7 dia: snapped in two, jagged fracture faces with exposed inner core, 8 longitudinal bars + stirrups bent out of the break, base plate end and flared capital end, spall chunks",
+   "connection_points": [
+    {
+     "name": "piece_A_end",
+     "position": [
+      0,
+      0.35,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_10": {
+   "description": "Fractured steel I-beam 6.4 m: sheared at mid-span with torn staggered flange/web ends; far half buckled and drooped in 4 kinks with flange crumple; end plates + bolt holes",
+   "connection_points": [
+    {
+     "name": "near_end",
+     "position": [
+      0,
+      1.2,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_11": {
+   "description": "Broken concrete slab 3.6 x 2.8 x 0.25 m: 8 Voronoi fracture plates, three tilted/stacked, 0.25 m exposed cross-sections, top finish skin, rebar mesh across gaps",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      1.8,
+      0,
+      1.4
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_12": {
+   "description": "Construction debris pile r~2.3 m: 20 concrete blocks, 16 bricks, 7 plastered panel shards, 5 timber beams, 9 protruding rebar spikes, mortar chunks; heap-shaped placement, no random triangles",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_13": {
+   "description": "Brick rubble: 3 mortar-bonded wall fragments (staggered courses, jagged outlines, mortar beds) plus ~40 loose whole/half bricks and mortar crumbs",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_14": {
+   "description": "Glass shard collection: 30 angular shards (tri/quad/pent, 6-12 mm thick, 0.1-0.55 m) lying, leaning and wedged against 3 aluminium frame slivers",
+   "connection_points": [
+    {
+     "name": "base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_15": {
+   "description": "Twisted structural steel I-beam 5.6 m: continuous 150-degree torsion, S-bend in two planes, crumpled flange widths, torn-off end flanges, end plate",
+   "connection_points": [
+    {
+     "name": "end_plate",
+     "position": [
+      0,
+      0.55,
+      0
+     ],
+     "direction": [
+      -1,
+      0,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_16": {
+   "description": "Snapped wooden utility pole: 2.8 m stump with splintered fracture + splinters; 7 m upper section fallen leaning, splintered lower end, crossarm with insulators, severed cables draped; stump and upper section are separate groups",
+   "connection_points": [
+    {
+     "name": "stump_base",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      -1,
+      0
+     ]
+    },
+    {
+     "name": "upper_fracture",
+     "position": [
+      0.55,
+      2.55,
+      0
+     ],
+     "direction": [
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "DESTROY_17": {
+   "description": "Broken metal railing 3 m: 4 posts (intact / bent 22 deg / snapped at 0.4 m / leaning), top & mid rails kinked, snapped and drooping, detached rail piece, bent balusters, flattened tube ends",
+   "connection_points": [
+    {
+     "name": "bay_end_A",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "bay_end_B",
+     "position": [
+      0,
+      0,
+      3
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "DESTROY_18": {
+   "description": "Collapsed skybridge segment 8 x 2.8 m: steel Warren side trusses (one buckled), floor deck with torn end, partly glazed canopy with shattered panels, interior handrails, torn connection plates, tilted 13 deg onto debris; glazing, railing, truss groups separable",
+   "connection_points": [
+    {
+     "name": "conn_end_fixed",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "direction": [
+      0,
+      0,
+      -1
+     ]
+    },
+    {
+     "name": "conn_end_free",
+     "position": [
+      0,
+      1.75,
+      8.0
+     ],
+     "direction": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  }
+ }
+}

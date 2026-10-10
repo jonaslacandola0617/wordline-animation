@@ -1,0 +1,324 @@
+{
+  "id": "ANIMAL_02",
+  "name": "Seagull",
+  "category": "animals",
+  "obj": "animals/ANIMAL_02_Seagull.obj",
+  "mtl": "animals/ANIMAL_02_Seagull.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "gliding flight, wings fully spread",
+  "dimensions": {
+    "x_width_m": 1.3469,
+    "y_height_m": 0.1672,
+    "z_depth_m": 0.7074
+  },
+  "bounds_file_min": [
+    -0.6735,
+    -0.0797,
+    -0.3454
+  ],
+  "bounds_file_max": [
+    0.6735,
+    0.0875,
+    0.362
+  ],
+  "triangles": 1316,
+  "parts": [
+    {
+      "object": "ANIMAL_02_Seagull_Body",
+      "parent": "ANIMAL_02_Seagull_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_white",
+        "WL_white"
+      ],
+      "triangles": 116
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Neck",
+      "parent": "ANIMAL_02_Seagull_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 92
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Head",
+      "parent": "ANIMAL_02_Seagull_Neck",
+      "pivot_file_xyz": [
+        0.0,
+        0.0495,
+        -0.2392
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Beak",
+      "parent": "ANIMAL_02_Seagull_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0495,
+        -0.2392
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Beak_Spot",
+      "parent": "ANIMAL_02_Seagull_Head",
+      "pivot_file_xyz": [
+        0.0,
+        0.0495,
+        -0.2392
+      ],
+      "materials": [
+        "WL_gull_red"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Eye_L",
+      "parent": "ANIMAL_02_Seagull_Head",
+      "pivot_file_xyz": [
+        0.0312,
+        0.0583,
+        -0.2512
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Eye_R",
+      "parent": "ANIMAL_02_Seagull_Head",
+      "pivot_file_xyz": [
+        -0.0312,
+        0.0583,
+        -0.2512
+      ],
+      "materials": [
+        "WL_eye_dark"
+      ],
+      "triangles": 20
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Tail",
+      "parent": "ANIMAL_02_Seagull_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0066,
+        0.2116
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 100
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_L_Arm",
+      "parent": "ANIMAL_02_Seagull_Body",
+      "pivot_file_xyz": [
+        0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_L_Coverts",
+      "parent": "ANIMAL_02_Seagull_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_gull_grey"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_L_Secondaries",
+      "parent": "ANIMAL_02_Seagull_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_gull_grey"
+      ],
+      "triangles": 160
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_L_Primaries",
+      "parent": "ANIMAL_02_Seagull_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_gull_grey"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_L_Tips",
+      "parent": "ANIMAL_02_Seagull_Wing_L_Arm",
+      "pivot_file_xyz": [
+        0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_R_Arm",
+      "parent": "ANIMAL_02_Seagull_Body",
+      "pivot_file_xyz": [
+        -0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_white"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_R_Coverts",
+      "parent": "ANIMAL_02_Seagull_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_gull_grey"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_R_Secondaries",
+      "parent": "ANIMAL_02_Seagull_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_gull_grey"
+      ],
+      "triangles": 160
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_R_Primaries",
+      "parent": "ANIMAL_02_Seagull_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_gull_grey"
+      ],
+      "triangles": 120
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Wing_R_Tips",
+      "parent": "ANIMAL_02_Seagull_Wing_R_Arm",
+      "pivot_file_xyz": [
+        -0.0515,
+        0.0363,
+        -0.0644
+      ],
+      "materials": [
+        "WL_crow_black"
+      ],
+      "triangles": 40
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Leg_L",
+      "parent": "ANIMAL_02_Seagull_Body",
+      "pivot_file_xyz": [
+        0.0297,
+        -0.0396,
+        -0.0092
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 26
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Leg_R",
+      "parent": "ANIMAL_02_Seagull_Body",
+      "pivot_file_xyz": [
+        -0.0297,
+        -0.0396,
+        -0.0092
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 26
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Foot_L",
+      "parent": "ANIMAL_02_Seagull_Leg_L",
+      "pivot_file_xyz": [
+        0.0297,
+        -0.0627,
+        0.2628
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 36
+    },
+    {
+      "object": "ANIMAL_02_Seagull_Foot_R",
+      "parent": "ANIMAL_02_Seagull_Leg_R",
+      "pivot_file_xyz": [
+        -0.0297,
+        -0.0627,
+        0.2628
+      ],
+      "materials": [
+        "WL_beak_yellow"
+      ],
+      "triangles": 36
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "wingspan_m": 1.28,
+    "origin": "centre of body"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "4531cd6f4bb0acbbb114fc295c364b7d"
+}

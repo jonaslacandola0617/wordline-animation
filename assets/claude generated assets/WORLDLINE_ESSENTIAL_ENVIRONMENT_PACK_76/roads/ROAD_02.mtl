@@ -1,0 +1,48 @@
+# WORLDLINE LAB ASSET PACK 02 shared material library (subset)
+newmtl asphalt_warm
+Ka 0.105 0.100 0.096
+Kd 0.300 0.285 0.275
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl asphalt_cool
+Ka 0.079 0.089 0.105
+Kd 0.225 0.255 0.300
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl marking_white
+Ka 0.332 0.332 0.326
+Kd 0.950 0.950 0.930
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl concrete_pale
+Ka 0.266 0.264 0.256
+Kd 0.760 0.755 0.730
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl concrete_weathered
+Ka 0.193 0.193 0.185
+Kd 0.550 0.550 0.530
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2
+
+newmtl soil
+Ka 0.105 0.070 0.042
+Kd 0.300 0.200 0.120
+Ks 0.050 0.050 0.050
+Ns 12
+d 1.0
+illum 2

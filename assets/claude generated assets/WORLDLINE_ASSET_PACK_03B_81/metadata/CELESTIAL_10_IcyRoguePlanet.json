@@ -1,0 +1,54 @@
+{
+  "id": "CELESTIAL_10",
+  "name": "Icy Rogue Planet",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_10_IcyRoguePlanet.obj",
+  "mtl": "celestial/CELESTIAL_10_IcyRoguePlanet.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "north pole +Y(file)",
+  "dimensions": {
+    "x_width_m": 2.0134,
+    "y_height_m": 2.0147,
+    "z_depth_m": 2.0143
+  },
+  "bounds_file_min": [
+    -1.0071,
+    -1.0084,
+    -1.0071
+  ],
+  "bounds_file_max": [
+    1.0062,
+    1.0064,
+    1.0072
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_10_IcyRoguePlanet_Rogue_Icy",
+      "parent": "CELESTIAL_10_IcyRoguePlanet_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_ice_rog_a",
+        "WL_ice_rog_b",
+        "WL_ice_rog_c",
+        "WL_ice_rog_d",
+        "WL_ice_rog_e"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = planet radius (fictional)",
+    "geometry": "fractured ice crust: recessed crack network, raised pressure ridges, 14 craters; plates alternate in tone"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "d577f6d42f6a07a8bcd2453c236b5297"
+}

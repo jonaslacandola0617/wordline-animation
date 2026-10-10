@@ -1,0 +1,127 @@
+{
+  "id": "INTERIOR_13",
+  "name": "Cash Register",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_13_CashRegister.obj",
+  "mtl": "interiors/INTERIOR_13_CashRegister.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "counter-top register, screen faces +Y",
+  "dimensions": {
+    "x_width_m": 0.4188,
+    "y_height_m": 0.445,
+    "z_depth_m": 0.4382
+  },
+  "bounds_file_min": [
+    -0.2094,
+    0.0,
+    -0.24
+  ],
+  "bounds_file_max": [
+    0.2094,
+    0.445,
+    0.1982
+  ],
+  "triangles": 1052,
+  "parts": [
+    {
+      "object": "INTERIOR_13_CashRegister_Body",
+      "parent": "INTERIOR_13_CashRegister_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_13_CashRegister_Keys",
+      "parent": "INTERIOR_13_CashRegister_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_white"
+      ],
+      "triangles": 792
+    },
+    {
+      "object": "INTERIOR_13_CashRegister_Drawer",
+      "parent": "INTERIOR_13_CashRegister_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.05,
+        -0.2
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_13_CashRegister_Screen_Arm",
+      "parent": "INTERIOR_13_CashRegister_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "INTERIOR_13_CashRegister_Screen",
+      "parent": "INTERIOR_13_CashRegister_Screen_Arm",
+      "pivot_file_xyz": [
+        0.0,
+        0.3,
+        0.1
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_13_CashRegister_Screen_Face",
+      "parent": "INTERIOR_13_CashRegister_Screen",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_screen_lit"
+      ],
+      "triangles": 12
+    },
+    {
+      "object": "INTERIOR_13_CashRegister_Receipt_Roll",
+      "parent": "INTERIOR_13_CashRegister_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 44
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Body, Keys, Drawer (slides +Y), Screen (tilt pivot), Screen_Arm, Receipt_Roll"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "41e1d85c681a4a5ff2902dce2e60babc"
+}

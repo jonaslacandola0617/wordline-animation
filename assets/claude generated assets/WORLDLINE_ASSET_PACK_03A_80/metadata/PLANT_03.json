@@ -1,0 +1,47 @@
+{
+ "asset_id": "PLANT_03",
+ "title": "Flowering Bush",
+ "category": "plants",
+ "obj": "../plants/PLANT_03.obj",
+ "mtl": "../plants/PLANT_03.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.936,
+  0.0,
+  -0.987
+ ],
+ "bbox_max": [
+  0.93,
+  1.657,
+  0.987
+ ],
+ "size_xyz": [
+  1.866,
+  1.657,
+  1.974
+ ],
+ "triangles": 3472,
+ "groups": [
+  "soil",
+  "branches",
+  "leaves",
+  "flowers",
+  "flower_centers"
+ ],
+ "materials": [
+  "soil",
+  "bark",
+  "foliage_mid",
+  "foliage_deep",
+  "pink",
+  "coral",
+  "offwhite",
+  "yellow"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

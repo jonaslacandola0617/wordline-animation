@@ -1,0 +1,40 @@
+{
+ "asset_id": "TERRAIN_12",
+ "title": "Rocky Coastline",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_12.obj",
+ "mtl": "../terrain/TERRAIN_12.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -36.0,
+  0.0,
+  -27.0
+ ],
+ "bbox_max": [
+  36.0,
+  19.212,
+  27.0
+ ],
+ "size_xyz": [
+  72.0,
+  19.212,
+  54.0
+ ],
+ "triangles": 2820,
+ "groups": [
+  "coast"
+ ],
+ "materials": [
+  "foliage_mid",
+  "rock_light",
+  "rock_mid",
+  "rock_dark",
+  "water_edge"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

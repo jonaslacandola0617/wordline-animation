@@ -1,0 +1,60 @@
+{
+ "asset_id": "RURAL_06",
+ "title": "Greenhouse",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_06.obj",
+ "mtl": "../rural_landmarks/RURAL_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -4.15,
+  0.0,
+  -7.15
+ ],
+ "bbox_max": [
+  4.15,
+  4.7,
+  7.2
+ ],
+ "size_xyz": [
+  8.3,
+  4.7,
+  14.35
+ ],
+ "triangles": 2300,
+ "groups": [
+  "frame",
+  "frame_rails",
+  "foundation",
+  "glazing_walls",
+  "glazing_roof",
+  "glazing_end_front",
+  "end_mullions_front",
+  "glazing_end_back",
+  "end_mullions_back",
+  "door",
+  "roof_vents",
+  "benches",
+  "bench_legs",
+  "plants",
+  "path",
+  "vent_fan"
+ ],
+ "materials": [
+  "alloy",
+  "concrete",
+  "panel_glass",
+  "glass",
+  "dark_steel",
+  "timber",
+  "steel",
+  "grass",
+  "foliage_mid",
+  "warm_concrete"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

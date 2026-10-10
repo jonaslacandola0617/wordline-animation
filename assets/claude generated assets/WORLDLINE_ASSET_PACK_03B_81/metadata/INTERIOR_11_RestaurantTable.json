@@ -1,0 +1,140 @@
+{
+  "id": "INTERIOR_11",
+  "name": "Restaurant Table",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_11_RestaurantTable.obj",
+  "mtl": "interiors/INTERIOR_11_RestaurantTable.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "round pedestal table, set for two",
+  "dimensions": {
+    "x_width_m": 0.835,
+    "y_height_m": 0.86,
+    "z_depth_m": 0.835
+  },
+  "bounds_file_min": [
+    -0.4175,
+    0.0,
+    -0.4175
+  ],
+  "bounds_file_max": [
+    0.4175,
+    0.86,
+    0.4175
+  ],
+  "triangles": 1252,
+  "parts": [
+    {
+      "object": "INTERIOR_11_RestaurantTable_Base",
+      "parent": "INTERIOR_11_RestaurantTable_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 128
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Pedestal",
+      "parent": "INTERIOR_11_RestaurantTable_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 96
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Top",
+      "parent": "INTERIOR_11_RestaurantTable_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 288
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Tablecloth",
+      "parent": "INTERIOR_11_RestaurantTable_Top",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_offwhite"
+      ],
+      "triangles": 336
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Plates",
+      "parent": "INTERIOR_11_RestaurantTable_Top",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 192
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Glasses",
+      "parent": "INTERIOR_11_RestaurantTable_Top",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_glass"
+      ],
+      "triangles": 160
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Candle",
+      "parent": "INTERIOR_11_RestaurantTable_Top",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_yellow"
+      ],
+      "triangles": 28
+    },
+    {
+      "object": "INTERIOR_11_RestaurantTable_Menu_Stand",
+      "parent": "INTERIOR_11_RestaurantTable_Top",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 24
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Top, Pedestal, Base, Tablecloth, Plates, Glasses, Candle, Menu_Stand"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "dc3265f66038825df49d13174b63e3c1"
+}

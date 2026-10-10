@@ -1,0 +1,77 @@
+{
+ "asset_id": "SMALL_02",
+ "title": "Scooter",
+ "category": "small_vehicles",
+ "obj": "../small_vehicles/SMALL_02.obj",
+ "mtl": "../small_vehicles/SMALL_02.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -0.416,
+  0.0,
+  -0.88
+ ],
+ "bbox_max": [
+  0.416,
+  1.469,
+  1.08
+ ],
+ "size_xyz": [
+  0.832,
+  1.469,
+  1.96
+ ],
+ "triangles": 1892,
+ "groups": [
+  "wheel_R",
+  "wheel_F",
+  "body_rear",
+  "floorboard",
+  "front_shield",
+  "handle_cowl",
+  "handlebar",
+  "mirrors",
+  "fork",
+  "headlight",
+  "fender_F",
+  "seat",
+  "tail",
+  "taillight",
+  "engine_swing",
+  "exhaust",
+  "kickstand"
+ ],
+ "materials": [
+  "rubber",
+  "rim_dark",
+  "alloy",
+  "blue_steel",
+  "dark_steel",
+  "chrome",
+  "black",
+  "light_head",
+  "light_red",
+  "steel"
+ ],
+ "pivots": {
+  "wheel_R": [
+   0,
+   0.209,
+   0.55
+  ],
+  "wheel_F": [
+   0,
+   0.209,
+   -0.65
+  ],
+  "front_fork": [
+   0,
+   1.109,
+   -0.4
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

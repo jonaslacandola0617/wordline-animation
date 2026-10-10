@@ -1,0 +1,86 @@
+{
+ "asset_id": "AIR_06",
+ "title": "Private Jet",
+ "category": "aircraft",
+ "obj": "../aircraft/AIR_06.obj",
+ "mtl": "../aircraft/AIR_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -9.1,
+  0.0,
+  -8.8
+ ],
+ "bbox_max": [
+  9.1,
+  6.0,
+  12.0
+ ],
+ "size_xyz": [
+  18.2,
+  6.0,
+  20.8
+ ],
+ "triangles": 3560,
+ "groups": [
+  "fuselage",
+  "stripe",
+  "stripe2",
+  "windows",
+  "cockpit_windows",
+  "wings",
+  "winglets",
+  "engine_L",
+  "engine_L_fan",
+  "engine_pylons",
+  "engine_R",
+  "engine_R_fan",
+  "tail_fin",
+  "stabilizers",
+  "gear_nose",
+  "gear_main_L",
+  "gear_main_R"
+ ],
+ "materials": [
+  "white",
+  "blue_steel",
+  "coral",
+  "glass_dark",
+  "dark_steel",
+  "alloy",
+  "chrome",
+  "rubber",
+  "rim_dark"
+ ],
+ "pivots": {
+  "engine_L": [
+   -1.9,
+   3.1,
+   5.0
+  ],
+  "engine_R": [
+   1.9,
+   3.1,
+   5.0
+  ],
+  "gear_nose": [
+   0.15,
+   0.32,
+   -6.0
+  ],
+  "gear_main_L": [
+   -1.8,
+   0.42,
+   0.6
+  ],
+  "gear_main_R": [
+   1.8,
+   0.42,
+   0.6
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

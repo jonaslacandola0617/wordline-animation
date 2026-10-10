@@ -1,0 +1,88 @@
+{
+ "asset_id": "LAND_11",
+ "title": "Excavator",
+ "category": "land_vehicles",
+ "obj": "../land_vehicles/LAND_11.obj",
+ "mtl": "../land_vehicles/LAND_11.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.955,
+  0.0,
+  -8.15
+ ],
+ "bbox_max": [
+  1.955,
+  5.075,
+  2.35
+ ],
+ "size_xyz": [
+  3.91,
+  5.075,
+  10.5
+ ],
+ "triangles": 2392,
+ "groups": [
+  "track_L",
+  "track_R",
+  "undercarriage",
+  "slew_ring",
+  "upper_house",
+  "counterweight",
+  "engine_vents",
+  "cab",
+  "cab_glass",
+  "seat",
+  "boom",
+  "stick",
+  "bucket",
+  "bucket_teeth",
+  "cyl_boom",
+  "cyl_stick",
+  "cyl_bucket"
+ ],
+ "materials": [
+  "rubber",
+  "steel",
+  "dark_steel",
+  "yellow",
+  "glass",
+  "chrome"
+ ],
+ "pivots": {
+  "track_L": [
+   -1.55,
+   0.66,
+   -0.0
+  ],
+  "track_R": [
+   1.55,
+   0.66,
+   -0.0
+  ],
+  "upper_swing": [
+   0,
+   1.485,
+   0
+  ],
+  "boom_pivot": [
+   -0.0,
+   1.935,
+   -0.6
+  ],
+  "stick_pivot": [
+   -0.0,
+   4.735,
+   -5.6
+  ],
+  "bucket_pivot": [
+   -0.0,
+   2.235,
+   -7.0
+  ]
+ },
+ "notes": "",
+ "extra": {}
+}

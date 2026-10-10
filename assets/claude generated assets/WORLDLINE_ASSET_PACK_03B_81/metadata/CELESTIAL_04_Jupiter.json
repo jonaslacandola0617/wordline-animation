@@ -1,0 +1,55 @@
+{
+  "id": "CELESTIAL_04",
+  "name": "Jupiter",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_04_Jupiter.obj",
+  "mtl": "celestial/CELESTIAL_04_Jupiter.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "Great Red Spot toward +Y; oblate (polar/equatorial 0.935)",
+  "dimensions": {
+    "x_width_m": 2.0016,
+    "y_height_m": 1.8709,
+    "z_depth_m": 2.0014
+  },
+  "bounds_file_min": [
+    -1.002,
+    -0.9335,
+    -1.0017
+  ],
+  "bounds_file_max": [
+    0.9997,
+    0.9374,
+    0.9997
+  ],
+  "triangles": 20480,
+  "parts": [
+    {
+      "object": "CELESTIAL_04_Jupiter_Jupiter",
+      "parent": "CELESTIAL_04_Jupiter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_jup_brown",
+        "WL_jup_cream",
+        "WL_jup_red",
+        "WL_jup_rust",
+        "WL_jup_tan",
+        "WL_jup_white"
+      ],
+      "triangles": 20480
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = 71,492 km (equatorial)",
+    "geometry": "latitude bands with turbulent edges as slightly raised zones, Great Red Spot raised oval with swirl ring, white ovals"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "c664ed90f5405483da45add6aba1911e"
+}

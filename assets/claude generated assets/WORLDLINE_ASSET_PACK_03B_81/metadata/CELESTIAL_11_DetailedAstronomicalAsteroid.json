@@ -1,0 +1,66 @@
+{
+  "id": "CELESTIAL_11",
+  "name": "Detailed Astronomical Asteroid",
+  "category": "celestial",
+  "obj": "celestial/CELESTIAL_11_DetailedAstronomicalAsteroid.obj",
+  "mtl": "celestial/CELESTIAL_11_DetailedAstronomicalAsteroid.mtl",
+  "units": "model units (see notes)",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of the object",
+  "pose": "long axis along X",
+  "dimensions": {
+    "x_width_m": 2.6851,
+    "y_height_m": 1.397,
+    "z_depth_m": 1.5648
+  },
+  "bounds_file_min": [
+    -1.3588,
+    -0.6909,
+    -0.7685
+  ],
+  "bounds_file_max": [
+    1.3263,
+    0.7061,
+    0.7962
+  ],
+  "triangles": 21880,
+  "parts": [
+    {
+      "object": "CELESTIAL_11_DetailedAstronomicalAsteroid_Asteroid",
+      "parent": "CELESTIAL_11_DetailedAstronomicalAsteroid_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_aster_a",
+        "WL_aster_b",
+        "WL_aster_c",
+        "WL_aster_d"
+      ],
+      "triangles": 20480
+    },
+    {
+      "object": "CELESTIAL_11_DetailedAstronomicalAsteroid_Boulders",
+      "parent": "CELESTIAL_11_DetailedAstronomicalAsteroid_Asteroid",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_aster_c"
+      ],
+      "triangles": 1400
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "scale": "1 model unit = mean semi-axis (long axis ~2.5 units)",
+    "geometry": "elongated rubble-pile body with saddle depression, 5 large + 30 small craters, 70 separate boulder meshes on Boulders part"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "8e16b9b902f4038af123c37251a94228"
+}

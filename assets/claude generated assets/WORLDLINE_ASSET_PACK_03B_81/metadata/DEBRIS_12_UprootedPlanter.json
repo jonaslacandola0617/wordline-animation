@@ -1,0 +1,127 @@
+{
+  "id": "DEBRIS_12",
+  "name": "Uprooted Planter",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_12_UprootedPlanter.obj",
+  "mtl": "floating_debris/DEBRIS_12_UprootedPlanter.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "clay pot tipped on its side, cracked, with spilled soil and a pulled-up plant",
+  "dimensions": {
+    "x_width_m": 1.0,
+    "y_height_m": 0.556,
+    "z_depth_m": 1.1228
+  },
+  "bounds_file_min": [
+    -0.4604,
+    0.0,
+    -1.0228
+  ],
+  "bounds_file_max": [
+    0.5396,
+    0.556,
+    0.1
+  ],
+  "triangles": 1076,
+  "parts": [
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Pot",
+      "parent": "DEBRIS_12_UprootedPlanter_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_pot_clay"
+      ],
+      "triangles": 256
+    },
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Rim_Ring",
+      "parent": "DEBRIS_12_UprootedPlanter_Pot",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_pot_clay"
+      ],
+      "triangles": 160
+    },
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Crack_Chunk",
+      "parent": "DEBRIS_12_UprootedPlanter_Pot",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_pot_clay"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Soil_Spill",
+      "parent": "DEBRIS_12_UprootedPlanter_Pot",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_dirt_dark"
+      ],
+      "triangles": 240
+    },
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Root_Ball",
+      "parent": "DEBRIS_12_UprootedPlanter_Pot",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_soil"
+      ],
+      "triangles": 80
+    },
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Stem_Leaves",
+      "parent": "DEBRIS_12_UprootedPlanter_Root_Ball",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_plant_green"
+      ],
+      "triangles": 176
+    },
+    {
+      "object": "DEBRIS_12_UprootedPlanter_Roots",
+      "parent": "DEBRIS_12_UprootedPlanter_Root_Ball",
+      "pivot_file_xyz": [
+        0.0,
+        0.008,
+        -0.0
+      ],
+      "materials": [
+        "WL_root"
+      ],
+      "triangles": 120
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Pot, Crack_Chunk, Soil_Spill, Root_Ball, Stem_Leaves"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "8066c08717bc2af09868f533f28f42fe"
+}

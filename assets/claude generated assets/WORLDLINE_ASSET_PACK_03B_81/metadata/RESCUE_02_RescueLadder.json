@@ -1,0 +1,121 @@
+{
+  "id": "RESCUE_02",
+  "name": "Rescue Ladder",
+  "category": "emergency",
+  "obj": "emergency/RESCUE_02_RescueLadder.obj",
+  "mtl": "emergency/RESCUE_02_RescueLadder.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "extension ladder lying on the ground, hooks toward +Y",
+  "dimensions": {
+    "x_width_m": 0.51,
+    "y_height_m": 0.17,
+    "z_depth_m": 3.335
+  },
+  "bounds_file_min": [
+    -0.255,
+    0.0,
+    -1.695
+  ],
+  "bounds_file_max": [
+    0.255,
+    0.17,
+    1.64
+  ],
+  "triangles": 864,
+  "parts": [
+    {
+      "object": "RESCUE_02_RescueLadder_Rail_L",
+      "parent": "RESCUE_02_RescueLadder_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "RESCUE_02_RescueLadder_Rail_R",
+      "parent": "RESCUE_02_RescueLadder_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_gal"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "RESCUE_02_RescueLadder_Rungs",
+      "parent": "RESCUE_02_RescueLadder_Rail_L",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 336
+    },
+    {
+      "object": "RESCUE_02_RescueLadder_Foot_Pads",
+      "parent": "RESCUE_02_RescueLadder_Rail_L",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_rubber"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "RESCUE_02_RescueLadder_Hooks",
+      "parent": "RESCUE_02_RescueLadder_Rail_L",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_steel"
+      ],
+      "triangles": 176
+    },
+    {
+      "object": "RESCUE_02_RescueLadder_Extension_Lock",
+      "parent": "RESCUE_02_RescueLadder_Rail_L",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_red_paint"
+      ],
+      "triangles": 88
+    }
+  ],
+  "attachment_points_file_xyz": {
+    "rungs": [
+      0.0,
+      0.03,
+      -0.0
+    ]
+  },
+  "notes": {
+    "parts": "Rail_L, Rail_R, Rungs, Foot_Pads, Hooks, Extension_Lock",
+    "grip": "rungs"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "fb2d0c8e2fae228f25f85ed86238ca42"
+}

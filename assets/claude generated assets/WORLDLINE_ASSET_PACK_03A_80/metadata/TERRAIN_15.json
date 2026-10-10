@@ -1,0 +1,39 @@
+{
+ "asset_id": "TERRAIN_15",
+ "title": "Cracked Ground",
+ "category": "terrain",
+ "obj": "../terrain/TERRAIN_15.obj",
+ "mtl": "../terrain/TERRAIN_15.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -22.5,
+  0.0,
+  -20.0
+ ],
+ "bbox_max": [
+  22.5,
+  2.001,
+  20.0
+ ],
+ "size_xyz": [
+  45.0,
+  2.001,
+  40.0
+ ],
+ "triangles": 876,
+ "groups": [
+  "fissure_floor",
+  "plates"
+ ],
+ "materials": [
+  "ash",
+  "dry_tan",
+  "soil"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

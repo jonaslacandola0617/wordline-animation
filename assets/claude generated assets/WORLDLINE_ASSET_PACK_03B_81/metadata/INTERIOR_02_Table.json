@@ -1,0 +1,75 @@
+{
+  "id": "INTERIOR_02",
+  "name": "Table",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_02_Table.obj",
+  "mtl": "interiors/INTERIOR_02_Table.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "dining table",
+  "dimensions": {
+    "x_width_m": 1.9866,
+    "y_height_m": 0.76,
+    "z_depth_m": 1.0927
+  },
+  "bounds_file_min": [
+    -0.9933,
+    0.0,
+    -0.5464
+  ],
+  "bounds_file_max": [
+    0.9933,
+    0.76,
+    0.5464
+  ],
+  "triangles": 204,
+  "parts": [
+    {
+      "object": "INTERIOR_02_Table_Top",
+      "parent": "INTERIOR_02_Table_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_02_Table_Apron",
+      "parent": "INTERIOR_02_Table_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 48
+    },
+    {
+      "object": "INTERIOR_02_Table_Legs",
+      "parent": "INTERIOR_02_Table_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 112
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Top, Apron, Legs"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "c615124ed3e8fb074afa17287b6b39ed"
+}

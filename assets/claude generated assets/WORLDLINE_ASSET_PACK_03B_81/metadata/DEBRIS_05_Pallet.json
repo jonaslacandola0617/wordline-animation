@@ -1,0 +1,101 @@
+{
+  "id": "DEBRIS_05",
+  "name": "Pallet",
+  "category": "debris",
+  "obj": "floating_debris/DEBRIS_05_Pallet.obj",
+  "mtl": "floating_debris/DEBRIS_05_Pallet.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "centre of mass (airborne / floating)",
+  "pose": "lying flat, damaged",
+  "dimensions": {
+    "x_width_m": 1.211,
+    "y_height_m": 0.1569,
+    "z_depth_m": 1.25
+  },
+  "bounds_file_min": [
+    -0.55,
+    0.0,
+    -0.625
+  ],
+  "bounds_file_max": [
+    0.661,
+    0.1569,
+    0.625
+  ],
+  "triangles": 796,
+  "parts": [
+    {
+      "object": "DEBRIS_05_Pallet_Stringers",
+      "parent": "DEBRIS_05_Pallet_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0049,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_dark"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "DEBRIS_05_Pallet_Bottom_Boards",
+      "parent": "DEBRIS_05_Pallet_Stringers",
+      "pivot_file_xyz": [
+        0.0,
+        0.0049,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 132
+    },
+    {
+      "object": "DEBRIS_05_Pallet_Top_Boards",
+      "parent": "DEBRIS_05_Pallet_Stringers",
+      "pivot_file_xyz": [
+        0.0,
+        0.0049,
+        -0.0
+      ],
+      "materials": [
+        "WL_wood_light"
+      ],
+      "triangles": 264
+    },
+    {
+      "object": "DEBRIS_05_Pallet_Broken_Board",
+      "parent": "DEBRIS_05_Pallet_Stringers",
+      "pivot_file_xyz": [
+        0.0,
+        0.0049,
+        -0.0
+      ],
+      "materials": [
+        "WL_bark_fresh"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "DEBRIS_05_Pallet_Nails",
+      "parent": "DEBRIS_05_Pallet_Top_Boards",
+      "pivot_file_xyz": [
+        0.0,
+        0.0049,
+        -0.0
+      ],
+      "materials": [
+        "WL_metal_rust"
+      ],
+      "triangles": 180
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Stringers, Top_Boards, Bottom_Boards, Broken_Board, Nails"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "1d96a7376a33654cabbaf5d7b0b99da3"
+}

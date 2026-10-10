@@ -1,0 +1,45 @@
+{
+ "asset_id": "PLANT_06",
+ "title": "Cactus",
+ "category": "plants",
+ "obj": "../plants/PLANT_06.obj",
+ "mtl": "../plants/PLANT_06.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -1.037,
+  0.0,
+  -0.542
+ ],
+ "bbox_max": [
+  1.19,
+  3.168,
+  0.542
+ ],
+ "size_xyz": [
+  2.226,
+  3.168,
+  1.083
+ ],
+ "triangles": 1096,
+ "groups": [
+  "base_soil",
+  "trunk",
+  "arm_L",
+  "arm_R",
+  "flowers",
+  "spines"
+ ],
+ "materials": [
+  "dry_tan",
+  "cactus",
+  "pink",
+  "coral",
+  "offwhite"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

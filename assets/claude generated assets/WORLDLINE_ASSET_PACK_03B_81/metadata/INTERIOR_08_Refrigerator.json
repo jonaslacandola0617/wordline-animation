@@ -1,0 +1,101 @@
+{
+  "id": "INTERIOR_08",
+  "name": "Refrigerator",
+  "category": "interiors",
+  "obj": "interiors/INTERIOR_08_Refrigerator.obj",
+  "mtl": "interiors/INTERIOR_08_Refrigerator.mtl",
+  "units": "metres",
+  "up": "Y",
+  "forward": "-Z",
+  "origin": "ground contact (y=0) at the footprint centre",
+  "pose": "doors face +Y; both doors hinged on the left",
+  "dimensions": {
+    "x_width_m": 0.7,
+    "y_height_m": 1.78,
+    "z_depth_m": 0.78
+  },
+  "bounds_file_min": [
+    -0.35,
+    0.0,
+    -0.44
+  ],
+  "bounds_file_max": [
+    0.35,
+    1.78,
+    0.34
+  ],
+  "triangles": 332,
+  "parts": [
+    {
+      "object": "INTERIOR_08_Refrigerator_Body",
+      "parent": "INTERIOR_08_Refrigerator_Root",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_08_Refrigerator_Door_Freezer",
+      "parent": "INTERIOR_08_Refrigerator_Body",
+      "pivot_file_xyz": [
+        -0.35,
+        1.485,
+        -0.38
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_08_Refrigerator_Door_Fridge",
+      "parent": "INTERIOR_08_Refrigerator_Body",
+      "pivot_file_xyz": [
+        -0.35,
+        0.625,
+        -0.38
+      ],
+      "materials": [
+        "WL_safety_white"
+      ],
+      "triangles": 44
+    },
+    {
+      "object": "INTERIOR_08_Refrigerator_Handles",
+      "parent": "INTERIOR_08_Refrigerator_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_chrome"
+      ],
+      "triangles": 88
+    },
+    {
+      "object": "INTERIOR_08_Refrigerator_Feet",
+      "parent": "INTERIOR_08_Refrigerator_Body",
+      "pivot_file_xyz": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "materials": [
+        "WL_plastic_black"
+      ],
+      "triangles": 112
+    }
+  ],
+  "attachment_points_file_xyz": {},
+  "notes": {
+    "parts": "Body, Door_Freezer, Door_Fridge (hinge pivots in metadata), Handles, Feet"
+  },
+  "open_part_count": 0,
+  "geometry_hash": "e439142ec5e03b49a7bc381512ec96c1"
+}

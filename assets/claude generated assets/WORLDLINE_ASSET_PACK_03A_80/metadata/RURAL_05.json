@@ -1,0 +1,61 @@
+{
+ "asset_id": "RURAL_05",
+ "title": "Barn",
+ "category": "rural_landmarks",
+ "obj": "../rural_landmarks/RURAL_05.obj",
+ "mtl": "../rural_landmarks/RURAL_05.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "none (static scenery; no nominal heading)",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -6.2,
+  0.0,
+  -9.3
+ ],
+ "bbox_max": [
+  8.9,
+  12.912,
+  9.3
+ ],
+ "size_xyz": [
+  15.1,
+  12.912,
+  18.6
+ ],
+ "triangles": 798,
+ "groups": [
+  "walls",
+  "gable_walls",
+  "roof",
+  "roof_ridge",
+  "trim",
+  "base",
+  "doors",
+  "door_trim",
+  "door_track",
+  "hayloft_door",
+  "windows",
+  "window_frames",
+  "siding_front",
+  "cupola",
+  "cupola_roof",
+  "cupola_louvres",
+  "weather_vane",
+  "shed",
+  "shed_roof",
+  "shed_door"
+ ],
+ "materials": [
+  "barn_red",
+  "roof_slate",
+  "dark_steel",
+  "offwhite",
+  "concrete",
+  "glass",
+  "glass_dark"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

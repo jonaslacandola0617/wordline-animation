@@ -1,0 +1,974 @@
+{
+ "ANIMAL_01": {
+  "ok": true,
+  "meshes": 21,
+  "tris": 1248,
+  "unmatched": 0,
+  "size": [
+   0.699,
+   0.244,
+   0.475
+  ],
+  "minY": 0.002
+ },
+ "ANIMAL_02": {
+  "ok": true,
+  "meshes": 22,
+  "tris": 1316,
+  "unmatched": 0,
+  "size": [
+   1.347,
+   0.167,
+   0.707
+  ],
+  "minY": -0.08
+ },
+ "ANIMAL_03": {
+  "ok": true,
+  "meshes": 19,
+  "tris": 1268,
+  "unmatched": 0,
+  "size": [
+   1.037,
+   0.363,
+   0.741
+  ],
+  "minY": 0.003
+ },
+ "ANIMAL_04": {
+  "ok": true,
+  "meshes": 24,
+  "tris": 1588,
+  "unmatched": 0,
+  "size": [
+   2.184,
+   0.609,
+   1.396
+  ],
+  "minY": -0.455
+ },
+ "ANIMAL_05": {
+  "ok": true,
+  "meshes": 23,
+  "tris": 956,
+  "unmatched": 0,
+  "size": [
+   0.334,
+   0.788,
+   1.212
+  ],
+  "minY": 0
+ },
+ "ANIMAL_06": {
+  "ok": true,
+  "meshes": 23,
+  "tris": 880,
+  "unmatched": 0,
+  "size": [
+   0.231,
+   0.585,
+   0.828
+  ],
+  "minY": 0
+ },
+ "ANIMAL_07": {
+  "ok": true,
+  "meshes": 21,
+  "tris": 1012,
+  "unmatched": 0,
+  "size": [
+   0.416,
+   1.931,
+   1.321
+  ],
+  "minY": 0
+ },
+ "ANIMAL_08": {
+  "ok": true,
+  "meshes": 23,
+  "tris": 1004,
+  "unmatched": 0,
+  "size": [
+   0.704,
+   1.41,
+   2.331
+  ],
+  "minY": 0
+ },
+ "DISASTER_01": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 560,
+  "unmatched": 0,
+  "size": [
+   4.304,
+   3.145,
+   3.982
+  ],
+  "minY": 0
+ },
+ "DISASTER_02": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 378,
+  "unmatched": 0,
+  "size": [
+   0.952,
+   0.844,
+   0.951
+  ],
+  "minY": 0
+ },
+ "DISASTER_03": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 342,
+  "unmatched": 0,
+  "size": [
+   1.778,
+   1.365,
+   1.317
+  ],
+  "minY": 0
+ },
+ "DISASTER_04": {
+  "ok": true,
+  "meshes": 3,
+  "tris": 644,
+  "unmatched": 0,
+  "size": [
+   3.667,
+   2.288,
+   2.916
+  ],
+  "minY": 0
+ },
+ "DISASTER_05": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 196,
+  "unmatched": 0,
+  "size": [
+   0.812,
+   0.503,
+   0.534
+  ],
+  "minY": 0
+ },
+ "DISASTER_06": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 320,
+  "unmatched": 0,
+  "size": [
+   1.07,
+   0.777,
+   0.998
+  ],
+  "minY": 0
+ },
+ "DISASTER_07": {
+  "ok": true,
+  "meshes": 4,
+  "tris": 800,
+  "unmatched": 0,
+  "size": [
+   2.58,
+   0.259,
+   1.841
+  ],
+  "minY": 0
+ },
+ "DISASTER_08": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 532,
+  "unmatched": 0,
+  "size": [
+   4,
+   1.75,
+   4
+  ],
+  "minY": -1.75
+ },
+ "DISASTER_09": {
+  "ok": true,
+  "meshes": 2,
+  "tris": 4718,
+  "unmatched": 0,
+  "size": [
+   10,
+   3.674,
+   10
+  ],
+  "minY": -2.6
+ },
+ "DISASTER_10": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 1410,
+  "unmatched": 0,
+  "size": [
+   4.109,
+   2.704,
+   7.621
+  ],
+  "minY": 0
+ },
+ "DISASTER_11": {
+  "ok": true,
+  "meshes": 14,
+  "tris": 3006,
+  "unmatched": 0,
+  "size": [
+   3.5,
+   1.504,
+   4.736
+  ],
+  "minY": 0
+ },
+ "DISASTER_12": {
+  "ok": true,
+  "meshes": 11,
+  "tris": 3508,
+  "unmatched": 0,
+  "size": [
+   4.412,
+   3.276,
+   7.532
+  ],
+  "minY": 0
+ },
+ "DISASTER_13": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 1196,
+  "unmatched": 0,
+  "size": [
+   4.537,
+   2.292,
+   8.922
+  ],
+  "minY": 0
+ },
+ "DISASTER_14": {
+  "ok": true,
+  "meshes": 3,
+  "tris": 558,
+  "unmatched": 0,
+  "size": [
+   1.195,
+   1.132,
+   1.012
+  ],
+  "minY": 0
+ },
+ "CELESTIAL_01": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.001,
+   2.009,
+   2.003
+  ],
+  "minY": -1.001
+ },
+ "CELESTIAL_02": {
+  "ok": true,
+  "meshes": 2,
+  "tris": 22280,
+  "unmatched": 0,
+  "size": [
+   2.068,
+   2.034,
+   2.081
+  ],
+  "minY": -1.019
+ },
+ "CELESTIAL_03": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.018,
+   2.012,
+   2.006
+  ],
+  "minY": -1.007
+ },
+ "CELESTIAL_04": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.002,
+   1.871,
+   2.001
+  ],
+  "minY": -0.934
+ },
+ "CELESTIAL_05": {
+  "ok": true,
+  "meshes": 2,
+  "tris": 29120,
+  "unmatched": 0,
+  "size": [
+   4.69,
+   1.799,
+   4.69
+  ],
+  "minY": -0.905
+ },
+ "CELESTIAL_06": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.003,
+   2.001,
+   2.007
+  ],
+  "minY": -1.001
+ },
+ "CELESTIAL_07": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.006,
+   2.007,
+   2.008
+  ],
+  "minY": -1.006
+ },
+ "CELESTIAL_08": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.001,
+   1.966,
+   2
+  ],
+  "minY": -0.98
+ },
+ "CELESTIAL_09": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.037,
+   2.04,
+   2.032
+  ],
+  "minY": -1.022
+ },
+ "CELESTIAL_10": {
+  "ok": true,
+  "meshes": 1,
+  "tris": 20480,
+  "unmatched": 0,
+  "size": [
+   2.013,
+   2.015,
+   2.014
+  ],
+  "minY": -1.008
+ },
+ "CELESTIAL_11": {
+  "ok": true,
+  "meshes": 2,
+  "tris": 21880,
+  "unmatched": 0,
+  "size": [
+   2.685,
+   1.397,
+   1.565
+  ],
+  "minY": -0.691
+ },
+ "CELESTIAL_12": {
+  "ok": true,
+  "meshes": 2,
+  "tris": 21580,
+  "unmatched": 0,
+  "size": [
+   3.409,
+   1.762,
+   1.716
+  ],
+  "minY": -0.883
+ },
+ "INTERIOR_01": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 380,
+  "unmatched": 0,
+  "size": [
+   0.46,
+   0.96,
+   0.44
+  ],
+  "minY": 0
+ },
+ "INTERIOR_02": {
+  "ok": true,
+  "meshes": 3,
+  "tris": 204,
+  "unmatched": 0,
+  "size": [
+   1.987,
+   0.76,
+   1.093
+  ],
+  "minY": 0
+ },
+ "INTERIOR_03": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 564,
+  "unmatched": 0,
+  "size": [
+   2,
+   0.88,
+   0.909
+  ],
+  "minY": 0
+ },
+ "INTERIOR_04": {
+  "ok": true,
+  "meshes": 8,
+  "tris": 464,
+  "unmatched": 0,
+  "size": [
+   1.5,
+   0.765,
+   0.755
+  ],
+  "minY": 0
+ },
+ "INTERIOR_05": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 964,
+  "unmatched": 0,
+  "size": [
+   0.64,
+   0.975,
+   0.649
+  ],
+  "minY": 0
+ },
+ "INTERIOR_06": {
+  "ok": true,
+  "meshes": 4,
+  "tris": 2476,
+  "unmatched": 0,
+  "size": [
+   0.83,
+   1.83,
+   0.3
+  ],
+  "minY": 0
+ },
+ "INTERIOR_07": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 476,
+  "unmatched": 0,
+  "size": [
+   2.34,
+   1.84,
+   0.79
+  ],
+  "minY": 0
+ },
+ "INTERIOR_08": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 332,
+  "unmatched": 0,
+  "size": [
+   0.7,
+   1.78,
+   0.78
+  ],
+  "minY": 0
+ },
+ "INTERIOR_09": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 1464,
+  "unmatched": 0,
+  "size": [
+   0.97,
+   1.88,
+   0.885
+  ],
+  "minY": 0
+ },
+ "INTERIOR_10": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 1672,
+  "unmatched": 0,
+  "size": [
+   1.52,
+   1.905,
+   2.378
+  ],
+  "minY": 0
+ },
+ "INTERIOR_11": {
+  "ok": true,
+  "meshes": 8,
+  "tris": 1252,
+  "unmatched": 0,
+  "size": [
+   0.835,
+   0.86,
+   0.835
+  ],
+  "minY": 0
+ },
+ "INTERIOR_12": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 788,
+  "unmatched": 0,
+  "size": [
+   3,
+   2.72,
+   3
+  ],
+  "minY": 0
+ },
+ "INTERIOR_13": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 1052,
+  "unmatched": 0,
+  "size": [
+   0.419,
+   0.445,
+   0.438
+  ],
+  "minY": 0
+ },
+ "INTERIOR_14": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 1628,
+  "unmatched": 0,
+  "size": [
+   0.95,
+   1.88,
+   0.465
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_01": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 336,
+  "unmatched": 0,
+  "size": [
+   0.078,
+   0.013,
+   0.15
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_02": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 504,
+  "unmatched": 0,
+  "size": [
+   0.49,
+   0.609,
+   0.358
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_03": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 444,
+  "unmatched": 0,
+  "size": [
+   0.338,
+   0.337,
+   0.18
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_04": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 816,
+  "unmatched": 0,
+  "size": [
+   0.47,
+   1.004,
+   0.294
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_05": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 792,
+  "unmatched": 0,
+  "size": [
+   1.52,
+   0.992,
+   1.52
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_06": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 1112,
+  "unmatched": 0,
+  "size": [
+   0.383,
+   0.184,
+   0.455
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_07": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 720,
+  "unmatched": 0,
+  "size": [
+   0.421,
+   0.618,
+   0.257
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_08": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 990,
+  "unmatched": 0,
+  "size": [
+   0.103,
+   0.227,
+   0.097
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_09": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 948,
+  "unmatched": 0,
+  "size": [
+   0.184,
+   0.079,
+   0.231
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_10": {
+  "ok": true,
+  "meshes": 9,
+  "tris": 1016,
+  "unmatched": 0,
+  "size": [
+   1.079,
+   1.687,
+   1.378
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_11": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 444,
+  "unmatched": 0,
+  "size": [
+   0.316,
+   0.247,
+   0.143
+  ],
+  "minY": 0
+ },
+ "ACCESSORY_12": {
+  "ok": true,
+  "meshes": 8,
+  "tris": 400,
+  "unmatched": 0,
+  "size": [
+   0.063,
+   0.3,
+   0.044
+  ],
+  "minY": 0
+ },
+ "RESCUE_01": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 1128,
+  "unmatched": 0,
+  "size": [
+   0.65,
+   0.18,
+   2.4
+  ],
+  "minY": 0
+ },
+ "RESCUE_02": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 864,
+  "unmatched": 0,
+  "size": [
+   0.51,
+   0.17,
+   3.335
+  ],
+  "minY": 0
+ },
+ "RESCUE_03": {
+  "ok": true,
+  "meshes": 8,
+  "tris": 1848,
+  "unmatched": 0,
+  "size": [
+   1.95,
+   1.17,
+   1.137
+  ],
+  "minY": 0
+ },
+ "RESCUE_04": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 904,
+  "unmatched": 0,
+  "size": [
+   0.975,
+   2.18,
+   0.92
+  ],
+  "minY": 0
+ },
+ "RESCUE_05": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 666,
+  "unmatched": 0,
+  "size": [
+   0.36,
+   0.355,
+   0.52
+  ],
+  "minY": 0
+ },
+ "RESCUE_06": {
+  "ok": true,
+  "meshes": 9,
+  "tris": 576,
+  "unmatched": 0,
+  "size": [
+   0.23,
+   0.604,
+   0.161
+  ],
+  "minY": 0
+ },
+ "RESCUE_07": {
+  "ok": true,
+  "meshes": 4,
+  "tris": 1080,
+  "unmatched": 0,
+  "size": [
+   0.822,
+   0.14,
+   0.822
+  ],
+  "minY": 0
+ },
+ "RESCUE_08": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 724,
+  "unmatched": 0,
+  "size": [
+   1.253,
+   2.086,
+   0.955
+  ],
+  "minY": 0
+ },
+ "RESCUE_09": {
+  "ok": true,
+  "meshes": 9,
+  "tris": 1056,
+  "unmatched": 0,
+  "size": [
+   0.79,
+   0.749,
+   0.657
+  ],
+  "minY": 0
+ },
+ "DEBRIS_01": {
+  "ok": true,
+  "meshes": 4,
+  "tris": 642,
+  "unmatched": 0,
+  "size": [
+   3.487,
+   0.603,
+   0.955
+  ],
+  "minY": 0
+ },
+ "DEBRIS_02": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 388,
+  "unmatched": 0,
+  "size": [
+   0.269,
+   0.106,
+   2.323
+  ],
+  "minY": 0
+ },
+ "DEBRIS_03": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 1506,
+  "unmatched": 0,
+  "size": [
+   0.809,
+   0.6,
+   1.218
+  ],
+  "minY": 0
+ },
+ "DEBRIS_04": {
+  "ok": true,
+  "meshes": 3,
+  "tris": 728,
+  "unmatched": 0,
+  "size": [
+   0.9,
+   0.713,
+   0.688
+  ],
+  "minY": 0
+ },
+ "DEBRIS_05": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 796,
+  "unmatched": 0,
+  "size": [
+   1.211,
+   0.157,
+   1.25
+  ],
+  "minY": 0
+ },
+ "DEBRIS_06": {
+  "ok": true,
+  "meshes": 5,
+  "tris": 236,
+  "unmatched": 0,
+  "size": [
+   1.655,
+   0.188,
+   0.62
+  ],
+  "minY": 0
+ },
+ "DEBRIS_07": {
+  "ok": true,
+  "meshes": 2,
+  "tris": 3408,
+  "unmatched": 0,
+  "size": [
+   1.506,
+   0.082,
+   1.351
+  ],
+  "minY": 0
+ },
+ "DEBRIS_08": {
+  "ok": true,
+  "meshes": 4,
+  "tris": 570,
+  "unmatched": 0,
+  "size": [
+   1.57,
+   0.05,
+   1.41
+  ],
+  "minY": 0
+ },
+ "DEBRIS_09": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 452,
+  "unmatched": 0,
+  "size": [
+   1.171,
+   0.41,
+   2.89
+  ],
+  "minY": 0
+ },
+ "DEBRIS_10": {
+  "ok": true,
+  "meshes": 3,
+  "tris": 1332,
+  "unmatched": 0,
+  "size": [
+   1,
+   0.311,
+   1.601
+  ],
+  "minY": 0
+ },
+ "DEBRIS_11": {
+  "ok": true,
+  "meshes": 6,
+  "tris": 540,
+  "unmatched": 0,
+  "size": [
+   1.18,
+   0.38,
+   0.988
+  ],
+  "minY": 0
+ },
+ "DEBRIS_12": {
+  "ok": true,
+  "meshes": 7,
+  "tris": 1076,
+  "unmatched": 0,
+  "size": [
+   1,
+   0.556,
+   1.123
+  ],
+  "minY": 0
+ }
+}

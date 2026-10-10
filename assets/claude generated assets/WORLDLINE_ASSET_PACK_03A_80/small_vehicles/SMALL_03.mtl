@@ -1,0 +1,48 @@
+newmtl rubber
+Ka 0.056 0.065 0.071
+Kd 0.161 0.184 0.204
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl alloy
+Ka 0.270 0.279 0.285
+Kd 0.773 0.796 0.816
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl steel
+Ka 0.143 0.159 0.170
+Kd 0.408 0.455 0.486
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl blue_steel
+Ka 0.135 0.185 0.207
+Kd 0.384 0.529 0.592
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl chrome
+Ka 0.253 0.264 0.272
+Kd 0.722 0.753 0.776
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+
+newmtl dark_steel
+Ka 0.086 0.099 0.110
+Kd 0.247 0.282 0.314
+Ks 0.050 0.050 0.050
+Ns 10
+d 1.0
+illum 2
+

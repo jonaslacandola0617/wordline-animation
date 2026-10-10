@@ -1,0 +1,54 @@
+{
+ "asset_id": "RAIL_08",
+ "title": "Elevated Rail Support",
+ "category": "rail",
+ "obj": "../rail/RAIL_08.obj",
+ "mtl": "../rail/RAIL_08.mtl",
+ "units": "meters",
+ "up_axis": "Y",
+ "nominal_forward": "-Z",
+ "grounded_at_y0": true,
+ "bbox_min": [
+  -3.9,
+  0.0,
+  -7.0
+ ],
+ "bbox_max": [
+  3.9,
+  15.54,
+  7.0
+ ],
+ "size_xyz": [
+  7.8,
+  15.54,
+  14.0
+ ],
+ "triangles": 796,
+ "groups": [
+  "columns",
+  "footing",
+  "crossbeam",
+  "bearings",
+  "guideway",
+  "guideway_slab",
+  "parapets",
+  "guideway_rails",
+  "sleeper_strip",
+  "rail_fixings",
+  "catenary_mast",
+  "wire"
+ ],
+ "materials": [
+  "warm_concrete",
+  "concrete_dark",
+  "rubber",
+  "stone",
+  "steel",
+  "concrete",
+  "dark_steel",
+  "black"
+ ],
+ "pivots": {},
+ "notes": "",
+ "extra": {}
+}

@@ -1,0 +1,24 @@
+# WORLDLINE LAB ASSET PACK 02 shared material library (subset)
+newmtl brushed_metal
+Ka 0.210 0.217 0.227
+Kd 0.600 0.620 0.650
+Ks 0.500 0.500 0.500
+Ns 60
+d 1.0
+illum 2
+
+newmtl traffic_red
+Ka 0.280 0.035 0.035
+Kd 0.800 0.100 0.100
+Ks 0.200 0.200 0.200
+Ns 30
+d 1.0
+illum 2
+
+newmtl safety_yellow
+Ka 0.343 0.280 0.028
+Kd 0.980 0.800 0.080
+Ks 0.200 0.200 0.200
+Ns 30
+d 1.0
+illum 2
