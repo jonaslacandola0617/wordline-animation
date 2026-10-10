@@ -1,0 +1,120 @@
+newmtl HUMAN_06_top
+Ka 0.130 0.151 0.170
+Kd 0.373 0.431 0.486
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_bottom
+Ka 0.170 0.145 0.104
+Kd 0.486 0.416 0.298
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_skin
+Ka 0.231 0.154 0.100
+Kd 0.659 0.439 0.286
+Ks 0.030 0.030 0.030
+Ns 6
+d 1.0
+illum 2
+
+newmtl HUMAN_06_eye
+Ka 0.037 0.036 0.043
+Kd 0.106 0.102 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_hair
+Ka 0.059 0.045 0.037
+Kd 0.169 0.129 0.106
+Ks 0.100 0.100 0.100
+Ns 16
+d 1.0
+illum 2
+
+newmtl HUMAN_06_mouth
+Ka 0.211 0.108 0.102
+Kd 0.604 0.310 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_hat
+Ka 0.335 0.269 0.066
+Kd 0.957 0.769 0.188
+Ks 0.150 0.150 0.150
+Ns 24
+d 1.0
+illum 2
+
+newmtl HUMAN_06_shoe
+Ka 0.191 0.124 0.059
+Kd 0.545 0.353 0.169
+Ks 0.120 0.120 0.120
+Ns 20
+d 1.0
+illum 2
+
+newmtl HUMAN_06_sole
+Ka 0.059 0.059 0.059
+Kd 0.169 0.169 0.169
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_vest
+Ka 0.332 0.145 0.043
+Kd 0.949 0.416 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_reflect
+Ka 0.298 0.303 0.307
+Kd 0.851 0.867 0.878
+Ks 0.600 0.600 0.600
+Ns 60
+d 1.0
+illum 2
+
+newmtl HUMAN_06_belt
+Ka 0.058 0.049 0.044
+Kd 0.165 0.141 0.125
+Ks 0.100 0.100 0.100
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_buckle
+Ka 0.276 0.254 0.189
+Kd 0.788 0.725 0.541
+Ks 0.600 0.600 0.600
+Ns 60
+d 1.0
+illum 2
+
+newmtl HUMAN_06_tbelt
+Ka 0.102 0.074 0.049
+Kd 0.290 0.212 0.141
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_06_pouch
+Ka 0.145 0.103 0.066
+Kd 0.416 0.294 0.188
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+

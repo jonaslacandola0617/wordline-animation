@@ -1,0 +1,3474 @@
+{
+ "pack": "WORLDLINE LAB 46-model low-poly asset pack",
+ "coordinate_system": "Y-up, right-handed, +Z = forward, origin at ground contact, metres",
+ "totals": {
+  "humans": 10,
+  "cars": 6,
+  "trees": 10,
+  "buildings": 20
+ },
+ "models": [
+  {
+   "name": "HUMAN_01",
+   "category": "humans",
+   "triangles": 1836,
+   "vertices": 1004,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R"
+   ],
+   "materials": [
+    "HUMAN_01_top",
+    "HUMAN_01_bottom",
+    "HUMAN_01_skin",
+    "HUMAN_01_eye",
+    "HUMAN_01_hair",
+    "HUMAN_01_mouth",
+    "HUMAN_01_shoe",
+    "HUMAN_01_sole"
+   ],
+   "bbox_min": [
+    -0.372,
+    0.0,
+    -0.124
+   ],
+   "bbox_max": [
+    0.372,
+    1.825,
+    0.307
+   ],
+   "size": [
+    0.744,
+    1.825,
+    0.431
+   ],
+   "pivots": {
+    "hip_L": [
+     0.094,
+     0.94,
+     0.0
+    ],
+    "knee_L": [
+     0.098,
+     0.506,
+     0.048
+    ],
+    "ankle_L": [
+     0.102,
+     0.096,
+     0.051
+    ],
+    "hip_R": [
+     -0.094,
+     0.94,
+     0.0
+    ],
+    "knee_R": [
+     -0.098,
+     0.506,
+     -0.008
+    ],
+    "ankle_R": [
+     -0.102,
+     0.096,
+     -0.051
+    ],
+    "shoulder_L": [
+     0.23,
+     1.456,
+     0.005
+    ],
+    "elbow_L": [
+     0.275,
+     1.167,
+     0.003
+    ],
+    "wrist_L": [
+     0.332,
+     0.92,
+     0.023
+    ],
+    "shoulder_R": [
+     -0.23,
+     1.456,
+     0.005
+    ],
+    "elbow_R": [
+     -0.275,
+     1.167,
+     0.043
+    ],
+    "wrist_R": [
+     -0.332,
+     0.92,
+     0.124
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_02",
+   "category": "humans",
+   "triangles": 1938,
+   "vertices": 1057,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "belt"
+   ],
+   "materials": [
+    "HUMAN_02_top",
+    "HUMAN_02_bottom",
+    "HUMAN_02_skin",
+    "HUMAN_02_eye",
+    "HUMAN_02_hair",
+    "HUMAN_02_mouth",
+    "HUMAN_02_tie",
+    "HUMAN_02_shoe",
+    "HUMAN_02_sole",
+    "HUMAN_02_belt",
+    "HUMAN_02_buckle"
+   ],
+   "bbox_min": [
+    -0.321,
+    0.0,
+    -0.22
+   ],
+   "bbox_max": [
+    0.322,
+    1.679,
+    0.285
+   ],
+   "size": [
+    0.643,
+    1.679,
+    0.505
+   ],
+   "pivots": {
+    "hip_L": [
+     0.097,
+     0.873,
+     0.0
+    ],
+    "knee_L": [
+     0.1,
+     0.469,
+     0.045
+    ],
+    "ankle_L": [
+     0.104,
+     0.089,
+     0.047
+    ],
+    "hip_R": [
+     -0.097,
+     0.873,
+     0.0
+    ],
+    "knee_R": [
+     -0.1,
+     0.469,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.104,
+     0.089,
+     -0.047
+    ],
+    "shoulder_L": [
+     0.19,
+     1.351,
+     0.0
+    ],
+    "elbow_L": [
+     0.232,
+     1.082,
+     -0.002
+    ],
+    "wrist_L": [
+     0.285,
+     0.854,
+     0.017
+    ],
+    "shoulder_R": [
+     -0.19,
+     1.351,
+     0.0
+    ],
+    "elbow_R": [
+     -0.232,
+     1.082,
+     0.036
+    ],
+    "wrist_R": [
+     -0.285,
+     0.854,
+     0.111
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_03",
+   "category": "humans",
+   "triangles": 2272,
+   "vertices": 1226,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "jacket",
+    "shirt",
+    "accessory",
+    "belt"
+   ],
+   "materials": [
+    "HUMAN_03_top",
+    "HUMAN_03_bottom",
+    "HUMAN_03_skin",
+    "HUMAN_03_eye",
+    "HUMAN_03_hair",
+    "HUMAN_03_mouth",
+    "HUMAN_03_shoe",
+    "HUMAN_03_sole",
+    "HUMAN_03_jacket",
+    "HUMAN_03_cuffshirt",
+    "HUMAN_03_buttons",
+    "HUMAN_03_shirt",
+    "HUMAN_03_tie",
+    "HUMAN_03_belt",
+    "HUMAN_03_buckle"
+   ],
+   "bbox_min": [
+    -0.402,
+    0.0,
+    -0.12
+   ],
+   "bbox_max": [
+    0.402,
+    1.878,
+    0.325
+   ],
+   "size": [
+    0.804,
+    1.878,
+    0.444
+   ],
+   "pivots": {
+    "hip_L": [
+     0.097,
+     0.972,
+     0.0
+    ],
+    "knee_L": [
+     0.101,
+     0.522,
+     0.05
+    ],
+    "ankle_L": [
+     0.105,
+     0.099,
+     0.052
+    ],
+    "hip_R": [
+     -0.097,
+     0.972,
+     0.0
+    ],
+    "knee_R": [
+     -0.101,
+     0.522,
+     -0.008
+    ],
+    "ankle_R": [
+     -0.105,
+     0.099,
+     -0.052
+    ],
+    "shoulder_L": [
+     0.255,
+     1.505,
+     0.0
+    ],
+    "elbow_L": [
+     0.302,
+     1.205,
+     -0.002
+    ],
+    "wrist_L": [
+     0.361,
+     0.951,
+     0.019
+    ],
+    "shoulder_R": [
+     -0.255,
+     1.505,
+     0.0
+    ],
+    "elbow_R": [
+     -0.302,
+     1.205,
+     0.04
+    ],
+    "wrist_R": [
+     -0.361,
+     0.951,
+     0.123
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_04",
+   "category": "humans",
+   "triangles": 2276,
+   "vertices": 1212,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "leg_L",
+    "shoe_L",
+    "leg_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "jacket",
+    "shirt",
+    "skirt"
+   ],
+   "materials": [
+    "HUMAN_04_top",
+    "HUMAN_04_bottom",
+    "HUMAN_04_skin",
+    "HUMAN_04_eye",
+    "HUMAN_04_hair",
+    "HUMAN_04_mouth",
+    "HUMAN_04_hose",
+    "HUMAN_04_shoe",
+    "HUMAN_04_sole",
+    "HUMAN_04_jacket",
+    "HUMAN_04_buttons",
+    "HUMAN_04_shirt"
+   ],
+   "bbox_min": [
+    -0.331,
+    0.0,
+    -0.143
+   ],
+   "bbox_max": [
+    0.331,
+    1.751,
+    0.269
+   ],
+   "size": [
+    0.662,
+    1.751,
+    0.412
+   ],
+   "pivots": {
+    "hip_L": [
+     0.099,
+     0.899,
+     0.0
+    ],
+    "knee_L": [
+     0.103,
+     0.483,
+     0.046
+    ],
+    "ankle_L": [
+     0.107,
+     0.092,
+     0.048
+    ],
+    "hip_R": [
+     -0.099,
+     0.899,
+     0.0
+    ],
+    "knee_R": [
+     -0.103,
+     0.483,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.107,
+     0.092,
+     -0.048
+    ],
+    "shoulder_L": [
+     0.195,
+     1.391,
+     0.0
+    ],
+    "elbow_L": [
+     0.239,
+     1.115,
+     -0.002
+    ],
+    "wrist_L": [
+     0.293,
+     0.879,
+     0.017
+    ],
+    "shoulder_R": [
+     -0.195,
+     1.391,
+     0.0
+    ],
+    "elbow_R": [
+     -0.239,
+     1.115,
+     0.037
+    ],
+    "wrist_R": [
+     -0.293,
+     0.879,
+     0.114
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_05",
+   "category": "humans",
+   "triangles": 2368,
+   "vertices": 1310,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "glasses",
+    "leg_L",
+    "legwear_L",
+    "shoe_L",
+    "leg_R",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "backpack",
+    "accessory",
+    "print",
+    "shirt"
+   ],
+   "materials": [
+    "HUMAN_05_top",
+    "HUMAN_05_bottom",
+    "HUMAN_05_skin",
+    "HUMAN_05_eye",
+    "HUMAN_05_hair",
+    "HUMAN_05_mouth",
+    "HUMAN_05_lens",
+    "HUMAN_05_glasses",
+    "HUMAN_05_shoe",
+    "HUMAN_05_sole",
+    "HUMAN_05_pack",
+    "HUMAN_05_pack2",
+    "HUMAN_05_strap",
+    "HUMAN_05_camera",
+    "HUMAN_05_camlens",
+    "HUMAN_05_printF7D154",
+    "HUMAN_05_printFFFFFF",
+    "HUMAN_05_print2FA58B"
+   ],
+   "bbox_min": [
+    -0.368,
+    0.0,
+    -0.345
+   ],
+   "bbox_max": [
+    0.369,
+    1.78,
+    0.302
+   ],
+   "size": [
+    0.737,
+    1.78,
+    0.647
+   ],
+   "pivots": {
+    "hip_L": [
+     0.094,
+     0.925,
+     0.0
+    ],
+    "knee_L": [
+     0.097,
+     0.497,
+     0.047
+    ],
+    "ankle_L": [
+     0.101,
+     0.094,
+     0.05
+    ],
+    "hip_R": [
+     -0.094,
+     0.925,
+     0.0
+    ],
+    "knee_R": [
+     -0.097,
+     0.497,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.101,
+     0.094,
+     -0.05
+    ],
+    "shoulder_L": [
+     0.229,
+     1.432,
+     0.009
+    ],
+    "elbow_L": [
+     0.274,
+     1.147,
+     0.007
+    ],
+    "wrist_L": [
+     0.33,
+     0.905,
+     0.027
+    ],
+    "shoulder_R": [
+     -0.229,
+     1.432,
+     0.009
+    ],
+    "elbow_R": [
+     -0.274,
+     1.147,
+     0.047
+    ],
+    "wrist_R": [
+     -0.33,
+     0.905,
+     0.127
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_06",
+   "category": "humans",
+   "triangles": 2428,
+   "vertices": 1300,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "headwear",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "vest",
+    "belt",
+    "accessory"
+   ],
+   "materials": [
+    "HUMAN_06_top",
+    "HUMAN_06_bottom",
+    "HUMAN_06_skin",
+    "HUMAN_06_eye",
+    "HUMAN_06_hair",
+    "HUMAN_06_mouth",
+    "HUMAN_06_hat",
+    "HUMAN_06_shoe",
+    "HUMAN_06_sole",
+    "HUMAN_06_vest",
+    "HUMAN_06_reflect",
+    "HUMAN_06_belt",
+    "HUMAN_06_buckle",
+    "HUMAN_06_tbelt",
+    "HUMAN_06_pouch"
+   ],
+   "bbox_min": [
+    -0.38,
+    0.0,
+    -0.137
+   ],
+   "bbox_max": [
+    0.38,
+    1.855,
+    0.305
+   ],
+   "size": [
+    0.76,
+    1.855,
+    0.441
+   ],
+   "pivots": {
+    "hip_L": [
+     0.095,
+     0.909,
+     0.0
+    ],
+    "knee_L": [
+     0.098,
+     0.489,
+     0.046
+    ],
+    "ankle_L": [
+     0.102,
+     0.093,
+     0.049
+    ],
+    "hip_R": [
+     -0.095,
+     0.909,
+     0.0
+    ],
+    "knee_R": [
+     -0.098,
+     0.489,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.102,
+     0.093,
+     -0.049
+    ],
+    "shoulder_L": [
+     0.242,
+     1.408,
+     0.0
+    ],
+    "elbow_L": [
+     0.287,
+     1.128,
+     -0.002
+    ],
+    "wrist_L": [
+     0.342,
+     0.89,
+     0.018
+    ],
+    "shoulder_R": [
+     -0.242,
+     1.408,
+     0.0
+    ],
+    "elbow_R": [
+     -0.287,
+     1.128,
+     0.037
+    ],
+    "wrist_R": [
+     -0.342,
+     0.89,
+     0.115
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_07",
+   "category": "humans",
+   "triangles": 2444,
+   "vertices": 1312,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "headwear",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "vest",
+    "belt",
+    "accessory"
+   ],
+   "materials": [
+    "HUMAN_07_top",
+    "HUMAN_07_bottom",
+    "HUMAN_07_skin",
+    "HUMAN_07_eye",
+    "HUMAN_07_hair",
+    "HUMAN_07_mouth",
+    "HUMAN_07_hat",
+    "HUMAN_07_badge",
+    "HUMAN_07_shoe",
+    "HUMAN_07_sole",
+    "HUMAN_07_vest",
+    "HUMAN_07_reflect",
+    "HUMAN_07_belt",
+    "HUMAN_07_buckle",
+    "HUMAN_07_dbelt",
+    "HUMAN_07_radio",
+    "HUMAN_07_pouch2",
+    "HUMAN_07_flash",
+    "HUMAN_07_patch"
+   ],
+   "bbox_min": [
+    -0.364,
+    0.0,
+    -0.138
+   ],
+   "bbox_max": [
+    0.364,
+    1.834,
+    0.301
+   ],
+   "size": [
+    0.728,
+    1.834,
+    0.439
+   ],
+   "pivots": {
+    "hip_L": [
+     0.091,
+     0.899,
+     0.0
+    ],
+    "knee_L": [
+     0.095,
+     0.483,
+     0.046
+    ],
+    "ankle_L": [
+     0.098,
+     0.092,
+     0.048
+    ],
+    "hip_R": [
+     -0.091,
+     0.899,
+     0.0
+    ],
+    "knee_R": [
+     -0.095,
+     0.483,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.098,
+     0.092,
+     -0.048
+    ],
+    "shoulder_L": [
+     0.228,
+     1.391,
+     0.0
+    ],
+    "elbow_L": [
+     0.272,
+     1.115,
+     -0.002
+    ],
+    "wrist_L": [
+     0.326,
+     0.879,
+     0.017
+    ],
+    "shoulder_R": [
+     -0.228,
+     1.391,
+     0.0
+    ],
+    "elbow_R": [
+     -0.272,
+     1.115,
+     0.037
+    ],
+    "wrist_R": [
+     -0.326,
+     0.879,
+     0.114
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_08",
+   "category": "humans",
+   "triangles": 2400,
+   "vertices": 1320,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "glasses",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "jacket",
+    "shirt",
+    "accessory"
+   ],
+   "materials": [
+    "HUMAN_08_top",
+    "HUMAN_08_bottom",
+    "HUMAN_08_skin",
+    "HUMAN_08_eye",
+    "HUMAN_08_hair",
+    "HUMAN_08_mouth",
+    "HUMAN_08_glasses",
+    "HUMAN_08_lens",
+    "HUMAN_08_shoe",
+    "HUMAN_08_sole",
+    "HUMAN_08_jacket",
+    "HUMAN_08_buttons",
+    "HUMAN_08_shirt",
+    "HUMAN_08_pen",
+    "HUMAN_08_pen2",
+    "HUMAN_08_idbadge",
+    "HUMAN_08_idband",
+    "HUMAN_08_clipboard",
+    "HUMAN_08_paper",
+    "HUMAN_08_clip"
+   ],
+   "bbox_min": [
+    -0.437,
+    0.0,
+    -0.137
+   ],
+   "bbox_max": [
+    0.353,
+    1.788,
+    0.304
+   ],
+   "size": [
+    0.79,
+    1.788,
+    0.44
+   ],
+   "pivots": {
+    "hip_L": [
+     0.091,
+     0.914,
+     0.0
+    ],
+    "knee_L": [
+     0.095,
+     0.492,
+     0.047
+    ],
+    "ankle_L": [
+     0.099,
+     0.093,
+     0.049
+    ],
+    "hip_R": [
+     -0.091,
+     0.914,
+     0.0
+    ],
+    "knee_R": [
+     -0.095,
+     0.492,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.099,
+     0.093,
+     -0.049
+    ],
+    "shoulder_L": [
+     0.214,
+     1.416,
+     0.0
+    ],
+    "elbow_L": [
+     0.259,
+     1.134,
+     -0.002
+    ],
+    "wrist_L": [
+     0.314,
+     0.895,
+     0.018
+    ],
+    "shoulder_R": [
+     -0.214,
+     1.416,
+     0.0
+    ],
+    "elbow_R": [
+     -0.259,
+     1.134,
+     0.037
+    ],
+    "wrist_R": [
+     -0.314,
+     0.895,
+     0.116
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_09",
+   "category": "humans",
+   "triangles": 2780,
+   "vertices": 1480,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "headwear",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "belt",
+    "accessory",
+    "vest"
+   ],
+   "materials": [
+    "HUMAN_09_top",
+    "HUMAN_09_bottom",
+    "HUMAN_09_skin",
+    "HUMAN_09_eye",
+    "HUMAN_09_hair",
+    "HUMAN_09_mouth",
+    "HUMAN_09_hat",
+    "HUMAN_09_hatband",
+    "HUMAN_09_shoe",
+    "HUMAN_09_sole",
+    "HUMAN_09_glove",
+    "HUMAN_09_belt",
+    "HUMAN_09_buckle",
+    "HUMAN_09_rope",
+    "HUMAN_09_lifevest",
+    "HUMAN_09_lvcollar",
+    "HUMAN_09_reflect",
+    "HUMAN_09_lvbuckle"
+   ],
+   "bbox_min": [
+    -0.386,
+    0.0,
+    -0.144
+   ],
+   "bbox_max": [
+    0.386,
+    1.849,
+    0.308
+   ],
+   "size": [
+    0.773,
+    1.849,
+    0.452
+   ],
+   "pivots": {
+    "hip_L": [
+     0.097,
+     0.92,
+     0.0
+    ],
+    "knee_L": [
+     0.101,
+     0.494,
+     0.047
+    ],
+    "ankle_L": [
+     0.105,
+     0.094,
+     0.049
+    ],
+    "hip_R": [
+     -0.097,
+     0.92,
+     0.0
+    ],
+    "knee_R": [
+     -0.101,
+     0.494,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.105,
+     0.094,
+     -0.049
+    ],
+    "shoulder_L": [
+     0.247,
+     1.424,
+     0.0
+    ],
+    "elbow_L": [
+     0.292,
+     1.141,
+     -0.002
+    ],
+    "wrist_L": [
+     0.348,
+     0.9,
+     0.018
+    ],
+    "shoulder_R": [
+     -0.247,
+     1.424,
+     0.0
+    ],
+    "elbow_R": [
+     -0.292,
+     1.141,
+     0.038
+    ],
+    "wrist_R": [
+     -0.348,
+     0.9,
+     0.117
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "HUMAN_10",
+   "category": "humans",
+   "triangles": 2464,
+   "vertices": 1344,
+   "groups": [
+    "torso",
+    "pelvis_bottom",
+    "neck",
+    "head",
+    "face",
+    "hair",
+    "glasses",
+    "legwear_L",
+    "shoe_L",
+    "legwear_R",
+    "shoe_R",
+    "arm_L",
+    "sleeve_L",
+    "hand_L",
+    "arm_R",
+    "sleeve_R",
+    "hand_R",
+    "jacket",
+    "shirt",
+    "belt",
+    "accessory"
+   ],
+   "materials": [
+    "HUMAN_10_top",
+    "HUMAN_10_bottom",
+    "HUMAN_10_skin",
+    "HUMAN_10_eye",
+    "HUMAN_10_hair",
+    "HUMAN_10_mouth",
+    "HUMAN_10_glasses",
+    "HUMAN_10_lens",
+    "HUMAN_10_shoe",
+    "HUMAN_10_sole",
+    "HUMAN_10_jacket",
+    "HUMAN_10_buttons",
+    "HUMAN_10_shirt",
+    "HUMAN_10_belt",
+    "HUMAN_10_buckle",
+    "HUMAN_10_wood",
+    "HUMAN_10_rubber"
+   ],
+   "bbox_min": [
+    -0.325,
+    0.0,
+    -0.107
+   ],
+   "bbox_max": [
+    0.325,
+    1.666,
+    0.288
+   ],
+   "size": [
+    0.65,
+    1.666,
+    0.395
+   ],
+   "pivots": {
+    "hip_L": [
+     0.087,
+     0.867,
+     0.0
+    ],
+    "knee_L": [
+     0.09,
+     0.466,
+     0.044
+    ],
+    "ankle_L": [
+     0.094,
+     0.089,
+     0.047
+    ],
+    "hip_R": [
+     -0.087,
+     0.867,
+     0.0
+    ],
+    "knee_R": [
+     -0.09,
+     0.466,
+     -0.007
+    ],
+    "ankle_R": [
+     -0.094,
+     0.089,
+     -0.047
+    ],
+    "shoulder_L": [
+     0.194,
+     1.343,
+     0.043
+    ],
+    "elbow_L": [
+     0.236,
+     1.076,
+     0.041
+    ],
+    "wrist_L": [
+     0.289,
+     0.849,
+     0.06
+    ],
+    "shoulder_R": [
+     -0.194,
+     1.343,
+     0.043
+    ],
+    "elbow_R": [
+     -0.236,
+     1.076,
+     0.079
+    ],
+    "wrist_R": [
+     -0.289,
+     0.849,
+     0.153
+    ],
+    "cane_tip": [
+     0.28,
+     0.0,
+     0.093
+    ]
+   },
+   "notes": "Facing +Z, rest pose is a slight A-pose / idle stance. Group names follow body parts; pivots list joint centres for rigging.",
+   "tri_in_target": true
+  },
+  {
+   "name": "CAR_01",
+   "category": "cars",
+   "triangles": 3404,
+   "vertices": 1892,
+   "groups": [
+    "body",
+    "cabin",
+    "glass",
+    "mirrors",
+    "body_detail",
+    "lights",
+    "fascia",
+    "wheel_FR",
+    "wheel_FR_arch",
+    "wheel_FL",
+    "wheel_FL_arch",
+    "wheel_RR",
+    "wheel_RR_arch",
+    "wheel_RL",
+    "wheel_RL_arch"
+   ],
+   "materials": [
+    "CAR_01_paint",
+    "CAR_01_trim",
+    "CAR_01_interior",
+    "CAR_01_glass",
+    "CAR_01_chrome",
+    "CAR_01_accent",
+    "CAR_01_headlight",
+    "CAR_01_taillight",
+    "CAR_01_plate",
+    "CAR_01_tire",
+    "CAR_01_rim_dark",
+    "CAR_01_alloy"
+   ],
+   "bbox_min": [
+    -0.91,
+    0.0,
+    -2.005
+   ],
+   "bbox_max": [
+    0.91,
+    1.622,
+    2.005
+   ],
+   "size": [
+    1.82,
+    1.622,
+    4.01
+   ],
+   "pivots": {
+    "wheel_FR": [
+     0.771,
+     0.38,
+     1.22
+    ],
+    "wheel_FL": [
+     -0.771,
+     0.38,
+     1.22
+    ],
+    "wheel_RR": [
+     0.787,
+     0.38,
+     -1.12
+    ],
+    "wheel_RL": [
+     -0.787,
+     0.38,
+     -1.12
+    ]
+   },
+   "notes": "Facing +Z. Wheel groups wheel_FL/FR/RL/RR are centred on their pivots (axle = X).",
+   "tri_in_target": true
+  },
+  {
+   "name": "CAR_02",
+   "category": "cars",
+   "triangles": 3404,
+   "vertices": 1892,
+   "groups": [
+    "body",
+    "cabin",
+    "glass",
+    "mirrors",
+    "body_detail",
+    "lights",
+    "fascia",
+    "wheel_FR",
+    "wheel_FR_arch",
+    "wheel_FL",
+    "wheel_FL_arch",
+    "wheel_RR",
+    "wheel_RR_arch",
+    "wheel_RL",
+    "wheel_RL_arch"
+   ],
+   "materials": [
+    "CAR_02_paint",
+    "CAR_02_trim",
+    "CAR_02_interior",
+    "CAR_02_glass",
+    "CAR_02_chrome",
+    "CAR_02_accent",
+    "CAR_02_headlight",
+    "CAR_02_taillight",
+    "CAR_02_plate",
+    "CAR_02_tire",
+    "CAR_02_rim_dark",
+    "CAR_02_alloy"
+   ],
+   "bbox_min": [
+    -1.0,
+    0.0,
+    -2.405
+   ],
+   "bbox_max": [
+    1.0,
+    1.572,
+    2.405
+   ],
+   "size": [
+    2.0,
+    1.572,
+    4.81
+   ],
+   "pivots": {
+    "wheel_FR": [
+     0.837,
+     0.41,
+     1.45
+    ],
+    "wheel_FL": [
+     -0.837,
+     0.41,
+     1.45
+    ],
+    "wheel_RR": [
+     0.841,
+     0.41,
+     -1.4
+    ],
+    "wheel_RL": [
+     -0.841,
+     0.41,
+     -1.4
+    ]
+   },
+   "notes": "Facing +Z. Wheel groups wheel_FL/FR/RL/RR are centred on their pivots (axle = X).",
+   "tri_in_target": true
+  },
+  {
+   "name": "CAR_03",
+   "category": "cars",
+   "triangles": 3664,
+   "vertices": 2052,
+   "groups": [
+    "body",
+    "cabin",
+    "glass",
+    "mirrors",
+    "body_detail",
+    "lights",
+    "fascia",
+    "wheel_FR",
+    "wheel_FR_arch",
+    "wheel_FL",
+    "wheel_FL_arch",
+    "wheel_RR",
+    "wheel_RR_arch",
+    "wheel_RL",
+    "wheel_RL_arch",
+    "roof_rails",
+    "underguard",
+    "fog"
+   ],
+   "materials": [
+    "CAR_03_paint",
+    "CAR_03_accent",
+    "CAR_03_interior",
+    "CAR_03_glass",
+    "CAR_03_trim",
+    "CAR_03_chrome",
+    "CAR_03_headlight",
+    "CAR_03_taillight",
+    "CAR_03_plate",
+    "CAR_03_tire",
+    "CAR_03_rim_dark",
+    "CAR_03_alloy",
+    "SUV_fog"
+   ],
+   "bbox_min": [
+    -1.03,
+    0.0,
+    -2.305
+   ],
+   "bbox_max": [
+    1.03,
+    2.055,
+    2.305
+   ],
+   "size": [
+    2.06,
+    2.055,
+    4.61
+   ],
+   "pivots": {
+    "wheel_FR": [
+     0.853,
+     0.47,
+     1.45
+    ],
+    "wheel_FL": [
+     -0.853,
+     0.47,
+     1.45
+    ],
+    "wheel_RR": [
+     0.86,
+     0.47,
+     -1.4
+    ],
+    "wheel_RL": [
+     -0.86,
+     0.47,
+     -1.4
+    ]
+   },
+   "notes": "Facing +Z. Wheel groups wheel_FL/FR/RL/RR are centred on their pivots (axle = X).",
+   "tri_in_target": true
+  },
+  {
+   "name": "CAR_04",
+   "category": "cars",
+   "triangles": 3480,
+   "vertices": 1940,
+   "groups": [
+    "body",
+    "cabin",
+    "glass",
+    "mirrors",
+    "body_detail",
+    "lights",
+    "fascia",
+    "wheel_FR",
+    "wheel_FR_arch",
+    "wheel_FL",
+    "wheel_FL_arch",
+    "wheel_RR",
+    "wheel_RR_arch",
+    "wheel_RL",
+    "wheel_RL_arch",
+    "spoiler",
+    "hood_scoop",
+    "exhaust",
+    "diffuser",
+    "side_skirts"
+   ],
+   "materials": [
+    "CAR_04_paint",
+    "CAR_04_trim",
+    "CAR_04_interior",
+    "CAR_04_glass",
+    "CAR_04_chrome",
+    "CAR_04_accent",
+    "CAR_04_headlight",
+    "CAR_04_taillight",
+    "CAR_04_plate",
+    "CAR_04_tire",
+    "CAR_04_rim_dark",
+    "CAR_04_alloy"
+   ],
+   "bbox_min": [
+    -1.004,
+    0.0,
+    -2.255
+   ],
+   "bbox_max": [
+    1.004,
+    1.372,
+    2.255
+   ],
+   "size": [
+    2.007,
+    1.372,
+    4.51
+   ],
+   "pivots": {
+    "wheel_FR": [
+     0.821,
+     0.41,
+     1.38
+    ],
+    "wheel_FL": [
+     -0.821,
+     0.41,
+     1.38
+    ],
+    "wheel_RR": [
+     0.839,
+     0.41,
+     -1.3
+    ],
+    "wheel_RL": [
+     -0.839,
+     0.41,
+     -1.3
+    ]
+   },
+   "notes": "Facing +Z. Wheel groups wheel_FL/FR/RL/RR are centred on their pivots (axle = X).",
+   "tri_in_target": true
+  },
+  {
+   "name": "CAR_05",
+   "category": "cars",
+   "triangles": 3968,
+   "vertices": 2268,
+   "groups": [
+    "body",
+    "cabin",
+    "glass",
+    "mirrors",
+    "body_detail",
+    "lights",
+    "fascia",
+    "wheel_FR",
+    "wheel_FR_arch",
+    "wheel_FL",
+    "wheel_FL_arch",
+    "wheel_RR",
+    "wheel_RR_arch",
+    "wheel_RL",
+    "wheel_RL_arch",
+    "taxi_sign",
+    "taxi_checker"
+   ],
+   "materials": [
+    "CAR_05_paint",
+    "CAR_05_trim",
+    "CAR_05_interior",
+    "CAR_05_glass",
+    "CAR_05_chrome",
+    "CAR_05_accent",
+    "CAR_05_headlight",
+    "CAR_05_taillight",
+    "CAR_05_plate",
+    "CAR_05_tire",
+    "CAR_05_rim_dark",
+    "CAR_05_alloy",
+    "TAXI_sign_glow",
+    "TAXI_check_w"
+   ],
+   "bbox_min": [
+    -1.02,
+    0.0,
+    -2.355
+   ],
+   "bbox_max": [
+    1.02,
+    1.86,
+    2.355
+   ],
+   "size": [
+    2.04,
+    1.86,
+    4.71
+   ],
+   "pivots": {
+    "wheel_FR": [
+     0.841,
+     0.41,
+     1.44
+    ],
+    "wheel_FL": [
+     -0.841,
+     0.41,
+     1.44
+    ],
+    "wheel_RR": [
+     0.846,
+     0.41,
+     -1.36
+    ],
+    "wheel_RL": [
+     -0.846,
+     0.41,
+     -1.36
+    ]
+   },
+   "notes": "Facing +Z. Wheel groups wheel_FL/FR/RL/RR are centred on their pivots (axle = X).",
+   "tri_in_target": true
+  },
+  {
+   "name": "CAR_06",
+   "category": "cars",
+   "triangles": 3680,
+   "vertices": 2060,
+   "groups": [
+    "body",
+    "cabin",
+    "glass",
+    "mirrors",
+    "body_detail",
+    "lights",
+    "fascia",
+    "wheel_FR",
+    "wheel_FR_arch",
+    "wheel_FL",
+    "wheel_FL_arch",
+    "wheel_RR",
+    "wheel_RR_arch",
+    "wheel_RL",
+    "wheel_RL_arch",
+    "roof_rails",
+    "tailgate"
+   ],
+   "materials": [
+    "CAR_06_paint",
+    "CAR_06_trim",
+    "CAR_06_interior",
+    "CAR_06_glass",
+    "CAR_06_chrome",
+    "CAR_06_accent",
+    "CAR_06_headlight",
+    "CAR_06_taillight",
+    "CAR_06_plate",
+    "CAR_06_tire",
+    "CAR_06_rim_dark",
+    "CAR_06_alloy"
+   ],
+   "bbox_min": [
+    -1.01,
+    0.0,
+    -2.455
+   ],
+   "bbox_max": [
+    1.01,
+    1.615,
+    2.455
+   ],
+   "size": [
+    2.02,
+    1.615,
+    4.91
+   ],
+   "pivots": {
+    "wheel_FR": [
+     0.841,
+     0.41,
+     1.5
+    ],
+    "wheel_FL": [
+     -0.841,
+     0.41,
+     1.5
+    ],
+    "wheel_RR": [
+     0.85,
+     0.41,
+     -1.42
+    ],
+    "wheel_RL": [
+     -0.85,
+     0.41,
+     -1.42
+    ]
+   },
+   "notes": "Facing +Z. Wheel groups wheel_FL/FR/RL/RR are centred on their pivots (axle = X).",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_01",
+   "category": "trees",
+   "triangles": 1322,
+   "vertices": 697,
+   "groups": [
+    "trunk",
+    "branches",
+    "foliage"
+   ],
+   "materials": [
+    "TREE_01_bark",
+    "TREE_01_leaf0",
+    "TREE_01_leaf1",
+    "TREE_01_leaf2"
+   ],
+   "bbox_min": [
+    -6.488,
+    0.0,
+    -5.907
+   ],
+   "bbox_max": [
+    6.472,
+    12.751,
+    5.192
+   ],
+   "size": [
+    12.96,
+    12.751,
+    11.099
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_02",
+   "category": "trees",
+   "triangles": 1184,
+   "vertices": 662,
+   "groups": [
+    "trunk",
+    "branches",
+    "foliage",
+    "leaf_clusters"
+   ],
+   "materials": [
+    "TREE_02_bark",
+    "TREE_02_leaf2",
+    "TREE_02_leaf0",
+    "TREE_02_red",
+    "TREE_02_leaf1"
+   ],
+   "bbox_min": [
+    -2.993,
+    0.0,
+    -3.529
+   ],
+   "bbox_max": [
+    3.542,
+    8.8,
+    3.615
+   ],
+   "size": [
+    6.535,
+    8.8,
+    7.144
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_03",
+   "category": "trees",
+   "triangles": 1192,
+   "vertices": 630,
+   "groups": [
+    "trunk",
+    "branches",
+    "foliage"
+   ],
+   "materials": [
+    "TREE_03_bark",
+    "TREE_03_leaf0",
+    "TREE_03_leaf1",
+    "TREE_03_leaf2"
+   ],
+   "bbox_min": [
+    -4.245,
+    0.0,
+    -4.618
+   ],
+   "bbox_max": [
+    4.228,
+    16.463,
+    4.272
+   ],
+   "size": [
+    8.473,
+    16.463,
+    8.89
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_04",
+   "category": "trees",
+   "triangles": 588,
+   "vertices": 320,
+   "groups": [
+    "trunk",
+    "foliage",
+    "branches"
+   ],
+   "materials": [
+    "TREE_04_bark",
+    "TREE_04_leaf0",
+    "TREE_04_leaf1",
+    "TREE_04_leaf2"
+   ],
+   "bbox_min": [
+    -3.156,
+    0.0,
+    -4.174
+   ],
+   "bbox_max": [
+    3.118,
+    16.629,
+    3.932
+   ],
+   "size": [
+    6.274,
+    16.629,
+    8.105
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_05",
+   "category": "trees",
+   "triangles": 608,
+   "vertices": 326,
+   "groups": [
+    "trunk",
+    "foliage"
+   ],
+   "materials": [
+    "TREE_05_bark",
+    "TREE_05_leaf0",
+    "TREE_05_leaf1",
+    "TREE_05_leaf2"
+   ],
+   "bbox_min": [
+    -3.423,
+    0.0,
+    -3.255
+   ],
+   "bbox_max": [
+    3.561,
+    14.4,
+    3.674
+   ],
+   "size": [
+    6.984,
+    14.4,
+    6.928
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_06",
+   "category": "trees",
+   "triangles": 2140,
+   "vertices": 1308,
+   "groups": [
+    "trunk",
+    "fronds",
+    "crown"
+   ],
+   "materials": [
+    "TREE_06_bark",
+    "TREE_06_leaf0",
+    "TREE_06_leaf1",
+    "TREE_06_base"
+   ],
+   "bbox_min": [
+    -3.781,
+    0.0,
+    -4.647
+   ],
+   "bbox_max": [
+    5.487,
+    11.868,
+    4.683
+   ],
+   "size": [
+    9.268,
+    11.868,
+    9.33
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_07",
+   "category": "trees",
+   "triangles": 2768,
+   "vertices": 1668,
+   "groups": [
+    "trunk",
+    "fronds",
+    "coconuts"
+   ],
+   "materials": [
+    "TREE_07_bark",
+    "TREE_07_leaf0",
+    "TREE_07_leaf1",
+    "TREE_07_nut",
+    "TREE_07_green"
+   ],
+   "bbox_min": [
+    -2.084,
+    0.0,
+    -5.884
+   ],
+   "bbox_max": [
+    9.684,
+    13.254,
+    5.884
+   ],
+   "size": [
+    11.769,
+    13.254,
+    11.769
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_08",
+   "category": "trees",
+   "triangles": 1504,
+   "vertices": 806,
+   "groups": [
+    "trunk",
+    "branches",
+    "blossoms"
+   ],
+   "materials": [
+    "TREE_08_bark",
+    "TREE_08_leaf0",
+    "TREE_08_leaf1",
+    "TREE_08_leaf2",
+    "TREE_08_white"
+   ],
+   "bbox_min": [
+    -4.681,
+    0.0,
+    -4.268
+   ],
+   "bbox_max": [
+    4.744,
+    7.212,
+    4.352
+   ],
+   "size": [
+    9.426,
+    7.212,
+    8.62
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_09",
+   "category": "trees",
+   "triangles": 470,
+   "vertices": 249,
+   "groups": [
+    "trunk",
+    "foliage"
+   ],
+   "materials": [
+    "TREE_09_bark",
+    "TREE_09_leaf0",
+    "TREE_09_leaf1",
+    "TREE_09_leaf2"
+   ],
+   "bbox_min": [
+    -1.229,
+    0.0,
+    -1.204
+   ],
+   "bbox_max": [
+    1.197,
+    10.0,
+    1.111
+   ],
+   "size": [
+    2.427,
+    10.0,
+    2.315
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "TREE_10",
+   "category": "trees",
+   "triangles": 832,
+   "vertices": 440,
+   "groups": [
+    "trunk",
+    "branches",
+    "canopy"
+   ],
+   "materials": [
+    "TREE_10_bark",
+    "TREE_10_leaf0",
+    "TREE_10_leaf1",
+    "TREE_10_leaf2"
+   ],
+   "bbox_min": [
+    -6.075,
+    0.0,
+    -5.974
+   ],
+   "bbox_max": [
+    7.654,
+    8.729,
+    6.139
+   ],
+   "size": [
+    13.73,
+    8.729,
+    12.113
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_01",
+   "category": "buildings",
+   "triangles": 1704,
+   "vertices": 1096,
+   "groups": [
+    "walls_core",
+    "plinth",
+    "walls_floor00",
+    "windows_floor00",
+    "doors",
+    "steps",
+    "walls_floor01",
+    "windows_floor01",
+    "roof",
+    "gable_walls",
+    "gable_details",
+    "chimney",
+    "porch",
+    "path",
+    "garage",
+    "garden"
+   ],
+   "materials": [
+    "wall_cream",
+    "concrete",
+    "glass",
+    "trim_white",
+    "door_coral",
+    "roof_terracotta",
+    "brick_chimney",
+    "concrete_dark",
+    "wood",
+    "wall_ivory",
+    "plant",
+    "plant2"
+   ],
+   "bbox_min": [
+    -9.4,
+    0.0,
+    -4.8
+   ],
+   "bbox_max": [
+    8.107,
+    9.253,
+    9.4
+   ],
+   "size": [
+    17.507,
+    9.253,
+    14.2
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_02",
+   "category": "buildings",
+   "triangles": 2312,
+   "vertices": 1530,
+   "groups": [
+    "walls_core",
+    "walls_floor00",
+    "doors",
+    "steps",
+    "windows_floor00",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "walls_floor03",
+    "windows_floor03",
+    "fins",
+    "balconies",
+    "canopies",
+    "roof",
+    "pergola",
+    "planters",
+    "roof_equipment"
+   ],
+   "materials": [
+    "wall_concrete",
+    "wall_ivory",
+    "door_teal",
+    "glass",
+    "trim_white",
+    "concrete",
+    "wall_terracotta",
+    "glass_rail",
+    "trim_dark",
+    "wood",
+    "pot",
+    "plant",
+    "plant2",
+    "metal",
+    "metal_dark",
+    "concrete_dark"
+   ],
+   "bbox_min": [
+    -3.08,
+    0,
+    -5.28
+   ],
+   "bbox_max": [
+    3.08,
+    14.76,
+    7.4
+   ],
+   "size": [
+    6.16,
+    14.76,
+    12.68
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_03",
+   "category": "buildings",
+   "triangles": 3292,
+   "vertices": 2174,
+   "groups": [
+    "walls_core",
+    "plinth",
+    "walls_floor00",
+    "windows_floor00",
+    "doors",
+    "steps",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "walls_floor03",
+    "windows_floor03",
+    "balconies",
+    "canopies",
+    "stair_core",
+    "roof",
+    "roof_equipment"
+   ],
+   "materials": [
+    "wall_ivory",
+    "wall_concrete",
+    "glass",
+    "trim_white",
+    "door_teal",
+    "concrete",
+    "wall_terracotta",
+    "glass_rail",
+    "trim_dark",
+    "metal",
+    "metal_dark",
+    "concrete_dark",
+    "water_tank"
+   ],
+   "bbox_min": [
+    -7.28,
+    0,
+    -5.28
+   ],
+   "bbox_max": [
+    7.28,
+    15.8,
+    7.68
+   ],
+   "size": [
+    14.56,
+    15.8,
+    12.96
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_04",
+   "category": "buildings",
+   "triangles": 7140,
+   "vertices": 4720,
+   "groups": [
+    "walls_core",
+    "plinth",
+    "walls_floor00",
+    "windows_floor00",
+    "doors",
+    "steps",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "walls_floor03",
+    "windows_floor03",
+    "walls_floor04",
+    "windows_floor04",
+    "walls_floor05",
+    "windows_floor05",
+    "walls_floor06",
+    "windows_floor06",
+    "walls_floor07",
+    "windows_floor07",
+    "balconies",
+    "terrace",
+    "planters",
+    "pergola",
+    "stair_core",
+    "roof",
+    "roof_equipment"
+   ],
+   "materials": [
+    "wall_sage",
+    "wall_ivory",
+    "wall_concrete",
+    "glass",
+    "trim_white",
+    "door_coral",
+    "concrete",
+    "glass_rail",
+    "trim_dark",
+    "wall_terracotta",
+    "wood",
+    "pot",
+    "plant",
+    "plant2",
+    "metal_dark",
+    "water_tank",
+    "metal",
+    "concrete_dark",
+    "door_teal"
+   ],
+   "bbox_min": [
+    -8.45,
+    0,
+    -5.78
+   ],
+   "bbox_max": [
+    8.45,
+    28.0,
+    7.18
+   ],
+   "size": [
+    16.9,
+    28.0,
+    12.96
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_05",
+   "category": "buildings",
+   "triangles": 10176,
+   "vertices": 6772,
+   "groups": [
+    "podium",
+    "storefront",
+    "storefront_glass",
+    "doors",
+    "walls_floor01",
+    "windows_floor01",
+    "canopies",
+    "walls_floor00",
+    "windows_floor00",
+    "tower_core",
+    "facade_floor02",
+    "mullions",
+    "facade_floor03",
+    "facade_floor04",
+    "facade_floor05",
+    "facade_floor06",
+    "facade_floor07",
+    "facade_floor08",
+    "facade_floor09",
+    "facade_floor10",
+    "facade_floor11",
+    "facade_floor12",
+    "facade_floor13",
+    "facade_floor14",
+    "facade_floor15",
+    "facade_floor16",
+    "facade_floor17",
+    "facade_floor18",
+    "facade_floor19",
+    "balconies",
+    "upper_core",
+    "facade_floor20",
+    "facade_floor21",
+    "facade_floor22",
+    "facade_floor23",
+    "terrace",
+    "crown",
+    "pergola",
+    "rooftop_pool",
+    "planters",
+    "rooftop_rail",
+    "roof_equipment",
+    "mast"
+   ],
+   "materials": [
+    "wall_concrete",
+    "trim_white",
+    "wall_stone",
+    "trim_dark",
+    "glass",
+    "wall_coral",
+    "metal",
+    "wall_ivory",
+    "wall_slate",
+    "glass_lit",
+    "concrete",
+    "glass_rail",
+    "wood",
+    "wall_terracotta",
+    "pot",
+    "plant",
+    "plant2",
+    "door_teal"
+   ],
+   "bbox_min": [
+    -12.3,
+    0,
+    -10.28
+   ],
+   "bbox_max": [
+    12.3,
+    88.232,
+    12.8
+   ],
+   "size": [
+    24.6,
+    88.232,
+    23.08
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_06",
+   "category": "buildings",
+   "triangles": 1564,
+   "vertices": 1034,
+   "groups": [
+    "walls_core",
+    "plinth",
+    "storefront",
+    "storefront_glass",
+    "doors",
+    "walls_floor00",
+    "windows_floor00",
+    "signage",
+    "awnings",
+    "roof",
+    "roof_equipment",
+    "roof_sign",
+    "props"
+   ],
+   "materials": [
+    "wall_cream",
+    "concrete",
+    "trim_dark",
+    "glass",
+    "awning_a",
+    "trim_white",
+    "awning_c",
+    "awning_b",
+    "roof_gray",
+    "metal",
+    "metal_dark",
+    "concrete_dark"
+   ],
+   "bbox_min": [
+    -6.2,
+    0,
+    -6.5
+   ],
+   "bbox_max": [
+    7.6,
+    8.0,
+    6.1
+   ],
+   "size": [
+    13.8,
+    8.0,
+    12.6
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_07",
+   "category": "buildings",
+   "triangles": 2032,
+   "vertices": 1286,
+   "groups": [
+    "walls_core",
+    "entrance_volume",
+    "plinth",
+    "storefront",
+    "storefront_glass",
+    "doors",
+    "roof",
+    "gable_walls",
+    "signage",
+    "walls_floor00",
+    "windows_floor00",
+    "patio",
+    "patio_furniture",
+    "umbrellas",
+    "exhaust",
+    "roof_equipment"
+   ],
+   "materials": [
+    "wall_terracotta",
+    "wall_cream",
+    "trim_white",
+    "glass",
+    "concrete",
+    "trim_dark",
+    "roof_slate",
+    "awning_a",
+    "wood",
+    "metal_dark",
+    "awning_c",
+    "metal",
+    "concrete_dark"
+   ],
+   "bbox_min": [
+    -7.6,
+    0,
+    -5.28
+   ],
+   "bbox_max": [
+    7.28,
+    8.524,
+    9.5
+   ],
+   "size": [
+    14.88,
+    8.524,
+    14.78
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_08",
+   "category": "buildings",
+   "triangles": 2784,
+   "vertices": 1838,
+   "groups": [
+    "walls_core",
+    "center_volume",
+    "walls_floor00",
+    "windows_floor00",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "facade_floor00",
+    "mullions",
+    "facade_floor01",
+    "facade_floor02",
+    "entrance",
+    "canopies",
+    "canopy_sign",
+    "roof",
+    "roof_equipment",
+    "roof_screen",
+    "steps",
+    "planters"
+   ],
+   "materials": [
+    "wall_concrete",
+    "wall_slate",
+    "glass",
+    "trim_white",
+    "glass_lit",
+    "wall_dark",
+    "trim_dark",
+    "metal",
+    "awning_a",
+    "metal_dark",
+    "concrete_dark",
+    "concrete",
+    "pot",
+    "plant",
+    "plant2"
+   ],
+   "bbox_min": [
+    -9.28,
+    0,
+    -6.28
+   ],
+   "bbox_max": [
+    9.28,
+    12.5,
+    10.7
+   ],
+   "size": [
+    18.56,
+    12.5,
+    16.98
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_09",
+   "category": "buildings",
+   "triangles": 10036,
+   "vertices": 6670,
+   "groups": [
+    "walls_core",
+    "walls_floor00",
+    "windows_floor00",
+    "doors",
+    "steps",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "walls_floor03",
+    "windows_floor03",
+    "walls_floor04",
+    "windows_floor04",
+    "walls_floor05",
+    "windows_floor05",
+    "walls_floor06",
+    "windows_floor06",
+    "walls_floor07",
+    "windows_floor07",
+    "walls_floor08",
+    "windows_floor08",
+    "walls_floor09",
+    "windows_floor09",
+    "columns",
+    "lobby",
+    "canopies",
+    "belt",
+    "roof",
+    "roof_plant",
+    "cooling_tower",
+    "roof_equipment",
+    "mast"
+   ],
+   "materials": [
+    "wall_stone",
+    "glass",
+    "trim_white",
+    "trim_dark",
+    "concrete",
+    "glass_curtain",
+    "metal",
+    "wall_concrete",
+    "metal_dark",
+    "concrete_dark"
+   ],
+   "bbox_min": [
+    -11.5,
+    0,
+    -8.5
+   ],
+   "bbox_max": [
+    11.5,
+    46.024,
+    12.05
+   ],
+   "size": [
+    23.0,
+    46.024,
+    20.55
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_10",
+   "category": "buildings",
+   "triangles": 7708,
+   "vertices": 5096,
+   "groups": [
+    "tier_core_00",
+    "facade_floor00",
+    "mullions",
+    "facade_floor01",
+    "facade_floor02",
+    "facade_floor03",
+    "facade_floor04",
+    "facade_floor05",
+    "facade_floor06",
+    "facade_floor07",
+    "facade_floor08",
+    "facade_floor09",
+    "facade_floor10",
+    "facade_floor11",
+    "facade_floor12",
+    "facade_floor13",
+    "facade_floor14",
+    "facade_floor15",
+    "facade_floor16",
+    "facade_floor17",
+    "facade_floor18",
+    "facade_floor19",
+    "facade_floor20",
+    "facade_floor21",
+    "facade_floor22",
+    "facade_floor23",
+    "facade_floor24",
+    "facade_floor25",
+    "facade_floor26",
+    "facade_floor27",
+    "facade_floor28",
+    "facade_floor29",
+    "setback_00",
+    "tier_core_30",
+    "facade_floor30",
+    "facade_floor31",
+    "facade_floor32",
+    "facade_floor33",
+    "facade_floor34",
+    "facade_floor35",
+    "setback_30",
+    "tier_core_36",
+    "facade_floor36",
+    "facade_floor37",
+    "facade_floor38",
+    "facade_floor39",
+    "setback_36",
+    "lobby",
+    "crown",
+    "crown_fins",
+    "spire"
+   ],
+   "materials": [
+    "glass_dark",
+    "glass_curtain",
+    "wall_dark",
+    "metal",
+    "glass_lit",
+    "trim_dark",
+    "glass",
+    "glow_cyan",
+    "red"
+   ],
+   "bbox_min": [
+    -13.41,
+    0.0,
+    -13.41
+   ],
+   "bbox_max": [
+    13.41,
+    194.98,
+    16.0
+   ],
+   "size": [
+    26.82,
+    194.98,
+    29.41
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_11",
+   "category": "buildings",
+   "triangles": 14680,
+   "vertices": 9764,
+   "groups": [
+    "wing_L",
+    "wing_R",
+    "centre",
+    "walls_floor00",
+    "windows_floor00",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "walls_floor03",
+    "windows_floor03",
+    "walls_floor04",
+    "windows_floor04",
+    "walls_floor05",
+    "windows_floor05",
+    "walls_floor06",
+    "windows_floor06",
+    "walls_floor07",
+    "windows_floor07",
+    "walls_floor08",
+    "windows_floor08",
+    "walls_floor09",
+    "windows_floor09",
+    "walls_floor10",
+    "windows_floor10",
+    "walls_floor11",
+    "windows_floor11",
+    "balconies",
+    "facade_floor00",
+    "mullions",
+    "facade_floor01",
+    "facade_floor02",
+    "facade_floor03",
+    "facade_floor04",
+    "facade_floor05",
+    "facade_floor06",
+    "facade_floor07",
+    "facade_floor08",
+    "facade_floor09",
+    "facade_floor10",
+    "facade_floor11",
+    "crown_roof",
+    "doors",
+    "steps",
+    "roof",
+    "pavilion",
+    "pool",
+    "porte_cochere",
+    "signage",
+    "flagpoles"
+   ],
+   "materials": [
+    "wall_cream",
+    "wall_stone",
+    "glass",
+    "trim_gold",
+    "trim_white",
+    "glass_rail",
+    "roof_slate",
+    "concrete",
+    "trim_dark",
+    "metal",
+    "wall_burgundy"
+   ],
+   "bbox_min": [
+    -14.5,
+    0,
+    -7.5
+   ],
+   "bbox_max": [
+    14.5,
+    45.424,
+    10.5
+   ],
+   "size": [
+    29.0,
+    45.424,
+    18.0
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_12",
+   "category": "buildings",
+   "triangles": 6904,
+   "vertices": 4530,
+   "groups": [
+    "main_block",
+    "wing_L",
+    "wing_R",
+    "walls_floor00",
+    "windows_floor00",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "walls_floor03",
+    "windows_floor03",
+    "walls_floor04",
+    "windows_floor04",
+    "bands",
+    "atrium",
+    "canopies",
+    "entrance",
+    "cross_sign",
+    "ambulance_bay",
+    "skybridge",
+    "roof",
+    "roof_equipment",
+    "roof_plant",
+    "exhaust",
+    "helipad"
+   ],
+   "materials": [
+    "wall_ivory",
+    "glass",
+    "wall_teal",
+    "trim_white",
+    "trim_dark",
+    "metal",
+    "wall_concrete",
+    "glass_dark",
+    "white",
+    "red",
+    "yellow_line",
+    "metal_dark",
+    "concrete_dark",
+    "concrete",
+    "glow_warm"
+   ],
+   "bbox_min": [
+    -24.28,
+    0,
+    -13.28
+   ],
+   "bbox_max": [
+    24.28,
+    23.25,
+    16.8
+   ],
+   "size": [
+    48.56,
+    23.25,
+    30.08
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_13",
+   "category": "buildings",
+   "triangles": 2314,
+   "vertices": 1535,
+   "groups": [
+    "walls_core",
+    "plinth",
+    "bay_doors",
+    "walls_front",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor00",
+    "windows_floor00",
+    "signage",
+    "emblem",
+    "roof",
+    "hose_tower",
+    "hose_tower_windows",
+    "hose_tower_trim",
+    "hose_tower_roof",
+    "roof_equipment",
+    "beacon"
+   ],
+   "materials": [
+    "wall_brick",
+    "concrete",
+    "trim_white",
+    "door_red",
+    "glass",
+    "trim_dark",
+    "red",
+    "white",
+    "roof_slate",
+    "metal",
+    "metal_dark",
+    "concrete_dark",
+    "blue_light"
+   ],
+   "bbox_min": [
+    -11.3,
+    0,
+    -7.35
+   ],
+   "bbox_max": [
+    11.35,
+    23.016,
+    7.74
+   ],
+   "size": [
+    22.65,
+    23.016,
+    15.09
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_14",
+   "category": "buildings",
+   "triangles": 3484,
+   "vertices": 2274,
+   "groups": [
+    "walls_core",
+    "walls_floor00",
+    "windows_floor00",
+    "doors",
+    "steps",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "belt_course",
+    "portico",
+    "pediment",
+    "emblem",
+    "entry_lamp",
+    "roof",
+    "flagpole",
+    "antenna",
+    "roof_equipment",
+    "roof_plant"
+   ],
+   "materials": [
+    "wall_stone",
+    "glass",
+    "trim_white",
+    "trim_dark",
+    "concrete",
+    "navy",
+    "metal_dark",
+    "blue_light",
+    "metal",
+    "wall_burgundy",
+    "concrete_dark",
+    "wall_concrete"
+   ],
+   "bbox_min": [
+    -10.3,
+    0,
+    -7.3
+   ],
+   "bbox_max": [
+    10.3,
+    22.024,
+    11.8
+   ],
+   "size": [
+    20.6,
+    22.024,
+    19.1
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_15",
+   "category": "buildings",
+   "triangles": 3248,
+   "vertices": 2130,
+   "groups": [
+    "walls_core",
+    "dock_plinth",
+    "corrugation",
+    "steel_columns",
+    "eave_beam",
+    "dock_doors",
+    "dock_bumpers",
+    "dock_lights",
+    "dock_canopy",
+    "dock_edge",
+    "roof",
+    "ridge_vent",
+    "roof_vents",
+    "end_door",
+    "office_annex",
+    "walls_floor00",
+    "doors",
+    "steps",
+    "windows_floor00",
+    "roof_equipment"
+   ],
+   "materials": [
+    "wall_concrete",
+    "concrete_dark",
+    "wall_slate",
+    "metal_dark",
+    "wall_dark",
+    "metal",
+    "black",
+    "glow_warm",
+    "yellow_line",
+    "roof_gray",
+    "wall_ivory",
+    "trim_white",
+    "door_teal",
+    "glass",
+    "concrete"
+   ],
+   "bbox_min": [
+    -28.28,
+    0,
+    -11.5
+   ],
+   "bbox_max": [
+    20.5,
+    12.0,
+    13.2
+   ],
+   "size": [
+    48.78,
+    12.0,
+    24.7
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_16",
+   "category": "buildings",
+   "triangles": 3108,
+   "vertices": 1882,
+   "groups": [
+    "hall",
+    "walls_floor00",
+    "windows_floor00",
+    "hall_doors",
+    "sawtooth_roof",
+    "sawtooth_glass",
+    "boiler_house",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "boiler_roof",
+    "stack_A",
+    "stack_B",
+    "stack_C",
+    "tanks",
+    "silo",
+    "pipes",
+    "pipe_rack",
+    "conveyor",
+    "shed",
+    "roof_equipment"
+   ],
+   "materials": [
+    "wall_brick",
+    "wall_concrete",
+    "glass",
+    "trim_white",
+    "metal_dark",
+    "metal",
+    "roof_gray",
+    "concrete",
+    "red",
+    "white",
+    "water_tank",
+    "trim_dark",
+    "concrete_dark"
+   ],
+   "bbox_min": [
+    -23.3,
+    0,
+    -13.265
+   ],
+   "bbox_max": [
+    28.7,
+    35.25,
+    14.0
+   ],
+   "size": [
+    52.0,
+    35.25,
+    27.265
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_17",
+   "category": "buildings",
+   "triangles": 6424,
+   "vertices": 4252,
+   "groups": [
+    "tier_0",
+    "walls_floor00",
+    "windows_floor00",
+    "doors",
+    "steps",
+    "walls_floor01",
+    "windows_floor01",
+    "walls_floor02",
+    "windows_floor02",
+    "balconies",
+    "terrace_3",
+    "planters",
+    "awnings",
+    "tier_3",
+    "walls_floor03",
+    "windows_floor03",
+    "walls_floor04",
+    "windows_floor04",
+    "terrace_5",
+    "tier_5",
+    "walls_floor05",
+    "windows_floor05",
+    "roof",
+    "pergola",
+    "tower_roof",
+    "stair_tower",
+    "boardwalk",
+    "boardwalk_rail"
+   ],
+   "materials": [
+    "wall_teal",
+    "glass",
+    "trim_white",
+    "door_coral",
+    "concrete",
+    "glass_rail",
+    "trim_dark",
+    "wood",
+    "pot",
+    "plant",
+    "plant2",
+    "awning_c",
+    "awning_b",
+    "awning_a",
+    "wall_coral",
+    "wall_yellow",
+    "roof_blue"
+   ],
+   "bbox_min": [
+    -10.05,
+    0.0,
+    -5.78
+   ],
+   "bbox_max": [
+    10.0,
+    23.0,
+    8.52
+   ],
+   "size": [
+    20.05,
+    23.0,
+    14.3
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_18",
+   "category": "buildings",
+   "triangles": 3052,
+   "vertices": 1908,
+   "groups": [
+    "concourse",
+    "plinth",
+    "mullions",
+    "glazing",
+    "transom",
+    "passenger_entrance",
+    "entrance",
+    "signage",
+    "canopy_roof",
+    "canopy_columns",
+    "walkway",
+    "walkway_piles",
+    "walkway_rail",
+    "walkway_cover",
+    "boarding_platform",
+    "bollards",
+    "clock_tower",
+    "clock",
+    "clock_roof",
+    "ticket_booth",
+    "benches"
+   ],
+   "materials": [
+    "glass_dark",
+    "concrete",
+    "metal",
+    "glass",
+    "wall_blue",
+    "trim_dark",
+    "wall_slate",
+    "awning_c",
+    "trim_white",
+    "roof_blue",
+    "wood",
+    "wall_concrete",
+    "metal_dark",
+    "glass_rail",
+    "yellow_line",
+    "white",
+    "wall_coral"
+   ],
+   "bbox_min": [
+    -21.05,
+    0,
+    -9.0
+   ],
+   "bbox_max": [
+    18.8,
+    15.4,
+    50.0
+   ],
+   "size": [
+    39.85,
+    15.4,
+    59.0
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_19",
+   "category": "buildings",
+   "triangles": 1908,
+   "vertices": 1100,
+   "groups": [
+    "drum",
+    "drum_base",
+    "drum_cornice",
+    "windows",
+    "platform",
+    "platform_supports",
+    "platform_rail",
+    "dome",
+    "dome_ribs",
+    "dome_slit",
+    "dome_top",
+    "telescope",
+    "entrance",
+    "doors",
+    "canopies",
+    "entrance_roof",
+    "steps",
+    "platform_stairs",
+    "service_block",
+    "service_dome",
+    "dish"
+   ],
+   "materials": [
+    "wall_ivory",
+    "concrete",
+    "trim_white",
+    "glass_dark",
+    "wood",
+    "concrete_dark",
+    "metal",
+    "trim_dark",
+    "white",
+    "wall_dark",
+    "metal_dark",
+    "glass",
+    "door_teal",
+    "roof_slate",
+    "wall_cream"
+   ],
+   "bbox_min": [
+    -12.3,
+    0.0,
+    -9.4
+   ],
+   "bbox_max": [
+    15.7,
+    14.9,
+    11.1
+   ],
+   "size": [
+    28.0,
+    14.9,
+    20.5
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  },
+  {
+   "name": "BUILDING_20",
+   "category": "buildings",
+   "triangles": 6152,
+   "vertices": 4070,
+   "groups": [
+    "podium",
+    "storefront",
+    "storefront_glass",
+    "doors",
+    "walls_floor01",
+    "windows_floor01",
+    "canopies",
+    "tier0_core",
+    "facade_floor02",
+    "mullions",
+    "facade_floor03",
+    "facade_floor04",
+    "facade_floor05",
+    "facade_floor06",
+    "facade_floor07",
+    "facade_floor08",
+    "facade_floor09",
+    "facade_floor10",
+    "facade_floor11",
+    "facade_floor12",
+    "facade_floor13",
+    "facade_floor14",
+    "facade_floor15",
+    "facade_floor16",
+    "tier0_belt",
+    "tier0_cap",
+    "tier0_terrace",
+    "tier1_core",
+    "facade_floor17",
+    "facade_floor18",
+    "facade_floor19",
+    "facade_floor20",
+    "facade_floor21",
+    "facade_floor22",
+    "facade_floor23",
+    "facade_floor24",
+    "facade_floor25",
+    "facade_floor26",
+    "facade_floor27",
+    "facade_floor28",
+    "facade_floor29",
+    "facade_floor30",
+    "tier1_belt",
+    "tier1_cap",
+    "tier1_terrace",
+    "tier2_core",
+    "facade_floor31",
+    "facade_floor32",
+    "facade_floor33",
+    "facade_floor34",
+    "facade_floor35",
+    "facade_floor36",
+    "facade_floor37",
+    "facade_floor38",
+    "facade_floor39",
+    "facade_floor40",
+    "facade_floor41",
+    "facade_floor42",
+    "tier2_belt",
+    "tier2_cap",
+    "tier2_terrace",
+    "tier3_core",
+    "facade_floor43",
+    "facade_floor44",
+    "facade_floor45",
+    "facade_floor46",
+    "facade_floor47",
+    "facade_floor48",
+    "facade_floor49",
+    "facade_floor50",
+    "facade_floor51",
+    "tier3_belt",
+    "tier3_cap",
+    "exoskeleton",
+    "crown",
+    "crown_fin",
+    "spire",
+    "sky_lobby"
+   ],
+   "materials": [
+    "wall_concrete",
+    "wall_stone",
+    "trim_dark",
+    "glass",
+    "metal",
+    "glass_dark",
+    "glass_curtain",
+    "wall_dark",
+    "glass_lit",
+    "glow_cyan",
+    "plant2",
+    "plant",
+    "wall_slate",
+    "glow_warm",
+    "metal_dark",
+    "red"
+   ],
+   "bbox_min": [
+    -15.28,
+    0,
+    -13.28
+   ],
+   "bbox_max": [
+    15.28,
+    252.7,
+    16.8
+   ],
+   "size": [
+    30.56,
+    252.7,
+    30.08
+   ],
+   "pivots": {},
+   "notes": "",
+   "tri_in_target": true
+  }
+ ]
+}

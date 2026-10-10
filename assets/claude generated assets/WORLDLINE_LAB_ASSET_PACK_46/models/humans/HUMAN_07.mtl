@@ -1,0 +1,152 @@
+newmtl HUMAN_07_top
+Ka 0.047 0.078 0.126
+Kd 0.133 0.224 0.361
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_bottom
+Ka 0.041 0.062 0.097
+Kd 0.118 0.176 0.278
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_skin
+Ka 0.298 0.225 0.170
+Kd 0.851 0.643 0.486
+Ks 0.030 0.030 0.030
+Ns 6
+d 1.0
+illum 2
+
+newmtl HUMAN_07_eye
+Ka 0.037 0.036 0.043
+Kd 0.106 0.102 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_hair
+Ka 0.032 0.027 0.021
+Kd 0.090 0.078 0.059
+Ks 0.100 0.100 0.100
+Ns 16
+d 1.0
+illum 2
+
+newmtl HUMAN_07_mouth
+Ka 0.211 0.108 0.102
+Kd 0.604 0.310 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_hat
+Ka 0.324 0.324 0.321
+Kd 0.925 0.925 0.918
+Ks 0.150 0.150 0.150
+Ns 24
+d 1.0
+illum 2
+
+newmtl HUMAN_07_badge
+Ka 0.276 0.080 0.047
+Kd 0.788 0.227 0.133
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_shoe
+Ka 0.032 0.032 0.036
+Kd 0.090 0.090 0.102
+Ks 0.120 0.120 0.120
+Ns 20
+d 1.0
+illum 2
+
+newmtl HUMAN_07_sole
+Ka 0.021 0.021 0.022
+Kd 0.059 0.059 0.063
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_vest
+Ka 0.294 0.081 0.043
+Kd 0.839 0.231 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_reflect
+Ka 0.298 0.303 0.307
+Kd 0.851 0.867 0.878
+Ks 0.600 0.600 0.600
+Ns 60
+d 1.0
+illum 2
+
+newmtl HUMAN_07_belt
+Ka 0.058 0.049 0.044
+Kd 0.165 0.141 0.125
+Ks 0.100 0.100 0.100
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_buckle
+Ka 0.276 0.254 0.189
+Kd 0.788 0.725 0.541
+Ks 0.600 0.600 0.600
+Ns 60
+d 1.0
+illum 2
+
+newmtl HUMAN_07_dbelt
+Ka 0.032 0.033 0.038
+Kd 0.090 0.094 0.110
+Ks 0.150 0.150 0.150
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_radio
+Ka 0.040 0.043 0.049
+Kd 0.114 0.122 0.141
+Ks 0.200 0.200 0.200
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_pouch2
+Ka 0.049 0.052 0.060
+Kd 0.141 0.149 0.173
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_flash
+Ka 0.059 0.062 0.070
+Kd 0.169 0.176 0.200
+Ks 0.400 0.400 0.400
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_07_patch
+Ka 0.314 0.254 0.082
+Kd 0.898 0.725 0.235
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+

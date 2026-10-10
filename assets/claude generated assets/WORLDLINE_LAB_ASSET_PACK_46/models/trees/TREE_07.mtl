@@ -1,0 +1,40 @@
+newmtl TREE_07_bark
+Ka 0.226 0.191 0.145
+Kd 0.647 0.545 0.416
+Ks 0.020 0.020 0.020
+Ns 4
+d 1.0
+illum 2
+
+newmtl TREE_07_leaf0
+Ka 0.125 0.239 0.108
+Kd 0.357 0.682 0.310
+Ks 0.040 0.040 0.040
+Ns 6
+d 1.0
+illum 2
+
+newmtl TREE_07_leaf1
+Ka 0.162 0.266 0.129
+Kd 0.463 0.761 0.369
+Ks 0.040 0.040 0.040
+Ns 6
+d 1.0
+illum 2
+
+newmtl TREE_07_nut
+Ka 0.145 0.102 0.058
+Kd 0.416 0.290 0.165
+Ks 0.040 0.040 0.040
+Ns 6
+d 1.0
+illum 2
+
+newmtl TREE_07_green
+Ka 0.189 0.231 0.102
+Kd 0.541 0.659 0.290
+Ks 0.040 0.040 0.040
+Ns 6
+d 1.0
+illum 2
+

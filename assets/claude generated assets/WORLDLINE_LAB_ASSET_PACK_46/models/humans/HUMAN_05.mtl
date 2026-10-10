@@ -1,0 +1,144 @@
+newmtl HUMAN_05_top
+Ka 0.318 0.121 0.102
+Kd 0.910 0.345 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_bottom
+Ka 0.281 0.253 0.195
+Kd 0.804 0.722 0.557
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_skin
+Ka 0.329 0.275 0.228
+Kd 0.941 0.784 0.651
+Ks 0.030 0.030 0.030
+Ns 6
+d 1.0
+illum 2
+
+newmtl HUMAN_05_eye
+Ka 0.037 0.036 0.043
+Kd 0.106 0.102 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_hair
+Ka 0.294 0.244 0.124
+Kd 0.839 0.698 0.353
+Ks 0.100 0.100 0.100
+Ns 16
+d 1.0
+illum 2
+
+newmtl HUMAN_05_mouth
+Ka 0.211 0.108 0.102
+Kd 0.604 0.310 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_lens
+Ka 0.022 0.029 0.038
+Kd 0.063 0.082 0.110
+Ks 0.300 0.300 0.300
+Ns 40
+d 0.9
+illum 2
+
+newmtl HUMAN_05_glasses
+Ka 0.058 0.058 0.063
+Kd 0.165 0.165 0.180
+Ks 0.200 0.200 0.200
+Ns 30
+d 1.0
+illum 2
+
+newmtl HUMAN_05_shoe
+Ka 0.082 0.194 0.167
+Kd 0.235 0.553 0.478
+Ks 0.120 0.120 0.120
+Ns 20
+d 1.0
+illum 2
+
+newmtl HUMAN_05_sole
+Ka 0.335 0.331 0.321
+Kd 0.957 0.945 0.918
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_pack
+Ka 0.063 0.191 0.167
+Kd 0.180 0.545 0.478
+Ks 0.080 0.080 0.080
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_pack2
+Ka 0.043 0.130 0.115
+Kd 0.122 0.373 0.329
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_strap
+Ka 0.051 0.066 0.080
+Kd 0.145 0.188 0.227
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_camera
+Ka 0.051 0.054 0.060
+Kd 0.145 0.153 0.173
+Ks 0.300 0.300 0.300
+Ns 30
+d 1.0
+illum 2
+
+newmtl HUMAN_05_camlens
+Ka 0.103 0.117 0.132
+Kd 0.294 0.333 0.376
+Ks 0.500 0.500 0.500
+Ns 50
+d 1.0
+illum 2
+
+newmtl HUMAN_05_printF7D154
+Ka 0.339 0.287 0.115
+Kd 0.969 0.820 0.329
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_printFFFFFF
+Ka 0.350 0.350 0.350
+Kd 1.000 1.000 1.000
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_05_print2FA58B
+Ka 0.065 0.226 0.191
+Kd 0.184 0.647 0.545
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+

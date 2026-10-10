@@ -1,0 +1,160 @@
+newmtl HUMAN_08_top
+Ka 0.128 0.195 0.253
+Kd 0.365 0.557 0.722
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_bottom
+Ka 0.080 0.088 0.106
+Kd 0.227 0.251 0.302
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_skin
+Ka 0.339 0.303 0.272
+Kd 0.969 0.867 0.776
+Ks 0.030 0.030 0.030
+Ns 6
+d 1.0
+illum 2
+
+newmtl HUMAN_08_eye
+Ka 0.037 0.036 0.043
+Kd 0.106 0.102 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_hair
+Ka 0.150 0.124 0.097
+Kd 0.427 0.353 0.278
+Ks 0.100 0.100 0.100
+Ns 16
+d 1.0
+illum 2
+
+newmtl HUMAN_08_mouth
+Ka 0.211 0.108 0.102
+Kd 0.604 0.310 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_glasses
+Ka 0.059 0.059 0.059
+Kd 0.169 0.169 0.169
+Ks 0.200 0.200 0.200
+Ns 30
+d 1.0
+illum 2
+
+newmtl HUMAN_08_lens
+Ka 0.262 0.295 0.316
+Kd 0.749 0.843 0.902
+Ks 0.300 0.300 0.300
+Ns 40
+d 0.35
+illum 2
+
+newmtl HUMAN_08_shoe
+Ka 0.145 0.102 0.069
+Kd 0.416 0.290 0.196
+Ks 0.120 0.120 0.120
+Ns 20
+d 1.0
+illum 2
+
+newmtl HUMAN_08_sole
+Ka 0.058 0.058 0.058
+Kd 0.165 0.165 0.165
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_jacket
+Ka 0.336 0.336 0.332
+Kd 0.961 0.961 0.949
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_buttons
+Ka 0.276 0.281 0.290
+Kd 0.788 0.804 0.827
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_shirt
+Ka 0.128 0.195 0.253
+Kd 0.365 0.557 0.722
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_pen
+Ka 0.291 0.102 0.080
+Kd 0.831 0.290 0.227
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_pen2
+Ka 0.062 0.148 0.306
+Kd 0.176 0.424 0.875
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_idbadge
+Ka 0.318 0.329 0.338
+Kd 0.910 0.941 0.965
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_idband
+Ka 0.062 0.148 0.306
+Kd 0.176 0.424 0.875
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_clipboard
+Ka 0.189 0.145 0.102
+Kd 0.541 0.416 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_paper
+Ka 0.332 0.329 0.318
+Kd 0.949 0.941 0.910
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_08_clip
+Ka 0.254 0.261 0.272
+Kd 0.725 0.745 0.776
+Ks 0.500 0.500 0.500
+Ns 8
+d 1.0
+illum 2
+

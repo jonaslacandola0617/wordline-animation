@@ -1,0 +1,98 @@
+newmtl CAR_04_paint
+Ka 0.273 0.055 0.080
+Kd 0.780 0.157 0.227
+Ks 0.350 0.350 0.350
+Ns 40
+d 1.0
+illum 2
+
+newmtl CAR_04_trim
+Ka 0.051 0.055 0.063
+Kd 0.145 0.157 0.180
+Ks 0.100 0.100 0.100
+Ns 10
+d 1.0
+illum 2
+
+newmtl CAR_04_interior
+Ka 0.040 0.047 0.059
+Kd 0.114 0.133 0.169
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl CAR_04_glass
+Ka 0.174 0.224 0.253
+Kd 0.498 0.639 0.722
+Ks 0.600 0.600 0.600
+Ns 80
+d 0.62
+illum 2
+
+newmtl CAR_04_chrome
+Ka 0.270 0.277 0.287
+Kd 0.773 0.792 0.820
+Ks 0.800 0.800 0.800
+Ns 90
+d 1.0
+illum 2
+
+newmtl CAR_04_accent
+Ka 0.041 0.044 0.049
+Kd 0.118 0.125 0.141
+Ks 0.200 0.200 0.200
+Ns 20
+d 1.0
+illum 2
+
+newmtl CAR_04_headlight
+Ka 0.338 0.331 0.288
+Kd 0.965 0.945 0.824
+Ks 0.500 0.500 0.500
+Ns 60
+d 1.0
+illum 2
+Ke 0.500 0.480 0.350
+
+newmtl CAR_04_taillight
+Ka 0.269 0.048 0.059
+Kd 0.769 0.137 0.169
+Ks 0.500 0.500 0.500
+Ns 60
+d 1.0
+illum 2
+Ke 0.350 0.030 0.030
+
+newmtl CAR_04_plate
+Ka 0.325 0.323 0.303
+Kd 0.929 0.922 0.867
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl CAR_04_tire
+Ka 0.037 0.038 0.043
+Kd 0.106 0.110 0.122
+Ks 0.020 0.020 0.020
+Ns 4
+d 1.0
+illum 2
+
+newmtl CAR_04_rim_dark
+Ka 0.058 0.062 0.070
+Kd 0.165 0.176 0.200
+Ks 0.200 0.200 0.200
+Ns 20
+d 1.0
+illum 2
+
+newmtl CAR_04_alloy
+Ka 0.253 0.258 0.269
+Kd 0.722 0.737 0.769
+Ks 0.700 0.700 0.700
+Ns 70
+d 1.0
+illum 2
+

@@ -1,0 +1,120 @@
+newmtl HUMAN_03_top
+Ka 0.334 0.329 0.320
+Kd 0.953 0.941 0.914
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_bottom
+Ka 0.063 0.075 0.099
+Kd 0.180 0.216 0.282
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_skin
+Ka 0.298 0.225 0.170
+Kd 0.851 0.643 0.486
+Ks 0.030 0.030 0.030
+Ns 6
+d 1.0
+illum 2
+
+newmtl HUMAN_03_eye
+Ka 0.037 0.036 0.043
+Kd 0.106 0.102 0.122
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_hair
+Ka 0.040 0.036 0.036
+Kd 0.114 0.102 0.102
+Ks 0.100 0.100 0.100
+Ns 16
+d 1.0
+illum 2
+
+newmtl HUMAN_03_mouth
+Ka 0.211 0.108 0.102
+Kd 0.604 0.310 0.290
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_shoe
+Ka 0.032 0.032 0.036
+Kd 0.090 0.090 0.102
+Ks 0.120 0.120 0.120
+Ns 20
+d 1.0
+illum 2
+
+newmtl HUMAN_03_sole
+Ka 0.021 0.021 0.022
+Kd 0.059 0.059 0.063
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_jacket
+Ka 0.063 0.075 0.099
+Kd 0.180 0.216 0.282
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_cuffshirt
+Ka 0.334 0.329 0.320
+Kd 0.953 0.941 0.914
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_buttons
+Ka 0.029 0.032 0.038
+Kd 0.082 0.090 0.110
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_shirt
+Ka 0.334 0.329 0.320
+Kd 0.953 0.941 0.914
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_tie
+Ka 0.191 0.060 0.082
+Kd 0.545 0.173 0.235
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_belt
+Ka 0.058 0.049 0.044
+Kd 0.165 0.141 0.125
+Ks 0.100 0.100 0.100
+Ns 8
+d 1.0
+illum 2
+
+newmtl HUMAN_03_buckle
+Ka 0.276 0.254 0.189
+Kd 0.788 0.725 0.541
+Ks 0.600 0.600 0.600
+Ns 60
+d 1.0
+illum 2
+

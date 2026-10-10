@@ -1,0 +1,80 @@
+newmtl wall_stone
+Ka 0.284 0.273 0.250
+Kd 0.812 0.780 0.714
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl glass
+Ka 0.152 0.207 0.246
+Kd 0.435 0.592 0.702
+Ks 0.600 0.600 0.600
+Ns 80
+d 0.88
+illum 2
+
+newmtl trim_white
+Ka 0.339 0.335 0.324
+Kd 0.969 0.957 0.925
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl trim_dark
+Ka 0.080 0.086 0.099
+Kd 0.227 0.247 0.282
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl concrete
+Ka 0.259 0.253 0.239
+Kd 0.741 0.722 0.682
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl glass_curtain
+Ka 0.108 0.173 0.217
+Kd 0.310 0.494 0.620
+Ks 0.700 0.700 0.700
+Ns 90
+d 0.9
+illum 2
+
+newmtl metal
+Ka 0.211 0.224 0.237
+Kd 0.604 0.639 0.678
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl wall_concrete
+Ka 0.246 0.239 0.225
+Kd 0.702 0.682 0.643
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl metal_dark
+Ka 0.102 0.110 0.121
+Kd 0.290 0.314 0.345
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl concrete_dark
+Ka 0.196 0.189 0.178
+Kd 0.561 0.541 0.510
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+

@@ -1,0 +1,1923 @@
+[
+  {
+    "group": "current",
+    "file": "Download (1).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 29.97,
+    "frame_count": 1855,
+    "duration_seconds": 61.89522856189523,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.1031031031031033,
+        "file": "p005_003.10s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.172839506172839,
+        "file": "p010_006.17s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 12.379045712379046,
+        "file": "p020_012.38s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 18.551885218551885,
+        "file": "p030_018.55s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 24.758091424758092,
+        "file": "p040_024.76s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 30.93093093093093,
+        "file": "p050_030.93s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 37.10377043710377,
+        "file": "p060_037.10s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 43.30997664330998,
+        "file": "p070_043.31s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 49.482816149482815,
+        "file": "p080_049.48s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 55.689022355689026,
+        "file": "p090_055.69s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 60.9275942609276,
+        "file": "p098_060.93s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 6.5,
+        "score": 35.237630208333336,
+        "file": "change_01_006.50s.jpg"
+      },
+      {
+        "seconds": 12.5,
+        "score": 26.67035590277778,
+        "file": "change_02_012.50s.jpg"
+      },
+      {
+        "seconds": 18.0,
+        "score": 29.548502604166668,
+        "file": "change_03_018.00s.jpg"
+      },
+      {
+        "seconds": 30.5,
+        "score": 43.54615885416667,
+        "file": "change_04_030.50s.jpg"
+      },
+      {
+        "seconds": 38.0,
+        "score": 44.57673611111111,
+        "file": "change_05_038.00s.jpg"
+      },
+      {
+        "seconds": 44.0,
+        "score": 31.09140625,
+        "file": "change_06_044.00s.jpg"
+      },
+      {
+        "seconds": 56.0,
+        "score": 27.08732638888889,
+        "file": "change_07_056.00s.jpg"
+      },
+      {
+        "seconds": 60.0,
+        "score": 35.10681423611111,
+        "file": "change_08_060.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "current",
+    "file": "Download (2).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 29.97,
+    "frame_count": 1796,
+    "duration_seconds": 59.9265932599266,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.0030030030030033,
+        "file": "p005_003.00s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.0060060060060065,
+        "file": "p010_006.01s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 11.978645311978646,
+        "file": "p020_011.98s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 17.951284617951284,
+        "file": "p030_017.95s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 23.95729062395729,
+        "file": "p040_023.96s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 29.9632966299633,
+        "file": "p050_029.96s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 35.93593593593594,
+        "file": "p060_035.94s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 41.90857524190858,
+        "file": "p070_041.91s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 47.91458124791458,
+        "file": "p080_047.91s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 53.92058725392059,
+        "file": "p090_053.92s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 58.99232565899233,
+        "file": "p098_058.99s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 8.5,
+        "score": 30.607465277777777,
+        "file": "change_01_008.50s.jpg"
+      },
+      {
+        "seconds": 16.5,
+        "score": 26.752083333333335,
+        "file": "change_02_016.50s.jpg"
+      },
+      {
+        "seconds": 27.5,
+        "score": 33.525737847222224,
+        "file": "change_03_027.50s.jpg"
+      },
+      {
+        "seconds": 32.0,
+        "score": 68.10694444444445,
+        "file": "change_04_032.00s.jpg"
+      },
+      {
+        "seconds": 36.0,
+        "score": 54.6748046875,
+        "file": "change_05_036.00s.jpg"
+      },
+      {
+        "seconds": 51.5,
+        "score": 34.52230902777778,
+        "file": "change_06_051.50s.jpg"
+      },
+      {
+        "seconds": 53.5,
+        "score": 46.298068576388886,
+        "file": "change_07_053.50s.jpg"
+      },
+      {
+        "seconds": 58.5,
+        "score": 45.12680121527778,
+        "file": "change_08_058.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "current",
+    "file": "Download.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 29.97,
+    "frame_count": 1948,
+    "duration_seconds": 64.99833166499833,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.2365699032365702,
+        "file": "p005_003.24s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.506506506506507,
+        "file": "p010_006.51s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 12.979646312979646,
+        "file": "p020_012.98s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 19.486152819486154,
+        "file": "p030_019.49s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 25.992659325992662,
+        "file": "p040_025.99s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 32.499165832499166,
+        "file": "p050_032.50s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 38.97230563897231,
+        "file": "p060_038.97s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 45.47881214547881,
+        "file": "p070_045.48s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 51.985318651985324,
+        "file": "p080_051.99s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 58.45845845845846,
+        "file": "p090_058.46s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 63.99733066399733,
+        "file": "p098_064.00s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 5.5,
+        "score": 10.6119140625,
+        "file": "change_01_005.50s.jpg"
+      },
+      {
+        "seconds": 12.0,
+        "score": 10.987782118055556,
+        "file": "change_02_012.00s.jpg"
+      },
+      {
+        "seconds": 15.5,
+        "score": 7.9298828125,
+        "file": "change_03_015.50s.jpg"
+      },
+      {
+        "seconds": 19.5,
+        "score": 9.742426215277778,
+        "file": "change_04_019.50s.jpg"
+      },
+      {
+        "seconds": 30.5,
+        "score": 13.76953125,
+        "file": "change_05_030.50s.jpg"
+      },
+      {
+        "seconds": 42.5,
+        "score": 14.713541666666666,
+        "file": "change_06_042.50s.jpg"
+      },
+      {
+        "seconds": 54.5,
+        "score": 9.901019965277778,
+        "file": "change_07_054.50s.jpg"
+      },
+      {
+        "seconds": 63.5,
+        "score": 9.578168402777777,
+        "file": "change_08_063.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "150e1171fbadcbdcd91bdb17464dcf13.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 2819,
+    "duration_seconds": 93.96666666666667,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 4.7,
+        "file": "p005_004.70s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 9.4,
+        "file": "p010_009.40s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 18.8,
+        "file": "p020_018.80s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 28.166666666666668,
+        "file": "p030_028.17s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 37.56666666666667,
+        "file": "p040_037.57s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 46.96666666666667,
+        "file": "p050_046.97s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 56.36666666666667,
+        "file": "p060_056.37s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 65.76666666666667,
+        "file": "p070_065.77s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 75.13333333333334,
+        "file": "p080_075.13s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 84.53333333333333,
+        "file": "p090_084.53s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 92.53333333333333,
+        "file": "p098_092.53s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 5.5,
+        "score": 25.45353732638889,
+        "file": "change_01_005.50s.jpg"
+      },
+      {
+        "seconds": 7.5,
+        "score": 12.162955729166667,
+        "file": "change_02_007.50s.jpg"
+      },
+      {
+        "seconds": 24.0,
+        "score": 25.393381076388888,
+        "file": "change_03_024.00s.jpg"
+      },
+      {
+        "seconds": 40.0,
+        "score": 27.0052734375,
+        "file": "change_04_040.00s.jpg"
+      },
+      {
+        "seconds": 61.5,
+        "score": 14.142491319444444,
+        "file": "change_05_061.50s.jpg"
+      },
+      {
+        "seconds": 81.0,
+        "score": 12.521006944444444,
+        "file": "change_06_081.00s.jpg"
+      },
+      {
+        "seconds": 84.5,
+        "score": 10.887543402777778,
+        "file": "change_07_084.50s.jpg"
+      },
+      {
+        "seconds": 88.5,
+        "score": 33.43493923611111,
+        "file": "change_08_088.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "4a7422e4ac644fce42faf420c6ee892b.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 2070,
+    "duration_seconds": 69.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.433333333333333,
+        "file": "p005_003.43s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.9,
+        "file": "p010_006.90s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 13.8,
+        "file": "p020_013.80s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 20.7,
+        "file": "p030_020.70s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 27.6,
+        "file": "p040_027.60s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 34.46666666666667,
+        "file": "p050_034.47s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 41.36666666666667,
+        "file": "p060_041.37s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 48.266666666666666,
+        "file": "p070_048.27s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 55.166666666666664,
+        "file": "p080_055.17s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 62.06666666666667,
+        "file": "p090_062.07s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 67.93333333333334,
+        "file": "p098_067.93s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 12.0,
+        "score": 24.064626736111112,
+        "file": "change_01_012.00s.jpg"
+      },
+      {
+        "seconds": 18.0,
+        "score": 29.463042534722224,
+        "file": "change_02_018.00s.jpg"
+      },
+      {
+        "seconds": 32.0,
+        "score": 26.60687934027778,
+        "file": "change_03_032.00s.jpg"
+      },
+      {
+        "seconds": 37.5,
+        "score": 24.265993923611113,
+        "file": "change_04_037.50s.jpg"
+      },
+      {
+        "seconds": 41.0,
+        "score": 28.686393229166665,
+        "file": "change_05_041.00s.jpg"
+      },
+      {
+        "seconds": 43.5,
+        "score": 33.50709635416667,
+        "file": "change_06_043.50s.jpg"
+      },
+      {
+        "seconds": 53.5,
+        "score": 29.764149305555556,
+        "file": "change_07_053.50s.jpg"
+      },
+      {
+        "seconds": 65.0,
+        "score": 41.8400390625,
+        "file": "change_08_065.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "5918a3830da3c011942276f0aeb900af.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1950,
+    "duration_seconds": 65.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.2333333333333334,
+        "file": "p005_003.23s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.5,
+        "file": "p010_006.50s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 13.0,
+        "file": "p020_013.00s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 19.5,
+        "file": "p030_019.50s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 26.0,
+        "file": "p040_026.00s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 32.46666666666667,
+        "file": "p050_032.47s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 38.96666666666667,
+        "file": "p060_038.97s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 45.46666666666667,
+        "file": "p070_045.47s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 51.96666666666667,
+        "file": "p080_051.97s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 58.46666666666667,
+        "file": "p090_058.47s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 64.0,
+        "file": "p098_064.00s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 5.0,
+        "score": 22.799631076388888,
+        "file": "change_01_005.00s.jpg"
+      },
+      {
+        "seconds": 9.0,
+        "score": 25.162196180555554,
+        "file": "change_02_009.00s.jpg"
+      },
+      {
+        "seconds": 13.5,
+        "score": 23.8025390625,
+        "file": "change_03_013.50s.jpg"
+      },
+      {
+        "seconds": 18.0,
+        "score": 22.71245659722222,
+        "file": "change_04_018.00s.jpg"
+      },
+      {
+        "seconds": 36.0,
+        "score": 25.97170138888889,
+        "file": "change_05_036.00s.jpg"
+      },
+      {
+        "seconds": 40.5,
+        "score": 22.539778645833334,
+        "file": "change_06_040.50s.jpg"
+      },
+      {
+        "seconds": 57.5,
+        "score": 26.666124131944443,
+        "file": "change_07_057.50s.jpg"
+      },
+      {
+        "seconds": 61.0,
+        "score": 25.679079861111113,
+        "file": "change_08_061.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "7066782ad2f41d149065d8c936812b9e(1).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1919,
+    "duration_seconds": 63.96666666666667,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.2,
+        "file": "p005_003.20s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.4,
+        "file": "p010_006.40s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 12.8,
+        "file": "p020_012.80s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 19.166666666666668,
+        "file": "p030_019.17s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 25.566666666666666,
+        "file": "p040_025.57s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 31.966666666666665,
+        "file": "p050_031.97s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 38.36666666666667,
+        "file": "p060_038.37s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 44.766666666666666,
+        "file": "p070_044.77s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 51.13333333333333,
+        "file": "p080_051.13s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 57.53333333333333,
+        "file": "p090_057.53s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 62.96666666666667,
+        "file": "p098_062.97s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 7.0,
+        "score": 32.75807291666667,
+        "file": "change_01_007.00s.jpg"
+      },
+      {
+        "seconds": 9.0,
+        "score": 12.647569444444445,
+        "file": "change_02_009.00s.jpg"
+      },
+      {
+        "seconds": 11.5,
+        "score": 23.56171875,
+        "file": "change_03_011.50s.jpg"
+      },
+      {
+        "seconds": 15.5,
+        "score": 22.79841579861111,
+        "file": "change_04_015.50s.jpg"
+      },
+      {
+        "seconds": 17.5,
+        "score": 13.72970920138889,
+        "file": "change_05_017.50s.jpg"
+      },
+      {
+        "seconds": 21.0,
+        "score": 22.128754340277776,
+        "file": "change_06_021.00s.jpg"
+      },
+      {
+        "seconds": 30.0,
+        "score": 15.151627604166666,
+        "file": "change_07_030.00s.jpg"
+      },
+      {
+        "seconds": 50.5,
+        "score": 12.765234375,
+        "file": "change_08_050.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "7066782ad2f41d149065d8c936812b9e.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1919,
+    "duration_seconds": 63.96666666666667,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.2,
+        "file": "p005_003.20s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.4,
+        "file": "p010_006.40s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 12.8,
+        "file": "p020_012.80s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 19.166666666666668,
+        "file": "p030_019.17s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 25.566666666666666,
+        "file": "p040_025.57s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 31.966666666666665,
+        "file": "p050_031.97s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 38.36666666666667,
+        "file": "p060_038.37s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 44.766666666666666,
+        "file": "p070_044.77s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 51.13333333333333,
+        "file": "p080_051.13s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 57.53333333333333,
+        "file": "p090_057.53s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 62.96666666666667,
+        "file": "p098_062.97s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 7.0,
+        "score": 32.75807291666667,
+        "file": "change_01_007.00s.jpg"
+      },
+      {
+        "seconds": 9.0,
+        "score": 12.647569444444445,
+        "file": "change_02_009.00s.jpg"
+      },
+      {
+        "seconds": 11.5,
+        "score": 23.56171875,
+        "file": "change_03_011.50s.jpg"
+      },
+      {
+        "seconds": 15.5,
+        "score": 22.79841579861111,
+        "file": "change_04_015.50s.jpg"
+      },
+      {
+        "seconds": 17.5,
+        "score": 13.72970920138889,
+        "file": "change_05_017.50s.jpg"
+      },
+      {
+        "seconds": 21.0,
+        "score": 22.128754340277776,
+        "file": "change_06_021.00s.jpg"
+      },
+      {
+        "seconds": 30.0,
+        "score": 15.151627604166666,
+        "file": "change_07_030.00s.jpg"
+      },
+      {
+        "seconds": 50.5,
+        "score": 12.765234375,
+        "file": "change_08_050.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "cb3b02602de8ba4faab845f698ba9c72.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1950,
+    "duration_seconds": 65.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.2333333333333334,
+        "file": "p005_003.23s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.5,
+        "file": "p010_006.50s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 13.0,
+        "file": "p020_013.00s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 19.5,
+        "file": "p030_019.50s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 26.0,
+        "file": "p040_026.00s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 32.46666666666667,
+        "file": "p050_032.47s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 38.96666666666667,
+        "file": "p060_038.97s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 45.46666666666667,
+        "file": "p070_045.47s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 51.96666666666667,
+        "file": "p080_051.97s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 58.46666666666667,
+        "file": "p090_058.47s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 64.0,
+        "file": "p098_064.00s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 20.5,
+        "score": 20.159244791666666,
+        "file": "change_01_020.50s.jpg"
+      },
+      {
+        "seconds": 24.0,
+        "score": 19.136241319444444,
+        "file": "change_02_024.00s.jpg"
+      },
+      {
+        "seconds": 30.0,
+        "score": 32.42003038194444,
+        "file": "change_03_030.00s.jpg"
+      },
+      {
+        "seconds": 40.5,
+        "score": 16.763585069444446,
+        "file": "change_04_040.50s.jpg"
+      },
+      {
+        "seconds": 43.0,
+        "score": 37.59639756944444,
+        "file": "change_05_043.00s.jpg"
+      },
+      {
+        "seconds": 51.0,
+        "score": 10.398589409722222,
+        "file": "change_06_051.00s.jpg"
+      },
+      {
+        "seconds": 58.0,
+        "score": 22.324392361111112,
+        "file": "change_07_058.00s.jpg"
+      },
+      {
+        "seconds": 61.0,
+        "score": 19.379709201388888,
+        "file": "change_08_061.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "d7202baa78a3b6ad72f8e36168113f09.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 2402,
+    "duration_seconds": 80.06666666666666,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 4.0,
+        "file": "p005_004.00s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 8.0,
+        "file": "p010_008.00s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 16.0,
+        "file": "p020_016.00s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 24.0,
+        "file": "p030_024.00s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 32.0,
+        "file": "p040_032.00s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 40.0,
+        "file": "p050_040.00s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 48.03333333333333,
+        "file": "p060_048.03s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 56.03333333333333,
+        "file": "p070_056.03s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 64.03333333333333,
+        "file": "p080_064.03s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 72.03333333333333,
+        "file": "p090_072.03s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 78.83333333333333,
+        "file": "p098_078.83s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 20.0,
+        "score": 30.311349826388888,
+        "file": "change_01_020.00s.jpg"
+      },
+      {
+        "seconds": 23.0,
+        "score": 31.11662326388889,
+        "file": "change_02_023.00s.jpg"
+      },
+      {
+        "seconds": 25.5,
+        "score": 30.953168402777777,
+        "file": "change_03_025.50s.jpg"
+      },
+      {
+        "seconds": 31.0,
+        "score": 27.126953125,
+        "file": "change_04_031.00s.jpg"
+      },
+      {
+        "seconds": 34.0,
+        "score": 26.711870659722223,
+        "file": "change_05_034.00s.jpg"
+      },
+      {
+        "seconds": 38.5,
+        "score": 37.80904947916667,
+        "file": "change_06_038.50s.jpg"
+      },
+      {
+        "seconds": 42.5,
+        "score": 40.13919270833333,
+        "file": "change_07_042.50s.jpg"
+      },
+      {
+        "seconds": 64.5,
+        "score": 29.629730902777776,
+        "file": "change_08_064.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "Download (1).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1800,
+    "duration_seconds": 60.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.0,
+        "file": "p005_003.00s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.0,
+        "file": "p010_006.00s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 12.0,
+        "file": "p020_012.00s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 18.0,
+        "file": "p030_018.00s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 24.0,
+        "file": "p040_024.00s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 30.0,
+        "file": "p050_030.00s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 35.96666666666667,
+        "file": "p060_035.97s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 41.96666666666667,
+        "file": "p070_041.97s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 47.96666666666667,
+        "file": "p080_047.97s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 53.96666666666667,
+        "file": "p090_053.97s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 59.06666666666667,
+        "file": "p098_059.07s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 0.5,
+        "score": 65.32235243055555,
+        "file": "change_01_000.50s.jpg"
+      },
+      {
+        "seconds": 5.0,
+        "score": 41.94737413194444,
+        "file": "change_02_005.00s.jpg"
+      },
+      {
+        "seconds": 11.0,
+        "score": 38.76799045138889,
+        "file": "change_03_011.00s.jpg"
+      },
+      {
+        "seconds": 17.0,
+        "score": 14.364778645833333,
+        "file": "change_04_017.00s.jpg"
+      },
+      {
+        "seconds": 30.0,
+        "score": 27.10256076388889,
+        "file": "change_05_030.00s.jpg"
+      },
+      {
+        "seconds": 37.0,
+        "score": 7.278797743055556,
+        "file": "change_06_037.00s.jpg"
+      },
+      {
+        "seconds": 51.0,
+        "score": 12.5330078125,
+        "file": "change_07_051.00s.jpg"
+      },
+      {
+        "seconds": 58.5,
+        "score": 50.68626302083333,
+        "file": "change_08_058.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "Download (2).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1950,
+    "duration_seconds": 65.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.2333333333333334,
+        "file": "p005_003.23s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.5,
+        "file": "p010_006.50s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 13.0,
+        "file": "p020_013.00s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 19.5,
+        "file": "p030_019.50s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 26.0,
+        "file": "p040_026.00s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 32.46666666666667,
+        "file": "p050_032.47s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 38.96666666666667,
+        "file": "p060_038.97s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 45.46666666666667,
+        "file": "p070_045.47s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 51.96666666666667,
+        "file": "p080_051.97s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 58.46666666666667,
+        "file": "p090_058.47s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 64.0,
+        "file": "p098_064.00s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 2.0,
+        "score": 26.63515625,
+        "file": "change_01_002.00s.jpg"
+      },
+      {
+        "seconds": 11.0,
+        "score": 13.939778645833334,
+        "file": "change_02_011.00s.jpg"
+      },
+      {
+        "seconds": 16.0,
+        "score": 17.254644097222222,
+        "file": "change_03_016.00s.jpg"
+      },
+      {
+        "seconds": 25.0,
+        "score": 9.077018229166667,
+        "file": "change_04_025.00s.jpg"
+      },
+      {
+        "seconds": 46.5,
+        "score": 18.924652777777776,
+        "file": "change_05_046.50s.jpg"
+      },
+      {
+        "seconds": 50.5,
+        "score": 18.102300347222222,
+        "file": "change_06_050.50s.jpg"
+      },
+      {
+        "seconds": 57.5,
+        "score": 20.616948784722222,
+        "file": "change_07_057.50s.jpg"
+      },
+      {
+        "seconds": 61.0,
+        "score": 51.39717881944444,
+        "file": "change_08_061.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "Download (3).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1860,
+    "duration_seconds": 62.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.1,
+        "file": "p005_003.10s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 6.2,
+        "file": "p010_006.20s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 12.4,
+        "file": "p020_012.40s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 18.6,
+        "file": "p030_018.60s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 24.8,
+        "file": "p040_024.80s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 31.0,
+        "file": "p050_031.00s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 37.166666666666664,
+        "file": "p060_037.17s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 43.36666666666667,
+        "file": "p070_043.37s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 49.56666666666667,
+        "file": "p080_049.57s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 55.766666666666666,
+        "file": "p090_055.77s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 61.03333333333333,
+        "file": "p098_061.03s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 3.5,
+        "score": 4.829796006944444,
+        "file": "change_01_003.50s.jpg"
+      },
+      {
+        "seconds": 8.5,
+        "score": 55.18723958333333,
+        "file": "change_02_008.50s.jpg"
+      },
+      {
+        "seconds": 26.0,
+        "score": 3.8389539930555556,
+        "file": "change_03_026.00s.jpg"
+      },
+      {
+        "seconds": 29.0,
+        "score": 3.8947265625,
+        "file": "change_04_029.00s.jpg"
+      },
+      {
+        "seconds": 45.0,
+        "score": 6.242947048611111,
+        "file": "change_05_045.00s.jpg"
+      },
+      {
+        "seconds": 47.0,
+        "score": 3.4579427083333334,
+        "file": "change_06_047.00s.jpg"
+      },
+      {
+        "seconds": 51.5,
+        "score": 28.385416666666668,
+        "file": "change_07_051.50s.jpg"
+      },
+      {
+        "seconds": 58.0,
+        "score": 5.951453993055556,
+        "file": "change_08_058.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "Download (4).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 2310,
+    "duration_seconds": 77.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 3.8333333333333335,
+        "file": "p005_003.83s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 7.7,
+        "file": "p010_007.70s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 15.4,
+        "file": "p020_015.40s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 23.1,
+        "file": "p030_023.10s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 30.8,
+        "file": "p040_030.80s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 38.46666666666667,
+        "file": "p050_038.47s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 46.166666666666664,
+        "file": "p060_046.17s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 53.86666666666667,
+        "file": "p070_053.87s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 61.56666666666667,
+        "file": "p080_061.57s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 69.26666666666667,
+        "file": "p090_069.27s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 75.8,
+        "file": "p098_075.80s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 7.0,
+        "score": 20.013758680555554,
+        "file": "change_01_007.00s.jpg"
+      },
+      {
+        "seconds": 12.5,
+        "score": 22.21638454861111,
+        "file": "change_02_012.50s.jpg"
+      },
+      {
+        "seconds": 28.5,
+        "score": 16.855620659722224,
+        "file": "change_03_028.50s.jpg"
+      },
+      {
+        "seconds": 36.0,
+        "score": 19.905729166666667,
+        "file": "change_04_036.00s.jpg"
+      },
+      {
+        "seconds": 47.0,
+        "score": 19.7783203125,
+        "file": "change_05_047.00s.jpg"
+      },
+      {
+        "seconds": 52.5,
+        "score": 28.771397569444446,
+        "file": "change_06_052.50s.jpg"
+      },
+      {
+        "seconds": 66.5,
+        "score": 41.94574652777778,
+        "file": "change_07_066.50s.jpg"
+      },
+      {
+        "seconds": 70.0,
+        "score": 17.355013020833333,
+        "file": "change_08_070.00s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "Download (5).mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 2400,
+    "duration_seconds": 80.0,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 4.0,
+        "file": "p005_004.00s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 8.0,
+        "file": "p010_008.00s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 16.0,
+        "file": "p020_016.00s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 24.0,
+        "file": "p030_024.00s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 32.0,
+        "file": "p040_032.00s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 40.0,
+        "file": "p050_040.00s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 47.96666666666667,
+        "file": "p060_047.97s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 55.96666666666667,
+        "file": "p070_055.97s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 63.96666666666667,
+        "file": "p080_063.97s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 71.96666666666667,
+        "file": "p090_071.97s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 78.76666666666667,
+        "file": "p098_078.77s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 27.5,
+        "score": 18.388606770833334,
+        "file": "change_01_027.50s.jpg"
+      },
+      {
+        "seconds": 31.0,
+        "score": 17.36111111111111,
+        "file": "change_02_031.00s.jpg"
+      },
+      {
+        "seconds": 47.5,
+        "score": 18.106358506944446,
+        "file": "change_03_047.50s.jpg"
+      },
+      {
+        "seconds": 51.0,
+        "score": 17.54904513888889,
+        "file": "change_04_051.00s.jpg"
+      },
+      {
+        "seconds": 55.0,
+        "score": 15.629340277777779,
+        "file": "change_05_055.00s.jpg"
+      },
+      {
+        "seconds": 62.5,
+        "score": 16.97947048611111,
+        "file": "change_06_062.50s.jpg"
+      },
+      {
+        "seconds": 65.5,
+        "score": 26.381727430555557,
+        "file": "change_07_065.50s.jpg"
+      },
+      {
+        "seconds": 68.5,
+        "score": 25.944162326388888,
+        "file": "change_08_068.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "Download.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 1762,
+    "duration_seconds": 58.733333333333334,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 2.933333333333333,
+        "file": "p005_002.93s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 5.866666666666666,
+        "file": "p010_005.87s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 11.733333333333333,
+        "file": "p020_011.73s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 17.6,
+        "file": "p030_017.60s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 23.466666666666665,
+        "file": "p040_023.47s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 29.333333333333332,
+        "file": "p050_029.33s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 35.233333333333334,
+        "file": "p060_035.23s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 41.1,
+        "file": "p070_041.10s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 46.96666666666667,
+        "file": "p080_046.97s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 52.833333333333336,
+        "file": "p090_052.83s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 57.833333333333336,
+        "file": "p098_057.83s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 6.5,
+        "score": 22.69924045138889,
+        "file": "change_01_006.50s.jpg"
+      },
+      {
+        "seconds": 10.0,
+        "score": 23.825520833333332,
+        "file": "change_02_010.00s.jpg"
+      },
+      {
+        "seconds": 18.0,
+        "score": 24.6654296875,
+        "file": "change_03_018.00s.jpg"
+      },
+      {
+        "seconds": 20.5,
+        "score": 26.472157118055556,
+        "file": "change_04_020.50s.jpg"
+      },
+      {
+        "seconds": 26.0,
+        "score": 26.277256944444446,
+        "file": "change_05_026.00s.jpg"
+      },
+      {
+        "seconds": 32.0,
+        "score": 32.44947916666667,
+        "file": "change_06_032.00s.jpg"
+      },
+      {
+        "seconds": 45.0,
+        "score": 48.432964409722224,
+        "file": "change_07_045.00s.jpg"
+      },
+      {
+        "seconds": 57.5,
+        "score": 66.49895833333333,
+        "file": "change_08_057.50s.jpg"
+      }
+    ]
+  },
+  {
+    "group": "samples",
+    "file": "f47772957016a648e86da12965f4a600.mp4",
+    "width": 576,
+    "height": 1024,
+    "fps": 30.0,
+    "frame_count": 2879,
+    "duration_seconds": 95.96666666666667,
+    "key_frames": [
+      {
+        "percent": 0.0,
+        "seconds": 0.0,
+        "file": "p000_000.00s.jpg"
+      },
+      {
+        "percent": 0.05,
+        "seconds": 4.8,
+        "file": "p005_004.80s.jpg"
+      },
+      {
+        "percent": 0.1,
+        "seconds": 9.6,
+        "file": "p010_009.60s.jpg"
+      },
+      {
+        "percent": 0.2,
+        "seconds": 19.2,
+        "file": "p020_019.20s.jpg"
+      },
+      {
+        "percent": 0.3,
+        "seconds": 28.766666666666666,
+        "file": "p030_028.77s.jpg"
+      },
+      {
+        "percent": 0.4,
+        "seconds": 38.36666666666667,
+        "file": "p040_038.37s.jpg"
+      },
+      {
+        "percent": 0.5,
+        "seconds": 47.96666666666667,
+        "file": "p050_047.97s.jpg"
+      },
+      {
+        "percent": 0.6,
+        "seconds": 57.56666666666667,
+        "file": "p060_057.57s.jpg"
+      },
+      {
+        "percent": 0.7,
+        "seconds": 67.16666666666667,
+        "file": "p070_067.17s.jpg"
+      },
+      {
+        "percent": 0.8,
+        "seconds": 76.73333333333333,
+        "file": "p080_076.73s.jpg"
+      },
+      {
+        "percent": 0.9,
+        "seconds": 86.33333333333333,
+        "file": "p090_086.33s.jpg"
+      },
+      {
+        "percent": 0.985,
+        "seconds": 94.5,
+        "file": "p098_094.50s.jpg"
+      }
+    ],
+    "change_frames": [
+      {
+        "seconds": 18.0,
+        "score": 9.339474826388889,
+        "file": "change_01_018.00s.jpg"
+      },
+      {
+        "seconds": 21.5,
+        "score": 9.522721354166666,
+        "file": "change_02_021.50s.jpg"
+      },
+      {
+        "seconds": 23.5,
+        "score": 9.013715277777777,
+        "file": "change_03_023.50s.jpg"
+      },
+      {
+        "seconds": 25.5,
+        "score": 9.44220920138889,
+        "file": "change_04_025.50s.jpg"
+      },
+      {
+        "seconds": 55.0,
+        "score": 16.806336805555556,
+        "file": "change_05_055.00s.jpg"
+      },
+      {
+        "seconds": 61.5,
+        "score": 19.389388020833334,
+        "file": "change_06_061.50s.jpg"
+      },
+      {
+        "seconds": 70.0,
+        "score": 11.792230902777778,
+        "file": "change_07_070.00s.jpg"
+      },
+      {
+        "seconds": 88.0,
+        "score": 20.004752604166665,
+        "file": "change_08_088.00s.jpg"
+      }
+    ]
+  }
+]

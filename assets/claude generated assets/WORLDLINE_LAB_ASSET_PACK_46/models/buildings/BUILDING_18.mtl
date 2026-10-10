@@ -1,0 +1,136 @@
+newmtl glass_dark
+Ka 0.075 0.118 0.151
+Kd 0.216 0.337 0.431
+Ks 0.600 0.600 0.600
+Ns 80
+d 0.9
+illum 2
+
+newmtl concrete
+Ka 0.259 0.253 0.239
+Kd 0.741 0.722 0.682
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl metal
+Ka 0.211 0.224 0.237
+Kd 0.604 0.639 0.678
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl glass
+Ka 0.152 0.207 0.246
+Kd 0.435 0.592 0.702
+Ks 0.600 0.600 0.600
+Ns 80
+d 0.88
+illum 2
+
+newmtl wall_blue
+Ka 0.194 0.224 0.259
+Kd 0.553 0.639 0.741
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl trim_dark
+Ka 0.080 0.086 0.099
+Kd 0.227 0.247 0.282
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl wall_slate
+Ka 0.151 0.174 0.205
+Kd 0.431 0.498 0.584
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl awning_c
+Ka 0.065 0.174 0.184
+Kd 0.184 0.498 0.525
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl trim_white
+Ka 0.339 0.335 0.324
+Kd 0.969 0.957 0.925
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl roof_blue
+Ka 0.086 0.151 0.211
+Kd 0.247 0.431 0.604
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl wood
+Ka 0.189 0.124 0.077
+Kd 0.541 0.353 0.220
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl wall_concrete
+Ka 0.246 0.239 0.225
+Kd 0.702 0.682 0.643
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl metal_dark
+Ka 0.102 0.110 0.121
+Kd 0.290 0.314 0.345
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl glass_rail
+Ka 0.231 0.275 0.296
+Kd 0.659 0.784 0.847
+Ks 0.500 0.500 0.500
+Ns 60
+d 0.55
+illum 2
+
+newmtl yellow_line
+Ka 0.318 0.265 0.080
+Kd 0.910 0.757 0.227
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl white
+Ka 0.335 0.335 0.332
+Kd 0.957 0.957 0.949
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
+newmtl wall_coral
+Ka 0.313 0.176 0.145
+Kd 0.894 0.502 0.416
+Ks 0.040 0.040 0.040
+Ns 8
+d 1.0
+illum 2
+
