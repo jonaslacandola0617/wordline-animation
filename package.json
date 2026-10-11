@@ -1,0 +1,12 @@
+{
+  "name": "wordline-animation",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "render:001": "node shorts/001-four-seventeen-guy/render/render.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0",
+    "playwright": "1.55.0"
+  }
+}
