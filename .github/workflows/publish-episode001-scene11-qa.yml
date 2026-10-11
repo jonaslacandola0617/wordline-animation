@@ -1,0 +1,38 @@
+name: Publish Episode 001 Scene 11 QA
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - '.github/workflows/publish-episode001-scene11-qa.yml'
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+      - name: Download Scene 11 artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          rm -rf /tmp/s11
+          mkdir -p /tmp/s11
+          gh run download 38113646355 -R "$GITHUB_REPOSITORY" -n episode001-scene-11 -D /tmp/s11
+          find /tmp/s11 -type f | sort
+      - name: Publish previews
+        run: |
+          DEST="qa/episode001/run-38113646355/scene11"
+          mkdir -p "$DEST"
+          find /tmp/s11 -type f -name '*.jpg' -exec cp {} "$DEST/" \;
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$DEST"
+          git commit -m "qa: publish Episode 001 scene 11 previews" || exit 0
+          git push origin HEAD:production/episode-001-random-doors
