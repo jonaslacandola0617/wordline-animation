@@ -86,7 +86,7 @@ try{
      box(city,[.9,.009,1.55],[x,.002,z+3],m.lines,false);
    }
  }
- for(let i=0;i<7;i++)box(city,[13,.012,.58],[-6.7,.006,7+i*1.35],m.lines,false);
+ for(let i=0;i<7;i++)box(city,[13,.012,.58],[-6.7,.006,-1.2+i*.95],m.lines,false);
 
  function addModel(key,position,scale=1,rotation=0,container=city){
    const c=cloneDeep(lib[key]);c.position.set(...position);c.scale.setScalar(scale);c.rotation.y=rotation;container.add(c);return c;
@@ -223,7 +223,7 @@ try{
   [8.35,10,[-3.5,11,18],[3.8,7,-8],46],
   [10,13.2,[.5,13.0,10.5],[3.3,9.4,1],39],
   [13.2,16.4,[-5.0,26,25],[2.0,25,-10],48],
-  [16.4,18.3,[5.6,8.0,13],[-1.0,6.1,-3],42],
+  [16.4,18.3,[.4,4.8,6.2],[-1.9,4.0,-3.2],42],
   [18.3,20,[1.0,15.7,10],[3.3,13,1],42],
   [20,23.2,[-4.0,17,23],[2.5,6,-8],49],
   [23.2,26.2,[3.2,2.85,6.0],[1.1,1.2,1.5],44],
