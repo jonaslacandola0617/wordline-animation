@@ -1,6 +1,15 @@
 name: Render Wordline Short 001
 
 on:
+  push:
+    branches:
+      - production/short-001-four-seventeen-guy
+    paths:
+      - 'shorts/001-four-seventeen-guy/**'
+      - 'package.json'
+      - '.github/workflows/render-short-001.yml'
+      - 'assets/**'
+      - 'SFX/**'
   pull_request:
     branches: [ main ]
     paths:
