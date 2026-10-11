@@ -1,0 +1,112 @@
+name: Wordline Short 002 — Native 4K Master
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  segment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        start: [0, 10, 20, 30]
+    env:
+      LIBGL_ALWAYS_SOFTWARE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium and FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Render and encode lossless-source 4K segment
+        run: |
+          START=${{ matrix.start }}
+          END=$((START+10))
+          node shorts/002-gravity-directions/render.mjs --mode full --start "$START" --end "$END" --width 2160 --height 3840 --format png
+          DIR=$(printf "%02d-%02d_2160" "$START" "$END")
+          SRC="shorts/002-gravity-directions/renders/$DIR"
+          FIRST=$((START*30))
+          ffmpeg -y -loglevel error -framerate 30 -start_number "$FIRST" -i "$SRC/frames/frame_%05d.png" -frames:v 300 -c:v libx264 -preset slow -crf 15 -pix_fmt yuv420p -r 30 "$SRC/segment.mp4"
+          mv "$SRC/segment.mp4" "part$(printf "%02d" "$START").mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gravity-002-4k-part-${{ matrix.start }}
+          if-no-files-found: error
+          compression-level: 0
+          path: part*.mp4
+  assemble:
+    needs: segment
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg and NumPy
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install numpy --break-system-packages
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: gravity-002-4k-part-*
+          path: /tmp/parts
+      - name: Assemble 4K master, 1080p social, and 48k audio
+        run: |
+          python3 shorts/002-gravity-directions/audio_master.py
+          mkdir -p shorts/002-gravity-directions/dist shorts/002-gravity-directions/preview
+          python3 - <<'PY'
+          from pathlib import Path
+          p=sorted(Path("/tmp/parts").rglob("part*.mp4"))
+          assert len(p)==4,p
+          Path("/tmp/concat.txt").write_text("".join("file '"+str(f.resolve())+"'\n" for f in p))
+          print(Path("/tmp/concat.txt").read_text())
+          PY
+          D=shorts/002-gravity-directions/dist
+          ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/concat.txt -i shorts/002-gravity-directions/audio/master_48k.wav -c:v copy -c:a aac -b:a 320k -ar 48000 -movflags +faststart -t 40 "$D/WORDLINE_SHORT_002_GRAVITY_4K_MASTER.mp4"
+          ffmpeg -y -loglevel error -i "$D/WORDLINE_SHORT_002_GRAVITY_4K_MASTER.mp4" -vf scale=1080:1920:flags=lanczos -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p -r 30 -c:a aac -b:a 256k -ar 48000 -movflags +faststart "$D/WORDLINE_SHORT_002_GRAVITY_YOUTUBE_1080X1920.mp4"
+          ffprobe -v error -show_format -show_streams -of json "$D/WORDLINE_SHORT_002_GRAVITY_4K_MASTER.mp4" > "$D/master_ffprobe.json"
+          ffprobe -v error -show_format -show_streams -of json "$D/WORDLINE_SHORT_002_GRAVITY_YOUTUBE_1080X1920.mp4" > "$D/social_ffprobe.json"
+      - name: Extract final actual encoded QA frames
+        run: |
+          D=shorts/002-gravity-directions/dist
+          P=shorts/002-gravity-directions/preview
+          for SECOND in 0.5 2 4.7 7 10.5 13.5 17.3 20.5 23.6 27.9 30.5 34.3 37.5 39; do
+            KEY=$(echo "$SECOND" | tr '.' '_')
+            ffmpeg -y -loglevel error -ss "$SECOND" -i "$D/WORDLINE_SHORT_002_GRAVITY_4K_MASTER.mp4" -frames:v 1 "$P/frame_$KEY.jpg"
+          done
+          ffmpeg -y -loglevel error -ss 7 -i "$D/WORDLINE_SHORT_002_GRAVITY_4K_MASTER.mp4" -frames:v 1 "$D/thumbnail_vertical.png"
+      - name: Verify encoded duration, resolutions and audio
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          d=Path("shorts/002-gravity-directions/dist");res={}
+          for key,path,wh in [("master","master_ffprobe.json",(2160,3840)),("social","social_ffprobe.json",(1080,1920))]:
+              j=json.loads((d/path).read_text())
+              v=next(s for s in j["streams"] if s["codec_type"]=="video")
+              a=next(s for s in j["streams"] if s["codec_type"]=="audio")
+              duration=float(j["format"]["duration"])
+              assert (int(v["width"]),int(v["height"]))==wh
+              assert v["codec_name"]=="h264" and v["pix_fmt"]=="yuv420p"
+              assert int(a["sample_rate"])==48000
+              assert 39.85<=duration<=40.25,duration
+              res[key]={"resolution":wh,"duration":duration,"video":v["codec_name"],"audio":a["codec_name"]}
+          res["encoding"]="PASS";res["artistic_review"]="Review final encoded frames; technical encoding is not a creative sign-off"
+          (d/"QA_REPORT.json").write_text(json.dumps(res,indent=2))
+          print(res)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_SHORT_002_4K_AND_YOUTUBE_DELIVERY
+          if-no-files-found: error
+          compression-level: 0
+          path: |
+            shorts/002-gravity-directions/dist/**
+            shorts/002-gravity-directions/preview/**
+            shorts/002-gravity-directions/audio/manifest.json
+            shorts/002-gravity-directions/audio/master_48k.wav
