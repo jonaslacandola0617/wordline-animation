@@ -1,0 +1,49 @@
+name: Wordline Short 002 — Visual QA
+
+on:
+  push:
+    branches:
+      - production/episode-002-gravity-directions
+    paths:
+      - '.github/workflows/qa-gravity-002.yml'
+      - 'shorts/002-gravity-directions/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      LIBGL_ALWAYS_SOFTWARE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install renderer and FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Render 16 selected frames
+        run: node shorts/002-gravity-directions/render.mjs --mode qa --width 540 --height 960
+      - name: Make QA contact sheet
+        run: |
+          DIR=shorts/002-gravity-directions/renders/qa
+          ffmpeg -y -loglevel error -framerate 1 -i "$DIR/frames/frame_%05d.jpg" \
+            -vf "scale=270:480,tile=4x4:padding=2:margin=2" -frames:v 1 -q:v 7 "$DIR/contact.jpg"
+          ffprobe -v error -show_entries stream=width,height -of json "$DIR/contact.jpg"
+          echo "WORDLINE_QA_IMAGE_BEGIN"
+          base64 -w 0 "$DIR/contact.jpg"
+          echo
+          echo "WORDLINE_QA_IMAGE_END"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_002_QA_FRAMES
+          compression-level: 0
+          path: |
+            shorts/002-gravity-directions/renders/qa/**
