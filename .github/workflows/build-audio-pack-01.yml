@@ -1,0 +1,53 @@
+name: Build Wordline Audio Pack 01
+
+on:
+  push:
+    branches:
+      - foundation/wordline-audio-pack-01
+    paths:
+      - 'tools/audio/build_wordline_audio_pack_01.py'
+      - '.github/workflows/build-audio-pack-01.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout audio branch
+        uses: actions/checkout@v4
+        with:
+          ref: foundation/wordline-audio-pack-01
+          fetch-depth: 0
+
+      - name: Build pack
+        run: python3 tools/audio/build_wordline_audio_pack_01.py
+
+      - name: Verify pack
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, wave
+          p=pathlib.Path("SFX/Wordline_Audio_Pack_01")
+          m=json.loads((p/"manifest.json").read_text())
+          assert m["total_count"] >= 100, m["total_count"]
+          originals=list((p/"original").rglob("*.wav"))
+          assert len(originals) >= 45, len(originals)
+          for f in originals:
+              with wave.open(str(f),"rb") as w:
+                  assert w.getframerate()==48000, (f,w.getframerate())
+          print("PASS",m["total_count"],"sounds;",len(originals),"Wordline originals")
+          PY
+
+      - name: Commit generated pack
+        run: |
+          git config user.name "Wordline Production Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add SFX/Wordline_Audio_Pack_01
+          if git diff --cached --quiet; then
+            echo "Pack already up to date."
+            exit 0
+          fi
+          git commit -m "audio: add Wordline Audio Pack 01"
+          git push origin HEAD:foundation/wordline-audio-pack-01
