@@ -95,8 +95,9 @@ function makeClockTexture(text){
 }
 const clockData = makeClockTexture('4:16');
 const clockFrame = box(1.22,0.54,0.10,darkMat,-1.62,2.28,3.31);
-const clockScreen = new THREE.Mesh(new THREE.PlaneGeometry(1.07,0.39), new THREE.MeshBasicMaterial({map:clockData.tx}));
+const clockScreen = new THREE.Mesh(new THREE.PlaneGeometry(1.07,0.39), new THREE.MeshBasicMaterial({map:clockData.tx, side:THREE.DoubleSide}));
 clockScreen.position.set(-1.62,2.28,3.245);
+clockScreen.rotation.y=Math.PI;
 scene.add(clockScreen);
 let clockText='4:16';
 function setClockText(text){
@@ -130,7 +131,7 @@ const cup = new THREE.Group();
 const cupBody = new THREE.Mesh(new THREE.CylinderGeometry(0.055,0.048,0.12,18,1,true), new THREE.MeshStandardMaterial({color:0xf0f2ef,roughness:0.55}));
 cupBody.castShadow=true; cupBody.receiveShadow=true; cup.add(cupBody);
 const water = new THREE.Mesh(new THREE.CylinderGeometry(0.049,0.049,0.012,18),waterMat); water.position.y=0.049; cup.add(water);
-cup.position.set(0.26,0.84,0.18); scene.add(cup);
+cup.position.set(0.40,0.84,0.18); scene.add(cup);
 
 const ASSET_ROOT = '/assets/claude%20generated%20assets/';
 async function loadOBJ(base, objName, mtlName){
@@ -213,9 +214,10 @@ async function initAssets(){
   models.shelf=shelf;
 
   // Monitors/keyboards
-  makeMonitor(0,0.79,-0.03,0);
-  makeKeyboard(0,0.795,-0.19,0);
-  makePaper(-0.44,0.793,0.08,-0.1);
+  const centralMonitor=makeMonitor(-0.43,0.79,-0.03,0);
+  centralMonitor.scale.setScalar(0.78);
+  makeKeyboard(-0.43,0.795,-0.19,0);
+  makePaper(0.48,0.793,0.06,0.08);
   makeMonitor(-1.62,0.79,0.37,0);
   makeKeyboard(-1.62,0.795,0.18,0);
   makeMonitor(1.62,0.79,0.54,0);
@@ -306,7 +308,7 @@ function updateGuy(t){
   g.armR.rotation.z=0.12*raise;
   g.armL.rotation.x=-0.08;
 
-  const deskP=new THREE.Vector3(0.26,0.84,0.18);
+  const deskP=new THREE.Vector3(0.40,0.84,0.18);
   const mouthP=new THREE.Vector3(0.12,1.23,0.58);
   const cp=deskP.clone().lerp(mouthP,raise);
   cup.position.copy(cp);
@@ -334,6 +336,7 @@ function updateDebris(t){
     m.position.x += d.vel.x*dt;
     m.position.y += d.vel.y*dt - 0.5*5.4*dt*dt;
     m.position.z += d.vel.z*dt;
+    if(m.position.y<0.035) m.position.y=0.035;
     m.rotation.set(d.spin.x*dt,d.spin.y*dt,d.spin.z*dt);
   }
   const ldt=t-7.34;
