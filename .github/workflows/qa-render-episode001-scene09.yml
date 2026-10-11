@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: wordline-episode001-qa09
+  cancel-in-progress: true
+
 jobs:
   qa09:
     runs-on: ubuntu-latest
@@ -26,18 +30,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Install
+      - name: Install minimal visual-QA dependencies
         run: |
           npm install
-          pip install edge-tts pydub
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
-          npx playwright install --with-deps chromium
-      - name: Build audio
-        run: python episodes/episode-001-random-doors/audio/build_scene_audio.py --scene 09
+          npx playwright install chromium
+      - name: Create silent QA audio
+        run: |
+          mkdir -p episodes/episode-001-random-doors/audio
+          ffmpeg -loglevel error -y -f lavfi -i anullsrc=r=48000:cl=stereo -t 23 \
+            -c:a pcm_s24le episodes/episode-001-random-doors/audio/scene-09.wav
       - name: Render Scene 09
         run: node episodes/episode-001-random-doors/render/render_scene.mjs 09
       - name: Build Scene 09 contact sheet
@@ -51,13 +54,6 @@ jobs:
             -filter_complex "[0:v]scale=480:270[a0];[1:v]scale=480:270[a1];[2:v]scale=480:270[a2];[3:v]scale=480:270[a3];[a0][a1][a2][a3]hstack=inputs=4[out]" \
             -map "[out]" -frames:v 1 -q:v 3 qa/episode001/scene09/CONTACT_SHEET.jpg
           base64 -w 0 qa/episode001/scene09/CONTACT_SHEET.jpg > qa/episode001/scene09/CONTACT_SHEET_BASE64.txt
-      - name: Commit Scene 09 QA
-        run: |
-          git config user.name "Wordline QA Bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add qa/episode001/scene09
-          git commit -m "qa: publish fixed Scene 09 contact sheet" || true
-          git push origin HEAD:production/episode-001-random-doors
       - uses: actions/upload-artifact@v4
         with:
           name: qa-scene-09-fixed
@@ -66,3 +62,13 @@ jobs:
             episodes/episode-001-random-doors/renders/09/scene-09.mp4
             episodes/episode-001-random-doors/renders/09/preview/*.jpg
             qa/episode001/scene09/CONTACT_SHEET.jpg
+            qa/episode001/scene09/CONTACT_SHEET_BASE64.txt
+      - name: Commit Scene 09 QA
+        run: |
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa/episode001/scene09
+          git commit -m "qa: publish fixed Scene 09 contact sheet" || true
+          git fetch origin production/episode-001-random-doors
+          git rebase origin/production/episode-001-random-doors
+          git push origin HEAD:production/episode-001-random-doors
