@@ -232,7 +232,7 @@ function scene08(c,t){
 }
 
 function scene09(c,t){
-  base(c,'stairwell','laundromat',['A','B']);
+  base(c,'hotel','laundromat',['A','B']);
   place(c.chars.A,-1.28,.28);place(c.chars.B,.58,.32);face(c.chars.A,0,-2.9);face(c.chars.B,0,-2.9);
   carry(c,4);idle(c.chars.B,t);
 
