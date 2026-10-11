@@ -17,7 +17,7 @@ renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 document.body.appendChild(renderer.domElement);
 
-const camera = new THREE.PerspectiveCamera(31, window.innerWidth / window.innerHeight, 0.05, 60);
+const camera = new THREE.PerspectiveCamera(54, window.innerWidth / window.innerHeight, 0.05, 60);
 camera.position.set(0.18, 1.68, -7.9);
 const cameraTarget = new THREE.Vector3(0, 1.38, 0.72);
 camera.lookAt(cameraTarget);
