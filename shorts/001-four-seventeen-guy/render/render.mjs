@@ -131,7 +131,7 @@ const previewFrames = [
   ['02_3.4s',102],
   ['03_4.5s',135],
   ['04_5.8s',174],
-  ['05_7.5s',225],
+  ['05_7.7s',231],
   ['06_8.5s',255]
 ];
 for (const [label,n] of previewFrames) {

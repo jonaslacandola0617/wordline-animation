@@ -168,12 +168,12 @@ function makeClockTexture(text) {
   return tex;
 }
 const clockBody = new THREE.Mesh(new THREE.BoxGeometry(1.42,0.56,0.12),darkMat);
-clockBody.position.set(1.48,2.58,-3.57);
+clockBody.position.set(0.22,2.58,-3.57);
 clockBody.castShadow = true;
 scene.add(clockBody);
 const clockMat = new THREE.MeshBasicMaterial({map:makeClockTexture('4:16')});
 const clockFace = new THREE.Mesh(new THREE.PlaneGeometry(1.27,0.43),clockMat);
-clockFace.position.set(1.48,2.58,-3.50);
+clockFace.position.set(0.22,2.58,-3.50);
 scene.add(clockFace);
 let clockState = '4:16';
 function setClock(text) {

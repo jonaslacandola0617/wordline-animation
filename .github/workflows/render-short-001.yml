@@ -10,14 +10,6 @@ on:
       - '.github/workflows/render-short-001.yml'
       - 'assets/**'
       - 'SFX/**'
-  pull_request:
-    branches: [ main ]
-    paths:
-      - 'shorts/001-four-seventeen-guy/**'
-      - 'package.json'
-      - '.github/workflows/render-short-001.yml'
-      - 'assets/**'
-      - 'SFX/**'
   workflow_dispatch:
 
 jobs:
