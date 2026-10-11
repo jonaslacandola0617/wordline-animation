@@ -1,0 +1,118 @@
+name: Patch Episode 001 Scene 09 and Reassemble
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - 'episodes/episode-001-random-doors/PATCH09_REQUEST'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: wordline-episode001-patch09
+  cancel-in-progress: true
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      RENDER_WIDTH: '1920'
+      RENDER_HEIGHT: '1080'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install render dependencies
+        run: |
+          npm install
+          pip install edge-tts pydub pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npx playwright install chromium
+
+      - name: Render corrected Scene 09 at 1080p
+        run: |
+          python episodes/episode-001-random-doors/audio/build_scene_audio.py --scene 09
+          node episodes/episode-001-random-doors/render/render_scene.mjs 09
+
+      - name: Download original successful scene set
+        uses: actions/download-artifact@v4
+        with:
+          pattern: episode001-scene-*
+          run-id: 38116792904
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: episodes/episode-001-random-doors/downloaded
+
+      - name: Replace Scene 09 only
+        run: |
+          FRESH=episodes/episode-001-random-doors/renders/09
+          find episodes/episode-001-random-doors/downloaded -type f -name 'scene-09.mp4' -exec cp "$FRESH/scene-09.mp4" {} \;
+          find episodes/episode-001-random-doors/downloaded -type f -name 'scene_09_*.jpg' -delete
+          mkdir -p episodes/episode-001-random-doors/downloaded/episode001-scene-09/preview
+          cp "$FRESH"/preview/*.jpg episodes/episode-001-random-doors/downloaded/episode001-scene-09/preview/
+
+      - name: Reassemble corrected episode
+        run: |
+          rm -rf episodes/episode-001-random-doors/final
+          python episodes/episode-001-random-doors/assemble/assemble.py
+          python episodes/episode-001-random-doors/assemble/make_contact_sheet.py
+
+      - name: Publish corrected final QA sheet
+        run: |
+          mkdir -p qa/episode001/corrected-final
+          cp episodes/episode-001-random-doors/final/QA_CONTACT_SHEET.jpg qa/episode001/corrected-final/QA_CONTACT_SHEET.jpg
+          base64 -w 0 qa/episode001/corrected-final/QA_CONTACT_SHEET.jpg > qa/episode001/corrected-final/QA_CONTACT_SHEET_BASE64.txt
+          cp episodes/episode-001-random-doors/final/QA_REPORT.json qa/episode001/corrected-final/QA_REPORT.json
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa/episode001/corrected-final
+          git commit -m "qa: publish corrected Episode 001 final inspection files" || true
+          git fetch origin production/episode-001-random-doors
+          git rebase origin/production/episode-001-random-doors
+          git push origin HEAD:production/episode-001-random-doors
+
+      - name: Upload corrected 1080p
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_CORRECTED_1080P
+          compression-level: 0
+          path: episodes/episode-001-random-doors/final/WORDLINE_EPISODE_001_RANDOM_DOORS_1080P.mp4
+
+      - name: Upload corrected YouTube master
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_CORRECTED_YOUTUBE_MASTER
+          compression-level: 0
+          path: episodes/episode-001-random-doors/final/WORDLINE_EPISODE_001_RANDOM_DOORS_YOUTUBE_MASTER.mp4
+
+      - name: Upload corrected 4K delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_CORRECTED_4K_DELIVERY
+          compression-level: 0
+          path: episodes/episode-001-random-doors/final/WORDLINE_EPISODE_001_RANDOM_DOORS_4K_DELIVERY.mp4
+
+      - name: Upload corrected QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_CORRECTED_QA
+          compression-level: 0
+          path: |
+            episodes/episode-001-random-doors/final/QA_CONTACT_SHEET.jpg
+            episodes/episode-001-random-doors/final/QA_REPORT.json
+            episodes/episode-001-random-doors/final/QA_REPORT.md
+            episodes/episode-001-random-doors/final/thumbnails/*.jpg
+            episodes/episode-001-random-doors/renders/09/preview/*.jpg
