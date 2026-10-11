@@ -1,0 +1,90 @@
+name: Extract Episode 001 Final Delivery
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - 'episodes/episode-001-random-doors/EXTRACT_FINAL_REQUEST'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+
+      - name: Download completed full-render artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_RANDOM_DOORS
+          run-id: 38116792904
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/episode001
+
+      - name: Locate finished outputs
+        run: |
+          find /tmp/episode001 -type f | sort
+          mkdir -p /tmp/delivery
+          find /tmp/episode001 -type f -name 'WORDLINE_EPISODE_001_RANDOM_DOORS_1080P.mp4' -exec cp {} /tmp/delivery/ \;
+          find /tmp/episode001 -type f -name 'WORDLINE_EPISODE_001_RANDOM_DOORS_4K_DELIVERY.mp4' -exec cp {} /tmp/delivery/ \;
+          find /tmp/episode001 -type f -name 'WORDLINE_EPISODE_001_RANDOM_DOORS_YOUTUBE_MASTER.mp4' -exec cp {} /tmp/delivery/ \;
+          find /tmp/episode001 -type f -name 'QA_CONTACT_SHEET.jpg' -exec cp {} /tmp/delivery/ \;
+          find /tmp/episode001 -type f -name 'QA_REPORT.json' -exec cp {} /tmp/delivery/ \;
+          find /tmp/episode001 -type f -name 'QA_REPORT.md' -exec cp {} /tmp/delivery/ \;
+          find /tmp/episode001 -type f -path '*/thumbnails/*.jpg' -exec cp {} /tmp/delivery/ \;
+          ls -lh /tmp/delivery
+
+      - name: Publish QA contact sheet to branch
+        run: |
+          mkdir -p qa/episode001/final
+          cp /tmp/delivery/QA_CONTACT_SHEET.jpg qa/episode001/final/QA_CONTACT_SHEET.jpg
+          base64 -w 0 /tmp/delivery/QA_CONTACT_SHEET.jpg > qa/episode001/final/QA_CONTACT_SHEET_BASE64.txt
+          cp /tmp/delivery/QA_REPORT.json qa/episode001/final/QA_REPORT.json
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa/episode001/final
+          git commit -m "qa: publish Episode 001 final render inspection files" || true
+          git push origin HEAD:production/episode-001-random-doors
+
+      - name: Upload 1080p delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_1080P
+          compression-level: 0
+          if-no-files-found: error
+          path: /tmp/delivery/WORDLINE_EPISODE_001_RANDOM_DOORS_1080P.mp4
+
+      - name: Upload YouTube master
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_YOUTUBE_MASTER
+          compression-level: 0
+          if-no-files-found: error
+          path: /tmp/delivery/WORDLINE_EPISODE_001_RANDOM_DOORS_YOUTUBE_MASTER.mp4
+
+      - name: Upload 4K delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_4K_DELIVERY
+          compression-level: 0
+          if-no-files-found: error
+          path: /tmp/delivery/WORDLINE_EPISODE_001_RANDOM_DOORS_4K_DELIVERY.mp4
+
+      - name: Upload QA and thumbnails
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_QA
+          compression-level: 0
+          path: |
+            /tmp/delivery/QA_CONTACT_SHEET.jpg
+            /tmp/delivery/QA_REPORT.json
+            /tmp/delivery/QA_REPORT.md
+            /tmp/delivery/thumb_*.jpg
