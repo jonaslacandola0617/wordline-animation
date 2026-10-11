@@ -1,0 +1,8 @@
+node_modules/
+shorts/**/frames/
+shorts/**/output/
+shorts/**/preview/
+shorts/**/audio/roomtone.wav
+shorts/**/audio/signature_thud.wav
+shorts/**/audio/signature_sip.wav
+shorts/**/audio/master.wav
