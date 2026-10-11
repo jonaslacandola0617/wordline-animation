@@ -1,5 +1,8 @@
 name: Preview Wordline Short 001
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -48,6 +51,16 @@ jobs:
           sudo apt-get update >/dev/null
           sudo apt-get install -y imagemagick >/dev/null
           montage /tmp/wordline-preview/*.png -tile 2x4 -geometry 270x480+6+6 /tmp/wordline-preview/contact-sheet.jpg
+      - name: Publish QA stills to branch
+        run: |
+          mkdir -p qa-output/short-001
+          cp /tmp/wordline-preview/* qa-output/short-001/
+          git config user.name "wordline-render-bot"
+          git config user.email "actions@github.com"
+          git add qa-output/short-001
+          git commit -m "qa(short-001): publish preview stills" || true
+          git push origin HEAD:production/short-001-four-seventeen
+
       - uses: actions/upload-artifact@v4
         with:
           name: wordline-short-001-preview
