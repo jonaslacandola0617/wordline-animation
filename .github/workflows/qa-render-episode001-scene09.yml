@@ -1,0 +1,68 @@
+name: QA Render Episode 001 Scene 09
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - 'episodes/episode-001-random-doors/QA09_REQUEST'
+      - '.github/workflows/qa-render-episode001-scene09.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  qa09:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RENDER_WIDTH: '1280'
+      RENDER_HEIGHT: '720'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: |
+          npm install
+          pip install edge-tts pydub
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npx playwright install --with-deps chromium
+      - name: Build audio
+        run: python episodes/episode-001-random-doors/audio/build_scene_audio.py --scene 09
+      - name: Render Scene 09
+        run: node episodes/episode-001-random-doors/render/render_scene.mjs 09
+      - name: Build Scene 09 contact sheet
+        run: |
+          P=episodes/episode-001-random-doors/renders/09/preview
+          mkdir -p qa/episode001/scene09
+          mapfile -t F < <(find "$P" -type f -name '*.jpg' | sort)
+          test "${#F[@]}" -ge 4
+          ffmpeg -loglevel error -y \
+            -i "${F[0]}" -i "${F[1]}" -i "${F[2]}" -i "${F[3]}" \
+            -filter_complex "[0:v]scale=480:270[a0];[1:v]scale=480:270[a1];[2:v]scale=480:270[a2];[3:v]scale=480:270[a3];[a0][a1][a2][a3]hstack=inputs=4[out]" \
+            -map "[out]" -frames:v 1 -q:v 3 qa/episode001/scene09/CONTACT_SHEET.jpg
+          base64 -w 0 qa/episode001/scene09/CONTACT_SHEET.jpg > qa/episode001/scene09/CONTACT_SHEET_BASE64.txt
+      - name: Commit Scene 09 QA
+        run: |
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa/episode001/scene09
+          git commit -m "qa: publish fixed Scene 09 contact sheet" || true
+          git push origin HEAD:production/episode-001-random-doors
+      - uses: actions/upload-artifact@v4
+        with:
+          name: qa-scene-09-fixed
+          compression-level: 0
+          path: |
+            episodes/episode-001-random-doors/renders/09/scene-09.mp4
+            episodes/episode-001-random-doors/renders/09/preview/*.jpg
+            qa/episode001/scene09/CONTACT_SHEET.jpg
