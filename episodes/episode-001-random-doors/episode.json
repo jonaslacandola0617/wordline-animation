@@ -1,0 +1,21 @@
+{
+  "id":"episode-001-random-doors",
+  "public_title":"What If Every Door Took You Somewhere Random?",
+  "platform":"YouTube",
+  "format":"16:9",
+  "fps":30,
+  "target_duration_seconds":265,
+  "scenes":[
+    {"id":"01","slug":"cold-open","duration":25},
+    {"id":"02","slug":"b-arrives","duration":20},
+    {"id":"03","slug":"door-roulette","duration":35},
+    {"id":"04","slug":"escalation","duration":30},
+    {"id":"05","slug":"c-discovers-rule","duration":25},
+    {"id":"06","slug":"door-chain","duration":30},
+    {"id":"07","slug":"donut-failure","duration":15},
+    {"id":"08","slug":"speedrun","duration":35},
+    {"id":"09","slug":"apartment","duration":20},
+    {"id":"10","slug":"party","duration":20},
+    {"id":"11","slug":"tsunami","duration":10}
+  ]
+}
