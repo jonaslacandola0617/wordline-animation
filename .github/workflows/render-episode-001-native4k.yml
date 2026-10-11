@@ -1,0 +1,107 @@
+name: Render Wordline Episode 001 Native 4K
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - 'episodes/episode-001-random-doors/RENDER_4K_REQUEST'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wordline-episode-001-native4k-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render-scenes:
+    strategy:
+      fail-fast: false
+      max-parallel: 11
+      matrix:
+        scene: ['01','02','03','04','05','06','07','08','09','10','11']
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      RENDER_WIDTH: '3840'
+      RENDER_HEIGHT: '2160'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          npm install
+          pip install edge-tts pydub
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npx playwright install --with-deps chromium
+      - name: Build scene audio
+        run: python episodes/episode-001-random-doors/audio/build_scene_audio.py --scene "${{ matrix.scene }}"
+      - name: Render native 4K scene
+        run: node episodes/episode-001-random-doors/render/render_scene.mjs "${{ matrix.scene }}"
+      - name: Upload native 4K scene
+        uses: actions/upload-artifact@v4
+        with:
+          name: episode001-4k-scene-${{ matrix.scene }}
+          compression-level: 0
+          if-no-files-found: error
+          path: |
+            episodes/episode-001-random-doors/renders/${{ matrix.scene }}/scene-${{ matrix.scene }}.mp4
+            episodes/episode-001-random-doors/renders/${{ matrix.scene }}/render.json
+            episodes/episode-001-random-doors/renders/${{ matrix.scene }}/preview/*.jpg
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-manifest.json
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-dialogue.wav
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-sfx.wav
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-music.wav
+
+  assemble:
+    needs: render-scenes
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install pillow
+      - name: Download native 4K scenes
+        uses: actions/download-artifact@v4
+        with:
+          pattern: episode001-4k-scene-*
+          path: episodes/episode-001-random-doors/downloaded4k
+      - name: Assemble native 4K master
+        run: python episodes/episode-001-random-doors/assemble/assemble_native4k.py
+      - name: Build native 4K QA contact sheet
+        run: |
+          rm -rf episodes/episode-001-random-doors/downloaded
+          cp -R episodes/episode-001-random-doors/downloaded4k episodes/episode-001-random-doors/downloaded
+          python episodes/episode-001-random-doors/assemble/make_contact_sheet.py
+          cp episodes/episode-001-random-doors/final/QA_CONTACT_SHEET.jpg episodes/episode-001-random-doors/final4k/QA_CONTACT_SHEET.jpg
+          echo "WORDLINE_4K_QA_IMAGE_BEGIN"
+          base64 -w 0 episodes/episode-001-random-doors/final4k/QA_CONTACT_SHEET.jpg
+          echo
+          echo "WORDLINE_4K_QA_IMAGE_END"
+      - name: Upload native 4K episode
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_RANDOM_DOORS_NATIVE_4K
+          compression-level: 0
+          if-no-files-found: error
+          path: |
+            episodes/episode-001-random-doors/final4k/**
+            episodes/episode-001-random-doors/episode.json
+            episodes/episode-001-random-doors/README.md
+            episodes/episode-001-random-doors/AUDIO_MANIFEST.md
+            episodes/episode-001-random-doors/MUSIC_MANIFEST.md
+            episodes/episode-001-random-doors/ASSET_USAGE_MANIFEST.md
+            episodes/episode-001-random-doors/SHORTS_CUT_MANIFEST.md
+            episodes/episode-001-random-doors/THUMBNAIL_MANIFEST.md
+            shared/systems/random-door/**
+            shared/systems/cake-state/**
