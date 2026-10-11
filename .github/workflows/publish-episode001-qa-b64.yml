@@ -1,0 +1,51 @@
+name: Publish Episode 001 QA Contact Sheet Base64
+
+on:
+  push:
+    branches:
+      - production/episode-001-random-doors
+    paths:
+      - '.github/workflows/publish-episode001-qa-b64.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+
+      - name: Build contact sheet
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg >/dev/null
+          P=qa/episode001/latest
+          ffmpeg -loglevel error -y \
+            -i "$P/scene_01_f00060.jpg" \
+            -i "$P/scene_01_f00255.jpg" \
+            -i "$P/scene_01_f00450.jpg" \
+            -i "$P/scene_01_f00645.jpg" \
+            -i "$P/scene_11_f00024.jpg" \
+            -i "$P/scene_11_f00102.jpg" \
+            -i "$P/scene_11_f00180.jpg" \
+            -i "$P/scene_11_f00258.jpg" \
+            -filter_complex "[0:v]scale=480:270[a0];[1:v]scale=480:270[a1];[2:v]scale=480:270[a2];[3:v]scale=480:270[a3];[4:v]scale=480:270[a4];[5:v]scale=480:270[a5];[6:v]scale=480:270[a6];[7:v]scale=480:270[a7];[a0][a1][a2][a3]hstack=inputs=4[top];[a4][a5][a6][a7]hstack=inputs=4[bot];[top][bot]vstack=inputs=2[out]" \
+            -map "[out]" -frames:v 1 -q:v 3 /tmp/episode001-qa-contact.jpg
+          base64 -w 0 /tmp/episode001-qa-contact.jpg > "$P/CONTACT_SHEET_BASE64.txt"
+
+      - name: Commit base64 contact sheet
+        run: |
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa/episode001/latest/CONTACT_SHEET_BASE64.txt
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "qa: publish Episode 001 contact sheet as base64"
+          git push origin HEAD:production/episode-001-random-doors
