@@ -3,12 +3,9 @@ on:
   push:
     branches: [production/episode-001-random-doors]
     paths:
-      - 'episodes/episode-001-random-doors/**'
-      - 'shared/systems/random-door/**'
-      - 'shared/systems/cake-state/**'
-      - '.github/workflows/render-episode-001.yml'
-      - 'package.json'
+      - 'episodes/episode-001-random-doors/RENDER_REQUEST'
   workflow_dispatch:
+
 permissions:
   contents: read
 
