@@ -57,6 +57,10 @@ jobs:
             episodes/episode-001-random-doors/renders/${{ matrix.scene }}/render.json
             episodes/episode-001-random-doors/renders/${{ matrix.scene }}/preview/*.jpg
             episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-manifest.json
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}.wav
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-dialogue.wav
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-sfx.wav
+            episodes/episode-001-random-doors/audio/scene-${{ matrix.scene }}-music.wav
   assemble:
     needs: render-scenes
     runs-on: ubuntu-latest
@@ -96,3 +100,10 @@ jobs:
             episodes/episode-001-random-doors/README.md
             shared/systems/random-door/**
             shared/systems/cake-state/**
+            episodes/episode-001-random-doors/downloaded/**
+            episodes/episode-001-random-doors/engine/**
+            episodes/episode-001-random-doors/render/**
+            episodes/episode-001-random-doors/audio/build_scene_audio.py
+            episodes/episode-001-random-doors/assemble/**
+            episodes/episode-001-random-doors/ASSET_USAGE_MANIFEST.md
+            episodes/episode-001-random-doors/MUSIC_MANIFEST.md
