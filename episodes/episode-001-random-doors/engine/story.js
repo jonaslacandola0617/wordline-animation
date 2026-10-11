@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {idlePose,walkPose,carryPose,gesturePose} from './assets.js';
 import {smooth,lerp,setCakeState} from './stage.js';
-export const DURATIONS={01:25,02:20,03:35,04:30,05:25,06:30,07:15,08:35,09:20,10:20,11:10};
+export const DURATIONS={'01':25,'02':20,'03':35,'04':30,'05':25,'06':30,'07':15,'08':35,'09':20,'10':20,'11':10};
 const place=(r,x,z,ry=0,y=0)=>{r.root.position.set(x,y,z);r.root.rotation.y=ry;};
 const cam=(c,p,t=[0,1.35,-1])=>{c.camera.position.set(...p);c.camera.lookAt(new THREE.Vector3(...t));};
 function vis(c,roles){for(const[k,r]of Object.entries(c.chars))r.root.visible=roles.includes(k);}
@@ -26,4 +26,4 @@ function scene08(c,t){const beats=[[0,6,'hotel','bathroom'],[6,12,'bathroom','bu
 function scene09(c,t){base(c,'stairwell','laundromat',['A','B','D']);place(c.chars.A,-1.3,.25,Math.PI);place(c.chars.B,.55,.3,Math.PI);carry(c,4);idle(c.chars.B,t);if(t<5){c.stage.showDest('laundromat');door(c,smooth(.3,.7,t)*(1-smooth(4.1,4.7,t)));}else if(t<9){c.stage.showDest('restaurant');door(c,smooth(5.2,5.6,t)*(1-smooth(8.2,8.7,t)));}else if(t<13){c.stage.showDest('parking');door(c,smooth(9.2,9.6,t)*(1-smooth(12.3,12.8,t)));}else door(c,0);if(t>14.5){vis(c,['A','B','D']);place(c.chars.D,.15,-1.75,0);idle(c.chars.D,t);c.stage.door.setOpen(smooth(14.5,15.3,t));c.stage.showDest('party');}push(c,t,0,20,[2.8,1.9,6],[2,1.8,5.1],[0,1.3,-1.25]);}
 function scene10(c,t){base(c,'party','apartment',['A','B','C','D']);door(c,0);place(c.chars.A,-1.4,.2,Math.PI);place(c.chars.B,.6,.25,Math.PI);place(c.chars.C,1.7,0,Math.PI);place(c.chars.D,-.1,-.35,0);carry(c,4);idle(c.chars.B,t);idle(c.chars.C,t);idle(c.chars.D,t);coffeeAt(c,c.chars.C);if(t>4)c.cake.position.set(-1.65,.84,-.65);if(t>13)gesturePose(c.chars.B,'R',.22);push(c,t,0,20,[3.1,2,6.5],[2,1.78,5],[-.5,1.2,-.6]);}
 function scene11(c,t){base(c,'party','beach',['A','D']);place(c.chars.A,-1.4,.15,Math.PI);place(c.chars.D,.1,.2,Math.PI);idle(c.chars.A,t);idle(c.chars.D,t);door(c,smooth(.8,1.4,t)*(1-smooth(6,6.7,t)));if(t>2&&t<6.3){c.wave.visible=true;const p=smooth(2,6.2,t);c.wave.position.z=lerp(-8,-4.7,p);c.wave.scale.y=lerp(1,1.32,p);}cam(c,[2.7,1.85,5.7],[0,1.25,-1.35]);}
-export function buildStory(id,c){const fn={01:scene01,02:scene02,03:scene03,04:scene04,05:scene05,06:scene06,07:scene07,08:scene08,09:scene09,10:scene10,11:scene11}[id];if(!fn)throw new Error('Unknown scene '+id);return t=>{c.t=t;c.stage.door.group.visible=true;for(const d of c.chainDoors)d.group.visible=false;fn(c,t);};}
+export function buildStory(id,c){const fn={'01':scene01,'02':scene02,'03':scene03,'04':scene04,'05':scene05,'06':scene06,'07':scene07,'08':scene08,'09':scene09,'10':scene10,'11':scene11}[id];if(!fn)throw new Error('Unknown scene '+id);return t=>{c.t=t;c.stage.door.group.visible=true;for(const d of c.chainDoors)d.group.visible=false;fn(c,t);};}
