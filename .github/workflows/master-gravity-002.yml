@@ -1,5 +1,10 @@
 name: Wordline Short 002 — Native 4K Master
 on:
+  push:
+    branches:
+      - production/episode-002-gravity-directions
+    paths:
+      - .github/workflows/master-gravity-002.yml
   workflow_dispatch:
 permissions:
   contents: read
