@@ -158,7 +158,7 @@ def write(file,arr):
         w.writeframes((np.clip(arr,-.999,.999)*32767).astype(np.int16).tobytes())
 for name,stem in [("music_stem.wav",music),("world_stem.wav",world),("foley_stem.wav",foley),("effects_stem.wav",fx),("raw_mix.wav",mixed)]:
     write(name,stem)
-subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(OUT/"raw_mix.wav"),"-af","loudnorm=I=-14:TP=-1.5:LRA=9","-ar","48000","-ac","2",str(OUT/"master_48k.wav")],check=True)
+subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(OUT/"raw_mix.wav"),"-af","loudnorm=I=-14:TP=-1.5:LRA=9,volume=-1.2dB","-ar","48000","-ac","2",str(OUT/"master_48k.wav")],check=True)
 (OUT/"manifest.json").write_text(json.dumps({
  "duration":40,"sample_rate":48000,
  "music":"original generated instrumental (no unlicensed commercial tracks)",
