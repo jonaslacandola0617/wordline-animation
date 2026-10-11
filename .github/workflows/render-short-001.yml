@@ -43,6 +43,23 @@ jobs:
       - name: Render 4K master and social encode
         run: npm run render:001
 
+      - name: Emit compact visual QA contact sheet
+        run: |
+          ffmpeg -y \
+            -i shorts/001-four-seventeen-guy/preview/00_0.5s.png \
+            -i shorts/001-four-seventeen-guy/preview/01_2.3s.png \
+            -i shorts/001-four-seventeen-guy/preview/02_3.4s.png \
+            -i shorts/001-four-seventeen-guy/preview/03_4.5s.png \
+            -i shorts/001-four-seventeen-guy/preview/04_5.8s.png \
+            -i shorts/001-four-seventeen-guy/preview/05_7.7s.png \
+            -i shorts/001-four-seventeen-guy/preview/06_8.5s.png \
+            -filter_complex "[0:v]scale=270:480[a0];[1:v]scale=270:480[a1];[2:v]scale=270:480[a2];[3:v]scale=270:480[a3];[4:v]scale=270:480[a4];[5:v]scale=270:480[a5];[6:v]scale=270:480[a6];[a0][a1][a2][a3][a4][a5][a6]hstack=inputs=7[out]" \
+            -map "[out]" -frames:v 1 -q:v 6 /tmp/wordline_qa_contact.jpg
+          echo "WORDLINE_QA_IMAGE_BEGIN"
+          base64 -w 0 /tmp/wordline_qa_contact.jpg
+          echo
+          echo "WORDLINE_QA_IMAGE_END"
+
       - name: Upload finished video package
         uses: actions/upload-artifact@v4
         with:
