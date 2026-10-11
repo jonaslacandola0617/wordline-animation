@@ -1,0 +1,13 @@
+{
+  "name": "wordline-animation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render:417": "node shorts/001-four-seventeen-guy/render/render.mjs"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "puppeteer": "^24.16.0",
+    "three": "^0.180.0"
+  }
+}
