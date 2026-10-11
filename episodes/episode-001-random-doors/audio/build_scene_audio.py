@@ -8,7 +8,7 @@ ROOT=Path.cwd()
 BASE=ROOT/"episodes"/"episode-001-random-doors"
 SR=48000
 
-SCENES={"01":25,"02":20,"03":35,"04":30,"05":25,"06":30,"07":15,"08":35,"09":20,"10":20,"11":10}
+SCENES={"01":25,"02":20,"03":35,"04":30,"05":25,"06":30,"07":15,"08":35,"09":23,"10":20,"11":10}
 LINES={
 "01":[(3.0,"A","Nope."),(15.0,"D","You still have the cake, right?"),(19.0,"A","Yep."),(20.6,"D","Twenty minutes.")],
 "02":[(2.0,"B","Do not close that."),(6.0,"A","Beach?"),(7.0,"B","Beach."),(9.1,"A","I need to get across town."),(12.0,"B","We have infinite doors."),(15.2,"A","That is the opposite of helpful.")],
@@ -17,7 +17,7 @@ LINES={
 "06":[(20.5,"A","That's it.")],
 "07":[(9.0,"B","I had one job.")],
 "08":[(8.2,"B","Bus!"),(9.0,"A","Wrong bus!"),(20.2,"A","Seriously?")],
-"09":[(11.5,"A","We are literally standing outside her apartment."),(15.6,"D","There you are."),(16.5,"D","I found the hallway ten minutes ago, so I just held the closet open."),(18.7,"C","You two took a while.")],
+"09":[(11.5,"A","We are literally standing outside her apartment."),(15.6,"D","There you are."),(16.2,"D","I found the hallway ten minutes ago, so I just held the closet open."),(20.4,"C","You two took a while.")],
 "10":[(8.4,"D","Perfect."),(15.0,"A","Don't.")],
 "11":[(.7,"D","I'll get the plates."),(7.1,"A","Plates?"),(8.0,"D","We're using napkins.")]
 }
