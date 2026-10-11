@@ -135,7 +135,7 @@ try{
  const umbrellaGuy=rigHuman(umbrellaGuyRoot,'HUMAN_04');
  const umbrella=addModel('umbrella',[0,0,0],.75,0,scene);
  // A genuine simple coffee cup is not in the current low-poly asset catalogs.
- const cup=new THREE.Group();scene.add(cup);cup.scale.setScalar(1.40);
+ const cup=new THREE.Group();scene.add(cup);cup.scale.setScalar(1.72);
  const shell=new THREE.Mesh(new THREE.CylinderGeometry(.105,.083,.30,16,1,true),m.cream);
  shell.position.y=.15;cup.add(shell);shell.castShadow=true;
  const bottom=cyl(cup,.087,.087,.016,[0,.01,0],m.cream,16);
@@ -180,9 +180,9 @@ try{
  const waveMesh=new THREE.Mesh(geo,m.ocean);waveMesh.castShadow=true;waveMesh.receiveShadow=true;wave.add(waveMesh);
  const foam=[];
  for(let i=0;i<115;i++){
-   const x=-88+i*1.54,y=74+Math.sin(i*.32)*1.9,z=18+Math.sin(i*.52)*2.2;
+   const x=-88+i*1.54,y=74+Math.sin(i*.32)*2.6,z=21+Math.sin(i*.52)*2.2;
    const f=sphere(wave,.63+(i%5)*.15,[x,y,z],m.foam,i%3===0?1:0);
-   f.scale.set(1.65,.63,1.2);foam.push(f);
+   f.scale.set(1.85,1.7,1.8);foam.push(f);
  }
  const spray=[];
  for(let i=0;i<110;i++){
@@ -213,8 +213,9 @@ try{
   [23.2,26.2,[3.2,2.85,6.0],[1.1,1.2,1.5],44],
   [26.2,30,[2.4,2.4,5.0],[1.2,1.4,1.3],40],
   [30,33.25,[.6,5.0,9.5],[2.8,3.2,0],43],
-  [33.25,36.2,[-12.0,15,24],[-10,31,-107],47],
-  [36.2,40,[.9,5.15,7.7],[3.0,3.7,.30],45]
+  [33.25,36.2,[-6.0,16,25],[-12,34,-88],48],
+  [36.2,37.7,[2.8,5.0,6.6],[2.55,3.65,1.6],39],
+  [37.7,40,[.5,5.0,7.3],[2.65,3.7,-1],48]
  ];
 
  function heroPose(t){
@@ -263,10 +264,10 @@ try{
  function cupPose(t,rot){
    cup.visible=true;cup.rotation.set(0,0,0);cup.scale.setScalar(1);
    const a=hero.root.position;
-   if(t<.4){cup.position.set(a.x+.24,a.y+1.14,a.z+.30);}
+   if(t<.4){cup.position.set(a.x-.26,a.y+1.14,a.z+.38);}
    else if(t<10){
      const p=ramp(t,.30,4.2);
-     cup.position.set(lerp(.25,3.15,p),lerp(1.15,7.15,ramp(t,.4,9.1)),.95);
+     cup.position.set(lerp(-.26,2.78,p),lerp(1.19,7.15,ramp(t,.4,9.1)),1.96);
      cup.rotation.z=.4*Math.sin(t*2.7);
    }else if(t<20){
      cup.position.set(3.36,lerp(8.25,15.5,ramp(t,10,18.9)),1.3);
@@ -276,11 +277,11 @@ try{
      cup.rotation.z=.75*Math.sin(t*1.6);
    }else if(t<30){
      const p=ramp(t,25,26.0);
-     cup.position.set(1.42,lerp(1.3,1.22,p)+.18*ramp(t,27.1,28.3),1.83);
+     cup.position.set(.91,lerp(1.25,1.32,p)+.27*ramp(t,27.1,28.3),1.97);
      cup.rotation.z=-.35*ramp(t,27.8,28.3);
    }else{
      const p=ramp(t,30,32.8);
-     cup.position.set(lerp(1.42,3.12,p)-.26*ramp(t,37,38.2),lerp(1.35,4.20,p),1.84);
+     cup.position.set(lerp(.91,2.42,p)-.30*ramp(t,37,38.2),lerp(1.34,3.80,p)+.20*ramp(t,37,38.2),1.99);
      cup.rotation.z=-.10;
    }
    finalDrop.visible=t>=26.45&&t<27.12;
@@ -381,15 +382,15 @@ try{
    boat.visible=t>=32.5;
    if(wave.visible){
      const p=ramp(t,32.5,39.7);
-     wave.position.set(0,0,lerp(-163,-51,p));
+     wave.position.set(0,0,lerp(-108,-26,p));
      waveMesh.position.y=Math.sin(t*2.0)*.35;
      foam.forEach((f,i)=>{f.position.y=74+Math.sin(i*.32+t*1.4)*1.9;});
      spray.forEach((sp,i)=>{
        const f=(t*.65+i*.123)%1;
-       sp.position.set(-83+(i*17.13)%168+Math.sin(i*.7+t)*1.8,78+(i%13)*.9+f*8,16-(i%7)*.4+f*6);
+       sp.position.set(-83+(i*17.13)%168+Math.sin(i*.7+t)*1.8,77+(i%13)*.9+f*8,22-(i%7)*.4+f*6);
        sp.scale.setScalar(.6+f*1.5);
      });
-     boat.position.set(-10,lerp(2,34,ramp(t,32.5,39.7)),lerp(-116,-65,p));
+     boat.position.set(-10,lerp(2,34,ramp(t,32.5,39.7)),lerp(-103,-38,p));
      boat.rotation.z=.18*Math.sin(t*2);
      boat.rotation.x=.15*Math.cos(t*1.4);
    }
