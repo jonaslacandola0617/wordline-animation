@@ -45,11 +45,13 @@ Dark blue is the anchor, not a permanent wash over every animated world. Story e
 
 No serif display fonts.
 
-Preferred family:
-- **Headline / thumbnail:** Archivo Black, Rubik ExtraBold, or a similarly bold geometric/rounded sans
-- **Supporting text:** Inter, DM Sans, or Rubik
+Official family: **Rubik**.
 
-Typography should feel bold, readable, energetic, and slightly playful. Never elegant for elegance's sake.
+- **Headline / thumbnail:** Rubik ExtraBold / Black
+- **Supporting text:** Rubik Medium
+- **Body / credits:** Rubik Regular
+
+Use one family by default so the channel stays visually consistent. Typography should feel bold, readable, energetic, and slightly playful. Never elegant for elegance's sake.
 
 ## Where branding should live
 
