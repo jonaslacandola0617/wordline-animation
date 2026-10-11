@@ -1,0 +1,84 @@
+name: Wordline Short 002 — Full 1080p Preview
+on:
+  push:
+    branches:
+      - production/episode-002-gravity-directions
+    paths:
+      - .github/workflows/preview-gravity-002.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  segment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        start: [0, 10, 20, 30]
+    env:
+      LIBGL_ALWAYS_SOFTWARE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install browser and ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Render 300 deterministic frames
+        run: |
+          START=${{ matrix.start }}
+          END=$((START+10))
+          node shorts/002-gravity-directions/render.mjs --mode full --start "$START" --end "$END" --width 1080 --height 1920
+          DIR=$(printf "%02d-%02d_1080" "$START" "$END")
+          SOURCE="shorts/002-gravity-directions/renders/$DIR"
+          FIRST=$((START*30))
+          ffmpeg -y -loglevel error -framerate 30 -start_number "$FIRST" -i "$SOURCE/frames/frame_%05d.jpg" -frames:v 300 -c:v libx264 -preset medium -crf 17 -pix_fmt yuv420p -r 30 "$SOURCE/segment.mp4"
+          mv "$SOURCE/segment.mp4" "part$(printf "%02d" "$START").mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gravity-002-part-${{ matrix.start }}
+          if-no-files-found: error
+          compression-level: 0
+          path: part*.mp4
+  assemble:
+    needs: segment
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare Python and ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install numpy --break-system-packages
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: gravity-002-part-*
+          path: /tmp/parts
+      - name: Create original music, SFX and 48k audio master
+        run: python3 shorts/002-gravity-directions/audio_master.py
+      - name: Assemble and inspect metadata
+        run: |
+          mkdir -p shorts/002-gravity-directions/dist
+          python3 - <<'PY'
+          from pathlib import Path
+          parts=sorted(Path("/tmp/parts").rglob("part*.mp4"))
+          assert len(parts)==4, parts
+          Path("/tmp/list.txt").write_text("".join("file '"+str(p.resolve())+"'\n" for p in parts))
+          print(Path("/tmp/list.txt").read_text())
+          PY
+          ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/list.txt -i shorts/002-gravity-directions/audio/master_48k.wav -c:v libx264 -preset medium -crf 16 -pix_fmt yuv420p -r 30 -c:a aac -b:a 256k -ar 48000 -movflags +faststart -t 40 shorts/002-gravity-directions/dist/WORDLINE_002_1080P_PREVIEW.mp4
+          ffprobe -v error -show_format -show_streams -of json shorts/002-gravity-directions/dist/WORDLINE_002_1080P_PREVIEW.mp4 > shorts/002-gravity-directions/dist/ffprobe.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_002_1080P_PREVIEW_WITH_AUDIO
+          if-no-files-found: error
+          compression-level: 0
+          path: |
+            shorts/002-gravity-directions/dist/**
+            shorts/002-gravity-directions/audio/manifest.json
