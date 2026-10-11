@@ -67,13 +67,23 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
+          python3 -m pip install pillow
       - name: Download scenes
         uses: actions/download-artifact@v4
         with:
           pattern: episode001-scene-*
           path: episodes/episode-001-random-doors/downloaded
       - name: Assemble
-        run: python episodes/episode-001-random-doors/assemble/assemble.py
+        run: |
+          python episodes/episode-001-random-doors/assemble/assemble.py
+          python episodes/episode-001-random-doors/assemble/make_contact_sheet.py
+
+      - name: Emit compact visual QA sheet
+        run: |
+          echo "WORDLINE_QA_IMAGE_BEGIN"
+          base64 -w 0 episodes/episode-001-random-doors/final/QA_CONTACT_SHEET.jpg
+          echo
+          echo "WORDLINE_QA_IMAGE_END"
       - name: Upload finished episode
         uses: actions/upload-artifact@v4
         with:
