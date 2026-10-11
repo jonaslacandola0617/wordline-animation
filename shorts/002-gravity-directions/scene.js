@@ -114,6 +114,12 @@ try{
    cars.push({mesh:c,start:c.position.clone(),index:i});
  }
  const bus=addModel('bus',[-8,0,-10],.70,Math.PI);
+ // The source City Bus uses a blue-steel body material. Keep its actual model,
+ // but give the body Wordline's signature unmistakable red paint.
+ bus.traverse(o=>{if(!o.isMesh)return;
+   const arr=Array.isArray(o.material)?o.material:[o.material];
+   for(const mat of arr)if(mat && /blue_steel|coral/i.test(mat.name)){mat.color.set(0xe84c42);mat.roughness=.64;mat.needsUpdate=true;}
+ });
  const busWheels=[];bus.traverse(o=>{if(/wheel/i.test(o.name)&&!o.children.some(c=>/wheel/i.test(c.name)))busWheels.push(o);});
  const boat=addModel('boat',[-10,0,-116],.74,Math.PI/2);
 
@@ -122,14 +128,14 @@ try{
  const hero=rigHuman(actorRoot,'HUMAN_02');
  const extras=[];
  for(let i=0;i<6;i++){
-   const mesh=addModel(i%3===0?'pedestrian':i%3===1?'businessman':'humanB',[-.5-(i%3)*2,0,2-i*9],1,0,scene);
+   const mesh=addModel(i%3===0?'pedestrian':i%3===1?'businessman':'humanB',[-3.6-(i%3)*2.2,0,-4.0-i*11],1,0,scene);
    extras.push({mesh,rig:rigHuman(mesh,i%3===0?'HUMAN_01':i%3===1?'HUMAN_04':'HUMAN_08'),start:mesh.position.clone(),i});
  }
  const umbrellaGuyRoot=addModel('businessman',[-2.1,0,-3],1.0,0,scene);
  const umbrellaGuy=rigHuman(umbrellaGuyRoot,'HUMAN_04');
  const umbrella=addModel('umbrella',[0,0,0],.75,0,scene);
  // A genuine simple coffee cup is not in the current low-poly asset catalogs.
- const cup=new THREE.Group();scene.add(cup);
+ const cup=new THREE.Group();scene.add(cup);cup.scale.setScalar(1.40);
  const shell=new THREE.Mesh(new THREE.CylinderGeometry(.105,.083,.30,16,1,true),m.cream);
  shell.position.y=.15;cup.add(shell);shell.castShadow=true;
  const bottom=cyl(cup,.087,.087,.016,[0,.01,0],m.cream,16);
@@ -139,7 +145,7 @@ try{
  for(let i=0;i<23;i++)coffeeDrops.push(sphere(scene,.025+(i%3)*.010,[0,0,0],m.brown,0));
  const finalDrop=sphere(scene,.042,[0,0,0],m.brown,0);
 
- const boxes=new THREE.Group();boxes.position.set(1.1,0,1.5);scene.add(boxes);
+ const boxes=new THREE.Group();boxes.position.set(1.1,0,1.5);scene.add(boxes);boxes.visible=false;
  for(let i=0;i<13;i++){
    const x=((i*7)%9-4)*.30;
    const z=((i*3)%7-3)*.24;
@@ -194,21 +200,21 @@ try{
  }
 
  const shotSpecs=[
-  [0,1.5,[2.5,2.9,11.4],[.2,1.65,1.6],39],
-  [1.5,4,[5.5,5.3,15],[2.6,2.9,1.2],43],
-  [4,6.35,[8.0,6.2,16],[3.4,4,-2],44],
-  [6.35,8.35,[11.5,17.5,29],[2.0,14.0,-11],48],
-  [8.35,10,[11.2,14.5,31],[3.8,8.5,-9],47],
-  [10,13.2,[7.6,13.8,17],[3.3,10.8,-1.5],42],
-  [13.2,16.4,[12,30,36],[2.0,24,-10],47],
+  [0,1.5,[1.65,2.6,5.6],[.08,1.26,1.6],41],
+  [1.5,4,[3.3,4.4,9.5],[2.6,2.9,1.2],43],
+  [4,6.35,[1.6,6.1,10.6],[3.4,4,0],45],
+  [6.35,8.35,[-2.0,12.0,14.8],[2.0,10,-8],47],
+  [8.35,10,[-3.5,11,18],[3.8,7,-8],46],
+  [10,13.2,[.5,13.0,10.5],[3.3,9.4,1],39],
+  [13.2,16.4,[-5.0,26,25],[2.0,25,-10],48],
   [16.4,18.3,[5.6,8.0,13],[-1.0,6.1,-3],42],
-  [18.3,20,[6.6,17,14],[3.8,13,-2],39],
-  [20,23.2,[12,18,27],[2.5,5.0,-9],48],
-  [23.2,26.2,[4.3,3.6,10],[1.1,1.3,1.5],43],
-  [26.2,30,[3.2,2.5,6.9],[1.3,1.55,1.3],35],
-  [30,33.25,[5.8,4.8,13],[3.0,3.0,-7],42],
-  [33.25,36.2,[5.3,18,46],[-3.0,22,-98],55],
-  [36.2,40,[7.2,5.0,15],[3.0,3.2,-24],41]
+  [18.3,20,[1.0,15.7,10],[3.3,13,1],42],
+  [20,23.2,[-4.0,17,23],[2.5,6,-8],49],
+  [23.2,26.2,[3.2,2.85,6.0],[1.1,1.2,1.5],44],
+  [26.2,30,[2.4,2.4,5.0],[1.2,1.4,1.3],40],
+  [30,33.25,[.6,5.0,9.5],[2.8,3.2,0],43],
+  [33.25,36.2,[-12.0,15,24],[-10,31,-107],47],
+  [36.2,40,[.9,5.15,7.7],[3.0,3.7,.30],45]
  ];
 
  function heroPose(t){
@@ -412,6 +418,7 @@ try{
    extrasPose(t);
    carsPose(t);
    wavePose(t);
+   boxes.visible=t>=20.0&&t<30.0;
    boxes.rotation.z=t>23.4?.09*Math.sin(t*4)*Math.exp(-(t-23.4)):0;
    cameraPose(t);
    renderer.render(scene,camera);
