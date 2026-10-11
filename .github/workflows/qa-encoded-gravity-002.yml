@@ -1,0 +1,35 @@
+name: Wordline Short 002 — Encoded Preview QA
+on:
+  push:
+    branches:
+      - production/episode-002-gravity-directions
+    paths:
+      - .github/workflows/qa-encoded-gravity-002.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download full encoded 1080p preview
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/preview
+          gh run download 38177254637 -R "$GITHUB_REPOSITORY" -n WORDLINE_002_1080P_PREVIEW_WITH_AUDIO -D /tmp/preview
+          find /tmp/preview -maxdepth 8 -type f | head -25
+      - name: Verify encoded video and assemble 20-frame contact
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          MOVIE=$(find /tmp/preview -type f -name 'WORDLINE_002_1080P_PREVIEW.mp4' | head -1)
+          test -n "$MOVIE"
+          ffprobe -v error -show_entries format=duration -show_entries stream=codec_name,width,height,sample_rate -of json "$MOVIE"
+          ffmpeg -y -loglevel error -i "$MOVIE" -vf "fps=1/2,scale=270:480,tile=5x4:padding=2:margin=2" -frames:v 1 -q:v 6 /tmp/wordline_encoded_contact.jpg
+          echo "ENCODED_QA_BEGIN"
+          base64 -w 0 /tmp/wordline_encoded_contact.jpg
+          echo
+          echo "ENCODED_QA_END"
