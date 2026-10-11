@@ -126,6 +126,17 @@ try{
  // Character rig and extras. Current A is HUMAN_02, as in the prior short.
  const actorRoot=addModel('human',[0,0,2],1.0,0,scene);
  const hero=rigHuman(actorRoot,'HUMAN_02');
+ let heroHand=null;
+ hero.root.traverse(o=>{if(!heroHand && o.isMesh && o.name==='hand_R')heroHand=o;});
+ if(!heroHand)console.warn('Right-hand mesh not discovered; falling back to authored cup position');
+ const handBox=new THREE.Box3(),handCenter=new THREE.Vector3();
+ function positionCupAtHand(){
+   if(!heroHand)return false;
+   hero.root.updateMatrixWorld(true);
+   handBox.setFromObject(heroHand).getCenter(handCenter);
+   cup.position.set(handCenter.x-.12,handCenter.y-.14,handCenter.z+.05);
+   return true;
+ }
  const extras=[];
  for(let i=0;i<6;i++){
    const mesh=addModel(i%3===0?'pedestrian':i%3===1?'businessman':'humanB',[-3.6-(i%3)*2.2,0,-4.0-i*11],1,0,scene);
@@ -135,7 +146,7 @@ try{
  const umbrellaGuy=rigHuman(umbrellaGuyRoot,'HUMAN_04');
  const umbrella=addModel('umbrella',[0,0,0],.75,0,scene);
  // A genuine simple coffee cup is not in the current low-poly asset catalogs.
- const cup=new THREE.Group();scene.add(cup);cup.scale.setScalar(1.72);
+ const cup=new THREE.Group();scene.add(cup);cup.scale.setScalar(1.34);
  const shell=new THREE.Mesh(new THREE.CylinderGeometry(.105,.083,.30,16,1,true),m.cream);
  shell.position.y=.15;cup.add(shell);shell.castShadow=true;
  const bottom=cyl(cup,.087,.087,.016,[0,.01,0],m.cream,16);
@@ -164,9 +175,9 @@ try{
    const v=j/YY, yy=v*H-7;
    for(let i=0;i<=XX;i++){
      const u=i/XX,xx=(u-.5)*W;
-     const curl=18*Math.pow(v,6);
+     const curl=42*Math.pow(v,6);
      const chop=2.0*Math.sin(xx*.055+v*9)+1.0*Math.sin(xx*.19+v*6);
-     positions.push(xx,yy,curl+chop);
+     positions.push(xx,yy-5*Math.pow(Math.max(0,(v-.83)/.17),2),curl+chop);
      uvs.push(u,v);
      const baseColor=new THREE.Color(0x0c5d91).lerp(new THREE.Color(0x43b9da),v);
      if(v>.76)baseColor.lerp(new THREE.Color(0xa0e7ea),(v-.76)*1.8);
@@ -186,16 +197,16 @@ try{
  const waveMesh=new THREE.Mesh(geo,m.ocean);waveMesh.castShadow=true;waveMesh.receiveShadow=true;wave.add(waveMesh);
  const foam=[];
  for(let i=0;i<115;i++){
-   const x=-88+i*1.54,y=74+Math.sin(i*.32)*2.6,z=21+Math.sin(i*.52)*2.2;
+   const x=-88+i*1.54,y=69+Math.sin(i*.32)*3.0,z=44+Math.sin(i*.52)*3.1;
    const f=sphere(wave,.63+(i%5)*.15,[x,y,z],m.foam,i%3===0?1:0);
-   f.scale.set(1.85,1.7,1.8);foam.push(f);
+   f.scale.set(2.5,2.8,2.8);foam.push(f);
  }
  // Irregular whitewater veins on the front surface add depth instead of a flat blue panel.
  for(let i=0;i<94;i++){
    const x=-88+(i*13.47)%176;
    const v=.47+((i*7)%17)/17*.44;
    const yy=v*H-7;
-   const z=18*Math.pow(v,6)+2*Math.sin(x*.055+v*9)+Math.sin(x*.19+v*6)+1.4;
+   const z=42*Math.pow(v,6)+2*Math.sin(x*.055+v*9)+Math.sin(x*.19+v*6)+1.4;
    const streak=sphere(wave,.21+(i%4)*.11,[x,yy,z],m.foam,0);
    streak.scale.set(2.1+(i%3)*.6,.65,.53);
    streak.rotation.z=(i%7-3)*.15;
@@ -280,7 +291,7 @@ try{
  function cupPose(t,rot){
    cup.visible=true;cup.rotation.set(0,0,0);cup.scale.setScalar(1);
    const a=hero.root.position;
-   if(t<.4){cup.position.set(a.x-.26,a.y+1.14,a.z+.38);}
+   if(t<.4){if(!positionCupAtHand())cup.position.set(a.x-.26,a.y+1.14,a.z+.38);}
    else if(t<10){
      const p=ramp(t,.30,4.2);
      cup.position.set(lerp(-.26,2.78,p),lerp(1.19,7.15,ramp(t,.4,9.1)),1.96);
@@ -293,11 +304,11 @@ try{
      cup.rotation.z=.75*Math.sin(t*1.6);
    }else if(t<30){
      const p=ramp(t,25,26.0);
-     cup.position.set(.91,lerp(1.25,1.32,p)+.27*ramp(t,27.1,28.3),1.97);
+     if(!positionCupAtHand())cup.position.set(.91,lerp(1.25,1.32,p)+.27*ramp(t,27.1,28.3),1.97);
      cup.rotation.z=-.35*ramp(t,27.8,28.3);
    }else{
      const p=ramp(t,30,32.8);
-     cup.position.set(lerp(.91,2.42,p)-.30*ramp(t,37,38.2),lerp(1.34,3.80,p)+.20*ramp(t,37,38.2),1.99);
+     if(!positionCupAtHand())cup.position.set(lerp(.91,2.42,p)-.30*ramp(t,37,38.2),lerp(1.34,3.80,p)+.20*ramp(t,37,38.2),1.99);
      cup.rotation.z=-.10;
    }
    finalDrop.visible=t>=26.45&&t<27.12;
@@ -368,7 +379,8 @@ try{
      const p=ramp(t,16.45,19.8);
      umbrellaGuyRoot.position.set(-2.2,lerp(0,22,p),-3.2);
      umbrellaGuyRoot.rotation.z=-.2*p;
-     umbrella.position.set(-2.1,umbrellaGuyRoot.position.y+2.25,-3.2);
+     if(umbrellaGuy.shoulderR)umbrellaGuy.shoulderR.rotation.x=-2.5;
+     umbrella.position.set(-2.1,umbrellaGuyRoot.position.y+1.8,-3.2);
      umbrella.rotation.set(Math.PI*.04,0,0);
    }
  }
@@ -400,10 +412,10 @@ try{
      const p=ramp(t,32.5,39.7);
      wave.position.set(0,0,lerp(-108,-26,p));
      waveMesh.position.y=Math.sin(t*2.0)*.35;
-     foam.forEach((f,i)=>{f.position.y=74+Math.sin(i*.32+t*1.4)*1.9;});
+     foam.forEach((f,i)=>{f.position.y=69+Math.sin(i*.32+t*1.4)*3.0;});
      spray.forEach((sp,i)=>{
        const f=(t*.65+i*.123)%1;
-       sp.position.set(-83+(i*17.13)%168+Math.sin(i*.7+t)*1.8,77+(i%13)*.9+f*8,22-(i%7)*.4+f*6);
+       sp.position.set(-83+(i*17.13)%168+Math.sin(i*.7+t)*1.8,68+(i%13)*.9+f*8,47-(i%7)*.4+f*6);
        sp.scale.setScalar(.6+f*1.5);
      });
      boat.position.set(-10,lerp(2,34,ramp(t,32.5,39.7)),lerp(-103,-38,p));
