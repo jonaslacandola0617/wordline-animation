@@ -66,3 +66,5 @@ jobs:
           name: wordline-short-001-preview
           path: /tmp/wordline-preview/*
           compression-level: 0
+
+# rerun after visual QA fix
