@@ -113,7 +113,7 @@ try{
     spray.position.set(-5.2+i*.61,2.78+(i%4)*.11,.95+Math.sin(i)*.25);
     wave.add(spray);
   }
-  wave.position.set(0,2.45,-5.2);
+  wave.position.set(0,.35,-5.2);
   wave.visible=false;
   stage.dest.beach.add(wave);
 
