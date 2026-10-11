@@ -21,7 +21,12 @@ LINES={
 "10":[(8.4,"D","Perfect."),(15.0,"A","Don't.")],
 "11":[(.7,"D","I'll get the plates."),(7.1,"A","Plates?"),(8.0,"D","We're using napkins.")]
 }
-VOICE={"A":"en-US-GuyNeural","B":"en-US-JasonNeural","C":"en-US-DavisNeural","D":"en-US-JennyNeural"}
+VOICE_CANDIDATES={
+"A":["en-US-GuyNeural","en-US-ChristopherNeural","en-US-EricNeural"],
+"B":["en-US-JasonNeural","en-US-ChristopherNeural","en-US-GuyNeural"],
+"C":["en-US-DavisNeural","en-US-RogerNeural","en-US-GuyNeural"],
+"D":["en-US-JennyNeural","en-US-AriaNeural","en-US-MichelleNeural"]
+}
 MOOD={"01":"curious","02":"playful","03":"playful","04":"playful_fast","05":"curious","06":"hopeful","07":"tension","08":"playful_fast","09":"comic","10":"warm","11":"warm"}
 SFX={
 "01":[(.7,"door"),(3.5,"door"),(4.2,"door"),(7.6,"door"),(8.2,"door"),(11.6,"door"),(13.5,"phone")],
@@ -95,20 +100,41 @@ def music(dur,mood):
     return track-19
 
 async def tts(scene,work):
-    status={"engine":"edge-tts","ok":True,"errors":[]}
-    made=[]
+    status={"engine":"edge-tts","ok":True,"errors":[],"attempts":[]}
     try:
         import edge_tts
     except Exception as e:
-        return [],{"engine":"edge-tts","ok":False,"errors":[str(e)]}
-    for i,(at,role,text) in enumerate(LINES.get(scene,[])):
+        return [],{"engine":"edge-tts","ok":False,"errors":[str(e)],"attempts":[]}
+    made=[]
+    expected=LINES.get(scene,[])
+    for i,(at,role,text) in enumerate(expected):
         p=work/f"{scene}_{i}_{role}.mp3"
-        try:
-            await edge_tts.Communicate(text,VOICE[role],rate="-8%" if role=="C" else "+0%").save(str(p))
-            made.append((at,role,text,p))
-        except Exception as e:
+        success=False
+        line_attempts=[]
+        for voice in VOICE_CANDIDATES[role]:
+            for attempt in range(1,4):
+                try:
+                    if p.exists():
+                        p.unlink()
+                    rate="-8%" if role=="C" else ("+4%" if role=="B" else "+0%")
+                    await edge_tts.Communicate(text,voice,rate=rate).save(str(p))
+                    if p.exists() and p.stat().st_size>1024:
+                        made.append((at,role,text,p))
+                        line_attempts.append({"voice":voice,"attempt":attempt,"ok":True})
+                        success=True
+                        break
+                    line_attempts.append({"voice":voice,"attempt":attempt,"ok":False,"error":"empty_or_tiny_output"})
+                except Exception as e:
+                    line_attempts.append({"voice":voice,"attempt":attempt,"ok":False,"error":str(e)})
+                await asyncio.sleep(0.8*attempt)
+            if success:
+                break
+        status["attempts"].append({"role":role,"text":text,"attempts":line_attempts})
+        if not success:
             status["ok"]=False
-            status["errors"].append(f"{role}:{text}:{e}")
+            status["errors"].append(f"{role}:{text}:all voice attempts failed")
+    if len(made)!=len(expected):
+        status["ok"]=False
     return made,status
 
 async def main():
@@ -134,6 +160,8 @@ async def main():
 
     mus=music(dur,MOOD[scene])
     made,status=await tts(scene,work)
+    if not status["ok"] or len(made)!=len(LINES.get(scene,[])):
+        raise RuntimeError("Dialogue generation incomplete for scene "+scene+": "+json.dumps(status))
     dia=AudioSegment.silent(duration=ms,frame_rate=SR)
 
     for at,role,text,p in made:
