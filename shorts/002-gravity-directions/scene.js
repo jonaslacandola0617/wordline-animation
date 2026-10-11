@@ -38,7 +38,7 @@ const m={
   glass:new THREE.MeshPhysicalMaterial({color:0x9bd8f2,metalness:.08,roughness:.16,transparent:true,opacity:.54,depthWrite:false}),
   brown:new THREE.MeshStandardMaterial({color:0x5c3827,roughness:.53}),
   steel:new THREE.MeshStandardMaterial({color:0x929faa,roughness:.52,metalness:.24}),
-  ocean:new THREE.MeshStandardMaterial({color:0x167eaf,roughness:.36,metalness:.03,flatShading:true,side:THREE.DoubleSide}),
+  ocean:new THREE.MeshStandardMaterial({color:0xffffff,roughness:.42,metalness:.03,flatShading:true,vertexColors:true,side:THREE.DoubleSide}),
   foam:new THREE.MeshStandardMaterial({color:0xe9fbff,roughness:.8})
 };
 function box(parent,size,pos,mat,cast=true){const obj=new THREE.Mesh(new THREE.BoxGeometry(...size),mat);obj.position.set(...pos);obj.castShadow=cast;obj.receiveShadow=true;parent.add(obj);return obj;}
@@ -159,7 +159,7 @@ try{
  // Large high-poly-enough wave with volumetric crest, lit faceted surfaces, foam and spray.
  const wave=new THREE.Group();scene.add(wave);
  const W=185,H=83,XX=62,YY=32;
- const positions=[],uvs=[],indices=[];
+ const positions=[],uvs=[],colors=[],indices=[];
  for(let j=0;j<=YY;j++){
    const v=j/YY, yy=v*H-7;
    for(let i=0;i<=XX;i++){
@@ -168,6 +168,11 @@ try{
      const chop=2.0*Math.sin(xx*.055+v*9)+1.0*Math.sin(xx*.19+v*6);
      positions.push(xx,yy,curl+chop);
      uvs.push(u,v);
+     const baseColor=new THREE.Color(0x0c5d91).lerp(new THREE.Color(0x43b9da),v);
+     if(v>.76)baseColor.lerp(new THREE.Color(0xa0e7ea),(v-.76)*1.8);
+     const streak=(.5+.5*Math.sin(xx*.21+v*53))*Math.max(0,v-.45)*.30;
+     baseColor.lerp(new THREE.Color(0xb3f0f1),streak);
+     colors.push(baseColor.r,baseColor.g,baseColor.b);
    }
  }
  for(let j=0;j<YY;j++)for(let i=0;i<XX;i++){
@@ -176,13 +181,24 @@ try{
  }
  const geo=new THREE.BufferGeometry();
  geo.setIndex(indices);geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
- geo.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));geo.computeVertexNormals();
+ geo.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));
+ geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.computeVertexNormals();
  const waveMesh=new THREE.Mesh(geo,m.ocean);waveMesh.castShadow=true;waveMesh.receiveShadow=true;wave.add(waveMesh);
  const foam=[];
  for(let i=0;i<115;i++){
    const x=-88+i*1.54,y=74+Math.sin(i*.32)*2.6,z=21+Math.sin(i*.52)*2.2;
    const f=sphere(wave,.63+(i%5)*.15,[x,y,z],m.foam,i%3===0?1:0);
    f.scale.set(1.85,1.7,1.8);foam.push(f);
+ }
+ // Irregular whitewater veins on the front surface add depth instead of a flat blue panel.
+ for(let i=0;i<94;i++){
+   const x=-88+(i*13.47)%176;
+   const v=.47+((i*7)%17)/17*.44;
+   const yy=v*H-7;
+   const z=18*Math.pow(v,6)+2*Math.sin(x*.055+v*9)+Math.sin(x*.19+v*6)+1.4;
+   const streak=sphere(wave,.21+(i%4)*.11,[x,yy,z],m.foam,0);
+   streak.scale.set(2.1+(i%3)*.6,.65,.53);
+   streak.rotation.z=(i%7-3)*.15;
  }
  const spray=[];
  for(let i=0;i<110;i++){
