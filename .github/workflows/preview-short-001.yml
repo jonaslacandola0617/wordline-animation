@@ -1,0 +1,55 @@
+name: Preview Wordline Short 001
+
+on:
+  push:
+    branches:
+      - production/short-001-four-seventeen
+    paths:
+      - ".github/workflows/preview-short-001.yml"
+  workflow_dispatch:
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --no-audit --no-fund
+      - name: Capture QA frames
+        run: |
+          mkdir -p /tmp/wordline-preview
+          npx http-server . -p 8080 -c-1 --silent >/tmp/http.log 2>&1 &
+          SERVER_PID=$!
+          sleep 2
+          node --input-type=module <<'NODE'
+          import puppeteer from 'puppeteer';
+          import fs from 'node:fs';
+          const browser=await puppeteer.launch({headless:true,args:['--no-sandbox','--enable-webgl','--ignore-gpu-blocklist','--use-angle=swiftshader','--disable-dev-shm-usage']});
+          const page=await browser.newPage();
+          await page.setViewport({width:540,height:960,deviceScaleFactor:1});
+          page.on('console',m=>console.log('[browser]',m.type(),m.text()));
+          await page.goto('http://127.0.0.1:8080/shorts/001-four-seventeen-guy/scene/index.html',{waitUntil:'networkidle0',timeout:120000});
+          await page.waitForFunction(()=>window.__ready===true||window.__renderError,{timeout:120000});
+          const err=await page.evaluate(()=>window.__renderError||null); if(err) throw new Error(err);
+          const times=[0.5,2.3,3.4,4.5,5.8,7.5,8.5];
+          const canvas=await page.$('canvas');
+          for(const t of times){
+            await page.evaluate(t=>{window.setTime(t);window.renderFrame();},t);
+            await canvas.screenshot({path:`/tmp/wordline-preview/t_${String(t).replace('.','_')}s.png`});
+          }
+          await browser.close();
+          NODE
+          kill $SERVER_PID || true
+      - name: Make contact sheet
+        run: |
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y imagemagick >/dev/null
+          montage /tmp/wordline-preview/*.png -tile 2x4 -geometry 270x480+6+6 /tmp/wordline-preview/contact-sheet.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wordline-short-001-preview
+          path: /tmp/wordline-preview/*
+          compression-level: 0
