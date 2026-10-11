@@ -1,0 +1,878 @@
+{
+  "pack": "WORDLINE AUDIO PACK 01",
+  "version": "1.0.0",
+  "sample_rate_for_generated_hz": 48000,
+  "curated_existing_count": 80,
+  "wordline_original_count": 51,
+  "total_count": 131,
+  "purpose": "YouTube-first fun/cinematic low-poly animation: Foley, comedy, movement, ambience, reactions, impacts and disaster support.",
+  "redistribution_note": "This pack is for Wordline productions. Do not redistribute third-party curated sounds as a standalone sound-effects product.",
+  "items": [
+    {
+      "pack_path": "curated/ambience/mixkit-big-crowd-talking-loop-364.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-big-crowd-talking-loop-364.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-small-car-horn-717.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-small-car-horn-717.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-light-rain-loop-2393.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-light-rain-loop-2393.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-sea-waves-loop-1196.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-sea-waves-loop-1196.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-sea-waves-with-birds-loop-1185.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-sea-waves-with-birds-loop-1185.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-sea-swimming-loop-1181.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-sea-swimming-loop-1181.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-fly-wings-movement-2697.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-fly-wings-movement-2697.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-driving-in-the-rain-1242.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-driving-in-the-rain-1242.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-rioting-crowd-breaking-windows-and-police-siren-445.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-rioting-crowd-breaking-windows-and-police-siren-445.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-heavy-rain-drops-2399.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-heavy-rain-drops-2399.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-car-horn-718.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-car-horn-718.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-thunder-rumble-during-a-storm-2395.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-thunder-rumble-during-a-storm-2395.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-thunder-with-rain-in-the-storm-1294.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-thunder-with-rain-in-the-storm-1294.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-rain-long-loop-2394.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-rain-long-loop-2394.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-distant-thunder-explosion-1278.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-distant-thunder-explosion-1278.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-hawk-call-squawk-1277.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-hawk-call-squawk-1277.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/impacts/mixkit-alien-spaceship-landing-slowly-2740.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-alien-spaceship-landing-slowly-2740.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/impacts/mixkit-airplane-flying-by-rumble-1588.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-airplane-flying-by-rumble-1588.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-close-sea-waves-loop-1195.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-close-sea-waves-loop-1195.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-city-traffic-background-ambience-2930.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-city-traffic-background-ambience-2930.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-classic-car-horn-1565.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-classic-car-horn-1565.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-forest-with-birds-singing-1235.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-forest-with-birds-singing-1235.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-urban-park-and-traffic-2932.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-urban-park-and-traffic-2932.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-electricity-static-power-up-2600.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-electricity-static-power-up-2600.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-city-downtown-crowd-ambience-361.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-city-downtown-crowd-ambience-361.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-rain-and-thunder-storm-2390.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/mixkit-rain-and-thunder-storm-2390.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/movement/mixkit-arrow-whoosh-1491.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Wooshes/mixkit-arrow-whoosh-1491.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/movement/mixkit-cinematic-whoosh-fast-transition-1492.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Wooshes/mixkit-cinematic-whoosh-fast-transition-1492.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-epic-orchestra-transition-2290.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Wooshes/mixkit-epic-orchestra-transition-2290.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/movement/mixkit-air-woosh-1489.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Wooshes/mixkit-air-woosh-1489.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/movement/mixkit-fast-rocket-whoosh-1714.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Wooshes/mixkit-fast-rocket-whoosh-1714.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/movement/mixkit-fast-small-sweep-transition-166.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Wooshes/mixkit-fast-small-sweep-transition-166.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/comedy_stings/mixkit-game-show-suspense-waiting-667.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Suspense/mixkit-game-show-suspense-waiting-667.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-mystwrious-bass-pulse-2298.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Suspense/mixkit-mystwrious-bass-pulse-2298.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/impacts/mixkit-cool-impact-movie-trailer-2909.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Suspense/mixkit-cool-impact-movie-trailer-2909.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-retro-arcade-casino-notification-211.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Videogames/mixkit-retro-arcade-casino-notification-211.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/comedy_stings/mixkit-arcade-retro-game-over-213.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Videogames/mixkit-arcade-retro-game-over-213.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-retro-game-notification-212.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Videogames/mixkit-retro-game-notification-212.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-quick-win-video-game-notification-269.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Videogames/mixkit-quick-win-video-game-notification-269.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/comedy_stings/mixkit-video-game-mystery-alert-234.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Videogames/mixkit-video-game-mystery-alert-234.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-light-rain-loop-2393.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Ambient/mixkit-light-rain-loop-2393.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-footsteps-on-tall-grass-532.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Ambient/mixkit-footsteps-on-tall-grass-532.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-tactical-drone-ambience-2744.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Ambient/mixkit-tactical-drone-ambience-2744.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-little-birds-singing-in-the-trees-17.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Ambient/mixkit-little-birds-singing-in-the-trees-17.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-dog-barking-twice-1.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Ambient/mixkit-dog-barking-twice-1.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-rain-and-thunder-storm-2390.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Ambient/mixkit-rain-and-thunder-storm-2390.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-mechanical-typewriter-single-hit-1382.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-mechanical-typewriter-single-hit-1382.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-retro-confirmation-tone-2860.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-retro-confirmation-tone-2860.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-mouse-hard-clicking-1111.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-mouse-hard-clicking-1111.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-interface-option-select-2573.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-interface-option-select-2573.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/alarms/mixkit-vintage-telephone-ringtone-1356.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-vintage-telephone-ringtone-1356.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-interface-device-click-2577.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-interface-device-click-2577.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-high-tech-bleep-confirmation-2520.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-high-tech-bleep-confirmation-2520.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-sci-fi-artificial-intelligence-speaks-291.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-sci-fi-artificial-intelligence-speaks-291.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-high-tech-bleep-2521.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-high-tech-bleep-2521.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-modern-technology-select-3124.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-modern-technology-select-3124.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-ui-zoom-in-2617.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-ui-zoom-in-2617.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-keyboard-typing-1386.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-keyboard-typing-1386.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-interface-classic-zoom-2616.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-interface-classic-zoom-2616.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-high-tech-notification-bleep-2519.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-high-tech-notification-bleep-2519.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-digital-typewriter-1363.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-digital-typewriter-1363.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-old-typewriter-typing-1372.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-old-typewriter-typing-1372.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-select-click-1109.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-select-click-1109.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-ui-zoom-in-long-sound-2621.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-ui-zoom-in-long-sound-2621.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-opening-software-interface-2578.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-opening-software-interface-2578.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-click-error-1110.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-click-error-1110.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-sci-fi-loading-operative-system-2529.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-sci-fi-loading-operative-system-2529.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-typing-on-an-electric-typewriter-1377.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-typing-on-an-electric-typewriter-1377.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-typing-on-a-laptop-keyboard-2531.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-typing-on-a-laptop-keyboard-2531.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/technology/mixkit-negative-tone-interface-tap-2569.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Technology/mixkit-negative-tone-interface-tap-2569.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-crowd-laugh-424.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/People/mixkit-crowd-laugh-424.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-small-crowd-laugh-and-applause-422.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/People/mixkit-small-crowd-laugh-and-applause-422.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/ambience/mixkit-stadium-crowd-light-applause-362.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/People/mixkit-stadium-crowd-light-applause-362.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/reactions/mixkit-small-group-cheer-and-applause-518.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/People/mixkit-small-group-cheer-and-applause-518.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/alarms/mixkit-retro-game-emergency-alarm-1000.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Alarms/mixkit-retro-game-emergency-alarm-1000.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/alarms/mixkit-classic-alarm-995.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Alarms/mixkit-classic-alarm-995.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/alarms/mixkit-clock-countdown-bleeps-916.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Alarms/mixkit-clock-countdown-bleeps-916.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/alarms/mixkit-telephone-dial-tone-1352.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/MixKit SFX (new)/Alarms/mixkit-telephone-dial-tone-1352.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/comedy_stings/mixkit-cinematic-mystery-heartbeat-transition-492.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/mixkit-cinematic-mystery-heartbeat-transition-492.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "curated/misc/mixkit-footsteps-on-heels-on-the-pavement-542.wav",
+      "source_type": "curated_existing_mixkit",
+      "source_repo_path": "SFX/Sounds Effects/mixkit-footsteps-on-heels-on-the-pavement-542.wav",
+      "license": "Mixkit Free License (project-use copy; do not resell as standalone SFX pack)",
+      "description": "Curated from existing repository library"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_office_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized office footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_office_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized office footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_office_03.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized office footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_office_04.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized office footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_gravel_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized gravel footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_gravel_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized gravel footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_gravel_03.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized gravel footstep"
+    },
+    {
+      "pack_path": "original/foley/footsteps/footstep_gravel_04.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized gravel footstep"
+    },
+    {
+      "pack_path": "original/foley/cloth/cloth_shift_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short clothing movement"
+    },
+    {
+      "pack_path": "original/foley/cloth/cloth_shift_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short clothing movement"
+    },
+    {
+      "pack_path": "original/foley/chairs/chair_roll_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Office chair wheel roll"
+    },
+    {
+      "pack_path": "original/foley/chairs/chair_squeak_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short chair squeak"
+    },
+    {
+      "pack_path": "original/foley/chairs/chair_roll_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Office chair wheel roll"
+    },
+    {
+      "pack_path": "original/foley/chairs/chair_squeak_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short chair squeak"
+    },
+    {
+      "pack_path": "original/foley/doors/door_latch_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Door latch click"
+    },
+    {
+      "pack_path": "original/foley/doors/door_close_soft_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Soft interior door close"
+    },
+    {
+      "pack_path": "original/foley/doors/door_latch_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Door latch click"
+    },
+    {
+      "pack_path": "original/foley/doors/door_close_soft_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Soft interior door close"
+    },
+    {
+      "pack_path": "original/foley/paper/paper_rustle_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Paper handling rustle"
+    },
+    {
+      "pack_path": "original/foley/keys/keys_jingle_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short key jingle"
+    },
+    {
+      "pack_path": "original/foley/paper/paper_rustle_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Paper handling rustle"
+    },
+    {
+      "pack_path": "original/foley/keys/keys_jingle_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short key jingle"
+    },
+    {
+      "pack_path": "original/props/cups/cup_pickup_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Cup lifted from hard surface"
+    },
+    {
+      "pack_path": "original/props/cups/cup_setdown_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Cup set on hard surface"
+    },
+    {
+      "pack_path": "original/props/cups/glass_tap_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Small glass tap"
+    },
+    {
+      "pack_path": "original/props/phones/phone_pickup_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Phone picked up from desk"
+    },
+    {
+      "pack_path": "original/props/phones/phone_setdown_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Phone set down on desk"
+    },
+    {
+      "pack_path": "original/comedy/tiny_bonk_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Small comedic bonk"
+    },
+    {
+      "pack_path": "original/comedy/tiny_bonk_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Alternate small comedic bonk"
+    },
+    {
+      "pack_path": "original/comedy/soft_pop_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Soft pop"
+    },
+    {
+      "pack_path": "original/comedy/soft_pop_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Higher soft pop"
+    },
+    {
+      "pack_path": "original/comedy/anticlimax_hit_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Dry anticlimax hit"
+    },
+    {
+      "pack_path": "original/comedy/tiny_success_ding_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Tiny success confirmation ding"
+    },
+    {
+      "pack_path": "original/comedy/awkward_sting_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Awkward pause punctuation"
+    },
+    {
+      "pack_path": "original/comedy/rubber_hit_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Rubbery slap/impact"
+    },
+    {
+      "pack_path": "original/comedy/tiny_fail_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Tiny failure cue"
+    },
+    {
+      "pack_path": "original/movement/body_pass_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Fast body pass whoosh"
+    },
+    {
+      "pack_path": "original/movement/launch_whoosh_soft_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Soft fast launch whoosh"
+    },
+    {
+      "pack_path": "original/movement/fall_whistle_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Stylized falling whistle"
+    },
+    {
+      "pack_path": "original/movement/slide_short_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short slide"
+    },
+    {
+      "pack_path": "original/movement/skid_short_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short skid"
+    },
+    {
+      "pack_path": "original/movement/spin_whoosh_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Spin whoosh"
+    },
+    {
+      "pack_path": "original/impacts/body_thud_soft_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Soft body thud"
+    },
+    {
+      "pack_path": "original/impacts/body_thud_hard_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Hard body thud"
+    },
+    {
+      "pack_path": "original/impacts/object_drop_small_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Small object drop"
+    },
+    {
+      "pack_path": "original/impacts/chair_impact_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Chair impact / landing support"
+    },
+    {
+      "pack_path": "original/impacts/desk_rattle_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Desk rattle layer"
+    },
+    {
+      "pack_path": "original/props/liquid/sip_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Short sip"
+    },
+    {
+      "pack_path": "original/props/liquid/sip_02.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Alternate short sip"
+    },
+    {
+      "pack_path": "original/props/liquid/gulp_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Small gulp"
+    },
+    {
+      "pack_path": "original/props/liquid/pour_small_01.wav",
+      "source_type": "wordline_original_generated",
+      "license": "Wordline project original",
+      "description": "Small liquid pour"
+    }
+  ]
+}
