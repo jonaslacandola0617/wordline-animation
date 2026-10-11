@@ -1,0 +1,52 @@
+{
+  "id": "WORDLINE_SHORT_001",
+  "title": "The 4:17 Guy",
+  "fps": 30,
+  "duration_seconds": 9.5,
+  "master_resolution": [
+    2160,
+    3840
+  ],
+  "social_resolution": [
+    1080,
+    1920
+  ],
+  "format": "9:16",
+  "locked_beats": [
+    {
+      "time": 0,
+      "event": "ordinary office; diegetic clock shows 4:16"
+    },
+    {
+      "time": 2.35,
+      "event": "clock changes to 4:17"
+    },
+    {
+      "time": 3.42,
+      "event": "4:17 Guy lands in chair; signature THUD"
+    },
+    {
+      "time": 5.25,
+      "event": "one calm sip; signature SIP"
+    },
+    {
+      "time": 7.32,
+      "event": "vertical departure; signature FWOOOP"
+    },
+    {
+      "time": 8.1,
+      "event": "ordinary typing resumes"
+    },
+    {
+      "time": 9.5,
+      "event": "cut"
+    }
+  ],
+  "rule": "At exactly 4:17 he falls through something, lands, takes one sip, and launches vertically away.",
+  "forbidden_explanations": [
+    "origin",
+    "destination",
+    "why 4:17",
+    "why the drink"
+  ]
+}

@@ -1,0 +1,79 @@
+name: Render Wordline Short 001
+
+on:
+  push:
+    branches:
+      - production/short-001-four-seventeen-guy
+    paths:
+      - 'shorts/001-four-seventeen-guy/**'
+      - 'package.json'
+      - '.github/workflows/render-short-001.yml'
+      - 'assets/**'
+      - 'SFX/**'
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Ensure FFmpeg
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version | head -n 1
+          ffprobe -version | head -n 1
+
+      - name: Render 4K master and social encode
+        run: npm run render:001
+
+      - name: Emit compact visual QA contact sheet
+        run: |
+          ffmpeg -y \
+            -i shorts/001-four-seventeen-guy/preview/00_0.5s.png \
+            -i shorts/001-four-seventeen-guy/preview/01_2.3s.png \
+            -i shorts/001-four-seventeen-guy/preview/02_3.4s.png \
+            -i shorts/001-four-seventeen-guy/preview/03_4.5s.png \
+            -i shorts/001-four-seventeen-guy/preview/04_5.8s.png \
+            -i shorts/001-four-seventeen-guy/preview/05_7.7s.png \
+            -i shorts/001-four-seventeen-guy/preview/06_8.5s.png \
+            -filter_complex "[0:v]scale=270:480[a0];[1:v]scale=270:480[a1];[2:v]scale=270:480[a2];[3:v]scale=270:480[a3];[4:v]scale=270:480[a4];[5:v]scale=270:480[a5];[6:v]scale=270:480[a6];[a0][a1][a2][a3][a4][a5][a6]hstack=inputs=7[out]" \
+            -map "[out]" -frames:v 1 -q:v 6 /tmp/wordline_qa_contact.jpg
+          echo "WORDLINE_QA_IMAGE_BEGIN"
+          base64 -w 0 /tmp/wordline_qa_contact.jpg
+          echo
+          echo "WORDLINE_QA_IMAGE_END"
+
+      - name: Upload finished video package
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_SHORT_001_4_17_GUY
+          retention-days: 7
+          if-no-files-found: error
+          path: |
+            shorts/001-four-seventeen-guy/output/WORDLINE_SHORT_001_4K_MASTER.mp4
+            shorts/001-four-seventeen-guy/output/WORDLINE_SHORT_001_SOCIAL_1080x1920.mp4
+            shorts/001-four-seventeen-guy/output/QA_REPORT.json
+            shorts/001-four-seventeen-guy/output/QA_REPORT.md
+            shorts/001-four-seventeen-guy/preview/*.png
+            shorts/001-four-seventeen-guy/episode.json
+            shorts/001-four-seventeen-guy/README.md
+            shorts/001-four-seventeen-guy/ASSET_USAGE_MANIFEST.md
+            shorts/001-four-seventeen-guy/AUDIO_MANIFEST.md
+            docs/BRAINROT_BIBLE.md

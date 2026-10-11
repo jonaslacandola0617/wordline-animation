@@ -1,0 +1,62 @@
+name: Store Short 001 videos in repo
+
+on:
+  push:
+    branches:
+      - production/short-001-four-seventeen-guy
+    paths:
+      - '.github/workflows/store-short-001-videos.yml'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  store:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout production branch
+        uses: actions/checkout@v4
+        with:
+          ref: production/short-001-four-seventeen-guy
+          fetch-depth: 0
+
+      - name: Download successful Short 001 render artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          rm -rf /tmp/wordline-short-001
+          mkdir -p /tmp/wordline-short-001
+          gh run download 38103090323 -R "$GITHUB_REPOSITORY" -n WORDLINE_SHORT_001_4_17_GUY -D /tmp/wordline-short-001
+
+      - name: Copy finished videos into repository
+        run: |
+          DEST="media/youtube/shorts/001-four-seventeen-guy"
+          mkdir -p "$DEST"
+          cp "/tmp/wordline-short-001/shorts/001-four-seventeen-guy/output/WORDLINE_SHORT_001_4K_MASTER.mp4" "$DEST/"
+          cp "/tmp/wordline-short-001/shorts/001-four-seventeen-guy/output/WORDLINE_SHORT_001_SOCIAL_1080x1920.mp4" "$DEST/"
+          cat > "$DEST/README.md" <<'EOF'
+          # Wordline Animation — Short 001
+
+          **The 4:17 Guy**
+
+          Stored release files:
+          - `WORDLINE_SHORT_001_4K_MASTER.mp4` — 2160×3840 master
+          - `WORDLINE_SHORT_001_SOCIAL_1080x1920.mp4` — 1080×1920 social encode
+
+          Source render branch: `production/short-001-four-seventeen-guy`
+          Render workflow run: `38103090323`
+          EOF
+
+      - name: Commit videos
+        run: |
+          git config user.name "Wordline Production Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media/youtube/shorts/001-four-seventeen-guy
+          if git diff --cached --quiet; then
+            echo "Videos already stored."
+            exit 0
+          fi
+          git commit -m "media: store rendered Wordline Short 001"
+          git push origin HEAD:production/short-001-four-seventeen-guy

@@ -1,0 +1,44 @@
+name: Visual QA Short 001
+
+on:
+  push:
+    branches:
+      - production/short-001-four-seventeen-guy
+    paths:
+      - '.github/workflows/qa-short-001.yml'
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download completed Short 001 artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/wordline-artifact
+          gh run download 38103090323 -R "$GITHUB_REPOSITORY" -n WORDLINE_SHORT_001_4_17_GUY -D /tmp/wordline-artifact
+          find /tmp/wordline-artifact -maxdepth 4 -type f | sort
+
+      - name: Build compact visual QA sheet
+        run: |
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y ffmpeg >/dev/null
+          P=/tmp/wordline-artifact/shorts/001-four-seventeen-guy/preview
+          ffmpeg -loglevel error -y \
+            -i "$P/00_0.5s.png" \
+            -i "$P/01_2.3s.png" \
+            -i "$P/02_3.4s.png" \
+            -i "$P/03_4.5s.png" \
+            -i "$P/04_5.8s.png" \
+            -i "$P/05_7.7s.png" \
+            -i "$P/06_8.5s.png" \
+            -filter_complex "[0:v]scale=270:480[a0];[1:v]scale=270:480[a1];[2:v]scale=270:480[a2];[3:v]scale=270:480[a3];[4:v]scale=270:480[a4];[5:v]scale=270:480[a5];[6:v]scale=270:480[a6];[a0][a1][a2][a3][a4][a5][a6]hstack=inputs=7[out]" \
+            -map "[out]" -frames:v 1 -q:v 6 /tmp/wordline_qa_contact.jpg
+          echo "WORDLINE_QA_IMAGE_BEGIN"
+          base64 -w 0 /tmp/wordline_qa_contact.jpg
+          echo
+          echo "WORDLINE_QA_IMAGE_END"
