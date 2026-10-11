@@ -7,6 +7,7 @@ const argv=process.argv.slice(2);
 function opt(k,def){const i=argv.indexOf('--'+k);return i>=0?argv[i+1]:def;}
 const MODE=opt('mode','qa'),START=Number(opt('start',0)),END=Number(opt('end',10));
 const WIDTH=Number(opt('width',540)),HEIGHT=Number(opt('height',960)),FPS=30;
+const FORMAT=opt('format','jpeg');const EXT=FORMAT==='png'?'png':'jpg';
 const ROOT=process.cwd();
 const BASE=path.join(ROOT,'shorts','002-gravity-directions');
 const TAG=MODE==='qa'?'qa':String(START).padStart(2,'0')+'-'+String(END).padStart(2,'0')+'_'+WIDTH;
@@ -39,8 +40,8 @@ try {
   for(let j=0;j<frames.length;j++){
     const f=frames[j];
     await page.evaluate(n=>{window.setFrame(n);window.renderFrame();},f);
-    const dest=path.join(FRAMES,'frame_'+String(MODE==='qa'?j:f).padStart(5,'0')+'.jpg');
-    await canvas.screenshot({path:dest,type:'jpeg',quality:90});
+    const dest=path.join(FRAMES,'frame_'+String(MODE==='qa'?j:f).padStart(5,'0')+'.'+EXT);
+    await canvas.screenshot(FORMAT==='png'?{path:dest,type:'png'}:{path:dest,type:'jpeg',quality:90});
     if(j%30===0)console.log('Rendered '+j+'/'+frames.length+' at global frame '+f);
   }
   fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({mode:MODE,width:WIDTH,height:HEIGHT,fps:FPS,frames:frames.length,first:frames[0],last:frames.at(-1)},null,2));
