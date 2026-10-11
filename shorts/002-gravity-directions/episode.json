@@ -1,0 +1,54 @@
+{
+  "id": "wordline-short-002",
+  "title": "What If Gravity Changed Direction Every 10 Seconds?",
+  "platform": "YouTube Shorts",
+  "duration_s": 40,
+  "frame_rate": 30,
+  "master": [
+    2160,
+    3840
+  ],
+  "preview": [
+    1080,
+    1920
+  ],
+  "gravity": [
+    {
+      "from": 0,
+      "to": 10,
+      "dir": "+X toward skyscraper"
+    },
+    {
+      "from": 10,
+      "to": 20,
+      "dir": "+Y skyward"
+    },
+    {
+      "from": 20,
+      "to": 30,
+      "dir": "-Y ground"
+    },
+    {
+      "from": 30,
+      "to": 40,
+      "dir": "+X toward skyscrapers"
+    }
+  ],
+  "beats": [
+    "00:00 coffee sideways",
+    "00:04 wall landing",
+    "00:07 bus vertically up facade",
+    "00:10 upward gravity",
+    "00:17 umbrella guy",
+    "00:20 gravity down",
+    "00:25 cup catch",
+    "00:28 tiny sip",
+    "00:30 sideways gravity",
+    "00:34 giant ocean wall",
+    "00:38 empty cup refill gesture",
+    "00:40 cut"
+  ],
+  "dialogue": false,
+  "narration": false,
+  "branding_overlay": false
+}
