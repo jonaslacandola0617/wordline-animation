@@ -1,0 +1,71 @@
+name: Render Wordline Short 001
+
+on:
+  push:
+    branches:
+      - production/short-001-four-seventeen
+    paths:
+      - "shorts/001-four-seventeen-guy/**"
+      - "BRAINROT_BIBLE.md"
+      - "package.json"
+      - ".github/workflows/render-short-001.yml"
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install JS dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Verify source assets
+        run: |
+          test -f "assets/claude generated assets/WORLDLINE_LAB_ASSET_PACK_46/models/humans/HUMAN_03.obj"
+          test -f "assets/claude generated assets/WORLDLINE_ASSET_PACK_03B_81/interiors/INTERIOR_04_OfficeDesk.obj"
+          test -f "assets/claude generated assets/WORLDLINE_ASSET_PACK_03B_81/interiors/INTERIOR_05_OfficeChair.obj"
+          test -f "SFX/Sounds Effects/Keyboard/Keyboard Typing 3.wav"
+
+      - name: Render deterministic 4K frames and encode
+        env:
+          PUPPETEER_DISABLE_SANDBOX: "true"
+        run: npm run render:417
+
+      - name: Create preview contact sheet
+        run: |
+          ffmpeg -y -pattern_type glob             -i "shorts/001-four-seventeen-guy/preview/*.png"             -vf "scale=540:-1,tile=2x4:padding=8:margin=8:color=white"             -frames:v 1             "shorts/001-four-seventeen-guy/preview/preview_contact_sheet.jpg"
+
+      - name: Verify final master
+        run: |
+          ffprobe -v error             -show_entries format=duration             -show_entries stream=codec_name,codec_type,width,height,r_frame_rate,sample_rate,channels             -of json             "shorts/001-four-seventeen-guy/render/outputs/WORDLINE_SHORT_001_4_17_GUY_4K_MASTER.mp4"
+
+      - name: Upload finished film and QA package
+        uses: actions/upload-artifact@v4
+        with:
+          name: wordline-short-001-four-seventeen-guy
+          if-no-files-found: error
+          compression-level: 0
+          path: |
+            shorts/001-four-seventeen-guy/render/outputs/*.mp4
+            shorts/001-four-seventeen-guy/render/validation.json
+            shorts/001-four-seventeen-guy/preview/*.png
+            shorts/001-four-seventeen-guy/preview/*.jpg
+            shorts/001-four-seventeen-guy/audio/master_audio.wav
+            shorts/001-four-seventeen-guy/README.md
+            shorts/001-four-seventeen-guy/ASSET_USAGE.md
+            shorts/001-four-seventeen-guy/AUDIO_USAGE.md
+            BRAINROT_BIBLE.md
