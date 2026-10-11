@@ -1,0 +1,61 @@
+name: Render Wordline Short 001
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'shorts/001-four-seventeen-guy/**'
+      - 'package.json'
+      - '.github/workflows/render-short-001.yml'
+      - 'assets/**'
+      - 'SFX/**'
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Ensure FFmpeg
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version | head -n 1
+          ffprobe -version | head -n 1
+
+      - name: Render 4K master and social encode
+        run: npm run render:001
+
+      - name: Upload finished video package
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_SHORT_001_4_17_GUY
+          retention-days: 7
+          if-no-files-found: error
+          path: |
+            shorts/001-four-seventeen-guy/output/WORDLINE_SHORT_001_4K_MASTER.mp4
+            shorts/001-four-seventeen-guy/output/WORDLINE_SHORT_001_SOCIAL_1080x1920.mp4
+            shorts/001-four-seventeen-guy/output/QA_REPORT.json
+            shorts/001-four-seventeen-guy/output/QA_REPORT.md
+            shorts/001-four-seventeen-guy/preview/*.png
+            shorts/001-four-seventeen-guy/episode.json
+            shorts/001-four-seventeen-guy/README.md
+            shorts/001-four-seventeen-guy/ASSET_USAGE_MANIFEST.md
+            shorts/001-four-seventeen-guy/AUDIO_MANIFEST.md
+            docs/BRAINROT_BIBLE.md
