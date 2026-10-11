@@ -1,0 +1,155 @@
+name: Patch Episode 001 Dialogue and Reassemble
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - 'episodes/episode-001-random-doors/DIALOGUE_PATCH_REQUEST'
+      - '.github/workflows/patch-episode001-dialogue.yml'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: wordline-episode001-dialogue-patch
+  cancel-in-progress: true
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install audio dependencies
+        run: |
+          pip install edge-tts pydub pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+
+      - name: Download successful 1080p scene set
+        uses: actions/download-artifact@v4
+        with:
+          pattern: episode001-scene-*
+          run-id: 38116792904
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: episodes/episode-001-random-doors/downloaded
+
+      - name: Download corrected Scene 09 visual
+        uses: actions/download-artifact@v4
+        with:
+          name: qa-scene-09-fixed
+          run-id: 38120780441
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/scene09-fixed
+
+      - name: Replace Scene 09 visual before audio remux
+        run: |
+          SRC09="$(find /tmp/scene09-fixed -type f -name 'scene-09.mp4' | head -n 1)"
+          DST09="$(find episodes/episode-001-random-doors/downloaded -type f -name 'scene-09.mp4' | head -n 1)"
+          test -n "$SRC09"
+          test -n "$DST09"
+          cp "$SRC09" "$DST09"
+
+      - name: Regenerate complete dialogue and audio for every scene
+        run: |
+          for s in 01 02 03 04 05 06 07 08 09 10 11; do
+            echo "=== AUDIO SCENE $s ==="
+            python episodes/episode-001-random-doors/audio/build_scene_audio.py --scene "$s"
+          done
+
+      - name: Verify every dialogue line was generated
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+          root=pathlib.Path("episodes/episode-001-random-doors/audio")
+          bad=[]
+          rows=[]
+          for s in [f"{i:02d}" for i in range(1,12)]:
+              p=root/f"scene-{s}-manifest.json"
+              m=json.loads(p.read_text())
+              st=m["voice_status"]
+              row={"scene":s,"ok":bool(st.get("ok")),"errors":st.get("errors",[]),"dialogue_lines":len(m.get("dialogue",[]))}
+              rows.append(row)
+              if not row["ok"] or row["errors"]:
+                  bad.append(row)
+          report={"status":"PASS" if not bad else "FAIL","scenes":rows}
+          out=pathlib.Path("qa/episode001/dialogue")
+          out.mkdir(parents=True,exist_ok=True)
+          (out/"DIALOGUE_QA.json").write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          if bad:
+              sys.exit(1)
+          PY
+
+      - name: Remux fresh audio into all scenes
+        run: |
+          mkdir -p /tmp/remuxed
+          for s in 01 02 03 04 05 06 07 08 09 10 11; do
+            SRC="$(find episodes/episode-001-random-doors/downloaded -type f -name "scene-$s.mp4" | head -n 1)"
+            AUD="episodes/episode-001-random-doors/audio/scene-$s.wav"
+            test -n "$SRC"
+            test -f "$AUD"
+            OUT="/tmp/remuxed/scene-$s.mp4"
+            ffmpeg -loglevel error -y -i "$SRC" -i "$AUD" \
+              -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 256k -ar 48000 \
+              -movflags +faststart -shortest "$OUT"
+            cp "$OUT" "$SRC"
+          done
+
+      - name: Reassemble dialogue-complete episode
+        run: |
+          rm -rf episodes/episode-001-random-doors/final
+          python episodes/episode-001-random-doors/assemble/assemble.py
+          python episodes/episode-001-random-doors/assemble/make_contact_sheet.py
+
+      - name: Publish dialogue QA
+        run: |
+          cp episodes/episode-001-random-doors/final/QA_REPORT.json qa/episode001/dialogue/FINAL_QA_REPORT.json
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa/episode001/dialogue
+          git commit -m "qa: publish complete Episode 001 dialogue validation" || true
+          git fetch origin production/episode-001-random-doors
+          git rebase origin/production/episode-001-random-doors
+          git push origin HEAD:production/episode-001-random-doors
+
+      - name: Upload dialogue-complete 1080p
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_DIALOGUE_COMPLETE_1080P
+          compression-level: 0
+          path: episodes/episode-001-random-doors/final/WORDLINE_EPISODE_001_RANDOM_DOORS_1080P.mp4
+
+      - name: Upload dialogue-complete YouTube master
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_DIALOGUE_COMPLETE_YOUTUBE_MASTER
+          compression-level: 0
+          path: episodes/episode-001-random-doors/final/WORDLINE_EPISODE_001_RANDOM_DOORS_YOUTUBE_MASTER.mp4
+
+      - name: Upload dialogue-complete 4K delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_DIALOGUE_COMPLETE_4K_DELIVERY
+          compression-level: 0
+          path: episodes/episode-001-random-doors/final/WORDLINE_EPISODE_001_RANDOM_DOORS_4K_DELIVERY.mp4
+
+      - name: Upload dialogue QA package
+        uses: actions/upload-artifact@v4
+        with:
+          name: WORDLINE_EPISODE_001_DIALOGUE_QA
+          compression-level: 0
+          path: |
+            qa/episode001/dialogue/**
+            episodes/episode-001-random-doors/final/QA_CONTACT_SHEET.jpg
+            episodes/episode-001-random-doors/final/thumbnails/*.jpg
