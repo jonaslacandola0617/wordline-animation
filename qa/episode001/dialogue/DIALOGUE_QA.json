@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "scenes": [
+    {
+      "scene": "01",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 4
+    },
+    {
+      "scene": "02",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 6
+    },
+    {
+      "scene": "03",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 2
+    },
+    {
+      "scene": "04",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 0
+    },
+    {
+      "scene": "05",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 3
+    },
+    {
+      "scene": "06",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 1
+    },
+    {
+      "scene": "07",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 1
+    },
+    {
+      "scene": "08",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 3
+    },
+    {
+      "scene": "09",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 4
+    },
+    {
+      "scene": "10",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 2
+    },
+    {
+      "scene": "11",
+      "ok": true,
+      "errors": [],
+      "dialogue_lines": 3
+    }
+  ]
+}
