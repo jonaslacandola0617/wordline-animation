@@ -1,0 +1,79 @@
+name: QA Render Episode 001 Key Scenes
+
+on:
+  push:
+    branches: [production/episode-001-random-doors]
+    paths:
+      - 'episodes/episode-001-random-doors/engine/**'
+      - 'episodes/episode-001-random-doors/QA_REQUEST'
+      - '.github/workflows/qa-render-episode-001.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wordline-episode001-qa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    strategy:
+      fail-fast: false
+      matrix:
+        scene: ['01','11']
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RENDER_WIDTH: '1280'
+      RENDER_HEIGHT: '720'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: |
+          npm install
+          pip install edge-tts pydub
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npx playwright install --with-deps chromium
+      - name: Audio
+        run: python episodes/episode-001-random-doors/audio/build_scene_audio.py --scene "${{ matrix.scene }}"
+      - name: Render
+        run: node episodes/episode-001-random-doors/render/render_scene.mjs "${{ matrix.scene }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: qa-scene-${{ matrix.scene }}
+          path: |
+            episodes/episode-001-random-doors/renders/${{ matrix.scene }}/preview/*.jpg
+            episodes/episode-001-random-doors/renders/${{ matrix.scene }}/scene-${{ matrix.scene }}.mp4
+          compression-level: 0
+
+  publish:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: production/episode-001-random-doors
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: qa-scene-*
+          path: /tmp/qa
+      - name: Commit QA frames
+        run: |
+          DEST="qa/episode001/latest"
+          rm -rf "$DEST"
+          mkdir -p "$DEST"
+          find /tmp/qa -type f -name '*.jpg' -exec cp {} "$DEST/" \;
+          git config user.name "Wordline QA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$DEST"
+          git commit -m "qa: update Episode 001 key-scene previews" || exit 0
+          git push origin HEAD:production/episode-001-random-doors
